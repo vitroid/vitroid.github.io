@@ -2,6 +2,7 @@
 
 私を探す方法
 
+
 * [/icons/mail.icon](/icons/mail.icon.md) vitroid@gmail.com
 * [略歴/CV](略歴/CV.md)
 * [/icons/twitter.icon](/icons/twitter.icon.md) [twitter:vitroid](http://twitter.com/vitroid)
@@ -17,9 +18,11 @@
 * [日程表(iCal用)](http://www.google.com/calendar/ical/fq08mvlibruu794socp3acnfsg%40group.calendar.google.com/public/basic.ics)
 * [/icons](/icons.md)にiconがないサービスって、先がなさそうですね。
 * http://bit.ly/vitroidSB このページへの短いリンク 
+
 [](https://gyazo.com/f7f7b64a713e708a68760f619041e3d0)
 
 // http://bit.ly/vitroid 旧ページへの短いリンク
+
 
 086-251-7846 (職場. 携帯に転送される場合があります)
 * [〒700-8530 岡山市北区津島中3-1-1](https://map.what3words.com/fonts.ignites.fewest) [岡山大学](岡山大学.md)理学部 B-133室
@@ -29,3 +32,9 @@
 
 
 
+
+## Linked from
+
+* [大学院生募集](大学院生募集.md)
+* [未解決問題](未解決問題.md)
+* [臨時講義](臨時講義.md)

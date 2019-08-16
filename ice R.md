@@ -10,12 +10,19 @@ Ice "R"* is a partial plastic ice discovered when liquid water is compressed to 
 
 
 
-### Reference
+## Reference
+
 
 1. Maynard-Casely, H. E. et al. The distorted close-packed crystal structure of methane A. J. Chem. Phys. 133, 064504 (2010). [doi:10.1063/1.3455889](http://doi.org/10.1063/1.3455889)
+
 *Tentative name; final phase name should be given when it is discovered experimentally.
 
 [](https://gyazo.com/a3407f92ba31bcbd1066af4471b2e81d)
 
 
 
+## Linked from
+
+* [3Dプリンタ用データ](3Dプリンタ用データ.md)
+* [MHM2014](MHM2014.md)
+* [研究テーマ](研究テーマ.md)

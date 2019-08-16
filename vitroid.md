@@ -10,7 +10,7 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 
 
 
-### 以下は設定です。気にしないで下さい。
+## 以下は設定です。気にしないで下さい。
 
      scrapbox.TimeStamp.addFormat(' #YYYY-MM-DD ')
     .line strong {
@@ -22,3 +22,6 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 
 [member](member.md) [2018-10-22](2018-10-22.md) 
 
+## Linked from
+
+* [Tracking](Tracking.md)

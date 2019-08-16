@@ -14,3 +14,9 @@ Ice "T"* is a partial plastic ice discovered when liquid water is coexistent wit
 
 [water](water.md) [ice](ice.md) [research](research.md)
 
+## Linked from
+
+* [3Dプリンタ用データ](3Dプリンタ用データ.md)
+* [HYMT2017](HYMT2017.md)
+* [ice T2](ice T2.md)
+* [研究テーマ](研究テーマ.md)

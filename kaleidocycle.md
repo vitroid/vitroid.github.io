@@ -12,3 +12,6 @@ Thingiverse https://www.thingiverse.com/thing:3139501 ですこしだけカス�
 
 
 
+## Linked from
+
+* [kaleidocycle](kaleidocycle.md)
