@@ -1,7 +1,7 @@
 # Obniz OS
 つい先日国内でも公開されたObniz OSを、さっそくESP32-CAMに入れて試す。
 
-(もっぱらobnizのウェブページの[説明](https://obniz.io/doc/obnizos/os_overview)通りに問題なく進みました。
+(もっぱらobnizのウェブページの[説明](https://obniz.io/doc/obnizos/os_overview)通りに問題なく進みました。)
 
 ## ESP32-CAMをMacに接続
 ESP32-CAMはUSB端子を持たないので、Serial Adapterを介して接続する。
@@ -11,12 +11,12 @@ ESP32-CAMはUSB端子を持たないので、Serial Adapterを介して接続す
 書き込み時にはIO0をGNDに接地しておくことに注意。
 
 ## Obniz OSの書き込み
-Pythonによる操作が簡単そうだったので、[ここ](https://obniz.io/doc/obnizos/os_install)を参考にOSを書き込む。
+[Obniz OSの説明ページ](https://obniz.io/doc/obnizos/os_install)を参考にOSを書き込む。
 
 書き込みおわったらIO0のジャンパーを外してからリセットし、Mac側はminitermを使ってESP32にシリアル接続する。
 
 ## ライセンスキーの購入
-[ここ](https://obniz.io/doc/obnizos/os_devicekey)の説明に従い、Obniz OSのライセンスを購入します。1500円です。
+[Obniz OSの説明ページ](https://obniz.io/doc/obnizos/os_devicekey)の説明に従い、Obniz OSのライセンスを購入します。1500円です。
 
 ライセンスを購入すると、デバイスキーが発行されました。これを、上でシリアル接続したESP32に書き込みます。
 
@@ -42,4 +42,8 @@ Pythonによる操作が簡単そうだったので、[ここ](https://obniz.io/
     var led = obniz.wired("LED", { anode:4 } );
     
 に変更して実行しました。
+
+
+## カメラ
+肝心のCamera (AI-Thinker)はまだ動いていません。
 
