@@ -6,7 +6,7 @@
 
 [](https://gyazo.com/f7579232b43d580e0900c4f0b7d5cd17)
 
-https://community.wolfram.com/groups/-/m/t/1569707/?wal_campaign={"campaign"%3A"insider4415_wave1"%2C"keyword"%3A"JPInsider2019-1"%2C"userEmail"%3A"1370"}
+https://community.wolfram.com/groups/-/m/t/1569707/
 
 
 
