@@ -69,7 +69,7 @@ table:切り捨て可能な素数
 
 [python](python.md) [software](software.md) [雑記](雑記.md)
 
-[2019-01-25](2019-01-25.md) [vitroid.icon](vitroid.icon.md)
+[2019-01-25](2019-01-25.md) [vitroid](vitroid.md).icon][vitroid](vitroid.md).icon.md)
 
 
 

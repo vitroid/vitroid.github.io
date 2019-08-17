@@ -67,7 +67,3 @@
 * [研究](研究.md)
 * [研究テーマ](研究テーマ.md)
 * [解決した問題](解決した問題.md)
-
-
-----
-[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/research.md)

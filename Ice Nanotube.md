@@ -164,16 +164,14 @@
     r=12.8/2
     n = 16
     hexagons = hextube(r,n,9,
-                       stroke_width=1, fill="#fff", stroke="#000", fill_opacity=0.7)
+                       stroke_width=1, fill="[fff",](fff",.md) stroke="[000",](000",.md) fill_opacity=0.7)
     r = 2.75
     n = 6
     squares  = squaretube(r,n,17,
-                          stroke_width=2, fill="#fff", stroke="#000", fill_opacity=0.7)
+                          stroke_width=2, fill="[fff",](fff",.md) stroke="[000",](000",.md) fill_opacity=0.7)
     
    	# 表示方法 
-    theta = 1.3      #ANGLE
-    d = 50.0         #PERSPECTIVE
-    offsx = 100
+    theta = 1.3      [ANGLE](ANGLE.md)     d = 50.0         [PERSPECTIVE](PERSPECTIVE.md)     offsx = 100
     offsy = 150
     
     # SVGの準備
@@ -255,7 +253,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
     
     
     def normal(polygon):
-        #print polygon
+        [print](print.md) polygon
         vec = [0.0] * 3
         for i in range(len(polygon)):
             op = outprod(polygon[i-1],polygon[i])
@@ -279,17 +277,17 @@ svgwriteを使ってpythonでsvgを出力するように変更。
         return (a[0]*zoom,a[1]*zoom,a[2])
     
     
-    #pos = []
-    #file = open("001.q.xyz","r")
-    #lin = file.readline()
-    #lin = file.readline()
-    #for lin in file:
+    [pos](pos.md) = []
+    [file](file.md) = open("001.q.xyz","r")
+    [lin](lin.md) = file.readline()
+    [lin](lin.md) = file.readline()
+    [for](for.md) lin in file:
     #    elem,x,y,z = lin.split()
     #    if elem == "O":
     #        pos.append((float(x),float(y),float(z)))
     #
-    #bonds = []
-    #for i in range(len(pos)):
+    [bonds](bonds.md) = []
+    [for](for.md) i in range(len(pos)):
     #    xi,yi,zi = pos[i]
     #    for j in range(i+1,len(pos)):
     #        xj,yj,zj = pos[j]
@@ -305,15 +303,12 @@ svgwriteを使ってpythonでsvgを出力するように変更。
     n = 6
     squares  = squaretube(r,n,17)
     
-    theta = 1.3      #ANGLE
-    d = 50.0         #PARSE
-    offsx = 100
+    theta = 1.3      [ANGLE](ANGLE.md)     d = 50.0         [PARSE](PARSE.md)     offsx = 100
     offsy = 150
     
-    #backside hexagons
+    [backside](backside.md) hexagons
     fill = (1,1,1,0.7)
-    stroke = "#000"
-    stroke_width = 1
+    stroke = "[000"](000".md)     stroke_width = 1
     svg = sw.Drawing()
     group = svg.add( svg.g( id="test" ) )
     for hexagon in hexagons:
@@ -327,27 +322,23 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 p.append(["L", vertex[0]*10+offsx, vertex[1]*10+offsy])
             p.append(["Z"])
-            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="#fff", stroke=stroke)
+            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="[fff",](fff",.md) stroke=stroke)
             group.add(path)
-    #strokewidth(2)
-    #for v0,v1 in bonds:
+    [strokewidth(2)](strokewidth(2).md)     [for](for.md) v0,v1 in bonds:
     #    p0 = depth(rotatey(rotatex(v0,theta),theta),d)
     #    p1 = depth(rotatey(rotatex(v1,theta),theta),d)
     #    line(p0[0]*10+offsx, p0[1]*10+offsy,
     #         p1[0]*10+offsx, p1[1]*10+offsy)
-    #fill(0)
-    #nostroke()
-    #for v0,v1 in bonds:
+    [fill(0)](fill(0).md)     [nostroke()](nostroke().md)     [for](for.md) v0,v1 in bonds:
     #    p0 = depth(rotatey(rotatex(v0,theta),theta),d)
     #    p1 = depth(rotatey(rotatex(v1,theta),theta),d)
     #    oval(p0[0]*10+offsx-4, p0[1]*10+offsy-4,8,8)
     #    oval(p1[0]*10+offsx-4, p1[1]*10+offsy-4,8,8)
     
     
-    #backside squares
+    [backside](backside.md) squares
     fill = 1,1,1,0.7
-    stroke = "#000"
-    stroke_width = 2
+    stroke = "[000"](000".md)     stroke_width = 2
     for square in squares:
         projected = []
         for vertex in square:
@@ -359,10 +350,10 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 p.append(["L", vertex[0]*10+offsx, vertex[1]*10+offsy])
             p.append("Z")
-            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="#fff", stroke=stroke, fill_opacity=0.7)
+            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="[fff",](fff",.md) stroke=stroke, fill_opacity=0.7)
             group.add(path)
             
-    #backside atoms
+    [backside](backside.md) atoms
     for square in squares:
         projected = []
         for vertex in square:
@@ -371,10 +362,10 @@ svgwriteを使ってpythonでsvgを出力するように変更。
         if n[2] > 0:
             for vertex in projected:
                 u = sw.shapes.Ellipse(center=(vertex[0]*10+offsx, vertex[1]*10+offsy), r=(3,3),
-                                     stroke_width=stroke_width, stroke=stroke, fill="#fff", fill_opacity=0.7)
+                                     stroke_width=stroke_width, stroke=stroke, fill="[fff",](fff",.md) fill_opacity=0.7)
                 group.add(u)
     
-    #frontside squares
+    [frontside](frontside.md) squares
     for square in squares:
         projected = []
         for vertex in square:
@@ -386,10 +377,10 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 p.append(["L", vertex[0]*10+offsx, vertex[1]*10+offsy])
             p.append("Z")
-            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="#fff", stroke=stroke, fill_opacity=0.7)
+            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="[fff",](fff",.md) stroke=stroke, fill_opacity=0.7)
             group.add(path)
     
-    #frontside atoms
+    [frontside](frontside.md) atoms
     for square in squares:
         projected = []
         for vertex in square:
@@ -398,14 +389,12 @@ svgwriteを使ってpythonでsvgを出力するように変更。
         if n[2] < 0:
             for vertex in projected:
                 u = sw.shapes.Ellipse(center=(vertex[0]*10+offsx, vertex[1]*10+offsy), r=(3,3),
-                                      stroke_width=stroke_width, stroke=stroke, fill="#fff",
-                                      fill_opacity=0.7)
+                                      stroke_width=stroke_width, stroke=stroke, fill="[fff",](fff",.md)                                       fill_opacity=0.7)
                 group.add(u)
     
-    #frontside hexagons
+    [frontside](frontside.md) hexagons
     fill = (1,1,1,0.7)
-    stroke = "#000"
-    stroke_width = 1
+    stroke = "[000"](000".md)     stroke_width = 1
     for hexagon in hexagons:
         projected = []
         for vertex in hexagon:
@@ -417,7 +406,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 p.append(["L", vertex[0]*10+offsx, vertex[1]*10+offsy])
             p.append("Z")
-            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="#fff", stroke=stroke, fill_opacity=0.7)
+            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="[fff",](fff",.md) stroke=stroke, fill_opacity=0.7)
             group.add(path)
     
     print(svg.tostring())
@@ -482,7 +471,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
     
     
     def normal(polygon):
-        #print polygon
+        [print](print.md) polygon
         vec = [0.0] * 3
         for i in range(len(polygon)):
             op = outprod(polygon[i-1],polygon[i])
@@ -506,17 +495,17 @@ svgwriteを使ってpythonでsvgを出力するように変更。
         return (a[0]*zoom,a[1]*zoom,a[2])
     
     
-    #pos = []
-    #file = open("001.q.xyz","r")
-    #lin = file.readline()
-    #lin = file.readline()
-    #for lin in file:
+    [pos](pos.md) = []
+    [file](file.md) = open("001.q.xyz","r")
+    [lin](lin.md) = file.readline()
+    [lin](lin.md) = file.readline()
+    [for](for.md) lin in file:
     #    elem,x,y,z = lin.split()
     #    if elem == "O":
     #        pos.append((float(x),float(y),float(z)))
     #
-    #bonds = []
-    #for i in range(len(pos)):
+    [bonds](bonds.md) = []
+    [for](for.md) i in range(len(pos)):
     #    xi,yi,zi = pos[i]
     #    for j in range(i+1,len(pos)):
     #        xj,yj,zj = pos[j]
@@ -533,12 +522,10 @@ svgwriteを使ってpythonでsvgを出力するように変更。
     n = 6
     squares  = squaretube(r,n,17)
     
-    theta = 1.3      #ANGLE
-    d = 50.0         #PARSE
-    offsx = 100
+    theta = 1.3      [ANGLE](ANGLE.md)     d = 50.0         [PARSE](PARSE.md)     offsx = 100
     offsy = 150
     
-    #backside hexagons
+    [backside](backside.md) hexagons
     fill(1,1,1,0.7)
     stroke(0)
     strokewidth(1)
@@ -552,22 +539,19 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 lineto(vertex[0]*10+offsx, vertex[1]*10+offsy)
             endpath()
-    #strokewidth(2)
-    #for v0,v1 in bonds:
+    [strokewidth(2)](strokewidth(2).md)     [for](for.md) v0,v1 in bonds:
     #    p0 = depth(rotatey(rotatex(v0,theta),theta),d)
     #    p1 = depth(rotatey(rotatex(v1,theta),theta),d)
     #    line(p0[0]*10+offsx, p0[1]*10+offsy,
     #         p1[0]*10+offsx, p1[1]*10+offsy)
-    #fill(0)
-    #nostroke()
-    #for v0,v1 in bonds:
+    [fill(0)](fill(0).md)     [nostroke()](nostroke().md)     [for](for.md) v0,v1 in bonds:
     #    p0 = depth(rotatey(rotatex(v0,theta),theta),d)
     #    p1 = depth(rotatey(rotatex(v1,theta),theta),d)
     #    oval(p0[0]*10+offsx-4, p0[1]*10+offsy-4,8,8)
     #    oval(p1[0]*10+offsx-4, p1[1]*10+offsy-4,8,8)
     
     
-    #backside squares
+    [backside](backside.md) squares
     fill(1,1,1,0.7)
     stroke(0)
     strokewidth(2)
@@ -581,7 +565,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 lineto(vertex[0]*10+offsx, vertex[1]*10+offsy)
             endpath()
-    #backside atoms
+    [backside](backside.md) atoms
     for square in squares:
         projected = []
         for vertex in square:
@@ -590,7 +574,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
         if n[2] > 0:
             for vertex in projected:
                 oval(vertex[0]*10+offsx-3, vertex[1]*10+offsy-3,6,6)
-    #frontside squares
+    [frontside](frontside.md) squares
     for square in squares:
         projected = []
         for vertex in square:
@@ -601,7 +585,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 lineto(vertex[0]*10+offsx, vertex[1]*10+offsy)
             endpath()
-    #frontside atoms
+    [frontside](frontside.md) atoms
     for square in squares:
         projected = []
         for vertex in square:
@@ -611,7 +595,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 oval(vertex[0]*10+offsx-3, vertex[1]*10+offsy-3,6,6)
     
-    #frontside hexagons
+    [frontside](frontside.md) hexagons
     fill(1,1,1,0.7)
     stroke(0)
     strokewidth(1)

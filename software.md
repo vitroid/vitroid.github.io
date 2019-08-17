@@ -10,7 +10,3 @@
 * [TruncatablePrimes](TruncatablePrimes.md)
 * [YaPlot](YaPlot.md)
 * [navigation](navigation.md)
-
-
-----
-[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/software.md)

@@ -10,7 +10,3 @@
 * [YMT2019a](YMT2019a.md)
 * [YYMT2019](YYMT2019.md)
 * [papers](papers.md)
-
-
-----
-[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/paper2019.md)

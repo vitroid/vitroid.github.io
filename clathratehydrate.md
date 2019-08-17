@@ -15,7 +15,3 @@
 * [YMT2016b](YMT2016b.md)
 * [YMT2018a](YMT2018a.md)
 * [ガスハイドレートの相図](ガスハイドレートの相図.md)
-
-
-----
-[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/clathratehydrate.md)

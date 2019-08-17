@@ -30,7 +30,8 @@ def bracket_proc(x):
     elif elements[0] == '*':
         return "＃＃＃ " + " ".join(elements[1:])
     else:
-        return "[{0}]({0}.md)".format(x)
+        # remove the bracket pointing an another page
+        return "{0}".format(x)
     
     
 def hashtag_proc(x):
@@ -80,7 +81,7 @@ def s2m_lines(lines):
         line = re.sub(r"\[[^\]]*\]", lambda x:bracket_proc(x.group()), line)
 
         # hashtag
-        line = re.sub(r"#[^#\s]+\s", lambda x:hashtag_proc(x.group()), line)
+        #line = re.sub(r"#[^#\s]+\s", lambda x:hashtag_proc(x.group()), line)
 
         # prefix spaces 
         spaces = head_spaces(line)

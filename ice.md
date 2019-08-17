@@ -8,7 +8,3 @@
 * [ice T2](ice T2.md)
 * [ice dtc](ice dtc.md)
 * [氷の多形](氷の多形.md)
-
-
-----
-[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/ice.md)

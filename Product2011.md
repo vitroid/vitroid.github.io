@@ -2,7 +2,7 @@
 
 ## Exhibition
 
-* 2011-7 "vous aves dit chimie?" http://www.palais-decouverte.fr/index.php?id=2090, Palais Decouverte, Paris
+* 2011-7 "vous aves dit chimie?" http://www.palais-decouverte.fr[index](index.md).php?id=2090, Palais Decouverte, Paris
 
 [artworks](artworks.md)
 

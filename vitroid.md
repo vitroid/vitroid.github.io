@@ -4,7 +4,7 @@
 
 
 
-vitr-というのはガラスを意味する接頭辞、-oidは「のようなもの」という意味の接尾辞です。なぜvitroidという名前なのか、と訝しむ方も多いかと思いますが、特に深い意味はありません。Internetでは、どんなサービスでもユーザー名やアカウント名は早い者勝ちですから、他の人とかぶらないidを持っておくことが重要です。vitroidは英語の辞書にない単語なので、めったに他人とかぶることがなく、しかも7文字でかなり短く、発音にあいまいさがなく、タイプしやすいので優先的にこれを使うようにしています。
+vitr-というのはガラスを意味する接頭辞、-oidは「のようなもの」という意味の接尾辞です。な[vitroid](vitroid.md)という名前なのか、と訝しむ方も多いかと思いますが、特に深い意味はありません。Internetでは、どんなサービスでもユーザー名やアカウント名は早い者勝ちですから、他の人とかぶらないidを持っておくことが重要です[vitroid](vitroid.md)[英語](英語.md)の辞書にない単語なので、めったに他人とかぶることがなく、しかも7文字でかなり短く、発音にあいまいさがなく、タイプしやすいので優先的にこれを使うようにしています。
 
 
 
@@ -12,11 +12,9 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 
 ## 以下は設定です。気にしないで下さい。
 
-     scrapbox.TimeStamp.addFormat(' #YYYY-MM-DD ')
+     scrapbox.TimeStamp.addFormat(' [YYYY-MM-DD](YYYY-MM-DD.md) ')
     .line strong {
-        border-bottom:1px solid #426579;
-        border-left:10px solid #426579;
-        padding:7px;
+        border-bottom:1px solid [426579;](426579;.md)         border-left:10px solid [426579;](426579;.md)         padding:7px;
         width: 100%;
     }
 
@@ -24,7 +22,35 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 
 ## Linked from
 
+* [8th SFG Symposium](8th SFG Symposium.md)
+* [GenIce](GenIce.md)
+* [MYT2017](MYT2017.md)
+* [MYT2019](MYT2019.md)
+* [Panojector](Panojector.md)
+* [Product2009](Product2009.md)
+* [Product2015](Product2015.md)
+* [Product2016](Product2016.md)
+* [QR code](QR code.md)
+* [Ring Perception Algorithm](Ring Perception Algorithm.md)
 * [Tracking](Tracking.md)
+* [TrainScanner](TrainScanner.md)
+* [TruncatablePrimes](TruncatablePrimes.md)
+* [YaPlot](YaPlot.md)
+* [vitroid](vitroid.md)
+* [エントロピーをめぐる冒険](エントロピーをめぐる冒険.md)
+* [スプーンと元素周期表](スプーンと元素周期表.md)
+* [写真](写真.md)
+* [取材協力、画像提供など](取材協力、画像提供など.md)
+* [可視化チャレンジ(案)](可視化チャレンジ(案).md)
+* [水の作る複雑な結晶構造](水の作る複雑な結晶構造.md)
+* [水の特異な物性](水の特異な物性.md)
+* [水の異常な性質](水の異常な性質.md)
+* [水素結合の特徴](水素結合の特徴.md)
+* [水道](水道.md)
+* [液体の水の秩序](液体の水の秩序.md)
+* [略歴_CV](略歴_CV.md)
+* [自然の中に隠された数学](自然の中に隠された数学.md)
+* [講演](講演.md)
 
 
 ----
