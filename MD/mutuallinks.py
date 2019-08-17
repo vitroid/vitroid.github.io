@@ -20,6 +20,7 @@ for filename in glob.glob("*.md"):
             if m.group(1)+".md" ==  m.group(2):
                 # internal page
                 D[m.group(2)].add(filename)
+                logger.info((m.group(1), filename))
 
 
 for filename in glob.glob("*.md"):

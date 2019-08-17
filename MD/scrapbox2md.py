@@ -17,6 +17,14 @@ def bracket_proc(x):
         url   = elements[-1]
         label = " ".join(elements[:-1])
         return "[{0}]({1})".format(label, url)
+    elif elements[0] == "$":
+        # math tex
+        formula = " ".join(elements[1:])
+        return " \\\\({0}\\\\) ".format(formula)
+    elif elements[0] == "_":
+        # underline
+        formula = " ".join(elements[1:])
+        return " __{0}__ ".format(formula)
     elif elements[0] == '**':
         return "＃＃ " + " ".join(elements[1:])
     elif elements[0] == '*':
