@@ -9,21 +9,22 @@
 https://community.wolfram.com/groups/-/m/t/1569707/
 
 
+```python
+from sympy.ntheory.primetest import isprime
+queue = []
 
-    from sympy.ntheory.primetest import isprime
-    queue = []
-    
-    def CutOffPrime(n, digits):
-        for i in range(1,10):
-            x = i*10**digits + n
-            if isprime(x):
-                queue.append([x, digits+1])
-    
-    CutOffPrime(0,0)
-    while len(queue) >0:
-        x, d = queue.pop(0)
-        print(x,d)
-        CutOffPrime(x,d)
+def CutOffPrime(n, digits):
+    for i in range(1,10):
+        x = i*10**digits + n
+        if isprime(x):
+            queue.append([x, digits+1])
+
+CutOffPrime(0,0)
+while len(queue) >0:
+    x, d = queue.pop(0)
+    print(x,d)
+    CutOffPrime(x,d)
+```
 
 0を許さない場合、鉛筆に刻んである数が上限のようだ。
 
