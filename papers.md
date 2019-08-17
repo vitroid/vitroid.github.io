@@ -1,171 +1,151 @@
 # papers
 
-[著作](著作.md)][著作](著作.md).md)
-
+[著作](著作.md) 
 (少しずつ追加しています)
 
-[paper2019](paper2019.md)
+[paper2019](paper2019.md) 
 
-
-* [TYM2019](TYM2019.md)][TYM2019](TYM2019.md).md)
-* [[YMT2019](YMT2019.md)]([YMT2019](YMT2019.md).md)
-* [MYT2019](MYT2019.md)][MYT2019](MYT2019.md).md)
-* [[YMT2019](YMT2019.md)]([YMT2019](YMT2019.md).md)][[YMT2019](YMT2019.md)]([YMT2019](YMT2019.md).md).md)
-* [MM2019](MM2019.md)][MM2019](MM2019.md).md)
-* [[YMT2019](YMT2019.md)]([YMT2019](YMT2019.md).md)
-* [YMT2019](YMT2019.md)][YMT2019](YMT2019.md).md)
-* [YMT2019](YMT2019.md)a][YMT2019](YMT2019.md)a.md)
-
-
-
-[paper2018](paper2018.md)
-
-
-* [YMT2018](YMT2018.md)][YMT2018](YMT2018.md).md)
-* [YMT2018](YMT2018.md)a][YMT2018](YMT2018.md)a.md)
-* [TYM2018](TYM2018.md)][TYM2018](TYM2018.md).md)
+*[TYM2019](TYM2019.md)
+* [YMT2019](YMT2019.md)
+*[MYT2019](MYT2019.md)
+*[[YMT2019](YMT2019.md)]([YMT2019](YMT2019.md).md)
+*[MM2019](MM2019.md)
+* [YMT2019](YMT2019.md)
+*[YMT2019](YMT2019.md)
+*[YMT2019](YMT2019.md)a
 
 
 
-[paper2017](paper2017.md)
+[paper2018](paper2018.md) 
+
+*[YMT2018](YMT2018.md)
+*[YMT2018](YMT2018.md)a
+*[TYM2018](TYM2018.md)
 
 
-* [[HYMT2017](HYMT2017.md)]([HYMT2017](HYMT2017.md).md)
-* [HYMT2017](HYMT2017.md)][HYMT2017](HYMT2017.md).md)
-* [TYM2017](TYM2017.md)][TYM2017](TYM2017.md).md)
-* [MYT2017](MYT2017.md)][MYT2017](MYT2017.md).md)
+
+[paper2017](paper2017.md) 
+
+* [HYMT2017](HYMT2017.md)
+*[HYMT2017](HYMT2017.md)
+*[TYM2017](TYM2017.md)
+*[MYT2017](MYT2017.md)
 * 
 
-[paper2016](paper2016.md)
+[paper2016](paper2016.md) 
 
+*[NMYT2016](NMYT2016.md)
+*[YMT2016](YMT2016.md)
+*[YMT2016](YMT2016.md)a][YMT2016](YMT2016.md)a.md)
+*[YMT2016](YMT2016.md)b
 
-* [NMYT2016](NMYT2016.md)][NMYT2016](NMYT2016.md).md)
-* [YMT2016](YMT2016.md)][YMT2016](YMT2016.md).md)
-* [YMT2016](YMT2016.md)a][YMT2016](YMT2016.md)a.md)][YMT2016](YMT2016.md)a][YMT2016](YMT2016.md)a.md).md)
-* [YMT2016](YMT2016.md)b][YMT2016](YMT2016.md)b.md)
 
 
+[paper2015](paper2015.md) 
 
-[paper2015](paper2015.md)
+*[MYT2015](MYT2015.md)
+*[YMT2015](YMT2015.md)
+*[YMT2015](YMT2015.md)a][YMT2015](YMT2015.md)a.md)
+*[YMT2015](YMT2015.md)b
+*[YMT2015](YMT2015.md)c][YMT2015](YMT2015.md)c.md)
 
 
-* [MYT2015](MYT2015.md)][MYT2015](MYT2015.md).md)
-* [YMT2015](YMT2015.md)][YMT2015](YMT2015.md).md)
-* [YMT2015](YMT2015.md)a][YMT2015](YMT2015.md)a.md)][YMT2015](YMT2015.md)a][YMT2015](YMT2015.md)a.md).md)
-* [YMT2015](YMT2015.md)b][YMT2015](YMT2015.md)b.md)
-* [YMT2015](YMT2015.md)c][YMT2015](YMT2015.md)c.md)][YMT2015](YMT2015.md)c][YMT2015](YMT2015.md)c.md).md)
 
+[paper2014](paper2014.md) 
 
+*[YMT2014](YMT2014.md)
+*[MHM2014](MHM2014.md)
+*[HMT2014](HMT2014.md)
+*[MHT2014](MHT2014.md)
+*[YMAOT2014](YMAOT2014.md)
+*[YMAOT2014](YMAOT2014.md)a
+*[YHNMT2014](YHNMT2014.md)
 
-[paper2014](paper2014.md)
 
 
-* [YMT2014](YMT2014.md)][YMT2014](YMT2014.md).md)
-* [MHM2014](MHM2014.md)][MHM2014](MHM2014.md).md)
-* [HMT2014](HMT2014.md)][HMT2014](HMT2014.md).md)
-* [MHT2014](MHT2014.md)][MHT2014](MHT2014.md).md)
-* [YMAOT2014](YMAOT2014.md)][YMAOT2014](YMAOT2014.md).md)
-* [YMAOT2014](YMAOT2014.md)a][YMAOT2014](YMAOT2014.md)a.md)
-* [YHNMT2014](YHNMT2014.md)][YHNMT2014](YHNMT2014.md).md)
+[paper2013](paper2013.md) 
 
+*[MMO2013](MMO2013.md)
+*[NMT2013](NMT2013.md)
 
 
-[paper2013](paper2013.md)
 
+[paper2012](paper2012.md) 
 
-* [MMO2013](MMO2013.md)][MMO2013](MMO2013.md).md)
-* [NMT2013](NMT2013.md)][NMT2013](NMT2013.md).md)
+*[MT2012](MT2012.md)
+* [MT2012](MT2012.md)
+* HMKT2012
+* M[MT2012](MT2012.md)
+* [MT2012](MT2012.md)
 
 
 
-[paper2012](paper2012.md)
+[paper2011](paper2011.md) 
 
+*[MT2011](MT2011.md)
+*[TM2011](TM2011.md)
+* [MT2011](MT2011.md)
+* JMM2011
 
-* [MT2012](MT2012.md)][MT2012](MT2012.md).md)
-* [[MT2012](MT2012.md)]([MT2012](MT2012.md).md)
-* [HMKT2012](HMKT2012.md)
-* [M[MT2012](MT2012.md)](M[MT2012](MT2012.md).md)
-* [[MT2012](MT2012.md)]([MT2012](MT2012.md).md)
 
 
+[paper2010](paper2010.md) 
 
-[paper2011](paper2011.md)
+*[M2010](M2010.md)
 
 
-* [MT2011](MT2011.md)][MT2011](MT2011.md).md)
-* [TM2011](TM2011.md)][TM2011](TM2011.md).md)
-* [[MT2011](MT2011.md)]([MT2011](MT2011.md).md)
-* [JMM2011](JMM2011.md)
 
+[paper2009](paper2009.md) 
 
+*[M2009](M2009.md)
 
-[paper2010](paper2010.md)
 
 
-* [M2010](M2010.md)][M2010](M2010.md).md)
+[paper2008](paper2008.md) 
 
+*[MBO2008](MBO2008.md)
 
 
-[paper2009](paper2009.md)
 
+[paper2007](paper2007.md) 
 
-* [M2009](M2009.md)][M2009](M2009.md).md)
+*[M2007](M2007.md)
+*[MBO2007](MBO2007.md)
 
 
 
-[paper2008](paper2008.md)
+[paper2002](paper2002.md) 
 
+*[MSO2002](MSO2002.md)
 
-* [MBO2008](MBO2008.md)][MBO2008](MBO2008.md).md)
 
 
+[paper1999](paper1999.md) 
 
-[paper2007](paper2007.md)
+* SMO1999
 
 
-* [M2007](M2007.md)][M2007](M2007.md).md)
-* [MBO2007](MBO2007.md)][MBO2007](MBO2007.md).md)
 
+[pape[1998](1998.md)](pape[1998](1998.md).md) 
 
+* BTSM[1998](1998.md)
 
-[paper2002](paper2002.md)
 
 
-* [MSO2002](MSO2002.md)][MSO2002](MSO2002.md).md)
+[paper1996](paper1996.md) 
 
+* MO1996
+*[M1996](M1996.md)
 
 
-[paper1999](paper1999.md)
 
+[paper1993](paper1993.md) 
 
-* [SMO1999](SMO1999.md)
+* MTN1993
 
 
 
-[pape[1998](1998.md)](pape[1998](1998.md).md)
-
-
-* [BTSM[1998](1998.md)](BTSM[1998](1998.md).md)
-
-
-
-[paper1996](paper1996.md)
-
-
-* [MO1996](MO1996.md)
-* [M1996](M1996.md)][M1996](M1996.md).md)
-
-
-
-[paper1993](paper1993.md)
-
-
-* [MTN1993](MTN1993.md)
-
-
-
-[research](research.md) [papers](papers.md)][papers](papers.md).md)
-
+[research](research.md) [papers](papers.md) 
 
 
 ## Linked from

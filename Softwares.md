@@ -1,7 +1,6 @@
 # Softwares
 
-[software](software.md)
-
+[software](software.md) 
 
 
 

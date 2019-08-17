@@ -12,8 +12,7 @@ M5StickVはM5Stackの小型版(M5Stick)の、さらにAIエンジン搭載のも
 
 
 * pip install kflushでCUIツールをインストール
-* [M5Stack Quick Start](https://docs.m5stack.com/[/en/quick_start/m5stickv/m5stickv_quick_start)からfirmwareを入手。](/en/quick_start/m5stickv/m5stickv_quick_start)からfirmwareを入手。.md)
-* 電源を落とし、一旦コネクタを抜いたあと、正面のAボタンを押しながらコネクタを差し込んでboot.pyの自動起動を回避。
+* [M5Stack Quick Start](https://docs.m5stack.com/[/en/quick_start/m5stickv/m5stickv_quick_start)からfirmwareを入手。](/en/quick_start/m5stickv/m5stickv_quick_start)からfirmwareを入手。.md) * 電源を落とし、一旦コネクタを抜いたあと、正面のAボタンを押しながらコネクタを差し込んでboot.pyの自動起動を回避。
 * 以下のcommandで書き込んだ。
         kflash -B M5StickV  -p /dev/cu.usbserial-B55A3DF445 -b 115200 ~/Downloads/m5stickV_Firmware_0630Fixed.kfpkg 
        -Bには機種名を入れるのだが、M5StickVがどれに該当するのかわからず、適当に書いたら自動認識(goE/kd233)してくれた。

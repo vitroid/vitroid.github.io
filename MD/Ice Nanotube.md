@@ -4,7 +4,7 @@
 
 
 
-[python](python.md) [code](code.md) [NodeBox](NodeBox.md) [nanotube](nanotube.md) [visualization](visualization.md)
+#python #code #NodeBox #nanotube #visualization
 
 シンプルにしたが、頂点に○が書けなくなった。頂点・面・辺の描き順はいい解決策がない。
 

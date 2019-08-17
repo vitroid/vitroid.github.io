@@ -2,9 +2,9 @@
 
 松本 正和
 
-[vitroid](vitroid.md).icon][vitroid](vitroid.md).icon.md)[岡山大学](岡山大学.md)異分野基礎科[研究](研究.md)所][岡山大学](岡山大学.md)異分野基礎科[研究](研究.md)所.md)][岡山大学](岡山大学.md)異分野基礎科[研究](研究.md)所][岡山大学](岡山大学.md)異分野基礎科[研究](研究.md)所.md).md) 准教授
+vitroid.ico[岡山大学](岡山大学.md)異分野基礎科[研究](研究.md)所][岡山大学](岡山大学.md)異分野基礎科[研究](研究.md)所.md) 准教授
 
-[/icons/Google Scholar.icon](/icons/Google Scholar.icon.md)[Google Scholar](https://scholar.google.com/citations?user=NBbReDMAAAAJ)
+/icons/Google Scholar.icon[Google Scholar](https://scholar.google.com/citations?user=NBbReDMAAAAJ)
 
 ## 学歴 
 
@@ -44,14 +44,14 @@
 
 
 
-* [研究](研究.md)][研究](研究.md).md)
-* [papers](papers.md)][papers](papers.md).md)
-* [講義](講義.md)][講義](講義.md).md)
+*[研究](研究.md)
+*[papers](papers.md)
+*[講義](講義.md)
 
 
 
 
-* [もう少し個人的な情報](もう少し個人的な情報.md)][もう少し個人的な情報](もう少し個人的な情報.md).md)
+*[もう少し個人的な情報](もう少し個人的な情報.md)
 
 
 

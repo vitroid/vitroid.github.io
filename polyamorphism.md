@@ -8,7 +8,7 @@ polyamorphismのシミュレーションは難しくはありません。すで�
 
 長距離秩序(結晶秩序)を調べる実験手法はいくつも存在します。短距離秩序(配位数や局所配置)を調べる方法もたくさんあります。固体物性理論と液体論はこれら2つの極限を扱います。しかし、2つの液相は中距離秩序に違いがあり、それを観測できる実験手法も、わかりやすく説明できる理論もありません(もしあなたが10体密度相関関数を容易に理解できるのでない限り)。現在のところ、情報を劣化させずに中距離秩序を描写することができるのはコンピュータシミュレーションしかありません。中距離秩序を描写する新しい概念やことばが必要です。
 
-そこで、我々は実在物質の液液相転移をコンピュータシミュレーションで再現します。過冷却液体シリコンは、過冷却状態で液液相転移、ガラス転移、結晶核生成のすべてがシミュレーションの計算時間の間に起こるので、試しに計算するのに向いています。水の解析での経験から、我々は人間の認識能力だけでは液体の中の複雑な秩序を理解できないかもしれないと考えています。トポロジー、グラフ理論、パーコレーション理論、情報理論は、このような複雑な系に埋もれた秩序を探しあてる([データマイニング](データマイニング.md)][データマイニング](データマイニング.md).md))強力なツールです。
+そこで、我々は実在物質の液液相転移をコンピュータシミュレーションで再現します。過冷却液体シリコンは、過冷却状態で液液相転移、ガラス転移、結晶核生成のすべてがシミュレーションの計算時間の間に起こるので、試しに計算するのに向いています。水の解析での経験から、我々は人間の認識能力だけでは液体の中の複雑な秩序を理解できないかもしれないと考えています。トポロジー、グラフ理論、パーコレーション理論、情報理論は、このような複雑な系に埋もれた秩序を探しあてる[データマイニング](データマイニング.md))強力なツールです。
 
 Polyamorphism, i.e. existence of multiple liquid/amorphous phases in single-component material, is one of the most attractive phenomena in condensed matter physics. Increasing number of materials has been found to exhibit liquid-liquid coexistence, including water, silicon, n-butanol, phosphorus, etc.
 
@@ -31,10 +31,9 @@ We therefore aim to reproduce the liquid-liquid phase transition of real materia
 ### 関連論文
 
 
-* [YMT2019](YMT2019.md)a][YMT2019](YMT2019.md)a.md) [YMT2014](YMT2014.md)][YMT2014](YMT2014.md).md) [YMT2015](YMT2015.md)c][YMT2015](YMT2015.md)c.md)][YMT2015](YMT2015.md)c][YMT2015](YMT2015.md)c.md).md) [MBO2007](MBO2007.md)][MBO2007](MBO2007.md).md) [MBO2008](MBO2008.md)][MBO2008](MBO2008.md).md) [M2009](M2009.md)][M2009](M2009.md).md)
+*[YMT2019](YMT2019.md)a[YMT2014](YMT2014.md)[YMT2015](YMT2015.md)c][YMT2015](YMT2015.md)c.md)[MBO2007](MBO2007.md)[MBO2008](MBO2008.md)[M2009](M2009.md)
 
-[雑記](雑記.md) [water](water.md)
-
+[雑記](雑記.md) [water](water.md) 
 (2008年7月)
 
 (2018年10月加筆)

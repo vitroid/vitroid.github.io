@@ -4,16 +4,16 @@
 
 [](https://gyazo.com/641dfa2be02c3674241a26f4d64af4e8)
 
-[/progfay-pub[Settings](Settings.md)](/progfay-pub[Settings](Settings.md).md)を参考に。
+/progfay-pub[Settings](Settings.md)を参考に。
 
-[[color theme]([color theme.md)]
+[color theme]
 
-[[https://gyazo.com/2d7af113e5d77a76ff03396a12c37979]([https://gyazo.com/2d7af113e5d77a76ff03396a12c37979.md)]
+[https://gyazo.com/2d7af113e5d77a76ff03396a12c37979]
 
     :root {
    		--bg-color:  [FFFFFF;](FFFFFF;.md)    		--fg-color:  [252525;](252525;.md)    		--highlight: [6BA6DE;](6BA6DE;.md)    		--default:   [999999;](999999;.md)     }
 
-[[マーカー]([マーカー.md)]
+[マーカー]
 
     /* 二重括弧による強調を蛍光マーカーっぽくする */
     .line strong:not([class]) { 
@@ -21,7 +21,7 @@
       margin: 0 1px;
     }
 
-[[[で始まるタグをラベル風にする](で始まるタグをラベル風にする.md) ]([[で始まるタグをラベル風にする](で始まるタグをラベル風にする.md) .md)]
+[[で始まるタグをラベル風にする](で始まるタグをラベル風にする.md) ]
 
     a[type="hashTag"] {
    		display: inline-block;

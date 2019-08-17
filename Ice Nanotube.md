@@ -4,8 +4,7 @@
 
 
 
-[python](python.md) [code](code.md) [NodeBox](NodeBox.md) [nanotube](nanotube.md) [visualization](visualization.md)
-
+[python](python.md) [code](code.md) [NodeBox](NodeBox.md) [nanotube](nanotube.md) [visualization](visualization.md) 
 シンプルにしたが、頂点に○が書けなくなった。頂点・面・辺の描き順はいい解決策がない。
 
 キラルなナノチューブも自在に描けると便利かな。

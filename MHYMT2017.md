@@ -9,7 +9,7 @@ J. Chem. Phys. 147, 091101 (2017).
 
 * http://doi.org/10.1063/1.4994757 ([Featured Article](https://aip.scitation.org/topic/collections/featured?SeriesKey=jcp), [Cover Article](https://aip.scitation.org/toc/jcp/147/9?expanded=147), [2017 JCP Editor's choice](https://scitationinfo.org/p/1XPS-857/jcp-editors-choice-2017))
 
-負の圧力領域の最安定相は気相ですが、結晶も準安定状態として存在することができます。水については、これまでに負圧で安定な結晶が実験で二つ見つかっており、理論計算でもいくつかの構造が予想されています。我々は、氷と幾何構造が似ているゼオライト構造をもとに数百種類の架空の氷を作り、その安定性を分子シミュレーションで評価しました。この結果、ある種のゼオライトをもとにした構造はこれまでに報告されている如何なる氷構造よりも負圧で安定であることがわかりました。さらに、これらの安定構造を基礎としていくらでも低密度の結晶構造([aeroice](aeroice.md)][aeroice](aeroice.md).md))を設計できることもわかりました。こ[研究](研究.md)により、水の作りうる結晶構造が極めて多様であることが明らかになりました。このことは、負圧領域のみならず、ナノサイズの空孔に捉えられた水の振る舞いを理解する上で大きな手掛かりとなると考えられます。
+負の圧力領域の最安定相は気相ですが、結晶も準安定状態として存在することができます。水については、これまでに負圧で安定な結晶が実験で二つ見つかっており、理論計算でもいくつかの構造が予想されています。我々は、氷と幾何構造が似ているゼオライト構造をもとに数百種類の架空の氷を作り、その安定性を分子シミュレーションで評価しました。この結果、ある種のゼオライトをもとにした構造はこれまでに報告されている如何なる氷構造よりも負圧で安定であることがわかりました。さらに、これらの安定構造を基礎としていくらでも低密度の結晶構造[aeroice](aeroice.md))を設計できることもわかりました。こ[研究](研究.md)により、水の作りうる結晶構造が極めて多様であることが明らかになりました。このことは、負圧領域のみならず、ナノサイズの空孔に捉えられた水の振る舞いを理解する上で大きな手掛かりとなると考えられます。
 
 
 * [Altmetric – Communication: Hypothetical ultralow-density ice polymorphs](https://www.altmetric.com/details/24826399/news)
@@ -30,8 +30,7 @@ J. Chem. Phys. 147, 091101 (2017).
 
 
 
-[water](water.md) [research](research.md) [aeroice](aeroice.md)][aeroice](aeroice.md).md) [papers](papers.md)][papers](papers.md).md) [paper2017](paper2017.md)
-
+[water](water.md) [research](research.md) [aeroice](aeroice.md) [papers](papers.md) [paper2017](paper2017.md) 
 
 
 

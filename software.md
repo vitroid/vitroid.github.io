@@ -9,4 +9,3 @@
 * [TrainScanner](TrainScanner.md)
 * [TruncatablePrimes](TruncatablePrimes.md)
 * [YaPlot](YaPlot.md)
-* [navigation](navigation.md)

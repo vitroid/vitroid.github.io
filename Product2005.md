@@ -3,8 +3,7 @@
 
 * House renovation (Nagoya)
 
-[artworks](artworks.md)
-
+[artworks](artworks.md) 
 
 
 

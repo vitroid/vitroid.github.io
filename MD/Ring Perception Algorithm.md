@@ -1,6 +1,6 @@
 # Ring Perception Algorithm
 
-[analysis](analysis.md) [software](software.md)
+#analysis #software
 
 We develop the ring perception algorithm.
 
