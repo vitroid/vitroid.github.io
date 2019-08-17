@@ -17,7 +17,7 @@ def make_page(filename="", links={}):
             file.write("## Linked from\n\n")
             for link in sorted(links):
                 file.write("* [{1}]({0})\n".format(link, link[:-3]))
-        file.write("\n\n----\n[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/{0})\n".format(filename))
+        file.write("\n\n----\n[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/{0})\n".format(filename))
     
 
 basicConfig(level=INFO)
