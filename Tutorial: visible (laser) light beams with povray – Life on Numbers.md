@@ -15,4 +15,4 @@ PovrayによるLaserっぽい表現。ただし、LaserのHaloは生じないの
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/Tutorial: visible (laser) light beams with povray – Life on Numbers.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Tutorial: visible (laser) light beams with povray – Life on Numbers.md)

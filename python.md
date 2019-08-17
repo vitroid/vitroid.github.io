@@ -7,4 +7,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/python.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/python.md)

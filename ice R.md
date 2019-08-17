@@ -29,4 +29,4 @@ Ice "R"* is a partial plastic ice discovered when liquid water is compressed to 
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/ice R.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/ice R.md)

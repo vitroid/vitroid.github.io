@@ -4,4 +4,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/voluntary.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/voluntary.md)

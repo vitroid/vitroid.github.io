@@ -80,4 +80,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/water.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/water.md)

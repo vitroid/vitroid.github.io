@@ -10,4 +10,4 @@ Google One (Google Drive)の有料メンバーになって一年ほど経った�
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/Google Home mini.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Google Home mini.md)

@@ -112,4 +112,4 @@ vitriteの定義は、自然の観測から帰納的に決定されたもので�
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/vitrite.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/vitrite.md)

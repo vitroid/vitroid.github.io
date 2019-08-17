@@ -8,4 +8,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/paper2015.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/paper2015.md)

@@ -31,4 +31,4 @@ Sun Microsystemsの商標 "The Network is the Computer."をもじった言葉。
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/The Network is Water.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/The Network is Water.md)

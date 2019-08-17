@@ -4,4 +4,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/ice T2.icon.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/ice T2.icon.md)

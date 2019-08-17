@@ -101,4 +101,4 @@ M5StickVはM5Stackの小型版(M5Stick)の、さらにAIエンジン搭載のも
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/M5StickVの初期設定.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/M5StickVの初期設定.md)

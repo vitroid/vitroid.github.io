@@ -4,4 +4,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/gallery.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/gallery.md)

@@ -45,4 +45,4 @@ J. Chem. Phys. 147, 091101 (2017).
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/MHYMT2017.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/MHYMT2017.md)

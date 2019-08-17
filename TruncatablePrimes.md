@@ -6,24 +6,25 @@
 
 [](https://gyazo.com/f7579232b43d580e0900c4f0b7d5cd17)
 
-https://community.wolfram.com/groups/-/m/t/1569707/?wal_campaign={"campaign"%3A"insider4415_wave1"%2C"keyword"%3A"JPInsider2019-1"%2C"userEmail"%3A"1370"}
+https://community.wolfram.com/groups/-/m/t/1569707/
 
 
+```python
+from sympy.ntheory.primetest import isprime
+queue = []
 
-    from sympy.ntheory.primetest import isprime
-    queue = []
-    
-    def CutOffPrime(n, digits):
-        for i in range(1,10):
-            x = i*10**digits + n
-            if isprime(x):
-                queue.append([x, digits+1])
-    
-    CutOffPrime(0,0)
-    while len(queue) >0:
-        x, d = queue.pop(0)
-        print(x,d)
-        CutOffPrime(x,d)
+def CutOffPrime(n, digits):
+    for i in range(1,10):
+        x = i*10**digits + n
+        if isprime(x):
+            queue.append([x, digits+1])
+
+CutOffPrime(0,0)
+while len(queue) >0:
+    x, d = queue.pop(0)
+    print(x,d)
+    CutOffPrime(x,d)
+```
 
 0を許さない場合、鉛筆に刻んである数が上限のようだ。
 
@@ -75,4 +76,4 @@ table:切り捨て可能な素数
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/TruncatablePrimes.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/TruncatablePrimes.md)

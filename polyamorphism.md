@@ -49,4 +49,4 @@ We therefore aim to reproduce the liquid-liquid phase transition of real materia
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/polyamorphism.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/polyamorphism.md)

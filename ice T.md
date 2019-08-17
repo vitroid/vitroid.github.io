@@ -23,4 +23,4 @@ Ice "T"* is a partial plastic ice discovered when liquid water is coexistent wit
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/ice T.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/ice T.md)

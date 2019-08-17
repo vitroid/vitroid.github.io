@@ -630,4 +630,4 @@ svgwriteを使ってpythonでsvgを出力するように変更。
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/Ice Nanotube.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Ice Nanotube.md)

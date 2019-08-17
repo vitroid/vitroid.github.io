@@ -15,4 +15,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/LEDフラッシュ.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/LEDフラッシュ.md)

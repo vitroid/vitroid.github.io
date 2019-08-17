@@ -28,4 +28,4 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/vitroid.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/vitroid.md)

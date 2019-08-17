@@ -4,4 +4,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/氷II.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/氷II.md)

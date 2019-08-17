@@ -27,4 +27,4 @@ http://doi.org/10.1021/jp412692d
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/YMAOT2014.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/YMAOT2014.md)

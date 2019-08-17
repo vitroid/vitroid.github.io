@@ -13,4 +13,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/Networkism.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Networkism.md)

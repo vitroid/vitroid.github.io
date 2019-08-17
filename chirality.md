@@ -18,4 +18,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/chirality.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/chirality.md)

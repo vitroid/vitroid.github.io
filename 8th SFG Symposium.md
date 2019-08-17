@@ -12,4 +12,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/8th SFG Symposium.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/8th SFG Symposium.md)

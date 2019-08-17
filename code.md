@@ -5,4 +5,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/code.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/code.md)

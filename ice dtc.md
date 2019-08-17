@@ -21,4 +21,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/ice dtc.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/ice dtc.md)

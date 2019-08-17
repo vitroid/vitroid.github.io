@@ -18,4 +18,4 @@ Thingiverse https://www.thingiverse.com/thing:3139501 ですこしだけカス�
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/kaleidocycle.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/kaleidocycle.md)

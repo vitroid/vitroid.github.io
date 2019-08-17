@@ -24,4 +24,4 @@ A Swiss army knife to generate hydrogen-disordered ice structures.
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/GenIce.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/GenIce.md)

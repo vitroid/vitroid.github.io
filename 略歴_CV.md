@@ -62,4 +62,4 @@
 
 
 ----
-[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/略歴_CV.md)
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/略歴_CV.md)
