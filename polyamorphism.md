@@ -46,3 +46,7 @@ We therefore aim to reproduce the liquid-liquid phase transition of real materia
 * [YMT2014](YMT2014.md)
 * [YMT2019a](YMT2019a.md)
 * [アモルファス氷](アモルファス氷.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/polyamorphism.md)

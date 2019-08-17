@@ -20,3 +20,7 @@ Ice "T"* is a partial plastic ice discovered when liquid water is coexistent wit
 * [HYMT2017](HYMT2017.md)
 * [ice T2](ice T2.md)
 * [研究テーマ](研究テーマ.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/ice T.md)

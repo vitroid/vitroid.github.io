@@ -1,5 +1,3 @@
-# Hashtag: software
-
 ## Linked from
 
 * [GenIce](GenIce.md)
@@ -10,3 +8,7 @@
 * [TruncatablePrimes](TruncatablePrimes.md)
 * [YaPlot](YaPlot.md)
 * [navigation](navigation.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/software.md)

@@ -72,3 +72,7 @@ table:切り捨て可能な素数
 
 
 
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/TruncatablePrimes.md)

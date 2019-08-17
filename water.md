@@ -1,5 +1,3 @@
-# Hashtag: water
-
 ## Linked from
 
 * [GenIce](GenIce.md)
@@ -79,3 +77,7 @@
 * [生命と水](生命と水.md)
 * [研究テーマ](研究テーマ.md)
 * [解決した問題](解決した問題.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/water.md)

@@ -1,5 +1,7 @@
-# Hashtag: BTSMO1998
-
 ## Linked from
 
 * [papers](papers.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/BTSMO1998.md)

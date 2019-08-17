@@ -109,3 +109,7 @@ vitriteの定義は、自然の観測から帰納的に決定されたもので�
 * [水は4℃以下で膨張する](水は4℃以下で膨張する.md)
 * [液体の水の秩序](液体の水の秩序.md)
 * [研究テーマ](研究テーマ.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/vitrite.md)

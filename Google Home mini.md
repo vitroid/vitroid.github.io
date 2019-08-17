@@ -7,3 +7,7 @@ Google One (Google Drive)の有料メンバーになって一年ほど経った�
 ## Linked from
 
 * [ESP8266](ESP8266.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/Google Home mini.md)

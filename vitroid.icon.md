@@ -1,5 +1,3 @@
-# Hashtag: vitroid.icon
-
 ## Linked from
 
 * [8th SFG Symposium](8th SFG Symposium.md)
@@ -15,3 +13,7 @@
 * [略歴_CV](略歴_CV.md)
 * [自然の中に隠された数学](自然の中に隠された数学.md)
 * [講演](講演.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/vitroid.icon.md)

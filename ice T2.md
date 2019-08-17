@@ -27,3 +27,7 @@ Ice "T2"*is a new ice found at a very high pressure by computer simulations. Its
 * [3Dプリンタ用データ](3Dプリンタ用データ.md)
 * [YMT2018](YMT2018.md)
 * [研究テーマ](研究テーマ.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/ice T2.md)

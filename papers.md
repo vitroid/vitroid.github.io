@@ -216,3 +216,7 @@
 * [略歴_CV](略歴_CV.md)
 * [研究](研究.md)
 * [解決した問題](解決した問題.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/papers.md)

@@ -1,5 +1,3 @@
-# Hashtag: paper2019
-
 ## Linked from
 
 * [HYMT2019](HYMT2019.md)
@@ -10,3 +8,7 @@
 * [YMT2019a](YMT2019a.md)
 * [YYMT2019](YYMT2019.md)
 * [papers](papers.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/paper2019.md)

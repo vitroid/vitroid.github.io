@@ -15,3 +15,7 @@ Thingiverse https://www.thingiverse.com/thing:3139501 ですこしだけカス�
 ## Linked from
 
 * [kaleidocycle](kaleidocycle.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/kaleidocycle.md)

@@ -21,3 +21,7 @@ A Swiss army knife to generate hydrogen-disordered ice structures.
 
 * [3Dプリンタ用データ](3Dプリンタ用データ.md)
 * [MYT2017](MYT2017.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/GenIce.md)

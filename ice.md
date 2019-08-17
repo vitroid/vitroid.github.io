@@ -1,5 +1,3 @@
-# Hashtag: ice
-
 ## Linked from
 
 * [3Dプリンタ用データ](3Dプリンタ用データ.md)
@@ -8,3 +6,7 @@
 * [ice T2](ice T2.md)
 * [ice dtc](ice dtc.md)
 * [氷の多形](氷の多形.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/ice.md)

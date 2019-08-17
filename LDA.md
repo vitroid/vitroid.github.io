@@ -34,3 +34,7 @@
 * [アモルファス氷](アモルファス氷.md)
 * [ネットワーク主体論](ネットワーク主体論.md)
 * [低密度アモルファス氷](低密度アモルファス氷.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/LDA.md)

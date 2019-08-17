@@ -1,5 +1,3 @@
-# Hashtag: clathratehydrate
-
 ## Linked from
 
 * [M2010](M2010.md)
@@ -15,3 +13,7 @@
 * [YMT2016b](YMT2016b.md)
 * [YMT2018a](YMT2018a.md)
 * [ガスハイドレートの相図](ガスハイドレートの相図.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/clathratehydrate.md)

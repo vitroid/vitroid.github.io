@@ -1,5 +1,3 @@
-# Hashtag: paper2014
-
 ## Linked from
 
 * [HMT2014](HMT2014.md)
@@ -10,3 +8,7 @@
 * [YMAOT2014a](YMAOT2014a.md)
 * [YMT2014](YMT2014.md)
 * [papers](papers.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/paper2014.md)

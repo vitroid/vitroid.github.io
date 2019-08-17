@@ -9,3 +9,7 @@
 ## Linked from
 
 * [講演](講演.md)
+
+
+----
+[Edit](https://github.com/vitroid/vitroid.github.io/blob/master/MD/8th SFG Symposium.md)
