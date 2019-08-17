@@ -17,8 +17,7 @@ Ice "R"* is a partial plastic ice discovered when liquid water is compressed to 
 
 *Tentative name; final phase name should be given when it is discovered experimentally.
 
-[](https://gyazo.com/a3407f92ba31bcbd1066af4471b2e81d)
-
+![](https://i.gyazo.com/a3407f92ba31bcbd1066af4471b2e81d.png)
 
 
 ## Linked from
