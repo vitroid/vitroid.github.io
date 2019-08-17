@@ -33,4 +33,12 @@ for filename in glob.glob("*.md"):
             for fn in sorted(D[filename]):
                 file.write("* [{1}]({0})\n".format(fn, fn[:-3]))
 
-    
+for tag in D:
+    if not os.path.exists(tag) and "/" not in tag:
+        logger.info("Hashtag: {0}".format(tag))
+        logger.info("               {0}".format(D[tag]))
+        with open("../" + tag, "w") as file:
+            file.write("## Linked from\n\n")
+            for fn in sorted(D[tag]):
+                file.write("* [{1}]({0})\n".format(fn, fn[:-3]))
+            
