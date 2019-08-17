@@ -12,6 +12,8 @@ def make_page(filename="", links={}):
     with open("../" + filename, "w") as file:
         if os.path.exists(filename):
             file.write("".join(open(filename).readlines()))
+        else:
+            file.write("# {0}\n\n".format(filename[:-3]))
         # reverse link list
         if len(links):
             file.write("## Linked from\n\n")
