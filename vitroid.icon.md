@@ -1,3 +1,5 @@
+# Hashtag: vitroid.icon
+
 ## Linked from
 
 * [8th SFG Symposium](8th SFG Symposium.md)

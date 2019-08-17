@@ -38,6 +38,7 @@ for tag in D:
         logger.info("Hashtag: {0}".format(tag))
         logger.info("               {0}".format(D[tag]))
         with open("../" + tag, "w") as file:
+            file.write("# Hashtag: {0}\n\n".format(tag[:-3]))
             file.write("## Linked from\n\n")
             for fn in sorted(D[tag]):
                 file.write("* [{1}]({0})\n".format(fn, fn[:-3]))
