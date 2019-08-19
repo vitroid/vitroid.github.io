@@ -1,4 +1,3 @@
-# vitroid's wiki\n\n"
 ![](https://live.staticflickr.com/7917/46611114124_54653d669c_k_d.jpg)
 松本 正和
 
