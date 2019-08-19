@@ -12,9 +12,8 @@ import re
 
 def makeindex():
     newest = sorted([x for x in glob.glob("*.md")], key=lambda x: os.path.getmtime(x))
-    s = "# vitroid's wiki\n\n"
-    s += "![](https://live.staticflickr.com/7917/46611114124_54653d669c_k_d.jpg)\n\n"
-
+    s = ""
+    
     for row in range(4):
         for col in range(3):
             found = False
@@ -28,8 +27,6 @@ def makeindex():
                         break
         s += "\n"
 
-    s += "\n[略歴/CV](略歴_CV.md)\n"
-    s += "\n[Tracking](Tracking.md)\n"
     return s
 
 
@@ -130,4 +127,5 @@ for page in words:
                                          and os.path.getmtime(target) < os.path.getmtime(linked)):
         formatPage(page, target, keywords=pages, linked=linked)
 
-open("../index.md", "w").write(makeindex())
+with open("index.md") as f:
+    open("../index.md", "w").write(f.read() + makeindex())

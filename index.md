@@ -1,7 +1,13 @@
-# vitroid's wiki
-
+# vitroid's wiki\n\n"
 ![](https://live.staticflickr.com/7917/46611114124_54653d669c_k_d.jpg)
+松本 正和
 
+岡山大学 異分野基礎科学研究所
+
+* [略歴/CV](略歴_CV.md)
+* [Tracking](Tracking.md)
+
+## Visual Index
 [![](https://i.gyazo.com/60afec7fa53ac2336f74db3400b04bf9.gif)](M2010.md)
 [![](https://farm2.staticflickr.com/1971/31377957588_8668f4f1e9_z_d.jpg)](ice T.md)
 [![](https://upload.wikimedia.org/wikipedia/ja/thumb/5/54/FOMA_F903.jpg/200px-FOMA_F903.jpg)](2006.md)
@@ -18,7 +24,3 @@
 [![](https://raw.githubusercontent.com/vitroid/GenIce/develop/logo/genice-v0.png)](GenIce.md)
 [![](https://i.gyazo.com/75503faa683136be2d1e65adf0e3c444.png)](MT2012.md)
 
-
-[略歴/CV](略歴_CV.md)
-
-[Tracking](Tracking.md)
