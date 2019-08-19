@@ -192,6 +192,7 @@
 * [YMT2019](YMT2019.md)
 * [YMT2019a](YMT2019a.md)
 * [YYMT2019](YYMT2019.md)
+* [navigation](navigation.md)
 * [papers](papers.md)
 * [略歴_CV](略歴_CV.md)
 * [研究](研究.md)

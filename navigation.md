@@ -1,6 +1,6 @@
 # vitroid's wiki
 
-[water](water.md) [research](research.md) [visualization](visualization.md) [software](software.md) [雑記](雑記.md) 
+[water](water.md) [research](research.md) [papers](papers.md) [visualization](visualization.md) [software](software.md) [雑記](雑記.md) 
 [gimmick: math]()
 
 
