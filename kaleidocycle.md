@@ -8,12 +8,10 @@ Thingiverse https://www.thingiverse.com/thing:3139501 ですこしだけカス�
 
 
 
-[3Dprint](3Dprint.md) [kaleidocycle](kaleidocycle.md) 
+[3Dprint](3Dprint.md) [kaleidocycle](kaleidocycle.md)
 
 
-## Linked from
 
-* [kaleidocycle](kaleidocycle.md)
 
 
 ----

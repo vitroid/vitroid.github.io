@@ -4,7 +4,7 @@
 
 [](https://gyazo.com/641dfa2be02c3674241a26f4d64af4e8)
 
-/progfay-pub[Settings](Settings.md)を参考に。
+/progfay-pub/Settingsを参考に。
 
 [color theme]
 
@@ -46,9 +46,6 @@
       max-width: none;
       }
 
-## Linked from
-
-* [Settings](Settings.md)
 
 
 ----

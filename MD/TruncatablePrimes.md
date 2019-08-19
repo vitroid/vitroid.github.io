@@ -66,9 +66,9 @@ table:切り捨て可能な素数
 
 ということで、長い鉛筆を作る場合には18進数がおすすめ。
 
-#python #software #雑記
+[python](python.md) [software](software.md) [雑記](雑記.md)
 
-#2019-01-25 vitroid.icon
+[2019-01-25](2019-01-25.md) vitroid.icon
 
 
 

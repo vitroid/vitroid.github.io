@@ -12,7 +12,7 @@ basicConfig(level=INFO)
 
 
 
-def organize(title, target, processed=None, linked=None):
+def formatPage(title, target, processed=None, linked=None):
     """
     Format a page from a parsed page and a link list.
     """
@@ -53,15 +53,10 @@ for file in glob.glob("*.md"):
         pk.process_keywords(file, processed)
 
 
-for file in glob.glob("*.md"):
-    processed = "../processed/" + file
-    if not os.path.exists(processed) or os.path.getmtime(processed) < os.path.getmtime(file):
-        print(processed)
-        pk.process_keywords(file, processed)
-
 
 pages = [file[:-3][13:] for file in glob.glob("../processed/*.md")]
 words = [file[:-7][7:]  for file in glob.glob("../ref/*.pickle")]
+
 
 for page in pages:
     processed = "../processed/" + page + ".md"
@@ -75,13 +70,12 @@ for page in pages:
     elif os.path.exists(linked) and os.path.getmtime(target) < os.path.getmtime(linked):
         go = True
     if go:
-        organize(page, target, processed=processed, linked=linked)
+        formatPage(page, target, processed=processed, linked=linked)
 
-for page in words:
-    processed = "../processed/" + page + ".md"
-    linked    = "../ref/" + page + ".pickle"
-    target    = "../" + page + ".md"
-    if not os.path.exists(target) or (not os.path.exists(processed)
+    for page in words:
+        processed = "../processed/" + page + ".md"
+        linked    = "../ref/" + page + ".pickle"
+        target    = "../" + page + ".md"
+        if not os.path.exists(target) or (not os.path.exists(processed)
                                       and os.path.getmtime(target) < os.path.getmtime(linked)):
-        organize(page, target, linked=linked)
-    
+            formatPage(page, target, linked=linked)

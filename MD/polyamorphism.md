@@ -33,7 +33,7 @@ We therefore aim to reproduce the liquid-liquid phase transition of real materia
 
 * YMT2019a YMT2014 YMT2015c MBO2007 MBO2008 M2009
 
-#雑記 #water
+[雑記](雑記.md) [water](water.md)
 
 (2008年7月)
 

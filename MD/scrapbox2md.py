@@ -5,9 +5,12 @@ import re
 from logging import getLogger, basicConfig, INFO, DEBUG
 
 
-def bracket_proc(x):
+def bracket_proc(x, autolink=False):
     logger = getLogger()
     x = x[1:len(x)-1]
+    if x[-5:] == ".icon":
+        # Icons are not available.
+        return ""
     elements = x.split(" ")
     if elements[0][:4] == "http":
         url   = elements[0]
@@ -30,6 +33,12 @@ def bracket_proc(x):
     elif elements[0] == '*':
         return "＃＃＃ " + " ".join(elements[1:])
     else:
+        if not autolink:
+            # It does not rely on the autolink
+            # convert an empty link to an internal link
+            # return "[{0}]({0}.md)".format(x)
+            # or a hashtag
+            return "#{0} ".format(x)
         # remove the bracket pointing an another page
         return "{0}".format(x)
     
@@ -48,11 +57,11 @@ def head_spaces(x):
 basicConfig(level=INFO)
 
 
-def scrapbox2md(sbfile, mdfile):
-    open(mdfile, "w").write(s2m_lines(open(sbfile).readlines()))
+def scrapbox2md(sbfile, mdfile, autolink=False):
+    open(mdfile, "w").write(s2m_lines(open(sbfile).readlines(), autolink))
 
 
-def s2m_lines(lines):
+def s2m_lines(lines, autolink=False):
     logger = getLogger()
     s = ""
     code = False
@@ -78,7 +87,7 @@ def s2m_lines(lines):
             continue
 
         # bracket
-        line = re.sub(r"\[[^\]]*\]", lambda x:bracket_proc(x.group()), line)
+        line = re.sub(r"\[[^\]]*\]", lambda x:bracket_proc(x.group(), autolink), line)
 
         # hashtag
         #line = re.sub(r"#[^#\s]+\s", lambda x:hashtag_proc(x.group()), line)

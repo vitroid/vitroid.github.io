@@ -7,11 +7,11 @@ A Swiss army knife to generate hydrogen-disordered ice structures.
 
 
 
-* /icons/github.icon[GenIce](https://github.com/vitroid/GenIce)
-* 水素無秩序性を考慮した氷の構造を生成するツールです。
-* 包接水和物(ハイドレート)の結晶も作れます。
+* [GenIce](https://github.com/vitroid/GenIce)
+* #水素無秩序性 を考慮した氷の構造を生成するツールです。
+* #包接水和物 (ハイドレート)の結晶も作れます。
 * いろんなフォーマットで出力できます。
-* 引用する場合はMYT2017でお願いします。
+* 引用する場合は#MYT2017 でお願いします。
 
 #software #python #water #research 
 

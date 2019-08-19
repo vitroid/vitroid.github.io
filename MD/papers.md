@@ -1,10 +1,10 @@
 # papers
 
-#著作
+[著作](著作.md)
 
 (少しずつ追加しています)
 
-#paper2019
+[paper2019](paper2019.md)
 
 
 * TYM2019
@@ -18,7 +18,7 @@
 
 
 
-#paper2018
+[paper2018](paper2018.md)
 
 
 * YMT2018
@@ -27,7 +27,7 @@
 
 
 
-#paper2017
+[paper2017](paper2017.md)
 
 
 * MHYMT2017
@@ -36,7 +36,7 @@
 * MYT2017
 * 
 
-#paper2016
+[paper2016](paper2016.md)
 
 
 * NMYT2016
@@ -46,7 +46,7 @@
 
 
 
-#paper2015
+[paper2015](paper2015.md)
 
 
 * MYT2015
@@ -57,7 +57,7 @@
 
 
 
-#paper2014
+[paper2014](paper2014.md)
 
 
 * YMT2014
@@ -70,7 +70,7 @@
 
 
 
-#paper2013
+[paper2013](paper2013.md)
 
 
 * MMO2013
@@ -78,7 +78,7 @@
 
 
 
-#paper2012
+[paper2012](paper2012.md)
 
 
 * MT2012
@@ -89,7 +89,7 @@
 
 
 
-#paper2011
+[paper2011](paper2011.md)
 
 
 * MT2011
@@ -99,28 +99,28 @@
 
 
 
-#paper2010
+[paper2010](paper2010.md)
 
 
 * M2010
 
 
 
-#paper2009
+[paper2009](paper2009.md)
 
 
 * M2009
 
 
 
-#paper2008
+[paper2008](paper2008.md)
 
 
 * MBO2008
 
 
 
-#paper2007
+[paper2007](paper2007.md)
 
 
 * M2007
@@ -128,28 +128,28 @@
 
 
 
-#paper2002
+[paper2002](paper2002.md)
 
 
 * MSO2002
 
 
 
-#paper1999
+[paper1999](paper1999.md)
 
 
 * SMO1999
 
 
 
-#paper1998
+[paper1998](paper1998.md)
 
 
 * BTSMO1998
 
 
 
-#paper1996
+[paper1996](paper1996.md)
 
 
 * MO1996
@@ -157,14 +157,14 @@
 
 
 
-#paper1993
+[paper1993](paper1993.md)
 
 
 * MTN1993
 
 
 
-#research #papers
+[research](research.md) [papers](papers.md)
 
 
 

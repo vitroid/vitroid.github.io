@@ -24,7 +24,7 @@
 
 
 
-#雑記 #water
+[雑記](雑記.md) [water](water.md)
 
 
 

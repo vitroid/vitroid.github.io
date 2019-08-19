@@ -12,5 +12,5 @@ Ice "T"* is a partial plastic ice discovered when liquid water is coexistent wit
 
 
 
-#water #ice #research
+[water](water.md) [ice](ice.md) [research](research.md)
 

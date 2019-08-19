@@ -10,9 +10,10 @@
 ## Exhibition
 
 
-*[見える化シンポジウム2019](見える化シンポジウム2019.md)
+* 見える化シンポジウム2019
 
-[artworks](artworks.md) 
+[artworks](artworks.md)
+
 
 
 

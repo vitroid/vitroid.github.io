@@ -18,7 +18,7 @@ Ice "T2"*is a new ice found at a very high pressure by computer simulations. Its
 
 
 
-#water #ice #research
+[water](water.md) [ice](ice.md) [research](research.md)
 
 
 
