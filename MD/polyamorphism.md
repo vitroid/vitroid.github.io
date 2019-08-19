@@ -28,7 +28,7 @@ We therefore aim to reproduce the liquid-liquid phase transition of real materia
 
 
 
-### 関連論文
+## 関連論文
 
 
 * #YMT2019a  #YMT2014  #YMT2015c  #MBO2007  #MBO2008  #M2009 

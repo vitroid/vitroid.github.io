@@ -4,7 +4,7 @@ M5StickVはM5Stackの小型版(M5Stick)の、さらにAIエンジン搭載のも
 
 
 
-### Firmwareの書き込み
+## Firmwareの書き込み
 
 小林先生の https://qiita.com/mayfair/items/d1a4ad360670c61ba0fa ほかいろいろ参考にするもKflash-gui 1.5.2が動かず、古いバージョン1.2は書き込みに成功しない。
 
@@ -81,7 +81,7 @@ M5StickVはM5Stackの小型版(M5Stick)の、さらにAIエンジン搭載のも
 
 
 
-### ToDos
+## ToDos
 
 
 * 仮に、KPUを使わずにただのビデオカメラとして使うとどれぐらいのfpsを出せるのか。→7fpsぐらい? 大差ない。

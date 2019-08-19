@@ -57,7 +57,7 @@ def bracket_proc(x, autolink=False):
     elif elements[0] == '**':
         return "＃＃ " + " ".join(elements[1:])
     elif elements[0] == '*':
-        return "＃＃＃ " + " ".join(elements[1:])
+        return "＃＃ " + " ".join(elements[1:])
     else:
         if not autolink:
             # It does not rely on the autolink
