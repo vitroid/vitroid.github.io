@@ -10,6 +10,27 @@ basicConfig(level=INFO)
 import re
         
 
+def makeindex():
+    newest = sorted([x for x in glob.glob("*.md")], key=lambda x: os.path.getmtime(x))
+    s = "# vitroid's wiki\n\n"
+    s += "![](https://live.staticflickr.com/7917/46611114124_54653d669c_k_d.jpg)\n\n"
+
+    for row in range(4):
+        for col in range(3):
+            found = False
+            while not found:
+                page = newest.pop(0)
+                for line in open(page).readlines():
+                    m = re.search(r"!\[[^\]]*\]\(([^\)]+)\)", line)
+                    if m:
+                        s += "[![]({0})]({1})\n".format(m.group(1), page)
+                        found = True
+                        break
+        s += "\n"
+    return s
+
+
+    
 def md_parser(filename):
     mode = "normal"
     for line in open(filename).readlines():
@@ -105,3 +126,5 @@ for page in words:
     if (not os.path.exists(target)) or ( (not os.path.exists(processed))
                                          and os.path.getmtime(target) < os.path.getmtime(linked)):
         formatPage(page, target, keywords=pages, linked=linked)
+
+open("../index.md", "w").write(makeindex())
