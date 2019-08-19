@@ -2,7 +2,7 @@
 
 
 
-![](https://i.gyazo.com/641dfa2be02c3674241a26f4d64af4e8.jpg)
+![](https://i.gyazo.com/641dfa2be02c3674241a26f4d64af4e8.png)
 
 #/progfay-pub/Settings を参考に。
 

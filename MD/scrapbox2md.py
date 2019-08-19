@@ -3,6 +3,22 @@
 import sys
 import re
 from logging import getLogger, basicConfig, INFO, DEBUG
+import requests
+
+def determine_imagetype(urlbase):
+    url = urlbase + ".jpg"
+    response = requests.head(url)
+    if response.status_code == 200:
+        return url
+    url = urlbase + ".png"
+    response = requests.head(url)
+    if response.status_code == 200:
+        return url
+    url = urlbase + ".gif"
+    response = requests.head(url)
+    if response.status_code == 200:
+        return url
+    return None
 
 
 def bracket_proc(x, autolink=False):
@@ -25,8 +41,10 @@ def bracket_proc(x, autolink=False):
         if url[-3:] in ("jpg", "png"):
             return "![{0}]({1})".format(label, url)
         if url[:17] == "https://gyazo.com":
-            url = "https://i.gyazo.com" + url[17:]+".jpg"
-            return "![{0}]({1})".format(label, url)
+            urlbase = "https://i.gyazo.com" + url[17:]
+            imageurl = determine_imagetype(urlbase)
+            if imageurl is not None:
+                return "![{0}]({1})".format(label, imageurl)
         return "[{0}]({1})".format(label, url)
     elif elements[0] == "$":
         # math tex

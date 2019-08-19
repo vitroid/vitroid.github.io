@@ -28,7 +28,6 @@
 * [TM2011](TM2011.md)
 * [TYM2017](TYM2017.md)
 * [TYM2018](TYM2018.md)
-* [TYM2019](TYM2019.md)
 * [The Network is Water](The Network is Water.md)
 * [YHNMT2014](YHNMT2014.md)
 * [YMAOT2014](YMAOT2014.md)

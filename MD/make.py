@@ -8,6 +8,7 @@ import pickle
 from logging import getLogger, basicConfig, INFO, DEBUG
 basicConfig(level=INFO)
 import re
+        
 
 def md_parser(filename):
     mode = "normal"

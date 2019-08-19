@@ -38,7 +38,7 @@
 
 
 
-![](https://i.gyazo.com/5ee235e18c21045ae751bf915aecc332.jpg)
+![](https://i.gyazo.com/5ee235e18c21045ae751bf915aecc332.png)
 
 
 

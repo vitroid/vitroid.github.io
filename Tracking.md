@@ -19,7 +19,7 @@
 * [/icons](/icons.md) にiconがないサービスって、先がなさそうですね。
 * http://bit.ly/vitroidSB このページへの短いリンク 
 
-![](https://i.gyazo.com/f7f7b64a713e708a68760f619041e3d0.jpg)
+![](https://i.gyazo.com/f7f7b64a713e708a68760f619041e3d0.png)
 
 // http://bit.ly/vitroid 旧ページへの短いリンク
 

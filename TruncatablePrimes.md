@@ -4,7 +4,7 @@
 
 切り捨て可能な素数とは、上から順に1桁ずつ削っていっても素数でありつづける数である。
 
-![](https://i.gyazo.com/f7579232b43d580e0900c4f0b7d5cd17.jpg)
+![](https://i.gyazo.com/f7579232b43d580e0900c4f0b7d5cd17.png)
 
 https://community.wolfram.com/groups/-/m/t/1569707/?wal_campaign={"campaign"%3A"insider4415_wave1"%2C"keyword"%3A"JPInsider2019-1"%2C"userEmail"%3A"1370"}
 

@@ -23,11 +23,11 @@ Vitriteは、Crystallite(結晶状のもの、結晶子)との対比で、vitreo
 
 ### vitriteのサンプル
 
-![](https://i.gyazo.com/60f0c09bd8ac58a62c071c42fc04b024.jpg)
+![](https://i.gyazo.com/60f0c09bd8ac58a62c071c42fc04b024.png)
 
 >vitrite [8](8.md) 過冷却水で最も多数出現する、重要なvitrite。 [MYT2015](MYT2015.md) 
 
-![](https://i.gyazo.com/3c0f4f7c13b56a391996eb6925c739e4.jpg)
+![](https://i.gyazo.com/3c0f4f7c13b56a391996eb6925c739e4.png)
 
 
 
@@ -43,7 +43,7 @@ Vitriteは、Crystallite(結晶状のもの、結晶子)との対比で、vitreo
 
 次に個々の水分子は、局所的に正四面体配置を好む。低温になればなるほど、熱揺らぎが抑制され、局所的な正四面体型配置を指向する傾向は強まる。しかし、3員環や4員環を形成している限り、局所的正四面体配置にはなれない(歪みが大きい)ため、自ずと5、6、7員環などの大きな環が増える。それらの環も、boat型/chair型の安定な配座が好まれる。
 
-![](https://i.gyazo.com/6c0a8ca297357557361a2456a2533653.jpg)
+![](https://i.gyazo.com/6c0a8ca297357557361a2456a2533653.png)
 
 
 
