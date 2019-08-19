@@ -9,4 +9,6 @@
 #software
 #雑記
 
+[///かにたま・かんげい・はくさい](https://what3words.com/かにたま・かんげい・はくさい)
+
 [gimmick: math]()
