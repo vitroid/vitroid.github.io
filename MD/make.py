@@ -27,6 +27,9 @@ def makeindex():
                         found = True
                         break
         s += "\n"
+
+    s += "\n[略歴/CV](略歴_CV.md)\n"
+    s += "\n[Tracking](Tracking.md)\n"
     return s
 
 
