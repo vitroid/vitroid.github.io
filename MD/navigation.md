@@ -1,4 +1,4 @@
-# vitroid's wiki
+# Vitroid's wiki
 
 #研究
 #研究テーマ
