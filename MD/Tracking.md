@@ -4,10 +4,10 @@
 
 
   * vitroid@gmail.com
-* [略歴/CV](略歴/CV.md) 
+* #略歴/CV 
   * [twitter:vitroid](http://twitter.com/vitroid)
   * [github:vitroid](https://github.com/vitroid) (ソースコードなど)
-  * [flickr:vitroids](http://flickr.com/photos/vitroids) ([写真](写真.md) 関連)
+  * [flickr:vitroids](http://flickr.com/photos/vitroids) (#写真 関連)
 * [360cities:vitroid](http://www.360cities.net/profile/vitroid) (パノラマ関連)
   * [thingiverse:vitroid](http://www.thingiverse.com/vitroid) (3Dプリンタ関連)
   * skype:vitroid
@@ -16,7 +16,7 @@
 * [fonts.ignites.fewest](https://map.what3words.com/fonts.ignites.fewest)   [what3words](http://what3words.com) locator
 * [日程表](http://www.google.com/calendar/embed?src=fq08mvlibruu794socp3acnfsg%40group.calendar.google.com&ctz=Asia/Tokyo)
 * [日程表(iCal用)](http://www.google.com/calendar/ical/fq08mvlibruu794socp3acnfsg%40group.calendar.google.com/public/basic.ics)
-* [/icons](/icons.md) にiconがないサービスって、先がなさそうですね。
+* #/icons にiconがないサービスって、先がなさそうですね。
 * http://bit.ly/vitroidSB このページへの短いリンク 
 
 ![](https://i.gyazo.com/f7f7b64a713e708a68760f619041e3d0.jpg)
@@ -25,9 +25,9 @@
 
 
 086-251-7846 (職場. 携帯に転送される場合があります)
-* [〒700-8530 岡山市北区津島中3-1-1](https://map.what3words.com/fonts.ignites.fewest) [岡山大学](岡山大学.md) 理学部 B-133室
+* [〒700-8530 岡山市北区津島中3-1-1](https://map.what3words.com/fonts.ignites.fewest) #岡山大学 理学部 B-133室
 * [Google maps](https://www.google.com/maps?q=34.688156,133.920557)
-* [vitroid](vitroid.md) の意味
+* #vitroid の意味
 
 
 

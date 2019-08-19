@@ -1,6 +1,6 @@
 # ice T2
 
-Ice "T2"*is a new ice found at a very high pressure by computer simulations. Its unit cell consists of 152 water molecules. This would be one of the most complex crystal structures that emerged spontaneously from a liquid by computer simulation, It is a stable phase for TIP4P/2005, TIP5P, and SPC/E water models. [YMT2018](YMT2018.md) 
+Ice "T2"*is a new ice found at a very high pressure by computer simulations. Its unit cell consists of 152 water molecules. This would be one of the most complex crystal structures that emerged spontaneously from a liquid by computer simulation, It is a stable phase for TIP4P/2005, TIP5P, and SPC/E water models. #YMT2018 
 
 氷T2**は高圧の液体の水からシミュレーションにより自発的に生じた新たな氷で、単位胞に152分子を含み、おそらくこれまでにシミュレーションで生じた分子結晶(水に限らない)のなかで最も複雑な結晶構造です。TIP4P/2005、TIP5P、SPC/E水モデルなどの、広く使われている水モデルで安定相の一つと考えられます。
 
@@ -8,7 +8,7 @@ Ice "T2"*is a new ice found at a very high pressure by computer simulations. Its
 
 *Tentative name; final phase name should be given when it is discovered experimentally. 
 
-**T2は我々が与えたニックネームであり、この結晶構造がTetragonal相であること、以前に発見した[ice](ice.md) T に続く構造であることから命名しました。実験で同定されれば、氷の相番号が与えられます。
+**T2は我々が与えたニックネームであり、この結晶構造がTetragonal相であること、以前に発見した#ice T に続く構造であることから命名しました。実験で同定されれば、氷の相番号が与えられます。
 
 ![](https://farm2.staticflickr.com/1932/45251706241_8d6fc32670_h_d.jpg)
 
@@ -18,6 +18,7 @@ Ice "T2"*is a new ice found at a very high pressure by computer simulations. Its
 
 
 
-[water](water.md) [ice](ice.md) [research](research.md) 
+#water #ice #research
+
 
 

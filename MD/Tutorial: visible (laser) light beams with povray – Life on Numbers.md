@@ -8,6 +8,7 @@ PovrayによるLaserっぽい表現。ただし、LaserのHaloは生じないの
 
 
 
-[雑記](雑記.md) [povray](povray.md) 
+#雑記 #povray
+
 
 

@@ -2,7 +2,7 @@
 
 松本 正和
 
-[岡山大学異分野基礎科学研究所](岡山大学異分野基礎科学研究所.md)  准教授
+#岡山大学異分野基礎科学研究所  准教授
 
 [Google Scholar](https://scholar.google.com/citations?user=NBbReDMAAAAJ)
 
@@ -44,14 +44,14 @@
 
 
 
-* [研究](研究.md) 
-* [papers](papers.md) 
-* [講義](講義.md) 
+* #研究 
+* #papers 
+* #講義 
 
 
 
 
-* [もう少し個人的な情報](もう少し個人的な情報.md) 
+* #もう少し個人的な情報 
 
 
 

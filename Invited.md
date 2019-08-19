@@ -1,4 +1,4 @@
-# invited
+# Invited
 
 ## Linked from
 

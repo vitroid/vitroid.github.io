@@ -12,9 +12,11 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 
 ## 以下は設定です。気にしないで下さい。
 
-     scrapbox.TimeStamp.addFormat(' [YYYY-MM-DD](YYYY-MM-DD.md) ')
+     scrapbox.TimeStamp.addFormat(' #YYYY-MM-DD ')
     .line strong {
-        border-bottom:1px solid [426579;](426579;.md)         border-left:10px solid [426579;](426579;.md)         padding:7px;
+        border-bottom:1px solid #426579;
+        border-left:10px solid #426579;
+        padding:7px;
         width: 100%;
     }
 
@@ -22,7 +24,6 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 
 ## Linked from
 
-* [QR code](QR code.md)
 * [Tracking](Tracking.md)
 
 

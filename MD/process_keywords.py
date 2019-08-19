@@ -16,28 +16,27 @@ logger = getLogger()
 
 def kw_proc(word, words):
     words.add(word)
-    return "[{0}]({0}.md)".format(word)
+    return ""
+    # return "[{0}]({0}.md)".format(word)
 
 def hashtag_proc(x, words):
     words.add(x)
-    return "[{0}]({0}.md)".format(x) + " "
+    return ""
+    # return "[{0}]({0}.md)".format(x) + " "
 
 keywords = [fn[:-3] for fn in glob.glob("*.md")]
 
 def process_keywords(filename, lines, autolink=False):
     words = set()
     parsed = ""
-    for line in lines.splitlines():
-        line += "\n"
-        if autolink:
-            if not re.search("^#+\s", line):
-                for keyword in keywords:
-                    line = re.sub("[^#]("+keyword+")", lambda x:kw_proc(x.group(1), words), line)
-        line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1), words), line)
-# normal link to wordlist
-#        if not autolink:
-#            line = re.sub(r"\[[^\]]*\]", lambda x:bracket_proc(x.group(), autolink), line)
-        parsed += line
+    for mode, line in lines:
+        if mode == "normal":
+            if autolink:
+                if not re.search("^#+\s", line):
+                    for keyword in keywords:
+                        line = re.sub("[^#]("+keyword+")", lambda x:kw_proc(x.group(1), words), line)
+            # hashtag
+            line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1), words), line)
 
     for word in words:
         if len(tuple(sf.sfind(word, '/[]!"(),;'))):
@@ -56,5 +55,5 @@ def process_keywords(filename, lines, autolink=False):
             pickle.dump(S, f)
 
     logger.info(words)
-    return parsed
+    # return parsed
 

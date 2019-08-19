@@ -17,7 +17,8 @@
 
     /* 二重括弧による強調を蛍光マーカーっぽくする */
     .line strong:not([class]) { 
-      background: [E0FF80;](E0FF80;.md)       padding: 0 3px;
+      background: #E0FF80;
+      padding: 0 3px;
       margin: 0 1px;
     }
 
@@ -29,10 +30,12 @@
         margin: 0 8px 10px 0;
         background: rgba(0, 0, 0, 0);
         font-size: 0.8em;
-        border: 1px solid [0085de;](0085de;.md)         border-radius: 3px;
+        border: 1px solid #0085de;
+        border-radius: 3px;
     }
     a[type="hashTag"].empty-page-link {
-    	border: 1px solid [f27e48;](f27e48;.md)     }
+    	border: 1px solid #f27e48;
+    }
     a.page-link[type=hashTag] > span:first-child {
     	visibility: hidden;
       	position: absolute;
