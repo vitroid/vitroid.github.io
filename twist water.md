@@ -1,4 +1,4 @@
-# twist water
+# [twist water](twist water.md)
 
 
 
@@ -7,6 +7,9 @@
 [water](water.md) [twist](twist.md) 
 
 
+## Linked from
+
+* [twist water](twist water.md)
 
 
 ----

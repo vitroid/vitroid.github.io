@@ -1,4 +1,4 @@
-# Ice Nanotube
+# [Ice Nanotube](Ice Nanotube.md)
 
 ![](https://i.gyazo.com/d89a80878e507ca0aae1afce8c4e75c8.jpg)
 
@@ -626,6 +626,9 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             endpath()
     
 
+## Linked from
+
+* [Ice Nanotube](Ice Nanotube.md)
 
 
 ----

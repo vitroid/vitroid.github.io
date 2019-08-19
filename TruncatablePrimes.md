@@ -1,4 +1,4 @@
-# TruncatablePrimes
+# [TruncatablePrimes](TruncatablePrimes.md)
 
 切り捨て可能な素数をさがす。
 
@@ -71,6 +71,9 @@ table:切り捨て可能な素数
 
 
 
+## Linked from
+
+* [TruncatablePrimes](TruncatablePrimes.md)
 
 
 ----

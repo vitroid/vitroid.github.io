@@ -1,4 +1,4 @@
-# 論文Percentile
+# [論文Percentile](論文Percentile.md)
 
 https://esi.incites.thomsonreuters.com/
 
@@ -12,6 +12,9 @@ Physics
 
 
 
+## Linked from
+
+* [論文Percentile](論文Percentile.md)
 
 
 ----

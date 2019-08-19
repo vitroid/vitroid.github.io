@@ -1,4 +1,4 @@
-# chirality
+# [chirality](chirality.md)
 
 ![](https://i.gyazo.com/b20a991dbfbf3df77180b408e51a3f0d.jpg)
 
@@ -8,12 +8,13 @@
 
 
 
-[water](water.md) [vitrite](vitrite.md) [フラグメント](フラグメント.md) [twist](twist.md)  [2018-10-23](2018-10-23.md) 
+[water](water.md) [[vitrite](vitrite.md)]([vitrite](vitrite.md).md) [[フラグメント](フラグメント.md)]([フラグメント](フラグメント.md).md) [twist](twist.md)  [2018-10-23](2018-10-23.md) 
 
 
 
 ## Linked from
 
+* [chirality](chirality.md)
 * [フラグメント](フラグメント.md)
 
 

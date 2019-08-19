@@ -1,4 +1,4 @@
-# Artworks
+# [Artworks](Artworks.md)
 
 Follow the links.
 
@@ -6,6 +6,7 @@ Follow the links.
 
 ## Linked from
 
+* [Artworks](Artworks.md)
 * [Product2004](Product2004.md)
 * [Product2005](Product2005.md)
 * [Product2007](Product2007.md)

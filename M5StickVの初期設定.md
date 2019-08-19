@@ -1,4 +1,4 @@
-# M5StickVの初期設定
+# [M5StickVの初期設定](M5StickVの初期設定.md)
 
 M5StickVはM5Stackの小型版(M5Stick)の、さらにAIエンジン搭載のもの、らしい。情報がなく、いろいろ苦労する。
 
@@ -93,10 +93,13 @@ M5StickVはM5Stackの小型版(M5Stick)の、さらにAIエンジン搭載のも
 
 
 
-[M5StickV](M5StickV.md) [2019夏の自由研究](2019夏の自由研究.md) 
+[M5StickV](M5StickV.md) [2019夏の自由[研究](研究.md)](2019夏の自由[研究](研究.md).md) 
 
 
 
+## Linked from
+
+* [M5StickVの初期設定](M5StickVの初期設定.md)
 
 
 ----

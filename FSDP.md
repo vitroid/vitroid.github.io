@@ -1,4 +1,4 @@
-# FSDP
+# [FSDP](FSDP.md)
 
 
 * 第一尖鋭回折ピーク First Sharp Diffraction Peak
@@ -8,12 +8,15 @@
 
 
 
-[MBO2008](MBO2008.md) 
+[[MBO2008](MBO2008.md)]([MBO2008](MBO2008.md).md) 
 
 
 ## Linked from
 
+* [FSDP](FSDP.md)
 * [MBO2008](MBO2008.md)
+* [vitrite](vitrite.md)
+* [解決した問題](解決した問題.md)
 
 
 ----

@@ -14,17 +14,20 @@ basicConfig(level=INFO)
 logger = getLogger()
 
 
-def kw_proc(word, words):
-    words.add(word)
-    return ""
-    # return "[{0}]({0}.md)".format(word)
-
 def hashtag_proc(x, words):
     words.add(x)
     return ""
     # return "[{0}]({0}.md)".format(x) + " "
 
+from ktree import *
+
 keywords = [fn[:-3] for fn in glob.glob("*.md")]
+kwtree = keyword_tree(keywords)
+logger.info(kwtree)
+
+if __name__ == "__main__":
+    for word in ("かもめだった", "LDAがいい", "ice T研究のため", "ice T3", "ice T"):
+        print(word, keyword_find(word, kwtree))
 
 def process_keywords(filename, lines, autolink=False):
     words = set()
@@ -32,9 +35,16 @@ def process_keywords(filename, lines, autolink=False):
     for mode, line in lines:
         if mode == "normal":
             if autolink:
-                if not re.search("^#+\s", line):
-                    for keyword in keywords:
-                        line = re.sub("[^#]("+keyword+")", lambda x:kw_proc(x.group(1), words), line)
+                head = 0
+                processed = ""
+                # logger.info(line)
+                while head < len(line):
+                    found = keyword_find(line[head:], kwtree)
+                    if found:
+                        words.add(line[head:head+found])
+                        head += found
+                    else:
+                        head += 1
             # hashtag
             line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1), words), line)
 

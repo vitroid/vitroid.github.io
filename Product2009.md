@@ -1,13 +1,16 @@
-# Product2009
+# [Product2009](Product2009.md)
 
 
-* Development of the first [TrainScanner](http://github.com/vitroid/TrainScanner)
-* [First trainscan image](https://www.flickr.com/photos/vitroids/3738207261)
+* Development of the first [[TrainScanner](TrainScanner.md)](http://github.com/[vitroid](vitroid.md)/[TrainScanner](TrainScanner.md))
+* [First trainscan image](https://www.flickr.com/photos/[vitroid](vitroid.md)s/3738207261)
 * Designed the symbol mark for the [Sugiyama Jogakuen Orchestra](http://sugioke.wordpress.com/)
 
 [artworks](artworks.md) 
 
 
+## Linked from
+
+* [Product2009](Product2009.md)
 
 
 ----

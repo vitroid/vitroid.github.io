@@ -1,4 +1,4 @@
-# Product2014
+# [Product2014](Product2014.md)
 
 
 * First thing for the 3D printer I designed and submitted to the [Thingiverse](http://www.thingiverse.com/thing:346416)
@@ -13,6 +13,9 @@
 [artworks](artworks.md) 
 
 
+## Linked from
+
+* [Product2014](Product2014.md)
 
 
 ----

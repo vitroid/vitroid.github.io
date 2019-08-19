@@ -1,6 +1,6 @@
-# ice T
+# [ice T](ice T.md)
 
-Ice "T"* is a partial plastic ice discovered when liquid water is coexistent with ice VII at a very high pressure by computer simulations, and it is a stable phase for TIP4P/2005 water model.[HYMT2017](HYMT2017.md)  [YMT2018](YMT2018.md) 
+Ice "T"* is a partial plastic ice discovered when liquid water is coexistent with ice VII at a very high pressure by computer simulations, and it is a stable phase for TIP4P/2005 water model.[HYMT2017](HYMT2017.md) [YMT2018](YMT2018.md)
 
 氷Tは液体の水と氷VIIが共存するシミュレーションにおいて生じた、新たな部分的プラスチック氷で、TIP4P/2005水モデルでは安定相の一つと考えられます。
 
@@ -13,6 +13,13 @@ Ice "T"* is a partial plastic ice discovered when liquid water is coexistent wit
 
 
 [water](water.md) [ice](ice.md) [research](research.md) 
+## Linked from
+
+* [3Dプリンタ用データ](3Dプリンタ用データ.md)
+* [HYMT2017](HYMT2017.md)
+* [ice T](ice T.md)
+* [ice T2](ice T2.md)
+* [研究テーマ](研究テーマ.md)
 
 
 ----

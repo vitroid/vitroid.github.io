@@ -1,4 +1,4 @@
-# YHNMT2014
+# [YHNMT2014](YHNMT2014.md)
 
 Takuma Yagasaki, Kazuhiro Himoto, Tatsuya Nakamura, Masakazu Matsumoto, Hideki Tanaka
 
@@ -11,11 +11,12 @@ Molecular Simulation 41, 868-873 (2014).
 
 
 
-[water](water.md) [research](research.md) [papers](papers.md) [paper2014](paper2014.md) 
+[water](water.md) [research](research.md) [[papers](papers.md)]([papers](papers.md).md) [paper2014](paper2014.md) 
 
 
 ## Linked from
 
+* [YHNMT2014](YHNMT2014.md)
 * [papers](papers.md)
 
 

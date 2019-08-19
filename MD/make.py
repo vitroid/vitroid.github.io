@@ -8,9 +8,9 @@ import pickle
 from logging import getLogger, basicConfig, INFO, DEBUG
 basicConfig(level=INFO)
 import re
-        
+from ktree import *        
 
-def makeindex():
+def visualindex():
     newest = sorted([x for x in glob.glob("*.md")], key=lambda x: os.path.getmtime(x))
     s = ""
     
@@ -52,7 +52,7 @@ def hashtag_proc(x):
     return "[{0}]({0}.md)".format(x) + " "
 
 
-def formatPage(title, target, keywords, processed=None, linked=None, autolink=False):
+def formatPage(title, target, kwtree, processed=None, linked=None, autolink=False):
     """
     Format a page from a parsed page and a link list.
     """
@@ -66,16 +66,24 @@ def formatPage(title, target, keywords, processed=None, linked=None, autolink=Fa
                 if mode == "normal":
                     # process autolinks
                     if autolink:
-                        if not re.search("^#+\s", line):
-                            for keyword in keywords:
-                                line = re.sub("[^#]("+keyword+")", lambda x:kw_proc(x.group(1)), line)
+                        head = 0
+                        processed = ""
+                        while head < len(line):
+                            found = keyword_find(line[head:], kwtree)
+                            if found:
+                                # logger.info(line[:head])
+                                prefix = line[:head] + "[{0}]({0}.md)".format(line[head:head+found])
+                                line = prefix + line[head+found:]
+                                head = len(prefix)
+                            else:
+                                head += 1
                     # process hashtag
                     line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1)), line)
                 file.write(line)
         if linked is not None:
             if os.path.exists(linked):
                 links = list(pickle.load(open(linked, "rb")))
-                logger.info(links)
+                # logger.info(links)
                 file.write("## Linked from\n\n")
                 for link in sorted(links):
                     file.write("* [{1}]({0})\n".format(link, link[:-3]))
@@ -89,7 +97,7 @@ for file in glob.glob("*.sb"):
     if not os.path.exists(mdfile) or os.path.getmtime(mdfile) < os.path.getmtime(file):
         title = file[:-3]
         lines = open(file).readlines()
-        md = s2m.scrapbox2md(title, lines)
+        md = s2m.scrapbox2md(title, lines, autolink=True)
         open(mdfile, "w").write(md)
         
 for file in glob.glob("*.md"):
@@ -98,12 +106,12 @@ for file in glob.glob("*.md"):
         # if the original md is editted
         # md_parser adds line attributes
         md = [x for x in md_parser(file)]
-        pk.process_keywords(file, md)
+        pk.process_keywords(file, md, autolink=True)
 
 
 pages = [file[:-3]      for file in glob.glob("*.md")]
 words = [file[:-7][7:]  for file in glob.glob("../ref/*.pickle")]
-
+kwtree = keyword_tree(pages)
 
 for page in pages:
     processed = page + ".md"
@@ -117,7 +125,8 @@ for page in pages:
     elif os.path.exists(linked) and os.path.getmtime(target) < os.path.getmtime(linked):
         go = True
     if go:
-        formatPage(page, target, keywords=pages, processed=processed, linked=linked)
+        formatPage(page, target, kwtree, processed=processed, linked=linked, autolink=True)
+
 
 for page in words:
     processed = page + ".md"
@@ -125,7 +134,7 @@ for page in words:
     target    = "../" + page + ".md"
     if (not os.path.exists(target)) or ( (not os.path.exists(processed))
                                          and os.path.getmtime(target) < os.path.getmtime(linked)):
-        formatPage(page, target, keywords=pages, linked=linked)
+        formatPage(page, target, kwtree, linked=linked, autolink=True)
 
 with open("index.md") as f:
-    open("../index.md", "w").write(f.read() + makeindex())
+    open("../index.md", "w").write(f.read() + visualindex())

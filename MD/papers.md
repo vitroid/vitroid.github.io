@@ -7,160 +7,160 @@
 #paper2019
 
 
-* #TYM2019 
-* #YYMT2019 
-* #MYT2019 
-* #HYMT2019 
-* #MM2019 
-* #MYMT2019 
-* #YMT2019 
-* #YMT2019a 
+* TYM2019
+* YYMT2019
+* MYT2019
+* HYMT2019
+* MM2019
+* MYMT2019
+* YMT2019
+* YMT2019a
 
 
 
 #paper2018
 
 
-* #YMT2018 
-* #YMT2018a 
-* #TYM2018 
+* YMT2018
+* YMT2018a
+* TYM2018
 
 
 
 #paper2017
 
 
-* #MHYMT2017 
-* #HYMT2017 
-* #TYM2017 
-* #MYT2017 
+* MHYMT2017
+* HYMT2017
+* TYM2017
+* MYT2017
 * 
 
 #paper2016
 
 
-* #NMYT2016 
-* #YMT2016 
-* #YMT2016a 
-* #YMT2016b 
+* NMYT2016
+* YMT2016
+* YMT2016a
+* YMT2016b
 
 
 
 #paper2015
 
 
-* #MYT2015 
-* #YMT2015 
-* #YMT2015a 
-* #YMT2015b 
-* #YMT2015c 
+* MYT2015
+* YMT2015
+* YMT2015a
+* YMT2015b
+* YMT2015c
 
 
 
 #paper2014
 
 
-* #YMT2014 
-* #MHM2014 
-* #HMT2014 
-* #MHT2014 
-* #YMAOT2014 
-* #YMAOT2014a 
-* #YHNMT2014 
+* YMT2014
+* MHM2014
+* HMT2014
+* MHT2014
+* YMAOT2014
+* YMAOT2014a
+* YHNMT2014
 
 
 
 #paper2013
 
 
-* #MMO2013 
-* #NMT2013 
+* MMO2013
+* NMT2013
 
 
 
 #paper2012
 
 
-* #MT2012 
-* #HMT2012 
-* #HMKT2012 
-* #MTMT2012 
-* #YMT2012 
+* MT2012
+* HMT2012
+* HMKT2012
+* MTMT2012
+* YMT2012
 
 
 
 #paper2011
 
 
-* #MT2011 
-* #TM2011 
-* #HMT2011 
-* #JMM2011 
+* MT2011
+* TM2011
+* HMT2011
+* JMM2011
 
 
 
 #paper2010
 
 
-* #M2010 
+* M2010
 
 
 
 #paper2009
 
 
-* #M2009 
+* M2009
 
 
 
 #paper2008
 
 
-* #MBO2008 
+* MBO2008
 
 
 
 #paper2007
 
 
-* #M2007 
-* #MBO2007 
+* M2007
+* MBO2007
 
 
 
 #paper2002
 
 
-* #MSO2002 
+* MSO2002
 
 
 
 #paper1999
 
 
-* #SMO1999 
+* SMO1999
 
 
 
 #paper1998
 
 
-* #BTSMO1998 
+* BTSMO1998
 
 
 
 #paper1996
 
 
-* #MO1996 
-* #M1996 
+* MO1996
+* M1996
 
 
 
 #paper1993
 
 
-* #MTN1993 
+* MTN1993
 
 
 

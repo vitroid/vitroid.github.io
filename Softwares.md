@@ -1,8 +1,11 @@
-# Softwares
+# [Softwares](Softwares.md)
 
 [software](software.md) 
 
 
+## Linked from
+
+* [Softwares](Softwares.md)
 
 
 ----

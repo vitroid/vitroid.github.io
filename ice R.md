@@ -1,7 +1,7 @@
-# ice R
+# [ice R](ice R.md)
 
 [water](water.md) [research](research.md) [ice](ice.md) 
-Ice "R"* is a partial plastic ice discovered when liquid water is compressed to a very high pressure by computer simulations,[MHM2014](MHM2014.md)  and is a stable phase fpr TIP4P/2005 water model.[HYMT2017](HYMT2017.md) ,[YMT2018](YMT2018.md)  It has the same structure as high-pressure methane A crystal.
+Ice "R"* is a partial plastic ice discovered when liquid water is compressed to a very high pressure by computer simulations,[MHM2014](MHM2014.md) and is a stable phase fpr TIP4P/2005 water model.[HYMT2017](HYMT2017.md),[YMT2018](YMT2018.md) It has the same structure as high-pressure methane A crystal.
 
 
 
@@ -20,6 +20,12 @@ Ice "R"* is a partial plastic ice discovered when liquid water is compressed to 
 
 
 
+## Linked from
+
+* [3Dプリンタ用データ](3Dプリンタ用データ.md)
+* [MHM2014](MHM2014.md)
+* [ice R](ice R.md)
+* [研究テーマ](研究テーマ.md)
 
 
 ----
