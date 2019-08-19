@@ -24,33 +24,37 @@ def hashtag_proc(x, words):
 
 keywords = [fn[:-3] for fn in glob.glob("*.md")]
 
-def process_keywords(filename, outfilename, autolink=False):
-    logger.info(filename)
+def process_keywords(filename, lines, autolink=False):
     words = set()
     parsed = ""
-    for line in open(filename).readlines():
+    for line in lines.splitlines():
+        line += "\n"
         if autolink:
             if not re.search("^#+\s", line):
                 for keyword in keywords:
                     line = re.sub("[^#]("+keyword+")", lambda x:kw_proc(x.group(1), words), line)
         line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1), words), line)
+# normal link to wordlist
+#        if not autolink:
+#            line = re.sub(r"\[[^\]]*\]", lambda x:bracket_proc(x.group(), autolink), line)
         parsed += line
 
     for word in words:
-        if len(tuple(sf.sfind(word, '[]!"(),;'))):
+        if len(tuple(sf.sfind(word, '/[]!"(),;'))):
             logger.info("ELIM {0}".format(word))
             continue
         referfrom = "../ref/{0}.pickle".format(word)
         if os.path.exists(referfrom):
+            logger.info("Update linklist {0}".format(word))
             with open(referfrom, mode='rb') as f:
                 S = pickle.load(f)
         else:
             S = set()
+            logger.info("Create linklist {0}".format(word))
         S.add(filename)
         with open(referfrom, mode='wb') as f:
             pickle.dump(S, f)
 
     logger.info(words)
-    with open(outfilename, "w") as f:
-        f.write(parsed)
+    return parsed
 

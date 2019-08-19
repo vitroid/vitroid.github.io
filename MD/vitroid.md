@@ -1,6 +1,6 @@
 # vitroid
 
-[](https://lh3.googleusercontent.com/-SaMpA8VH7Dk/AAAAAAAAAAI/AAAAAAAAApA/5UGpkOZM6aQ/photo.jpg)
+![](https://lh3.googleusercontent.com/-SaMpA8VH7Dk/AAAAAAAAAAI/AAAAAAAAApA/5UGpkOZM6aQ/photo.jpg)
 
 
 
@@ -12,11 +12,9 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 
 ## 以下は設定です。気にしないで下さい。
 
-     scrapbox.TimeStamp.addFormat(' #YYYY-MM-DD ')
+     scrapbox.TimeStamp.addFormat(' [YYYY-MM-DD](YYYY-MM-DD.md) ')
     .line strong {
-        border-bottom:1px solid #426579;
-        border-left:10px solid #426579;
-        padding:7px;
+        border-bottom:1px solid [426579;](426579;.md)         border-left:10px solid [426579;](426579;.md)         padding:7px;
         width: 100%;
     }
 

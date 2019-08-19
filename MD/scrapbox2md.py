@@ -12,13 +12,21 @@ def bracket_proc(x, autolink=False):
         # Icons are not available.
         return ""
     elements = x.split(" ")
+    extlink = False
     if elements[0][:4] == "http":
         url   = elements[0]
         label = " ".join(elements[1:])
-        return "[{0}]({1})".format(label, url)
+        extlink = True
     elif elements[-1][:4] == "http":
         url   = elements[-1]
         label = " ".join(elements[:-1])
+        extlink = True
+    if extlink:
+        if url[-3:] in ("jpg", "png"):
+            return "![{0}]({1})".format(label, url)
+        if url[:17] == "https://gyazo.com":
+            url = "https://i.gyazo.com" + url[17:]+".jpg"
+            return "![{0}]({1})".format(label, url)
         return "[{0}]({1})".format(label, url)
     elif elements[0] == "$":
         # math tex
@@ -57,11 +65,7 @@ def head_spaces(x):
 basicConfig(level=INFO)
 
 
-def scrapbox2md(sbfile, mdfile, autolink=False):
-    open(mdfile, "w").write(s2m_lines(open(sbfile).readlines(), autolink))
-
-
-def s2m_lines(lines, autolink=False):
+def scrapbox2md(title, lines, autolink=False):
     logger = getLogger()
     s = ""
     code = False

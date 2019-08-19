@@ -1,6 +1,6 @@
 # vitroid
 
-[](https://lh3.googleusercontent.com/-SaMpA8VH7Dk/AAAAAAAAAAI/AAAAAAAAApA/5UGpkOZM6aQ/photo.jpg)
+![](https://lh3.googleusercontent.com/-SaMpA8VH7Dk/AAAAAAAAAAI/AAAAAAAAApA/5UGpkOZM6aQ/photo.jpg)
 
 
 
@@ -20,6 +20,10 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 
 [member](member.md) [2018-10-22](2018-10-22.md) 
 
+## Linked from
+
+* [QR code](QR code.md)
+* [Tracking](Tracking.md)
 
 
 ----

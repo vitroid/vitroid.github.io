@@ -34,32 +34,23 @@ def formatPage(title, target, processed=None, linked=None):
         
                 
             
-            
-
-
-
-
 
 for file in glob.glob("*.sb"):
-    md = file[:-2] + "md"
-    if not os.path.exists(md) or os.path.getmtime(md) < os.path.getmtime(file):
-        print(md)
-        s2m.scrapbox2md(file, md)
-
-for file in glob.glob("*.md"):
-    processed = "../processed/" + file
-    if not os.path.exists(processed) or os.path.getmtime(processed) < os.path.getmtime(file):
-        print(processed)
-        pk.process_keywords(file, processed)
+    mdfile = file[:-2] + "md"
+    if not os.path.exists(mdfile) or os.path.getmtime(mdfile) < os.path.getmtime(file):
+        title = file[:-3]
+        lines = open(file).readlines()
+        md = s2m.scrapbox2md(title, lines)
+        procmd = pk.process_keywords(mdfile, md)
+        open(mdfile, "w").write(procmd)
 
 
-
-pages = [file[:-3][13:] for file in glob.glob("../processed/*.md")]
+pages = [file[:-3]      for file in glob.glob("*.md")]
 words = [file[:-7][7:]  for file in glob.glob("../ref/*.pickle")]
 
 
 for page in pages:
-    processed = "../processed/" + page + ".md"
+    processed = page + ".md"
     linked    = "../ref/" + page + ".pickle"
     target    = "../" + page + ".md"
     go = False
@@ -73,7 +64,7 @@ for page in pages:
         formatPage(page, target, processed=processed, linked=linked)
 
     for page in words:
-        processed = "../processed/" + page + ".md"
+        processed = page + ".md"
         linked    = "../ref/" + page + ".pickle"
         target    = "../" + page + ".md"
         if not os.path.exists(target) or (not os.path.exists(processed)

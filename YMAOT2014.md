@@ -16,10 +16,13 @@ http://doi.org/10.1021/jp412692d
 
 
 
-[water](water.md) [clathratehydrate](clathratehydrate.md) [research](research.md) [papers](papers.md) [paper2014](paper2014.md)
+[water](water.md) [clathratehydrate](clathratehydrate.md) [research](research.md) [papers](papers.md) [paper2014](paper2014.md) 
 
 
+## Linked from
 
+* [papers](papers.md)
+* [解決した問題](解決した問題.md)
 
 
 ----

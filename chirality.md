@@ -1,6 +1,6 @@
 # chirality
 
-[](https://gyazo.com/b20a991dbfbf3df77180b408e51a3f0d)
+![](https://i.gyazo.com/b20a991dbfbf3df77180b408e51a3f0d.jpg)
 
 すこしひねった六員環だけでできた、キラルな水の構造。
 
@@ -12,6 +12,9 @@
 
 
 
+## Linked from
+
+* [フラグメント](フラグメント.md)
 
 
 ----

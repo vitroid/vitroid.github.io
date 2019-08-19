@@ -1,11 +1,10 @@
 # Ice Nanotube
 
-[](https://gyazo.com/d89a80878e507ca0aae1afce8c4e75c8)
+![](https://i.gyazo.com/d89a80878e507ca0aae1afce8c4e75c8.jpg)
 
 
 
-[python](python.md) [code](code.md) [NodeBox](NodeBox.md) [nanotube](nanotube.md) [visualization](visualization.md)
-
+[python](python.md) [code](code.md) [NodeBox](NodeBox.md) [nanotube](nanotube.md) [visualization](visualization.md) 
 シンプルにしたが、頂点に○が書けなくなった。頂点・面・辺の描き順はいい解決策がない。
 
 キラルなナノチューブも自在に描けると便利かな。
@@ -164,11 +163,11 @@
     r=12.8/2
     n = 16
     hexagons = hextube(r,n,9,
-                       stroke_width=1, fill="#fff", stroke="#000", fill_opacity=0.7)
+                       stroke_width=1, fill="[fff",](fff",.md) stroke="[000",](000",.md) fill_opacity=0.7)
     r = 2.75
     n = 6
     squares  = squaretube(r,n,17,
-                          stroke_width=2, fill="#fff", stroke="#000", fill_opacity=0.7)
+                          stroke_width=2, fill="[fff",](fff",.md) stroke="[000",](000",.md) fill_opacity=0.7)
     
    	# 表示方法 
     theta = 1.3      # ANGLE
@@ -312,8 +311,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
     
     # backside hexagons
     fill = (1,1,1,0.7)
-    stroke = "#000"
-    stroke_width = 1
+    stroke = "[000"](000".md)     stroke_width = 1
     svg = sw.Drawing()
     group = svg.add( svg.g( id="test" ) )
     for hexagon in hexagons:
@@ -327,7 +325,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 p.append(["L", vertex[0]*10+offsx, vertex[1]*10+offsy])
             p.append(["Z"])
-            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="#fff", stroke=stroke)
+            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="[fff",](fff",.md) stroke=stroke)
             group.add(path)
     # strokewidth(2)
     # for v0,v1 in bonds:
@@ -346,8 +344,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
     
     # backside squares
     fill = 1,1,1,0.7
-    stroke = "#000"
-    stroke_width = 2
+    stroke = "[000"](000".md)     stroke_width = 2
     for square in squares:
         projected = []
         for vertex in square:
@@ -359,7 +356,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 p.append(["L", vertex[0]*10+offsx, vertex[1]*10+offsy])
             p.append("Z")
-            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="#fff", stroke=stroke, fill_opacity=0.7)
+            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="[fff",](fff",.md) stroke=stroke, fill_opacity=0.7)
             group.add(path)
             
     # backside atoms
@@ -371,7 +368,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
         if n[2] > 0:
             for vertex in projected:
                 u = sw.shapes.Ellipse(center=(vertex[0]*10+offsx, vertex[1]*10+offsy), r=(3,3),
-                                     stroke_width=stroke_width, stroke=stroke, fill="#fff", fill_opacity=0.7)
+                                     stroke_width=stroke_width, stroke=stroke, fill="[fff",](fff",.md) fill_opacity=0.7)
                 group.add(u)
     
     # frontside squares
@@ -386,7 +383,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 p.append(["L", vertex[0]*10+offsx, vertex[1]*10+offsy])
             p.append("Z")
-            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="#fff", stroke=stroke, fill_opacity=0.7)
+            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="[fff",](fff",.md) stroke=stroke, fill_opacity=0.7)
             group.add(path)
     
     # frontside atoms
@@ -398,14 +395,12 @@ svgwriteを使ってpythonでsvgを出力するように変更。
         if n[2] < 0:
             for vertex in projected:
                 u = sw.shapes.Ellipse(center=(vertex[0]*10+offsx, vertex[1]*10+offsy), r=(3,3),
-                                      stroke_width=stroke_width, stroke=stroke, fill="#fff",
-                                      fill_opacity=0.7)
+                                      stroke_width=stroke_width, stroke=stroke, fill="[fff",](fff",.md)                                       fill_opacity=0.7)
                 group.add(u)
     
     # frontside hexagons
     fill = (1,1,1,0.7)
-    stroke = "#000"
-    stroke_width = 1
+    stroke = "[000"](000".md)     stroke_width = 1
     for hexagon in hexagons:
         projected = []
         for vertex in hexagon:
@@ -417,14 +412,14 @@ svgwriteを使ってpythonでsvgを出力するように変更。
             for vertex in projected:
                 p.append(["L", vertex[0]*10+offsx, vertex[1]*10+offsy])
             p.append("Z")
-            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="#fff", stroke=stroke, fill_opacity=0.7)
+            path = sw.path.Path(d=p, stroke_width=stroke_width, fill="[fff",](fff",.md) stroke=stroke, fill_opacity=0.7)
             group.add(path)
     
     print(svg.tostring())
 
 
 
-NodeBox用の古いコード。numpyとSVGで書きなおしたいね。
+[NodeBox](NodeBox.md) 用の古いコード。numpyとSVGで書きなおしたいね。
 
     def hextube(r,n,m):
         l = r*sin(pi/n)/sqrt(3.0)*2

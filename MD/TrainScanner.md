@@ -6,11 +6,10 @@
 
 
 
-[](https://live.staticflickr.com/1736/40895510390_54f5c89f99_k_d.jpg)
+![](https://live.staticflickr.com/1736/40895510390_54f5c89f99_k_d.jpg)
 
 
 
-[software](software.md)
-
+[software](software.md) 
 
 

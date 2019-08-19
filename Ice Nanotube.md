@@ -1,11 +1,10 @@
 # Ice Nanotube
 
-[](https://gyazo.com/d89a80878e507ca0aae1afce8c4e75c8)
+![](https://i.gyazo.com/d89a80878e507ca0aae1afce8c4e75c8.jpg)
 
 
 
-[python](python.md) [code](code.md) [NodeBox](NodeBox.md) [nanotube](nanotube.md) [visualization](visualization.md)
-
+[python](python.md) [code](code.md) [NodeBox](NodeBox.md) [nanotube](nanotube.md) [visualization](visualization.md) 
 シンプルにしたが、頂点に○が書けなくなった。頂点・面・辺の描き順はいい解決策がない。
 
 キラルなナノチューブも自在に描けると便利かな。
@@ -420,7 +419,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
 
 
 
-NodeBox用の古いコード。numpyとSVGで書きなおしたいね。
+[NodeBox](NodeBox.md) 用の古いコード。numpyとSVGで書きなおしたいね。
 
     def hextube(r,n,m):
         l = r*sin(pi/n)/sqrt(3.0)*2

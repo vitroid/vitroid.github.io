@@ -1,6 +1,6 @@
 # GenIce
 
-[](https://raw.githubusercontent.com/vitroid/GenIce/develop/logo/genice-v0.png)
+![](https://raw.githubusercontent.com/vitroid/GenIce/develop/logo/genice-v0.png)
 
 A Swiss army knife to generate hydrogen-disordered ice structures.
 
@@ -17,6 +17,10 @@ A Swiss army knife to generate hydrogen-disordered ice structures.
 
 
 
+## Linked from
+
+* [3Dプリンタ用データ](3Dプリンタ用データ.md)
+* [MYT2017](MYT2017.md)
 
 
 ----

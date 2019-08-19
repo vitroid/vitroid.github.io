@@ -2,9 +2,9 @@
 
 松本 正和
 
-vitroid.icon岡山大学異分野基礎科学研究所 准教授
+[岡山大学異分野基礎科学研究所](岡山大学異分野基礎科学研究所.md)  准教授
 
-/icons/Google Scholar.icon[Google Scholar](https://scholar.google.com/citations?user=NBbReDMAAAAJ)
+[Google Scholar](https://scholar.google.com/citations?user=NBbReDMAAAAJ)
 
 ## 学歴 
 
@@ -44,14 +44,14 @@ vitroid.icon岡山大学異分野基礎科学研究所 准教授
 
 
 
-* 研究
-* papers
-* 講義
+* [研究](研究.md) 
+* [papers](papers.md) 
+* [講義](講義.md) 
 
 
 
 
-* もう少し個人的な情報
+* [もう少し個人的な情報](もう少し個人的な情報.md) 
 
 
 

@@ -5,13 +5,12 @@
 
 
 
-[](https://live.staticflickr.com/4646/38796921564_42c4549c73_k_d.jpg)
+![](https://live.staticflickr.com/4646/38796921564_42c4549c73_k_d.jpg)
 
 
 
 
 
-[software](software.md)
-
+[software](software.md) 
 
 

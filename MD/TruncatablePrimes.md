@@ -4,7 +4,7 @@
 
 切り捨て可能な素数とは、上から順に1桁ずつ削っていっても素数でありつづける数である。
 
-[](https://gyazo.com/f7579232b43d580e0900c4f0b7d5cd17)
+![](https://i.gyazo.com/f7579232b43d580e0900c4f0b7d5cd17.jpg)
 
 https://community.wolfram.com/groups/-/m/t/1569707/?wal_campaign={"campaign"%3A"insider4415_wave1"%2C"keyword"%3A"JPInsider2019-1"%2C"userEmail"%3A"1370"}
 
@@ -66,9 +66,8 @@ table:切り捨て可能な素数
 
 ということで、長い鉛筆を作る場合には18進数がおすすめ。
 
-[python](python.md) [software](software.md) [雑記](雑記.md)
-
-[2019-01-25](2019-01-25.md) vitroid.icon
+[python](python.md) [software](software.md) [雑記](雑記.md) 
+[2019-01-25](2019-01-25.md) 
 
 
 
