@@ -1,9 +1,9 @@
 # vitroid's wiki
 
-[water](water.md)
-[research](research.md)
-[gallery](gallery.md)
-[software](software.md)
-[雑記](雑記.md)
+#water
+#research
+#visualization
+#software
+#雑記
 
 [gimmick: math]()
