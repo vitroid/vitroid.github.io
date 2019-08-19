@@ -1,6 +1,6 @@
 # [papers](papers.md)
 
-[[著作](著作.md)]([著作](著作.md).md) 
+[著作](著作.md) 
 (少しずつ追加しています)
 
 [paper2019](paper2019.md) 
@@ -145,7 +145,7 @@
 
 
 
-[research](research.md) [[papers](papers.md)]([papers](papers.md).md) 
+[research](research.md) [papers](papers.md) 
 
 
 ## Linked from

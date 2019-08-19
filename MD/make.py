@@ -69,6 +69,11 @@ def formatPage(title, target, kwtree, processed=None, linked=None, autolink=Fals
                         head = 0
                         processed = ""
                         while head < len(line):
+                            if line[head] == "#":
+                                logger.info("skip hashtag at {0}".format(line[head:]))
+                                # skip hashtag
+                                head += 2
+                                continue
                             found = keyword_find(line[head:], kwtree)
                             if found:
                                 # logger.info(line[:head])

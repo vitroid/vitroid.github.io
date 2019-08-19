@@ -8,7 +8,7 @@
 
 
 
-[water](water.md) [[vitrite](vitrite.md)]([vitrite](vitrite.md).md) [[フラグメント](フラグメント.md)]([フラグメント](フラグメント.md).md) [twist](twist.md)  [2018-10-23](2018-10-23.md) 
+[water](water.md) [vitrite](vitrite.md) [フラグメント](フラグメント.md) [twist](twist.md)  [2018-10-23](2018-10-23.md) 
 
 
 

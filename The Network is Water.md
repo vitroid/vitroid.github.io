@@ -20,7 +20,7 @@ Sun Microsystemsの商標 "The Network is the Computer."をもじった言葉。
 
 ([2006](2006.md)/8/28)
 
-[water](water.md) [[Networkism](Networkism.md)]([Networkism](Networkism.md).md) 
+[water](water.md) [Networkism](Networkism.md) 
 
 
 ## Linked from

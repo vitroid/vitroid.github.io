@@ -39,6 +39,9 @@ def process_keywords(filename, lines, autolink=False):
                 processed = ""
                 # logger.info(line)
                 while head < len(line):
+                    if line[head] == "#":
+                        head += 2
+                        continue
                     found = keyword_find(line[head:], kwtree)
                     if found:
                         words.add(line[head:head+found])

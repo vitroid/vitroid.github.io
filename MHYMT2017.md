@@ -30,7 +30,7 @@ J. Chem. Phys. 147, 091101 (2017).
 
 
 
-[water](water.md) [research](research.md) [[aeroice](aeroice.md)]([aeroice](aeroice.md).md) [[papers](papers.md)]([papers](papers.md).md) [paper2017](paper2017.md) 
+[water](water.md) [research](research.md) [aeroice](aeroice.md) [papers](papers.md) [paper2017](paper2017.md) 
 
 
 ## Linked from

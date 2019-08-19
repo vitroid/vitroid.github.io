@@ -11,7 +11,7 @@ Molecular Simulation 41, 868-873 (2014).
 
 
 
-[water](water.md) [research](research.md) [[papers](papers.md)]([papers](papers.md).md) [paper2014](paper2014.md) 
+[water](water.md) [research](research.md) [papers](papers.md) [paper2014](paper2014.md) 
 
 
 ## Linked from
