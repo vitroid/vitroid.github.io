@@ -1,0 +1,6 @@
+plugins:
+  - jekyll-sitemap
+  - jekyll-mentions
+
+theme: jekyll-theme-minimal
+
