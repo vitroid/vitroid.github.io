@@ -8,9 +8,9 @@
 * [Tracking](Tracking.md)
 
 ## Visual Index
-[![](https://i.gyazo.com/d74dcfdddee93b27ca84489a54dbf736.png)](年賀2018.md)
+[![](https://i.gyazo.com/d74dcfdddee93b27ca84489a54dbf736.png)](年賀2018.html)
 [![](https://i.gyazo.com/60b5d01724897fb6c18d9b725009baa9.png)](YMT2016a.md)
-[![](http://3.bp.blogspot.com/-sR0bha75Kb0/TWRoKFeor9I/AAAAAAAABOI/GYsJDI5xvn0/s1600/twist+water.jpg)](twist water.md)
+[![](http://3.bp.blogspot.com/-sR0bha75Kb0/TWRoKFeor9I/AAAAAAAABOI/GYsJDI5xvn0/s1600/twist+water.jpg)](twist water)
 
 [![](https://i.gyazo.com/f7579232b43d580e0900c4f0b7d5cd17.png)](TruncatablePrimes.md)
 [![](https://wol-prod-cdn.literatumonline.com/cms/attachment/871e128c-d576-404c-b9bf-1db332d7e07b/jcc25119-toc-0001-m.jpg)](MYT2017.md)
