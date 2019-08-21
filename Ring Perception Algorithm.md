@@ -1,16 +1,5 @@
 ---
 ---
-# [Ring Perception Algorithm](/Ring Perception Algorithm)
-
-[analysis](/analysis) [software](/software) 
-We develop the ring perception algorithm.
-
-All the contents are moved to the [GitHub/CountRings](https://github.com/[vitroid](/vitroid)/CountRIngs).
-
-
-
-
-
 ## Linked from
 
 * [Ring Perception Algorithm](Ring Perception Algorithm.md)

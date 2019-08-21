@@ -73,24 +73,35 @@ def formatPage(title, target, kwtree, processed=None, linked=None, autolink=Fals
                     # process autolinks
                     if autolink:
                         head = 0
-                        while head < len(line):
-                            if line[head] == "#":
-                                logger.info("skip hashtag at {0}".format(line[head:]))
-                                # skip hashtag
-                                head += 2
+                        s = ""
+                        while len(line):
+                            if line[0] == "#":
+                                # might be a hashtag
+                                if line[1] not in "# ":
+                                    # it is a hashtag
+                                    m = re.search(r"\s", line[1:])
+                                    if m:
+                                        logger.info((m.span(),line))
+                                        logger.info(line[head+1:head+1+m.span()[0]])
+                                        s += "[{0}](/{0})".format(line[1:1+m.span()[0]])
+                                        line = line[m.span()[1]:]
+                                        continue
+                                s += line[0]
+                                line = line[1:]
                                 continue
-                            found = keyword_find(line[head:], kwtree)
+                            found = keyword_find(line, kwtree)
                             if found:
                                 # logger.info(line[:head])
                                 # for jekyll
-                                prefix = line[:head] + "[{0}](/{0})".format(line[head:head+found])
+                                s += "[{0}](/{0})".format(line[:found])
                                 #prefix = line[:head] + "[{0}]({0}.md)".format(line[head:head+found])
-                                line = prefix + line[head+found:]
-                                head = len(prefix)
+                                line = line[found:]
                             else:
-                                head += 1
-                    # process hashtag
-                    line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1)), line)
+                                s += line[0]
+                                line = line[1:]
+                    else:
+                        # process hashtag
+                        line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1)), line)
                 file.write(line)
         if linked is not None:
             if os.path.exists(linked):

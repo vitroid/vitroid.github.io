@@ -1,10 +1,5 @@
 ---
 ---
-# [Softwares](/Softwares)
-
-[software](/software) 
-
-
 ## Linked from
 
 * [Softwares](Softwares.md)

@@ -40,7 +40,15 @@ def process_keywords(filename, lines, autolink=False):
                 # logger.info(line)
                 while head < len(line):
                     if line[head] == "#":
-                        head += 2
+                        # might be a hashtag
+                        if line[head+1] not in "# ":
+                            # it is a hashtag
+                            m = re.search(r"\s", line[head+1:])
+                            if m:
+                                words.add(line[head+1:head+1+m.span()[0]])
+                                head += m.span()[1]
+                                continue
+                        head += 1
                         continue
                     found = keyword_find(line[head:], kwtree)
                     if found:
@@ -48,8 +56,9 @@ def process_keywords(filename, lines, autolink=False):
                         head += found
                     else:
                         head += 1
-            # hashtag
-            line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1), words), line)
+            else:
+                # hashtag
+                line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1), words), line)
 
     for word in words:
         if len(tuple(sf.sfind(word, '/[]!"(),;'))):
