@@ -1,3 +1,5 @@
+{% include simple-menu.html %}
+
 ![](https://live.staticflickr.com/7917/46611114124_54653d669c_k_d.jpg)
 
 松本 正和
