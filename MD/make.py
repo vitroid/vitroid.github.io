@@ -62,6 +62,8 @@ def formatPage(title, target, kwtree, processed=None, linked=None, autolink=Fals
     """
     logger = getLogger()
     with open(target, "w") as file:
+        # yaml header (required for custom jekyll)
+        file.write("---\n---\n")
         if processed is None:
             file.write("# {0}\n\n".format(title))
         else:
@@ -71,7 +73,6 @@ def formatPage(title, target, kwtree, processed=None, linked=None, autolink=Fals
                     # process autolinks
                     if autolink:
                         head = 0
-                        processed = ""
                         while head < len(line):
                             if line[head] == "#":
                                 logger.info("skip hashtag at {0}".format(line[head:]))
@@ -147,5 +148,5 @@ for page in words:
                                          and os.path.getmtime(target) < os.path.getmtime(linked)):
         formatPage(page, target, kwtree, linked=linked, autolink=True)
 
-with open("index.md") as f:
-    open("../index.md", "w").write(f.read() + visualindex())
+#with open("index.md") as f:
+#    open("../index.md", "w").write(f.read() + visualindex())

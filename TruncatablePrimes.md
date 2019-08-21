@@ -1,3 +1,5 @@
+---
+---
 # [TruncatablePrimes](TruncatablePrimes)
 
 切り捨て可能な素数をさがす。

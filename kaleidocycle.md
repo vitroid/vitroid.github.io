@@ -1,3 +1,5 @@
+---
+---
 # [kaleidocycle](kaleidocycle)
 
 6つの関節でできた不思議な構造。πendさん https://twitter.com/end_tt のtweetで知りました。役には立ちませんが、ただ回るだけのスピナーよりはこっちのほうが面白いです。

@@ -1,3 +1,5 @@
+---
+---
 # [polyamorphism](polyamorphism)
 
 結晶が複数ある(結晶多形)ことをpolymorphismと呼ぶのにひっかけて、複数のアモルファス状態があることを[polyamorphism](polyamorphism)と呼びます。水、シリコン、シリカなどの正四面体型ネットワーク性物質は、[polyamorphism](polyamorphism)を示すめずらしい物質です。東京大学の田中肇先生のグループでは、水以外の物質でもいくつか[polyamorphism](polyamorphism)を示す物質を発見していますが、[polyamorphism](polyamorphism)がどのような系で、どうして起こるかは未解決の問題です。

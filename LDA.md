@@ -1,3 +1,5 @@
+---
+---
 # [LDA](LDA)
 
 ## [LDA](LDA)([低密度アモルファス氷](低密度アモルファス氷), Low-density Amorphous Ice)とは
