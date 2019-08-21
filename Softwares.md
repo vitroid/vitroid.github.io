@@ -1,6 +1,6 @@
-# [Softwares](Softwares.md)
+# [Softwares](Softwares)
 
-[software](software.md) 
+[software](software) 
 
 
 ## Linked from

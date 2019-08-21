@@ -1,17 +1,17 @@
-# [Settings](Settings.md)
+# [Settings](Settings)
 
 
 
 ![](https://i.gyazo.com/641dfa2be02c3674241a26f4d64af4e8.png)
 
-/progfay-pub/[Settings](Settings.md)を参考に。
+/progfay-pub/[Settings](Settings)を参考に。
 
 [color theme]
 
 [https://gyazo.com/2d7af113e5d77a76ff03396a12c37979]
 
     :root {
-   		--bg-color:  [FFFFFF;](FFFFFF;.md)    		--fg-color:  [252525;](252525;.md)    		--highlight: [6BA6DE;](6BA6DE;.md)    		--default:   [999999;](999999;.md)     }
+   		--bg-color:  [FFFFFF;](FFFFFF;)    		--fg-color:  [252525;](252525;)    		--highlight: [6BA6DE;](6BA6DE;)    		--default:   [999999;](999999;)     }
 
 [マーカー]
 
@@ -22,7 +22,7 @@
       margin: 0 1px;
     }
 
-[[で始まるタグをラベル風にする](で始まるタグをラベル風にする.md) ]
+[[で始まるタグをラベル風にする](で始まるタグをラベル風にする) ]
 
     a[type="hashTag"] {
    		display: inline-block;

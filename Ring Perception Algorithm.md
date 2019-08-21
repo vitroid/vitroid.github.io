@@ -1,9 +1,9 @@
-# [Ring Perception Algorithm](Ring Perception Algorithm.md)
+# [Ring Perception Algorithm](Ring Perception Algorithm)
 
-[analysis](analysis.md) [software](software.md) 
+[analysis](analysis) [software](software) 
 We develop the ring perception algorithm.
 
-All the contents are moved to the [GitHub/CountRings](https://github.com/[vitroid](vitroid.md)/CountRIngs).
+All the contents are moved to the [GitHub/CountRings](https://github.com/[vitroid](vitroid)/CountRIngs).
 
 
 

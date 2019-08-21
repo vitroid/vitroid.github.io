@@ -1,4 +1,4 @@
-# [kaleidocycle](kaleidocycle.md)
+# [kaleidocycle](kaleidocycle)
 
 6つの関節でできた不思議な構造。πendさん https://twitter.com/end_tt のtweetで知りました。役には立ちませんが、ただ回るだけのスピナーよりはこっちのほうが面白いです。
 
@@ -8,7 +8,7 @@ Thingiverse https://www.thingiverse.com/thing:3139501 ですこしだけカス�
 
 
 
-[3Dprint](3Dprint.md) [kaleidocycle](kaleidocycle.md) 
+[3Dprint](3Dprint) [kaleidocycle](kaleidocycle) 
 
 
 ## Linked from

@@ -1,6 +1,6 @@
-# [Networkism](Networkism.md)
+# [Networkism](Networkism)
 
-→[ネットワーク主体論](ネットワーク主体論.md)
+→[ネットワーク主体論](ネットワーク主体論)
 
 
 

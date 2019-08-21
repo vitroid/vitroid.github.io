@@ -1,4 +1,4 @@
-# [QR code](QR code.md)
+# [QR code](QR code)
 
 ![](https://i.gyazo.com/f7f7b64a713e708a68760f619041e3d0.png)
 
@@ -6,10 +6,10 @@
 
 ![](https://i.gyazo.com/dfd0236921d51fed061e0329935f19a2.png)
 
-正式なリンク。/[vitroid](vitroid.md)
+正式なリンク。/[vitroid](vitroid)
 
 
-* [2018-10-23](2018-10-23.md) [雑記](雑記.md) 
+* [2018-10-23](2018-10-23) [雑記](雑記) 
 
 
 ## Linked from

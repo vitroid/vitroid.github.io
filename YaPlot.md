@@ -1,9 +1,9 @@
-# [YaPlot](YaPlot.md)
+# [YaPlot](YaPlot)
 
 
-* [](https://github.com/[vitroid](vitroid.md)/[YaPlot](YaPlot.md)) -- 可視化ツール
+* [](https://github.com/[vitroid](vitroid)/[YaPlot](YaPlot)) -- 可視化ツール
 
-[software](software.md) 
+[software](software) 
 
 
 ## Linked from

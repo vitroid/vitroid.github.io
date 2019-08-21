@@ -22,7 +22,7 @@ def visualindex():
                 for line in open(page).readlines():
                     m = re.search(r"!\[[^\]]*\]\(([^\)]+)\)", line)
                     if m:
-                        s += "[![]({0})]({1})\n".format(m.group(1), page)
+                        s += "[![]({0})]({1})\n".format(m.group(1), page[:-3])
                         found = True
                         break
         s += "\n"
@@ -46,10 +46,14 @@ def md_parser(filename):
 
 
 def kw_proc(word):
-    return "[{0}]({0}.md)".format(word)
+    # for jekyll
+    return "[{0}]({0})".format(word)
+#    return "[{0}]({0}.md)".format(word)
 
 def hashtag_proc(x):
-    return "[{0}]({0}.md)".format(x) + " "
+    # for jekyll
+    return "[{0}]({0})".format(x) + " "
+#    return "[{0}]({0}.md)".format(x) + " "
 
 
 def formatPage(title, target, kwtree, processed=None, linked=None, autolink=False):
@@ -77,7 +81,9 @@ def formatPage(title, target, kwtree, processed=None, linked=None, autolink=Fals
                             found = keyword_find(line[head:], kwtree)
                             if found:
                                 # logger.info(line[:head])
-                                prefix = line[:head] + "[{0}]({0}.md)".format(line[head:head+found])
+                                # for jekyll
+                                prefix = line[:head] + "[{0}]({0})".format(line[head:head+found])
+                                #prefix = line[:head] + "[{0}]({0}.md)".format(line[head:head+found])
                                 line = prefix + line[head+found:]
                                 head = len(prefix)
                             else:

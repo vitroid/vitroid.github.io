@@ -1,4 +1,4 @@
-# [TruncatablePrimes](TruncatablePrimes.md)
+# [TruncatablePrimes](TruncatablePrimes)
 
 切り捨て可能な素数をさがす。
 
@@ -66,8 +66,8 @@ table:切り捨て可能な素数
 
 ということで、長い鉛筆を作る場合には18進数がおすすめ。
 
-[python](python.md) [software](software.md) [雑記](雑記.md) 
-[2019-01-25](2019-01-25.md) 
+[python](python) [software](software) [雑記](雑記) 
+[2019-01-25](2019-01-25) 
 
 
 

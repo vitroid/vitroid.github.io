@@ -1,4 +1,4 @@
-# [Product2018](Product2018.md)
+# [Product2018](Product2018)
 
 
 * 五角定規
@@ -9,7 +9,7 @@
 
 
 
-[artworks](artworks.md) 
+[artworks](artworks) 
 
 
 ## Linked from

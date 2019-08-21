@@ -1,4 +1,4 @@
-# [ice dtc](ice dtc.md)
+# [ice dtc](ice dtc)
 
 氷dtcは大きな円筒状の空間を持つZeoliteに似た結晶構造です。
 
@@ -10,7 +10,7 @@
 
 
 
-[ice](ice.md) [water](water.md) [research](research.md) 
+[ice](ice) [water](water) [research](research) 
 
 
 

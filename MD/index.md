@@ -4,7 +4,7 @@
 
 岡山大学 異分野基礎科学研究所
 
-* [略歴/CV](略歴_CV.md)
-* [Tracking](Tracking.md)
+* [略歴/CV](略歴_CV)
+* [Tracking](Tracking)
 
 ## Visual Index

@@ -1,4 +1,4 @@
-# [Artworks](Artworks.md)
+# [Artworks](Artworks)
 
 Follow the links.
 

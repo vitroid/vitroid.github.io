@@ -1,9 +1,9 @@
-# [Product2005](Product2005.md)
+# [Product2005](Product2005)
 
 
 * House renovation (Nagoya)
 
-[artworks](artworks.md) 
+[artworks](artworks) 
 
 
 ## Linked from
