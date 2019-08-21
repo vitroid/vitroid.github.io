@@ -1,0 +1,11 @@
+{{category tips}}
+!!グレースケールを着色表示する方法
+データ解析で使う、二次元グレースケールのマップをグラデーション表示する方法。データ量が少ないならgnuplotのpm3d表示で十分。
+!データをpgm形式で生成
+ASCIIのpgm形式(P2)を使えば、perlやfortranでも簡単にグレー画像を出力できる。
+!グレー画像に着色
+ppmrainbowでカラーマップを作り、pgmに割り当ててカラー化する。
+ ppmrainbow -height 1 -width 256 -tmpdir=/tmp red yellow green blue purple > map
+ pgmtoppm -map map orig.pgm > mapped.ppm
+
+{{timestamp 1164976801}}

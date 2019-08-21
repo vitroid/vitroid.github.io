@@ -1,0 +1,6 @@
+Matsui, T., Hirata, M., Yagasaki, T., Matsumoto, M. & Tanaka, H.
+Communication: Hypothetical ultralow-density ice polymorphs.
+J. Chem. Phys. 147, 091101 (2017).
+[[doi:10.1063/1.4994757]] (Featured Article, Cover Article)
+高圧高密度の氷に多様な構造があるように、負圧低密度の氷にも多様性がある。→aeroice
+{{thumbnail2 JCP v147 i9 cover 120px.png,JCP v147 i9 cover 600px.png}}

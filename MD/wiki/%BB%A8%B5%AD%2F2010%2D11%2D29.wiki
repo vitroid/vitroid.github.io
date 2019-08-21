@@ -1,0 +1,21 @@
+{{category 雑記}}
+次の連立方程式を解け。ただしh=1とする。
+*z+e+r+o=0
+*o+n+e=1
+*t+w+o=2
+*t+h+r+e+e=3
+*f+o+u+r=4
+*f+i+v+e=5
+*s+i+x=6
+*s+e+v+e+n=7
+*e+i+g+h+t=8
+*n+i+n+e=9
+*t+e+n=10
+*e+l+e+v+e+n=11
+*t+w+e+l+v+e=12
+*t+h+i+r+t+e+e+n=13
+*f+o+u+r+t+e+e+n=14
+*f+i+f+t+e+e+n=15
+*s+i+x+t+e+e+n=16
+*s+e+v+e+n+t+e+e+n=17
+//{{comment}}

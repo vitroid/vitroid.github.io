@@ -1,0 +1,8 @@
+{{category water}}
+{{category research}}
+{{category 水素結合ネットワーク}}
+{{category ハイドレート}}
+{{category メタンハイドレート}}
+!!!クラスレートハイドレートの構造を予測する
+(月刊化学2012年5月号(化学同人)に投稿)
+{{ref matsumoto-rev1.pdf}}

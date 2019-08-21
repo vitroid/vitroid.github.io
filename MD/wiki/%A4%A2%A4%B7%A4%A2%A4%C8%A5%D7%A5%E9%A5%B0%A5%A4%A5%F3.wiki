@@ -1,0 +1,19 @@
+{{category software}}
+{{category fswiki}}
+{{publish}}
+Wiki内のページの閲覧履歴を表示するFSWikiプラグイン。
+*[[plugin:148]] FSWiki本家へ投稿しました。
+ {{history 5}}
+で5つ前までの履歴を表示します。(最大30)
+
+ {{history 5,h}}
+で横に列挙させることもできます。
+
+縮小表示プラグインがインストールされている場合は、
+ {{history 5,tn}}
+で縮小表示を並べることもできます。
+
+sessionを利用しているので、ログインユーザしかあしあとは記録されません。
+
+*{{ref history20041020.zip}}
+{{timestamp 1098755591}}

@@ -1,0 +1,1 @@
+*M. Matsumoto, Why Does Water Expand When It Cools?, Phys. Rev. Lett. 103, 017801 (2009); [[doi:10.1103/PhysRevLett.103.017801]] 水を冷やすと膨張するのは、氷の構造に近付くわけではなく、水素結合の角度歪みが緩和するためであることを示した。

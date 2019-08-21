@@ -1,0 +1,9 @@
+
+{{category reminder}}
+{{category software}}
+{{publish user}}
+*http://wiki.osdev.info/index.php
+様々なOSの雑多な情報
+
+
+{{timestamp 1181930565}}

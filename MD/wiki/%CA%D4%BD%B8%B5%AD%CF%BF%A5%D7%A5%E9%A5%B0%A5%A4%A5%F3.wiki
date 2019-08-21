@@ -1,0 +1,7 @@
+{{category software}}
+{{category fswiki}}
+{{publish}}
+!!!editlogプラグイン
+ログインユーザごとの更新回数やページの更新者などを表示するFSWikiプラグイン。
+Recallプラグインと組み合わせるとなお便利。
+*編集記録プラグインはFSWikiの正式プラグインに採用されました。

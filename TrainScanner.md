@@ -20,6 +20,8 @@
 
 * [Product2009](Product2009.md)
 * [Product2016](Product2016.md)
+* [ProductOf2009](ProductOf2009.md)
+* [ProductOf2016](ProductOf2016.md)
 * [TrainScanner](TrainScanner.md)
 
 

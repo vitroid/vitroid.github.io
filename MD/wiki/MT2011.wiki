@@ -1,0 +1,5 @@
+M. Matsumoto and H. Tanaka
+On the structure selectivity of clathrate hydrates
+J. Phys. Chem. B, 2011, 115 (25), pp 8257&#8211;8265
+[[doi:10.1021/jp203478z]]
+クラスレートハイドレートの安定性を決定する一般原理を発見し、50年以上未解決だった、包接水和物の結晶構造の多様性が少ない原因を解明した。なぜ構造Iと構造IIのみが形成されるのか、なぜ臭素ハイドレートだけが例外であるのかを解明した。

@@ -1,0 +1,9 @@
+
+{{category reminder}}
+{{category software}}
+{{publish}}
+!!!Synergy
+複数の、OSの異なるPCの間でmouseとkeyboardを共有するものらしい。
+*http://synergy2.sourceforge.net/
+//{{comment}}
+{{timestamp 1181930833}}

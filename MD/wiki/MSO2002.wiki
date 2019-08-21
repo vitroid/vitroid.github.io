@@ -1,0 +1,2 @@
+*M. Matsumoto, S. Saito, and I. Ohmine, Molecular dynamics simulation of the ice nucleation and growth process leading to water freezing, Nature 416, 409-413 (2002); [[doi:10.1038/416409a]] (Cover Article)  水が凍る過程をシミュレーションで初めて再現した。
+{{thumbnail2 Freeze-1891 120px.jpeg,Freeze-1891 600px.jpeg}}

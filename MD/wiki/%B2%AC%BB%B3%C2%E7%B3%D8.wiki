@@ -1,0 +1,12 @@
+{{publish admin}}
+{{rss feed://150.46.100.203:8086/htbin/m.py}}
+,システム名,用途,ID,passwd,link,パスワード変更
+,教務システム,成績入力,51583511,ytch9gbf,http://kym.adm.okayama-u.ac.jp/wwwkyomu.html
+,デジエ,シラバス入力,51583511,5tnmrk8a,http://cfd.cc.okayama-u.ac.jp/cgi-bin/cbdb/db.cgi?
+,大学付与メール,,matsu-m3@cc.okayama-u.ac.jp,y93mctra,,http://tsauth-1.cc.okayama-u.ac.jp/DEVIAS_OPT/user/login.asp
+,desknets,,scie,gaku15,http://admblog1.cc.okayama-u.ac.jp/okayama-u/staff_only/
+,財務会計システム,校費などの処理,51583511,51583511,http://www.okayama-u.ac.jp/user/kouhou/gakunai/kounyu/kounyu-index.html
+,学部HP,,rigakubu,rgkb,
+,岡大ID,統合認証システム,vitroid,y93Mctra,https://iwap.cc.okayama-u.ac.jp/fw/dfw/DMP/dp/dmp
+,岡大無線LAN,,vitroid,y93mctra,,http://tsauth-1.cc.okayama-u.ac.jp/DEVIAS_OPT/user/login.asp
+,海外渡航,,,,http://www.okayama-u.ac.jp/user/sizenkei/youshiki/shucchou.html

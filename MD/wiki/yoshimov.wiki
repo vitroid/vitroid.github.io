@@ -1,0 +1,8 @@
+{{category person}}
+{{publish}}
+!!!Yoshimov¤µ¤ó
+*NewsClipSync Conduit
+*AddNewsClip Bookmarklet
+*[Yoshimopedia|http://wiki.yoshimov.com/wiki.cgi]
+
+{{timestamp 1098756499}}

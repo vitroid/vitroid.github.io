@@ -1,0 +1,5 @@
+Hirata, M., Yagasaki, T., Matsumoto, M. & Tanaka, H.
+Phase diagram of TIP4P/2005 water at high pressure.
+Langmuir  33 (42), pp 11561&#8211;11569 (2017).
+[[doi:10.1021/acs.langmuir.7b01764]]
+高圧の氷に新しい結晶構造(ice T)を発見した。

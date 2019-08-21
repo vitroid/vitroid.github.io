@@ -1,0 +1,10 @@
+InterWikiNameのtest
+*[[thoth:test]]
+*[[localfile:deltatime.pl]]
+*00001
+*00001test
+Categoryへのリンクのテスト
+*[{water}]こちらの記法はまだサポートしていない。
+*water
+
+{{timestamp 1099582886}}

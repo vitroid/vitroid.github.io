@@ -1,0 +1,6 @@
+Matsumoto, M., Yagasaki, T. & Tanaka, H.
+GenIce: Hydrogen‐Disordered Ice Generator.
+J. Comput. Chem. 39, 61-64 (2018).
+[[DOI:10.1002/jcc.25077]] (Cover Article)
+あらゆる氷の結晶構造を生成するソフトウェア。 [[github:GenIce]] 
+{{thumbnail2 jcc25119-toc-0001-m tn.png,jcc25119-toc-0001-m.png}}

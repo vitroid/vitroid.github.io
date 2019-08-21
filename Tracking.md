@@ -10,7 +10,7 @@
   * [twitter:[vitroid](/vitroid)](http://twitter.com/[vitroid](/vitroid))
   * [github:[vitroid](/vitroid)](https://github.com/[vitroid](/vitroid)) (ソースコードなど)
   * [flickr:[vitroid](/vitroid)s](http://flickr.com/photos/[vitroid](/vitroid)s) ([写真](/写真)関連)
-* [360cities:[vitroid](/vitroid)](http://www.360cities.net/profile/[vitroid](/vitroid)) (パノラマ関連)
+* [360cities:[vitroid](/vitroid)](http://www.360cities.net/profile/[vitroid](/vitroid)) ([パノラマ](/パノラマ)関連)
   * [thingiverse:[vitroid](/vitroid)](http://www.thingiverse.com/[vitroid](/vitroid)) (3Dプリンタ関連)
   * skype:[vitroid](/vitroid)
   * [youtube:[vitroid](/vitroid)0](https://www.youtube.com/user/[vitroid](/vitroid)0/videos?sort=dd&shelf_id=1&view=0)
@@ -37,6 +37,7 @@
 
 ## Linked from
 
+* [FrontPage](FrontPage.md)
 * [Tracking](Tracking.md)
 * [大学院生募集](大学院生募集.md)
 * [未解決問題](未解決問題.md)

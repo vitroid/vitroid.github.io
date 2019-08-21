@@ -215,6 +215,8 @@ prose:
     - /img
     - /js
     - /MD
+    - /MD/wiki
+    - /ref
   metadata:
     _posts:
       - name: "layout"

@@ -1,0 +1,1 @@
+*H. Tanaka and M. Matsumoto, "On the Thermodynamic Stability of Clathrate Hydrates V: Phase Behaviors Accommodating Large Guest Molecules with New Reference States", J. Phys. Chem. B,  (2011). [[doi:10.1021/jp205067v]] クラスレートハイドレートの安定性に関する標準理論を拡張し、格子の歪みが大きい場合にも信頼性の高い計算ができるようにした。

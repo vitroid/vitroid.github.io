@@ -4,7 +4,7 @@
 
 ## [vitrite](/vitrite)とは
 
-Vitriteは、Crystallite(結晶状のもの、結晶子)との対比で、vitreous(ガラス状の)から派生した造語。日本語で書くなら非晶子。正四面体型局所配置を好む非晶質に特有の幾何構造ユニットなのだが、純粋にトポロジカルに定義される。
+Vitriteは、Crystallite(結晶状のもの、結晶子)との対比で、vitreous(ガラス状の)から派生した造語。日本語で書くなら[非晶子](/非晶子)。正四面体型局所配置を好む非晶質に特有の幾何構造ユニットなのだが、純粋にトポロジカルに定義される。
 
 あるグラフがVitriteである条件は以下の4点。([MBO2007](/MBO2007))
 
@@ -53,7 +53,7 @@ Vitriteは、Crystallite(結晶状のもの、結晶子)との対比で、vitreo
 
 
 
-安定な配座の環を組み合わせることで、四面体角の歪みを生むことなく、[vitrite](/vitrite)構造(上記)を形成できる場合がある。歪みの小さい[vitrite](/vitrite)構造は、従来から知られているような、氷の結晶の部分構造のみではなく、さまざまなバリエーションがあることがわかっている。(→Vitrite Database参照)これらの安定な[vitrite](/vitrite)を形成すると、実際に結合エネルギーが低くなり、水素結合の寿命が長くなることがわかっている。(→[MBO2007](/MBO2007))また、歪みの小さい[vitrite](/vitrite)は歪みの小さい環で構成されているが、その環を隣接する[vitrite](/vitrite)が共有することで、さらに安定な構造を作ることができる。
+安定な配座の環を組み合わせることで、四面体角の歪みを生むことなく、[vitrite](/vitrite)構造(上記)を形成できる場合がある。歪みの小さい[vitrite](/vitrite)構造は、従来から知られているような、氷の結晶の部分構造のみではなく、さまざまなバリエーションがあることがわかっている。(→[Vitrite Database](/Vitrite Database)参照)これらの安定な[vitrite](/vitrite)を形成すると、実際に結合エネルギーが低くなり、水素結合の寿命が長くなることがわかっている。(→[MBO2007](/MBO2007))また、歪みの小さい[vitrite](/vitrite)は歪みの小さい環で構成されているが、その環を隣接する[vitrite](/vitrite)が共有することで、さらに安定な構造を作ることができる。
 
 このため、低温の水では、歪みの小さい[vitrite](/vitrite)を凝集させることで、氷に匹敵する安定な(かつエントロピーも低い)構造を作ることができる。[低密度アモルファス氷](/低密度アモルファス氷)はこのような[vitrite](/vitrite)で構成されていると考えられる。
 
@@ -61,7 +61,7 @@ Vitriteは、Crystallite(結晶状のもの、結晶子)との対比で、vitreo
 
 ## [vitrite](/vitrite) database
 
-→Vitrite Databaseのページ(現在停止中)
+→[Vitrite Database](/Vitrite Database)のページ(現在停止中)
 
 過冷却水/[低密度アモルファス氷](/低密度アモルファス氷)を構成する[フラグメント](/フラグメント)([vitrite](/vitrite))が網羅されています。
 
@@ -102,16 +102,24 @@ Vitriteは、Crystallite(結晶状のもの、結晶子)との対比で、vitreo
 
 ## Linked from
 
+* [CubeFlickr](CubeFlickr.md)
+* [Ice 0](Ice 0.md)
+* [InterWikiName](InterWikiName.md)
 * [LDA](LDA.md)
 * [MBO2007](MBO2007.md)
 * [MYT2015](MYT2015.md)
+* [Network Motif of Water](Network Motif of Water.md)
+* [Vitrite Database](Vitrite Database.md)
 * [chirality](chirality.md)
+* [simple notation](simple notation.md)
 * [vitrite](vitrite.md)
 * [ネットワーク主体論](ネットワーク主体論.md)
+* [ネットワーク物質のアモルファス構造解析](ネットワーク物質のアモルファス構造解析.md)
 * [フラグメント](フラグメント.md)
 * [水は4℃以下で膨張する](水は4℃以下で膨張する.md)
 * [液体の水の秩序](液体の水の秩序.md)
 * [研究テーマ](研究テーマ.md)
+* [非晶子](非晶子.md)
 
 
 ----

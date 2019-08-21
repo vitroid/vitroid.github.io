@@ -20,7 +20,7 @@ Simulation of [polyamorphism](/polyamorphism) is not very difficult. There are a
 
 There are many experimental ways of investigating the long-range order (i.e. crystalline order). There are also many ways of figuring out the short-range order (i.e. coordination number and local configurations). Traditional theories on solid states and liquids are responsible for these two limits. On the other hand, difference in two liquid phases resides in the intermediate-range order, which is not observable experimentally and is also difficult to be treated analytically (unless you can figure out the ten-dimensional correlation function in mind). At present, computer simulation would be the only way to describe the intermediate-range order without degradation. A brand-new concept and method on depicting the intermediate-range order are wanted.
 
-We therefore aim to reproduce the liquid-liquid phase transition of real materials by computer simulation. Supercooling of liquid silicon is a good test bench because it provokes the liquid-liquid coexistence as well as the crystal nucleation within the simulation time scale. According to our research on water, human cognition might not be strong enough to look up such a complex order in the liquid. Topology, graph and percolation theory, and informatics are expected to be powerful tools to dig out the inherent order in liquid.
+We therefore aim to reproduce the liquid-liquid phase transition of real materials by computer simulation. Supercooling of liquid silicon is a good [test](/test) bench because it provokes the liquid-liquid coexistence as well as the crystal nucleation within the simulation time scale. According to our research on water, human cognition might not be strong enough to look up such a complex order in the liquid. Topology, graph and percolation theory, and informatics are expected to be powerful tools to dig out the inherent order in liquid.
 
 ![](https://i.gyazo.com/5210f364cae83500efedb546e89583ac.png)
 
@@ -49,6 +49,7 @@ We therefore aim to reproduce the liquid-liquid phase transition of real materia
 * [YMT2019a](YMT2019a.md)
 * [polyamorphism](polyamorphism.md)
 * [アモルファス氷](アモルファス氷.md)
+* [ネットワーク物質のアモルファス構造解析](ネットワーク物質のアモルファス構造解析.md)
 * [研究テーマ](研究テーマ.md)
 
 

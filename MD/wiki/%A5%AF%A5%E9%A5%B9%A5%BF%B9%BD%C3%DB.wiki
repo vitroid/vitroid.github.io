@@ -1,0 +1,8 @@
+
+{{category reminder}}
+{{category research}}
+
+計算機クラスタ構築のノウハウを書きためています。
+
+http://www.chem.nagoya-u.ac.jp/og/wiki/wiki.cgi/ClusterBuild
+{{timestamp 1127838450}}

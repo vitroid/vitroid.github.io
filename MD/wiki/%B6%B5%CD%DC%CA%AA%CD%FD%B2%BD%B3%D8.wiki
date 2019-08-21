@@ -1,0 +1,2 @@
+{{category class}}
+{{include 教養物理化学2015}}

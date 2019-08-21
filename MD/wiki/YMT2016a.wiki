@@ -1,0 +1,1 @@
+*Yagasaki, T., Matsumoto, M. & Tanaka, H. Anomalous thermodynamic properties of ice XVI and metastable hydrates. Phys. Rev. B 93, 054118 (2016). [[DOI:10.1103/PhysRevB.93.054118]] 低密度な氷を極低温から温めると収縮する原因と、クラスレートハイドレートがゲストを内包することにより収縮する起源を解明した。

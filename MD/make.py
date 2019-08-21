@@ -7,6 +7,7 @@ import process_keywords as pk
 import pickle
 from logging import getLogger, basicConfig, INFO, DEBUG
 basicConfig(level=INFO)
+
 import re
 from ktree import *        
 
@@ -36,7 +37,7 @@ def md_parser(filename):
     for line in open(filename).readlines():
         if line[:3] == '```':
             if mode == "normal":
-                mode = line[3:].split()[0]
+                mode = line[3:]
             else:
                 mode = "normal"
         if mode == "normal" and line[:4] == "    ":
@@ -115,7 +116,7 @@ def formatPage(title, target, kwtree, processed=None, linked=None, autolink=Fals
             file.write("\n\n----\n[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/{0}.md)\n".format(title))
         
                 
-
+# scrapbox conversion
 for file in glob.glob("*.sb"):
     mdfile = file[:-2] + "md"
     if not os.path.exists(mdfile) or os.path.getmtime(mdfile) < os.path.getmtime(file):
@@ -123,6 +124,22 @@ for file in glob.glob("*.sb"):
         lines = open(file).readlines()
         md = s2m.scrapbox2md(title, lines, autolink=True)
         open(mdfile, "w").write(md)
+
+import urllib.request
+import wiki2md as w2m
+
+logger = getLogger()
+# FSwiki conversion
+for wikifile in glob.glob("wiki/*.wiki"):
+    title = urllib.request.unquote(os.path.basename(wikifile), 'euc-jp')[:-5].replace("+", " ").replace("/", "_")
+    sbfile = title + ".sb"
+    mdfile = title + ".md"
+    logger.info(wikifile)
+    if not os.path.exists(sbfile):
+        if not os.path.exists(mdfile) or os.path.getmtime(mdfile) < os.path.getmtime(wikifile):
+            md = w2m.wiki2md(open(wikifile, encoding="euc-jp"))
+            open(mdfile, "w").write(md)
+
         
 for file in glob.glob("*.md"):
     target = "../" + file
@@ -162,3 +179,6 @@ for page in words:
 
 #with open("index.md") as f:
 #    open("../index.md", "w").write(f.read() + visualindex())
+
+
+
