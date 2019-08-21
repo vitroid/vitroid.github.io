@@ -3,3 +3,7 @@ plugins:
   - jekyll-mentions
 
 theme: jekyll-theme-minimal
+
+markdown: kramdown
+kramdown:
+    math_engine: katex

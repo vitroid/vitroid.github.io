@@ -4,6 +4,10 @@
 
 松本 正和
 
+$$\LaTeX code$$   (for display)
+\\[\LaTeX code\\] (also for display)
+\\(\LaTeX code\\) (for inline)
+
 岡山大学 異分野基礎科学研究所
 
 * [略歴/CV](略歴_CV)
