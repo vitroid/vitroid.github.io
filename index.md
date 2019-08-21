@@ -1,4 +1,4 @@
-{% include simple-menu.html %}
+{% include simple-menu.md %}
 
 ![](https://live.staticflickr.com/7917/46611114124_54653d669c_k_d.jpg)
 
