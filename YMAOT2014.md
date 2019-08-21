@@ -1,6 +1,6 @@
 ---
 ---
-# [YMAOT2014](YMAOT2014)
+# [YMAOT2014](/YMAOT2014)
 
 Yagasaki, T., Matsumoto, M., Andoh, Y., Okazaki, S. & Tanaka, H.
 
@@ -18,7 +18,7 @@ http://doi.org/10.1021/jp412692d
 
 
 
-[water](water) [clathratehydrate](clathratehydrate) [research](research) [papers](papers) [paper2014](paper2014) 
+[water](/water) [clathratehydrate](/clathratehydrate) [research](/research) [papers](/papers) [paper2014](/paper2014) 
 
 
 ## Linked from

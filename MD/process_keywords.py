@@ -23,7 +23,7 @@ from ktree import *
 
 keywords = [fn[:-3] for fn in glob.glob("*.md")]
 kwtree = keyword_tree(keywords)
-logger.info(kwtree)
+# logger.info(kwtree)
 
 if __name__ == "__main__":
     for word in ("かもめだった", "LDAがいい", "ice T研究のため", "ice T3", "ice T"):

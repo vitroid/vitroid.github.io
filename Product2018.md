@@ -1,6 +1,6 @@
 ---
 ---
-# [Product2018](Product2018)
+# [Product2018](/Product2018)
 
 
 * 五角定規
@@ -11,7 +11,7 @@
 
 
 
-[artworks](artworks) 
+[artworks](/artworks) 
 
 
 ## Linked from

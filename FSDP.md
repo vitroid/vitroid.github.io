@@ -1,6 +1,6 @@
 ---
 ---
-# [FSDP](FSDP)
+# [FSDP](/FSDP)
 
 
 * 第一尖鋭回折ピーク First Sharp Diffraction Peak
@@ -10,7 +10,7 @@
 
 
 
-[MBO2008](MBO2008) 
+[MBO2008](/MBO2008) 
 
 
 ## Linked from

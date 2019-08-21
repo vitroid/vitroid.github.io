@@ -1,8 +1,8 @@
 ---
 ---
-# [Softwares](Softwares)
+# [Softwares](/Softwares)
 
-[software](software) 
+[software](/software) 
 
 
 ## Linked from

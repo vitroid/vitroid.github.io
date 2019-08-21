@@ -1,22 +1,22 @@
 ---
 ---
-# [polyamorphism](polyamorphism)
+# [polyamorphism](/polyamorphism)
 
-結晶が複数ある(結晶多形)ことをpolymorphismと呼ぶのにひっかけて、複数のアモルファス状態があることを[polyamorphism](polyamorphism)と呼びます。水、シリコン、シリカなどの正四面体型ネットワーク性物質は、[polyamorphism](polyamorphism)を示すめずらしい物質です。東京大学の田中肇先生のグループでは、水以外の物質でもいくつか[polyamorphism](polyamorphism)を示す物質を発見していますが、[polyamorphism](polyamorphism)がどのような系で、どうして起こるかは未解決の問題です。
+結晶が複数ある(結晶多形)ことをpolymorphismと呼ぶのにひっかけて、複数のアモルファス状態があることを[polyamorphism](/polyamorphism)と呼びます。水、シリコン、シリカなどの正四面体型ネットワーク性物質は、[polyamorphism](/polyamorphism)を示すめずらしい物質です。東京大学の田中肇先生のグループでは、水以外の物質でもいくつか[polyamorphism](/polyamorphism)を示す物質を発見していますが、[polyamorphism](/polyamorphism)がどのような系で、どうして起こるかは未解決の問題です。
 
 熱力学的条件が液液共存線に近付くにつれ運動が急激に遅くなる現象はガラス転移に見えるかもしれません。液液相転移にともなう大きな揺らぎは結晶核生成を誘起するかもしれません。このように、準安定状態(過冷却液体)で起こる相転移は互いに相互作用します。このような現象は実在物質では普通に起こると考えられますが、複数の相転移の間の相互作用を扱える理論はまだありません。
 
-[polyamorphism](polyamorphism)のシミュレーションは難しくはありません。すでにいくつかの報告があり、構造因子が計算されています。しかし、このような従来的な解析は[polyamorphism](polyamorphism)を理解するのに十分とは言えません。
+[polyamorphism](/polyamorphism)のシミュレーションは難しくはありません。すでにいくつかの報告があり、構造因子が計算されています。しかし、このような従来的な解析は[polyamorphism](/polyamorphism)を理解するのに十分とは言えません。
 
 長距離秩序(結晶秩序)を調べる実験手法はいくつも存在します。短距離秩序(配位数や局所配置)を調べる方法もたくさんあります。固体物性理論と液体論はこれら2つの極限を扱います。しかし、2つの液相は中距離秩序に違いがあり、それを観測できる実験手法も、わかりやすく説明できる理論もありません(もしあなたが10体密度相関関数を容易に理解できるのでない限り)。現在のところ、情報を劣化させずに中距離秩序を描写することができるのはコンピュータシミュレーションしかありません。中距離秩序を描写する新しい概念やことばが必要です。
 
-そこで、我々は実在物質の液液相転移をコンピュータシミュレーションで再現します。過冷却液体シリコンは、過冷却状態で液液相転移、ガラス転移、結晶核生成のすべてがシミュレーションの計算時間の間に起こるので、試しに計算するのに向いています。水の解析での経験から、我々は人間の認識能力だけでは液体の中の複雑な秩序を理解できないかもしれないと考えています。トポロジー、グラフ理論、パーコレーション理論、情報理論は、このような複雑な系に埋もれた秩序を探しあてる([データマイニング](データマイニング))強力なツールです。
+そこで、我々は実在物質の液液相転移をコンピュータシミュレーションで再現します。過冷却液体シリコンは、過冷却状態で液液相転移、ガラス転移、結晶核生成のすべてがシミュレーションの計算時間の間に起こるので、試しに計算するのに向いています。水の解析での経験から、我々は人間の認識能力だけでは液体の中の複雑な秩序を理解できないかもしれないと考えています。トポロジー、グラフ理論、パーコレーション理論、情報理論は、このような複雑な系に埋もれた秩序を探しあてる([データマイニング](/データマイニング))強力なツールです。
 
 Polyamorphism, i.e. existence of multiple liquid/amorphous phases in single-component material, is one of the most attractive phenomena in condensed matter physics. Increasing number of materials has been found to exhibit liquid-liquid coexistence, including water, silicon, n-butanol, phosphorus, etc.
 
 Slowing down of dynamic properties when the thermodynamic condition is approaching to the liquid-liquid coexistence might be observed as the glass transition. Fluctuation emerged by such phase transition sometimes causes crystal nucleation leading to the phase transition to the stable phase (crystal). Thus phase transitions at metastable state must interact each other. However, there is no theoretical framework for treating the interaction between multiple phase transitions, although such a situation generally occurs in ordinary materials.
 
-Simulation of [polyamorphism](polyamorphism) is not very difficult. There are already couple of successful reports of reproducing the experimental data such as structure factor. Such conventional analyses are, however, not satisfactory for understanding the [polyamorphism](polyamorphism).
+Simulation of [polyamorphism](/polyamorphism) is not very difficult. There are already couple of successful reports of reproducing the experimental data such as structure factor. Such conventional analyses are, however, not satisfactory for understanding the [polyamorphism](/polyamorphism).
 
 There are many experimental ways of investigating the long-range order (i.e. crystalline order). There are also many ways of figuring out the short-range order (i.e. coordination number and local configurations). Traditional theories on solid states and liquids are responsible for these two limits. On the other hand, difference in two liquid phases resides in the intermediate-range order, which is not observable experimentally and is also difficult to be treated analytically (unless you can figure out the ten-dimensional correlation function in mind). At present, computer simulation would be the only way to describe the intermediate-range order without degradation. A brand-new concept and method on depicting the intermediate-range order are wanted.
 
@@ -33,9 +33,9 @@ We therefore aim to reproduce the liquid-liquid phase transition of real materia
 ## 関連論文
 
 
-* [YMT2019a](YMT2019a) [YMT2014](YMT2014) [YMT2015c](YMT2015c) [MBO2007](MBO2007) [MBO2008](MBO2008) [M2009](M2009)
+* [YMT2019a](/YMT2019a) [YMT2014](/YMT2014) [YMT2015c](/YMT2015c) [MBO2007](/MBO2007) [MBO2008](/MBO2008) [M2009](/M2009)
 
-[雑記](雑記) [water](water) 
+[雑記](/雑記) [water](/water) 
 (2008年7月)
 
 (2018年10月加筆)

@@ -1,9 +1,9 @@
 ---
 ---
-# [TrainScanner](TrainScanner)
+# [TrainScanner](/TrainScanner)
 
 
-* [](https://github.com/[vitroid](vitroid)/[TrainScanner](TrainScanner)) -- ビデオから列車の長ーい[写真](写真)を生成する
+* [](https://github.com/[vitroid](/vitroid)/[TrainScanner](/TrainScanner)) -- ビデオから列車の長ーい[写真](/写真)を生成する
 * この取り組みをはじめてから、2019年で10周年を迎えました。
 
 
@@ -12,7 +12,7 @@
 
 
 
-[software](software) 
+[software](/software) 
 
 
 ## Linked from

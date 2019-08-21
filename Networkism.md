@@ -1,8 +1,8 @@
 ---
 ---
-# [Networkism](Networkism)
+# [Networkism](/Networkism)
 
-→[ネットワーク主体論](ネットワーク主体論)
+→[ネットワーク主体論](/ネットワーク主体論)
 
 
 

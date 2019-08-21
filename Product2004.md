@@ -1,13 +1,13 @@
 ---
 ---
-# [Product2004](Product2004)
+# [Product2004](/Product2004)
 
 
 * Our second daughter.
 
 
 
-[artworks](artworks) 
+[artworks](/artworks) 
 
 
 ## Linked from

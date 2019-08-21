@@ -1,12 +1,12 @@
 ---
 ---
-# [Ice Nanotube](Ice Nanotube)
+# [Ice Nanotube](/Ice Nanotube)
 
 ![](https://i.gyazo.com/d89a80878e507ca0aae1afce8c4e75c8.jpg)
 
 
 
-[python](python) [code](code) [NodeBox](NodeBox) [nanotube](nanotube) [visualization](visualization) 
+[python](/python) [code](/code) [NodeBox](/NodeBox) [nanotube](/nanotube) [visualization](/visualization) 
 シンプルにしたが、頂点に○が書けなくなった。頂点・面・辺の描き順はいい解決策がない。
 
 キラルなナノチューブも自在に描けると便利かな。

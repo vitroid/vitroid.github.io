@@ -1,6 +1,6 @@
 ---
 ---
-# [Artworks](Artworks)
+# [Artworks](/Artworks)
 
 Follow the links.
 

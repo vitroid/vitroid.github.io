@@ -47,12 +47,12 @@ def md_parser(filename):
 
 def kw_proc(word):
     # for jekyll
-    return "[{0}]({0})".format(word)
+    return "[{0}](/{0})".format(word)
 #    return "[{0}]({0}.md)".format(word)
 
 def hashtag_proc(x):
     # for jekyll
-    return "[{0}]({0})".format(x) + " "
+    return "[{0}](/{0})".format(x) + " "
 #    return "[{0}]({0}.md)".format(x) + " "
 
 
@@ -83,7 +83,7 @@ def formatPage(title, target, kwtree, processed=None, linked=None, autolink=Fals
                             if found:
                                 # logger.info(line[:head])
                                 # for jekyll
-                                prefix = line[:head] + "[{0}]({0})".format(line[head:head+found])
+                                prefix = line[:head] + "[{0}](/{0})".format(line[head:head+found])
                                 #prefix = line[:head] + "[{0}]({0}.md)".format(line[head:head+found])
                                 line = prefix + line[head+found:]
                                 head = len(prefix)

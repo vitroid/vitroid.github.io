@@ -71,7 +71,7 @@ def bracket_proc(x, autolink=False):
     
 def hashtag_proc(x):
     # for jekyll
-    return "[{0}]({0})".format(x[1:len(x)-1]) + x[-1]
+    return "[{0}](/{0})".format(x[1:len(x)-1]) + x[-1]
 #    return "[{0}]({0}.md)".format(x[1:len(x)-1]) + x[-1]
 
 

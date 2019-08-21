@@ -1,6 +1,6 @@
 ---
 ---
-# [論文Percentile](論文Percentile)
+# [論文Percentile](/論文Percentile)
 
 https://esi.incites.thomsonreuters.com/
 
