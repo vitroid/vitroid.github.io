@@ -38,7 +38,6 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 * [Tracking](Tracking.md)
 * [TrainScanner](TrainScanner.md)
 * [YaPlot](YaPlot.md)
-* [navigation](navigation.md)
 * [vitroid](vitroid.md)
 * [写真](写真.md)
 * [取材協力、画像提供など](取材協力、画像提供など.md)

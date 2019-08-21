@@ -61,9 +61,6 @@
 
 
 
-## Linked from
-
-* [index](index.md)
 
 
 ----
