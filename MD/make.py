@@ -99,6 +99,7 @@ def formatPage(title, target, kwtree, processed=None, linked=None, autolink=Fals
                             else:
                                 s += line[0]
                                 line = line[1:]
+                        line = s
                     else:
                         # process hashtag
                         line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1)), line)

@@ -1,5 +1,17 @@
 ---
 ---
+# [Ice Nanotube](/Ice Nanotube)
+
+![](https://i.gyazo.com/d89a80878e507ca0aae1afce8c4e75c8.jpg)
+
+
+
+[python](/python) [code](/code) [NodeBox](/NodeBox) [nanotube](/nanotube) [visualization](/visualization)
+
+シンプルにしたが、頂点に○が書けなくなった。頂点・面・辺の描き順はいい解決策がない。
+
+キラルなナノチューブも自在に描けると便利かな。
+
     import svgwrite as sw
     from math import *
     import numpy as np
@@ -160,6 +172,7 @@
     squares  = squaretube(r,n,17,
                           stroke_width=2, fill="#fff", stroke="#000", fill_opacity=0.7)
     
+   	# 表示方法 
     theta = 1.3      #ANGLE
     d = 50.0         #PERSPECTIVE
     offsx = 100
@@ -179,6 +192,11 @@
     
     # 標準出力
     print(svg.tostring())
+
+svgwriteを使ってpythonでsvgを出力するように変更。
+
+ポリゴンを3次元座標変換してsvgにする汎用ライブラリが欲しい。
+
     import svgwrite as sw
     from math import *
     import numpy as np
@@ -407,6 +425,7 @@
     print(svg.tostring())
     
     
+   [NodeBox]用の古いコード。numpyとSVGで書きなおしたいね。
     def hextube(r,n,m):
         l = r*sin(pi/n)/sqrt(3.0)*2
         print l
@@ -609,6 +628,7 @@
                 lineto(vertex[0]*10+offsx, vertex[1]*10+offsy)
             endpath()
     
+
 ## Linked from
 
 * [Ice Nanotube](Ice Nanotube.md)
