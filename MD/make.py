@@ -53,11 +53,11 @@ def visualindex():
             w *= height / h
             s += "<a href='/{0}'><img src='{1}' width='{2}' height='{3}' /></a>".format(title, url, w, height)
             s += "<br />"
-        # in extended Markdown
+        # in jekyll
         for image in images:
             url, (w, h), title = image
             w *= height / h
-            s += "[![]({0})](/{1}){{width: {2}px;}}\n".format(url, title, int(w))
+            s += "[![]({0})](/{1}){{:width='{2}px' height='{3}px'}}\n".format(url, title, int(w), int(height))
         s += "\n"
         row += 1
 
