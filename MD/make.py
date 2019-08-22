@@ -5,28 +5,60 @@ import os
 import scrapbox2md as s2m
 import process_keywords as pk
 import pickle
+from imagesize import getsizes
+
 from logging import getLogger, basicConfig, INFO, DEBUG
 basicConfig(level=INFO)
 
 import re
 from ktree import *        
 
+def aspect(images):
+    if len(images) == 0:
+        return 1
+    rw = 0
+    for image in images:
+        w, h = image[1]
+        rw += w / h
+    return 1/rw
+
+
 def visualindex():
     newest = sorted([x for x in glob.glob("*.md")], key=lambda x: os.path.getmtime(x))
     s = ""
-    
-    for row in range(4):
-        for col in range(3):
+
+    row = 0
+    while row < 4:
+        images = [] # URL, size, and MD page title
+        while aspect(images) > 0.3:
             found = False
             while not found:
                 page = newest.pop(0)
                 for line in open(page).readlines():
                     m = re.search(r"!\[[^\]]*\]\(([^\)]+)\)", line)
                     if m:
-                        s += "[![]({0})]({1})\n".format(m.group(1), page[:-3])
-                        found = True
-                        break
+                        # obtain the size
+                        url = m.group(1)
+                        sizes = getsizes(url)
+                        if sizes is not None:
+                            images.append((url, sizes[1], page[:-3]))
+                            found = True
+                            break
+        width = 720
+        height = width * aspect(images)
+        # in raw HTML
+        for image in images:
+            url, (w, h), title = image
+            w *= height / h
+            s += "<a href='/{0}'><img src='{1}' width='{2}' height='{3}' /></a>".format(title, url, width, height)
+            s += "<br />"
+        # in extended Markdown
+        for image in images:
+            url, (w, h), title = image
+            w *= int(height / h)
+            s += "[![]({0})](/{1}){{width: {2}px;}}\n".format(url, title, w)
         s += "\n"
+        row += 1
 
     return s
 
@@ -177,8 +209,8 @@ for page in words:
                                          and os.path.getmtime(target) < os.path.getmtime(linked)):
         formatPage(page, target, kwtree, linked=linked, autolink=True)
 
-#with open("index.md") as f:
-#    open("../index.md", "w").write(f.read() + visualindex())
+with open("test.md") as f:
+    open("../test.md", "w").write(f.read() + visualindex())
 
 
 

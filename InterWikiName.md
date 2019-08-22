@@ -23,6 +23,9 @@
 * [scrapbox](https://scrapbox.io/)
 * [scrapbox-[vitroid](/vitroid)](https://scrapbox.io/[vitroid](/vitroid)/) utf8
 * [sb](https://scrapbox.io/[vitroid](/vitroid)/) utf8
+## Linked from
+
+* [test](test.md)
 
 
 ----
