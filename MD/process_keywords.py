@@ -72,9 +72,11 @@ def process_keywords(filename, lines, autolink=False):
         else:
             S = set()
             logger.info("Create linklist {0}".format(word))
+        L0 = len(S)
         S.add(filename)
-        with open(referfrom, mode='wb') as f:
-            pickle.dump(S, f)
+        if L0 != len(S):
+            with open(referfrom, mode='wb') as f:
+                pickle.dump(S, f)
 
     logger.info(words)
     # return parsed

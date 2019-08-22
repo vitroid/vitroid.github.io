@@ -52,7 +52,7 @@ def visualindex():
             url, (w, h), title = image
             w *= height / h
             s += "<a href='/{0}'><img src='{1}' width='{2}' height='{3}' /></a>".format(title, url, w, height)
-            s += "<br />"
+        s += "<br />"
         # in jekyll
         for image in images:
             url, (w, h), title = image
