@@ -14,13 +14,14 @@ import re
 from ktree import *        
 
 def aspect(images):
+    #  width / height of a set of images
     if len(images) == 0:
         return 1
     rw = 0
     for image in images:
         w, h = image[1]
         rw += w / h
-    return 1/rw
+    return rw
 
 
 def visualindex():
@@ -30,7 +31,7 @@ def visualindex():
     row = 0
     while row < 4:
         images = [] # URL, size, and MD page title
-        while aspect(images) > 0.3:
+        while aspect(images) < 3:
             found = False
             while not found:
                 page = newest.pop(0)
@@ -45,18 +46,18 @@ def visualindex():
                             found = True
                             break
         width = 720
-        height = width * aspect(images)
+        height = width / aspect(images)
         # in raw HTML
         for image in images:
             url, (w, h), title = image
             w *= height / h
-            s += "<a href='/{0}'><img src='{1}' width='{2}' height='{3}' /></a>".format(title, url, width, height)
+            s += "<a href='/{0}'><img src='{1}' width='{2}' height='{3}' /></a>".format(title, url, w, height)
             s += "<br />"
         # in extended Markdown
         for image in images:
             url, (w, h), title = image
-            w *= int(height / h)
-            s += "[![]({0})](/{1}){{width: {2}px;}}\n".format(url, title, w)
+            w *= height / h
+            s += "[![]({0})](/{1}){{width: {2}px;}}\n".format(url, title, int(w))
         s += "\n"
         row += 1
 
