@@ -1,3 +1,9 @@
+parse:
+	python make.py
+build:
+	cd ..; bundle exec jekyll build --verbose
+serve:
+	cd ..; bundle exec jekyll serve
 prepare:
 	python unscrapbox.py *json
 push:

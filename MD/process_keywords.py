@@ -62,22 +62,21 @@ def process_keywords(filename, lines, autolink=False):
 
     for word in words:
         if len(tuple(sf.sfind(word, '/[]!"(),;'))):
-            logger.info("ELIM {0}".format(word))
+            logger.info("  ELIM {0}".format(word))
             continue
         referfrom = "../ref/{0}.pickle".format(word)
         if os.path.exists(referfrom):
-            logger.info("Update linklist {0}".format(word))
+            logger.info("  Update linklist {0}".format(word))
             with open(referfrom, mode='rb') as f:
                 S = pickle.load(f)
         else:
             S = set()
-            logger.info("Create linklist {0}".format(word))
+            logger.info("  Create linklist {0}".format(word))
         L0 = len(S)
         S.add(filename)
         if L0 != len(S):
             with open(referfrom, mode='wb') as f:
                 pickle.dump(S, f)
 
-    logger.info(words)
     # return parsed
 

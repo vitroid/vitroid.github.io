@@ -25,11 +25,12 @@ def aspect(images):
 
 
 def visualindex():
-    newest = sorted([x for x in glob.glob("*.md")], key=lambda x: os.path.getmtime(x))
+    newest = sorted(glob.glob("*.md"), key=lambda x: -os.path.getmtime(x))
     s = ""
 
+    logger.info("Generating visual index.")
     row = 0
-    while row < 4:
+    while row < 10:
         images = [] # URL, size, and MD page title
         while aspect(images) < 3:
             found = False
@@ -45,13 +46,15 @@ def visualindex():
                             images.append((url, sizes[1], page[:-3]))
                             found = True
                             break
-        width = 720
+        width = 749
         height = width / aspect(images)
         # in raw HTML
         for image in images:
             url, (w, h), title = image
             w *= height / h
-            s += "<a href='/{0}'><img src='{1}' width='{2}' height='{3}' /></a>".format(title, url, w, height)
+            # s += "<a href='/{0}'><img src='{1}' width='{2}' height='{3}' /></a>".format(title, url, w, height)
+            # using image resize proxy
+            s += "<a href='/{0}'><img src='http://images.weserv.nl/?url={1}&w={2}&h={3}&output=jpg&q=65' /></a>".format(title, url, int(w), int(height))
         s += "<br />"
         # in jekyll
         #for image in images:
@@ -102,7 +105,7 @@ def formatPage(title, target, kwtree, processed=None, linked=None, autolink=Fals
             file.write("# {0}\n\n".format(title))
         else:
             for mode, line in md_parser(processed):
-                logger.info((mode,line))
+                # logger.info((mode,line))
                 if mode == "normal":
                     # process autolinks
                     if autolink:
@@ -115,8 +118,8 @@ def formatPage(title, target, kwtree, processed=None, linked=None, autolink=Fals
                                     # it is a hashtag
                                     m = re.search(r"\s", line[1:])
                                     if m:
-                                        logger.info((m.span(),line))
-                                        logger.info(line[head+1:head+1+m.span()[0]])
+                                        # logger.info((m.span(),line))
+                                        # logger.info(line[head+1:head+1+m.span()[0]])
                                         s += "[{0}](/{0})".format(line[1:1+m.span()[0]])
                                         line = line[m.span()[1]:]
                                         continue
@@ -144,18 +147,22 @@ def formatPage(title, target, kwtree, processed=None, linked=None, autolink=Fals
                 # logger.info(links)
                 file.write("## Linked from\n\n")
                 for link in sorted(links):
-                    file.write("* [{1}]({0})\n".format(link, link[:-3]))
+                    file.write("* [{0}](/{0})\n".format(link[:-3]))
         if processed is not None:
             file.write("\n\n----\n[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/{0}.md)\n".format(title))
         
-                
+
+logger = getLogger()
+
 # scrapbox conversion
+logger.info("Converting Scrapbox pages.")
 for file in glob.glob("*.sb"):
     mdfile = file[:-2] + "md"
     if not os.path.exists(mdfile) or os.path.getmtime(mdfile) < os.path.getmtime(file):
         title = file[:-3]
         lines = open(file).readlines()
         md = s2m.scrapbox2md(title, lines, autolink=True)
+        logger.info("  {0}".format(file))
         open(mdfile, "w").write(md)
 
 import urllib.request
@@ -163,23 +170,27 @@ import wiki2md as w2m
 
 logger = getLogger()
 # FSwiki conversion
+logger.info("Converting FSWiki pages.")
 for wikifile in glob.glob("wiki/*.wiki"):
     title = urllib.request.unquote(os.path.basename(wikifile), 'euc-jp')[:-5].replace("+", " ").replace("/", "_")
     sbfile = title + ".sb"
     mdfile = title + ".md"
-    logger.info(wikifile)
+    # logger.info(wikifile)
     if not os.path.exists(sbfile):
         if not os.path.exists(mdfile) or os.path.getmtime(mdfile) < os.path.getmtime(wikifile):
             md = w2m.wiki2md(open(wikifile, encoding="euc-jp"))
+            logger.info("  {0}".format(wikifile))
             open(mdfile, "w").write(md)
 
         
+logger.info("Update link references.")
 for file in glob.glob("*.md"):
     target = "../" + file
     if not os.path.exists(target) or os.path.getmtime(target) < os.path.getmtime(file):
         # if the original md is editted
         # md_parser adds line attributes
         md = [x for x in md_parser(file)]
+        logger.info("  {0}".format(file))
         pk.process_keywords(file, md, autolink=True)
 
 
@@ -187,6 +198,7 @@ pages = [file[:-3]      for file in glob.glob("*.md")]
 words = [file[:-7][7:]  for file in glob.glob("../ref/*.pickle")]
 kwtree = keyword_tree(pages)
 
+logger.info("Parse and update Markdown pages.")
 for page in pages:
     processed = page + ".md"
     linked    = "../ref/" + page + ".pickle"
@@ -199,15 +211,18 @@ for page in pages:
     elif os.path.exists(linked) and os.path.getmtime(target) < os.path.getmtime(linked):
         go = True
     if go:
+        logger.info("  {0}".format(page))
         formatPage(page, target, kwtree, processed=processed, linked=linked, autolink=True)
 
 
+logger.info("Update virtual pages.")
 for page in words:
     processed = page + ".md"
     linked    = "../ref/" + page + ".pickle"
     target    = "../" + page + ".md"
     if (not os.path.exists(target)) or ( (not os.path.exists(processed))
                                          and os.path.getmtime(target) < os.path.getmtime(linked)):
+        logger.info("  {0}".format(page))
         formatPage(page, target, kwtree, linked=linked, autolink=True)
 
 open("../_includes/visual.html", "w").write(visualindex())

@@ -7,7 +7,7 @@ from logging import getLogger, basicConfig, INFO, DEBUG
 def getsizes(uri):
     # get file size *and* image size (None if not known)
     logger = getLogger()
-    logger.info(uri)
+    # logger.info(uri)
     try:
         file = urllib.request.urlopen(uri)
         size = file.headers.get("content-length")
