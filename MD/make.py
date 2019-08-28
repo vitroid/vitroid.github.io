@@ -51,13 +51,14 @@ def visualindex():
             while not found:
                 page = newest.pop(0)
                 title = page[:-3]
-                for line in open(page).readlines():
+                for line in open("../"+page).readlines():
                     m = re.search(r"!\[[^\]]*\]\(([^\)]+)\)", line)
                     if m:
                         # obtain the size
                         # 内部ファイルはサイズがわからない？それはおかしい。
                         url = m.group(1)
                         sizes = getsizes(url, loc="../"+title+"/")
+                        # logger.info((title, url))
                         if sizes is not None:
                             filesize, imagesize, path = sizes
                             images.append((path, imagesize, title))
@@ -72,6 +73,7 @@ def visualindex():
             # s += "<a href='/{0}'><img src='{1}' width='{2}' height='{3}' /></a>".format(title, url, w, height)
             # using image resize proxy
             s += "<a href='/{0}'><img src='http://images.weserv.nl/?url={1}&w={2}&h={3}&output=jpg&q=65' /></a>".format(title, url, int(w), int(height))
+            logger.info("  {0}".format(title))
         s += "<br />"
         # in jekyll
         #for image in images:
@@ -165,27 +167,28 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
                             continue
                         # bypass special syntaxes
                         m = re.search(r"^\[([^\]]*)\]", line)
+                        # Bracketed
                         if m:
                             label = m.group(1)
                             m2 = re.search(r"\(([^\)]*)\)", line[len(label)+2:])
+                            # Followed by parens
                             if m2:
                                 link = m2.group(1)
                                 line = line[len(label)+len(link)+4:]
-                                logger.info(link)
-                                methodloc = link.split(":", 1)
-                                methodloc.append("")
-                                method, loc = methodloc[:2]
-                                logger.info(methodloc)
-                                if method in interwikinames:
-                                    html = interwikinames[method].format(loc, label)
-                                    s += html
-                                    logger.info("    InterWikiName {0} {1} {2}".format(method, loc, html))
-                                else:
-                                    s += "[{0}]({1})".format(label, link)
-                                continue
                             else:
-                                s += "[{0}]".format(label)
                                 line = line[len(label)+2:]
+                                link = label
+                            logger.info(link)
+                            methodloc = link.split(":", 1)
+                            methodloc.append("")
+                            method, loc = methodloc[:2]
+                            logger.info(methodloc)
+                            if method in interwikinames:
+                                html = interwikinames[method].format(loc, label)
+                                s += html
+                                logger.info("    InterWikiName {0} {1} {2}".format(method, loc, html))
+                            else:
+                                s += "[{0}]({1})".format(label, link)
                             continue
                                 
                         # autolinker

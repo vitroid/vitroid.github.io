@@ -26,16 +26,9 @@ def getsizes(uri, loc):
                 return size, p.image.size, uri
         file.close()
     except:
-        return None
-        # ローカルファイルの場合、リサイズが面倒(本末転倒だが)
-        # might be a local file.
-        logger.info("Local file? {0}".format(uri))
-        path = loc + uri
-        if os.path.exists(path):
-            im = Image.open(path)
-            return os.path.getsize(path), im.size, path
-        return None
-    return(size, None)
+        pass
+    return None
+
 
 if __name__ == "__main__":
     print(getsizes("https://live.staticflickr.com/7917/46611114124_54653d669c_k_d.jpg"))

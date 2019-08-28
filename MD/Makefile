@@ -1,7 +1,7 @@
 parse:
 	python make.py
 build:
-	cd ..; bundle exec jekyll build --verbose
+	cd ..; bundle exec jekyll build --verbose --incremental
 serve:
 	cd ..; bundle exec jekyll serve --incremental
 prepare:
