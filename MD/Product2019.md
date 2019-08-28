@@ -12,7 +12,7 @@
 
 * 見える化シンポジウム2019
 
-#artworks
+#artworks #IoT
 
 
 

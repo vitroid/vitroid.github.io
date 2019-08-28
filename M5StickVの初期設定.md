@@ -97,7 +97,8 @@ M5StickVはM5Stackの小型版(M5Stick)の、さらにAIエンジン搭載のも
 
 
 
-[M5StickV](/M5StickV) [2019夏の自由研究](/2019夏の自由研究) 
+[M5StickV](/M5StickV) [2019夏の自由研究](/2019夏の自由研究)  [自由研究](/自由研究) 
+[IoT](/IoT)
 
 
 
