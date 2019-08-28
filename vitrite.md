@@ -110,6 +110,7 @@ Vitriteは、Crystallite(結晶状のもの、結晶子)との対比で、vitreo
 * [InterWikiName](/InterWikiName)
 * [LDA](/LDA)
 * [MBO2007](/MBO2007)
+* [MBO2008](/MBO2008)
 * [MYT2015](/MYT2015)
 * [Network Motif of Water](/Network Motif of Water)
 * [Vitrite Database](/Vitrite Database)
