@@ -1,4 +1,5 @@
 ---
+title: ice dtc
 ---
 # [ice dtc](/ice dtc)
 
@@ -18,9 +19,9 @@
 
 ## Linked from
 
-* [3Dプリンタ用データ](3Dプリンタ用データ.md)
-* [YYMT2019](YYMT2019.md)
-* [ice dtc](ice dtc.md)
+* [3Dプリンタ用データ](/3Dプリンタ用データ)
+* [YYMT2019](/YYMT2019)
+* [ice dtc](/ice dtc)
 
 
 ----

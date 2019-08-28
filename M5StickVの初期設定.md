@@ -1,4 +1,5 @@
 ---
+title: M5StickVの初期設定
 ---
 # [M5StickVの初期設定](/M5StickVの初期設定)
 
@@ -8,13 +9,13 @@ M5StickVはM5Stackの小型版(M5Stick)の、さらにAIエンジン搭載のも
 
 ## Firmwareの書き込み
 
-小林先生の https://qiita.com/mayfair/items/d1a4ad360670c61ba0fa ほかいろいろ参考にするもKflash-gui 1.5.2が動かず、古いバージョン1.2は書き込みに成功しない。
+小林先生の [https://qiita.com/mayfair/items/d1a4ad360670c61ba0fa](https://qiita.com/mayfair/items/d1a4ad360670c61ba0fa) ほかいろいろ参考にするもKflash-gui 1.5.2が動かず、古いバージョン1.2は書き込みに成功しない。
 
 
 
 
 * pip install kflushでCUIツールをインストール
-* [M5Stack Quick Start](https://docs.m5stack.com/[/en/quick_start/m5stickv/m5stickv_quick_start)からfirmwareを入手。](//en/quick_start/m5stickv/m5stickv_quick_start)からfirmwareを入手。)
+* [M5Stack Quick Start](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)からfirmwareを入手。
 * 電源を落とし、一旦コネクタを抜いたあと、正面のAボタンを押しながらコネクタを差し込んでboot.pyの自動起動を回避。
 * 以下のcommandで書き込んだ。
         kflash -B M5StickV  -p /dev/cu.usbserial-B55A3DF445 -b 115200 ~/Downloads/m5stickV_Firmware_0630Fixed.kfpkg 
@@ -89,7 +90,7 @@ M5StickVはM5Stackの小型版(M5Stick)の、さらにAIエンジン搭載のも
 
 * 仮に、KPUを使わずにただのビデオカメラとして使うとどれぐらいのfpsを出せるのか。→7fpsぐらい? 大差ない。
 * シャッターボタンを組みこんで、とりあえず普通のstill cameraにできるか。→できるけど、保存方法がまだ不明。
-* gyroは入っているという説がある。(https://tech.144lab.com/entry/2019/07/24/M5StickV_IMU )これを見ていると、まだFirmWare自体開発中っぽい。
+* gyroは入っているという説がある。([https://tech.144lab.com/entry/2019/07/24/M5StickV_IMU](https://tech.144lab.com/entry/2019/07/24/M5StickV_IMU) )これを見ていると、まだFirmWare自体開発中っぽい。
 * 電池を内蔵しているのでWirelessでは使えるものの、Wifiが搭載されていない。この点はPi Zero (Zero Wではなく)に近い。Groveコネクタを使って、外部と連携させないとただのカメラになってしまう。
 * KPUの学習をさせる方法を知りたい。
 * 適切な用途。
@@ -102,7 +103,7 @@ M5StickVはM5Stackの小型版(M5Stick)の、さらにAIエンジン搭載のも
 
 ## Linked from
 
-* [M5StickVの初期設定](M5StickVの初期設定.md)
+* [M5StickVの初期設定](/M5StickVの初期設定)
 
 
 ----

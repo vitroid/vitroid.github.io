@@ -6,4 +6,6 @@
 __pycache__/
 ref/
 _site/
+MD/_attach
+MD/wiki
 

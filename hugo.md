@@ -1,6 +1,7 @@
 ---
+title: hugo
 ---
-訳あってPrivateに全文検索するサイトが欲しくなったので、今風に静的サイト生成器を使って作ってみる。
+訳あってPrivateに全文検索するサイトが欲しくなったので、今風に静的サイト生成器(SSG)を使って作ってみる。
 
 ## install
 
@@ -31,15 +32,15 @@ $ hugo server -D
 
 トップページに表示されるものはblogのポストっぽいがそれは使わないことにして、静的ページをcontent/program以下に並べておくことにしよう。
 
-[http://rs.luminousspice.com/[hugo](/hugo)-site-search/](http://rs.luminousspice.com/[hugo](/hugo)-site-search/)さんを参考にする。
+[http://rs.luminousspice.com/hugo-site-search/](http://rs.luminousspice.com/hugo-site-search/) さんを参考にする。
 
-これは魔法のようは技術だ・・・
+これは魔法のような技術だ・・・
 
 ## 結局
 
 luminousspiceさんの検索のjavascriptをよく読んだ結果、Hugoが必要なわけではなく、あらかじめ索引ファイルを1つ作っておけば十分高速に検索ができることがわかったので、当初の目的のためにはSSGもなにも要らないことが判明。今日はここまで。
 
-
+[2019-08-23](/2019-08-23) 
 [software](/software)
 [hugo](/hugo)
 [雑記](/雑記)

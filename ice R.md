@@ -1,4 +1,5 @@
 ---
+title: ice R
 ---
 # [ice R](/ice R)
 
@@ -25,10 +26,10 @@ Ice "R"* is a partial plastic ice discovered when liquid water is compressed to 
 
 ## Linked from
 
-* [3Dプリンタ用データ](3Dプリンタ用データ.md)
-* [MHM2014](MHM2014.md)
-* [ice R](ice R.md)
-* [研究テーマ](研究テーマ.md)
+* [3Dプリンタ用データ](/3Dプリンタ用データ)
+* [MHM2014](/MHM2014)
+* [ice R](/ice R)
+* [研究テーマ](/研究テーマ)
 
 
 ----

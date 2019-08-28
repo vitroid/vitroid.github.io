@@ -1,9 +1,18 @@
 ---
+title: rubikitch
 ---
+
 # るびきちさん
-* http://www.rubyist.net/~[rubikitch](/rubikitch)/index.cgi
+
+* [http://www.rubyist.net/~rubikitch/index.cgi](http://www.rubyist.net/~rubikitch/index.cgi)
 
 
+
+
+## Linked from
+
+* [rubikitch](/rubikitch)
+* [拡張版PluckerViewer](/拡張版PluckerViewer)
 
 
 ----

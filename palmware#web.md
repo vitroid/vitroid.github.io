@@ -1,8 +1,7 @@
 ---
+title: palmware#web
 ---
-# palmware#web
-
 ## Linked from
 
-* [PalmBasket](PalmBasket.md)
-* [RetrievR](RetrievR.md)
+* [PalmBasket](/PalmBasket)
+* [RetrievR](/RetrievR)

@@ -1,4 +1,5 @@
 ---
+title: Product2007
 ---
 # [Product2007](/Product2007)
 
@@ -12,7 +13,7 @@
 
 ## Linked from
 
-* [Product2007](Product2007.md)
+* [Product2007](/Product2007)
 
 
 ----

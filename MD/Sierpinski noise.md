@@ -1,12 +1,18 @@
 #fractal noise
 
+
+
 シェルピンスキーSierpinskiのオートマトンの各世代の1のビットの数を音にしたものです。
 
+
+
 シェルピンスキーガスケットSierpinski Gasketは一次元セルオートマトンの一種で、以下のようなルールで作られます。
+
 ```
 x(n+1, i) = x(n, i) xor x(n,i-1)
 ```
 ただし、nは世代、iは座標です。このルールにより、以下のようなパターンが形成されます。
+
 ```
  10000000
  11000000
@@ -19,7 +25,10 @@ x(n+1, i) = x(n, i) xor x(n,i-1)
 ```
 各世代の"1"の数は1,2,2,4,2,4,4,8...という風に徐々に増加します。これを直接音圧に変換します。
 
-* ref sierpinski.aiff Sierpinski Noise.
-* ref sierpinski.c C source.
-* ref Makefile.sierpinski Makefile.
+
+
+* [](sierpinski.aiff) Sierpinski Noise.
+* [](sierpinski.c) C source.
+* [](Makefile.sierpinski) Makefile.
+
 

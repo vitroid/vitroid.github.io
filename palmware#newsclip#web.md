@@ -1,7 +1,6 @@
 ---
+title: palmware#newsclip#web
 ---
-# palmware#newsclip#web
-
 ## Linked from
 
-* [NewsClip](NewsClip.md)
+* [NewsClip](/NewsClip)

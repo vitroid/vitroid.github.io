@@ -1,4 +1,6 @@
+
 ## Personal and contact information
+
 <dl>
   <dt>Date Prepared</dt><dd>Oct 30, 2012
 </dd>
@@ -17,20 +19,28 @@
   <dt>Nationality</dt><dd> Japan
 </dd>
 </dl>
+
 ## Educational Background
+
 <dl>
   <dt>Doctor of Science, Graduate University for Advanced Studies (Japan), Chemistry, Okayama University, 1996
 </dt><dd></dd>
 </dl>
 Major: Theoretical Chemistry
+
 Thesis: Topology and Dynamics of hydrogen bond network in liquid water
+
+
 
 <dl>
   <dt>Master of Engineering, Kyoto University (Japan), 1992
 </dt><dd></dd>
 </dl>
 Major: Theoretical Chemistry
+
 Thesis: Solute pair formation in acetonitrile aqueous solution at infinite dilution
+
+
 
 <dl>
   <dt>Bachelor of Engineering, Kyoto University (Japan), 1990
@@ -39,12 +49,20 @@ Thesis: Solute pair formation in acetonitrile aqueous solution at infinite dilut
 Major: Theoretical Chemistry
 
 
+
+
+
+
 ## Employment Record
+
 1. 2010 &#8211; present, Associate Professor, Department of Chemistry, Okayama University, Japan
 1. 1998 - 2010, Assistant Professor, Research Center for Materials Science, Nagoya University, Japan, 
 1. 1996 - 1998, Assistant Professor, Department of Chemistry, Nagoya University, Japan, 
 
+
+
 ## Report of teaching and training
+
 1. 2010 - present, Chemistry of Complex Materials, Okayama University, MC and DC, 1 semester
 1. 2010 - present, Fundamental Chemical Experiments, Okayama University, BC1, 1 semester
 1. 2010 - present, Mathematics for Chemistry II, Okayama University, BC1, 1 semester
@@ -52,7 +70,9 @@ Major: Theoretical Chemistry
 1. 2010 - present, Chemical English, Okayama University, BC1, 1 semester (partly)
 1. 1996 - 2010, Introduction to Computational Chemistry, Nagoya University, BC3, 1 semester
 1. 1996 - 2010, Chemical Seminar, Nagoya University, BC1, 1 semester
+
 ## Invited presentations (2011 -)
+
 <dl>
   <dt>Jul. 30, 2012</dt><dd> Masakazu Matsumoto, "Microscopic View of the Supercooled Water", Institute for Protein Research July Forum, Osaka, Japan.
 </dd>
@@ -69,23 +89,40 @@ Major: Theoretical Chemistry
   <dt>May 30, 2011</dt><dd>Masakazu Matsumoto and Hideki Tanaka, "On the structure selectivity of clathrate hydrates" (Invited), Asian International Workshop on Quasicrystals, Seoul (Korea).
 </dd>
 </dl>
+
 ## Funding Information
+
+
 ### Current
+
 1. Control and exploration for new crystal and quasicrystal clathrate materials, Ministry of Education, Culture, Sports, Science and Technology.
 1. Cloud education and practice environment using virtual computing laboratory, Ministry of Education, Culture, Sports, Science and Technology.
+
 ## Scientific Papers
+
 include Papers
 
 
 
+
+
+
+
+
 ## Book Chapter
+
 * Masakazu Matsumoto, Chapter 4.3.1.2 "Amorphous Structure Analysis for Network-forming Materials",  "Topology Designing", NTS corp. (Japan), 2009; ISBN 978-4-86043-162-4.
+
 ## Professional Societies
+
 1. Physical Society of Japan, Member
 1. Molecular Simulation Society of Japan, Member
 1. The Japan Society of High Pressure Science and Technology, Member
 
+
+
 ## Language skill and qualification
+
 <dl>
   <dt>English
 </dt><dd></dd>

@@ -1,9 +1,18 @@
 ---
+title: Exhaustive Search for Polyhedral Fragments
 ---
 [analysis](/analysis)
-# [Exhaustive Search for Polyhedral Fragments](/Exhaustive Search for Polyhedral Fragments) (Vitrites)
-See the [GitHub](http://github.com/[vitroid](/vitroid)/Vitrite).
 
+
+# [Exhaustive Search for Polyhedral Fragments](/Exhaustive Search for Polyhedral Fragments) (Vitrites)
+
+See the [GitHub](http://github.com/vitroid/Vitrite).
+
+
+
+## Linked from
+
+* [Exhaustive Search for Polyhedral Fragments](/Exhaustive Search for Polyhedral Fragments)
 
 
 ----

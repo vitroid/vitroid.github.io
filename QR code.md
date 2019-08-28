@@ -1,4 +1,5 @@
 ---
+title: QR code
 ---
 # [QR code](/QR code)
 
@@ -17,7 +18,7 @@
 
 ## Linked from
 
-* [QR code](QR code.md)
+* [QR code](/QR code)
 
 
 ----

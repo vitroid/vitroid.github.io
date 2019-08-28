@@ -1,4 +1,5 @@
 ---
+title: chirality
 ---
 # [chirality](/chirality)
 
@@ -16,8 +17,8 @@
 
 ## Linked from
 
-* [chirality](chirality.md)
-* [フラグメント](フラグメント.md)
+* [chirality](/chirality)
+* [フラグメント](/フラグメント)
 
 
 ----

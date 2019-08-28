@@ -1,6 +1,8 @@
 ---
+title: KagakuSuugaku
 ---
 include [化学数学II](/化学数学II)
+
 
 
 ----

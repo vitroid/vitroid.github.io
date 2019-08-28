@@ -1,8 +1,7 @@
 ---
+title: twist
 ---
-# twist
-
 ## Linked from
 
-* [chirality](chirality.md)
-* [twist water](twist water.md)
+* [chirality](/chirality)
+* [twist water](/twist water)

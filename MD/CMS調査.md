@@ -1,7 +1,12 @@
 #survey
+
 とあるサイトの構築に使うCMSの調査。
+
+
 ## 絞り込み
+
 http://www.cmsmatrix.org/で、以下の条件を与えて大雑把に絞りこむ。
+
 * WYSIWYG editor - ブラウザ上で文字の装飾を直接行える。
 * Multilingual - 多言語対応
 * UTF-8 - ユニコード対応。
@@ -12,10 +17,12 @@ http://www.cmsmatrix.org/で、以下の条件を与えて大雑把に絞りこ�
 * Third Party Developers - 開発者コミュニティがあるかどうか=OSSかどうか
 * Content Approval = コンテンツの変更には責任者の承認が必要
 あと考慮すべき条件は
+
 * ライセンス。proprietaryなライセンスで、海外のソフトハウスの製品だと、国内サポートはまず期待できないし、会社がなくなると大変なことになる。日本人の開発者コミュニティがしっかりしたOSSが望ましい。
 * 日本での使用実績。Multi-lingualといっても、欧米語だけという場合も多々ある。
 * サーバ側の要件、Solaris+Postgresql。ただし、これを入れると選択肢を非常に狭めるので、とりあえずUnixで動く(Windowsではない)ものに限る。
 とりあえず、上の条件にOSSを付加してしぼったのが以下のリスト。件数はgoogle日本語版での結果数。
+
 * http://www.ametys.org ametys 3件
 * http://codejungle.is-a-geek.org cms-bandits 8件
 * http://www.conterior.de conterior 1件
@@ -37,10 +44,15 @@ http://www.cmsmatrix.org/で、以下の条件を与えて大雑把に絞りこ�
 * http://wordpress.org/ wordpress 1,750,000件*
 * http://www.xoops.org xoops 2,130,000件
 件数に*のついているものは、名前が一般的すぎるので、google検索のキーワードに「CMS」を追加して検索した。
+
 名前は重要である。検索にひっかかる名前でないと存在しないに等しい。ploneがひっかからなかったのはちょっと不思議。
 
 
+
+
+
 日本語コミュニティの存在するCMSは限られている。
+
 <dl>
   <dt>drupal</dt><dd>http://drupal.jp/ サイト落ちてる?
 </dd>
@@ -59,18 +71,28 @@ http://www.cmsmatrix.org/で、以下の条件を与えて大雑把に絞りこ�
   <dt>xoops cube</dt><dd>http://jp.xoops.org/ コミュニティポータル構築用のオープンソースアプリケーションなのでこれも目的が違うかも。
 </dd>
 </dl>
+
 ## 生成するHTMLの品質
+
 調査中。
+
 * joomla!のWYSIWYG editorの出力はどこかで見たものとそっくり。たぶんJavascriptで書かれた汎用WYSIWYG editorを使いまわしているので、気にいらなければ外注して改善してもらえばいい。
+
 ## まとめ
+
 今のところ候補は、joomla!、typo3、ez publishあたりか。ploneも候補のつもりだがCMS matrixで情報得られず。drupalも未調査。他に可能性があるのはMovable Type(これは化学G-COEで導入するので、実際に操作を試せる)。
+
+
 ## その他の情報源
+
 * http://www.cmshikaku.com
-* ref cmsmatrix.pdf 主要なCMSの機能比較表。
+* [](cmsmatrix.pdf) 主要なCMSの機能比較表。
 * http://www.turbine.co.jp/index.html 名古屋でMovable Typeを実装する会社。 - matto (2007年11月29日 11時25分20秒)
 * http://www.site-master.jp/contact/index.html 名古屋の会社。いろんなCMSを扱える。 - matto (2007年11月29日 11時28分17秒)
 * http://xlab.jp/ xoopsを扱う名古屋の会社。 - matto (2007年11月29日 11時30分07秒)
 * http://www.3pc.jp/content/blogcategory/12/87/ open CMSの比較。 - matto (2007年11月29日 11時40分31秒)
 * 全学WebサーバではPostgreSQLが動いていませんでした。申し訳ありません。どこかに間借りすることになるなら、MySQLかPostgreSQLを条件で探してもらってますので、確定するまでお待ち下さい。 - たかた (2007年11月29日 18時47分22秒)
+
+
 
 

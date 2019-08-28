@@ -1,4 +1,5 @@
 ---
+title: twist water
 ---
 # [twist water](/twist water)
 
@@ -12,7 +13,7 @@
 
 ## Linked from
 
-* [twist water](twist water.md)
+* [twist water](/twist water)
 
 
 ----

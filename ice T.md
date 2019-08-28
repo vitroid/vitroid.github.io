@@ -1,4 +1,5 @@
 ---
+title: ice T
 ---
 # [ice T](/ice T)
 
@@ -18,11 +19,11 @@ Ice "T"* is a partial plastic ice discovered when liquid water is coexistent wit
 
 ## Linked from
 
-* [3Dプリンタ用データ](3Dプリンタ用データ.md)
-* [HYMT2017](HYMT2017.md)
-* [ice T](ice T.md)
-* [ice T2](ice T2.md)
-* [研究テーマ](研究テーマ.md)
+* [3Dプリンタ用データ](/3Dプリンタ用データ)
+* [HYMT2017](/HYMT2017)
+* [ice T](/ice T)
+* [ice T2](/ice T2)
+* [研究テーマ](/研究テーマ)
 
 
 ----

@@ -1,7 +1,6 @@
 ---
+title: How_install_Perl_modules
 ---
-# How_install_Perl_modules
-
 ## Linked from
 
-* [Vitrite Database](Vitrite Database.md)
+* [Vitrite Database](/Vitrite Database)

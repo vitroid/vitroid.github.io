@@ -1,33 +1,58 @@
 #unix#software
+
 #research
+
+
 # Yaplot -- yet another plot in 3-D
+
 -->Japanese page
-ref_image perc.gif,yaplot
+
+![yaplot](perc.gif)
+
 Sample image of yaplot. 
+
 (Visualization of 3-dimensional bond percolation.)
-* ref yaplot3.3.20040803.tar.gz,yaplot Source codes(2004-08-03)
-* ref yaplot-3.3-1.i386.rpm,yaplot Binary package for Vine Linux(2004-08-03)
-* ref yaplot_3.3-1_i386.deb,yaplot Binary package for Debian Linux(2004-08-03)
+
+* [yaplot](yaplot3.3.20040803.tar.gz) Source codes(2004-08-03)
+* [yaplot](yaplot-3.3-1.i386.rpm) Binary package for Vine Linux(2004-08-03)
+* [yaplot](yaplot_3.3-1_i386.deb) Binary package for Debian Linux(2004-08-03)
+
 ## What is yaplot?
 
+
+
+
 ### Features
+
 * Simple animation, simple control.
 * Simple data format.
 Yaplot is an easy 3D modeller and animator  for visualizing the results of computer simulation.
+
 You can browse the motion of the 3 dimentional wire frame model  with text labels and  some marks on the cheap PC based X terminals.
+
 Data format is simple and intuitive.
+
 It can also open and render several files in windows at a time.
+
 It is useful to watch spaciotemporal data.
+
 It is the least beautiful and not durable for presentation, but  enough quick and smooth for daily use.  (Do not expect much to yaplot!)
+
+
 ## Installation
+
 Yaplot requires gtk.
 
+
+
 First, get the source code and expand. On linux, compile them with the following commands.
+
 ```
            prompt% ./configure
            prompt% make
 ```
 If configure fails even when gtk is installed correctly, try the following.
+
 ```
            prompt% aclocal
            prompt% autoconf
@@ -35,12 +60,18 @@ If configure fails even when gtk is installed correctly, try the following.
            prompt% make
 ```
 When it is compiled successfully, install them to the appropriate places.
+
 ```
            prompt# make install
 ```
 On windows, edit Makefile.dos and try "make". Some features of yaplot are missing on Windows.
 
+
+
+
 ## Usage
+
+
 
 ```
      usage : yaplot [options] infile [infile ...]
@@ -54,34 +85,62 @@ On windows, edit Makefile.dos and try "make". Some features of yaplot are missin
 ```
 Currently all options are unavailable on DOS.
 
+
+
 Yaplot has the concept of layers. It has 12 layers by default. You can show/hide each layer by function keys.
+
+
 
 When "-" is specified as the command file name, commands are read from standard input.
 
+
+
 When multiple command files are specified, they are rendered in different windows. There are two modes of control, which are synchronous mode and asynchronous mode. When the mouse focuses to a windows in synchronous mode, your control (with mouse or keyboard) are reflected to all other windows. In asynchronous mode, on the other hand, your control are reflected only to the window where mouse is focusing.
+
+
 
 You can alter modes by "s" key. All the windows are in synchronous mode by default.
 
+
+
 If no command file is specified, help file is displayed.
+
+
 
 By specifying "RECORD" option in Makefile, recording feature becomes available. When "r" key is pressed, hardcopies of the windows are saved in yaplotxx_yyyyy.gif(xx is window No.、yyyyy is frame No.) To stop recording, press "r" again.
 
+
+
 If  "u" is pressed, current view information (eye position, field of view, etc.) is saved in ".yapviewstack" file of the current directory. If "o" is pressed, last view information is recovered from ".yapviewstack" file. It is useful to share the view information on multiple yaplot. (This feature is not available on DOS)
 
+
+
 When no palette file is specified, yaplot searches the palette file in the following order:
+
 1. yaplot.col file in current directory.
 1. the file specified in YAPLOTCOL environment variable.
 1. yaplot.col file in your home directory.
 1. System default palette file.
 
+
 Several sample command files are included in source code package.
+
+
 ## User interface
+
 You can control yaplot by mouse and keys.
 
+
+
 Key assignments are listed below.
+
 Commands marked with "!" mark are "repeatable commands". Pressing number keys before repeatble command key makes the same effect as pressing the command key repeatedly. For example, pressing  "5" "N" is the same as pressing "NNNNN" (animate in 5fps).
+
 When you mistype the number, press ESC key to escape.
+
 All the repeatable commands ( except "g" and "f" ) are relative, i.e., pressing "10N5P" is the same as "5N".
+
+
 
 <dl>
   <dt>Up and down arrow, or "j" and "k"</dt><dd>Pitching rotation.
@@ -129,8 +188,11 @@ All the repeatable commands ( except "g" and "f" ) are relative, i.e., pressing 
   <dt>"q" or Break</dt><dd>Quit yaplot.
 </dd>
 </dl>
+
 ## Command file format
+
 One line of the command files corresponds to one command. A command consists of a single command character followed by parameters separated by at least one space character, Any parameters are not omittable.
+
 <dl>
   <dt>r {radius}</dt><dd>Specify the radius of circles, rings, and sticks.
 </dd>
@@ -165,13 +227,23 @@ One line of the command files corresponds to one command. A command consists of 
   <dt>Empty line</dt><dd>End of a frame.
 </dd>
 </dl>
+
 ## Palette file format
+
 Each line of the palette file specifies the Red, Green and Blue  intensity of the pallete. First line describes the color for  palette 0. As the palettes 0 to 2 are reserved for system color  (Black, Gray, and White), you should not modify them.
+
+
 ## Internal behavior
+
 <!-- yaplotは、ファイル読み込み時に、ハッシュ表を用いてコマンドファイ  ルで指定された座標が縮退しているかどうかを調べ、同一の座標の座標  変換計算を減らしています。このため、読みこみに少々余分な時間がか  かりますが、ユーザは座標が縮退しているかどうかを心配する必要はあ  りません。 -->
 
+
 <!-- キャッシュ戦略にはLRUを使用していますが、先読みは行っていません。  このため、単に順方向/逆方向にアニメーション表示する場合にはあま  りキャッシュは有効に働きません。すべてのフレームを読みこめるぐら  い大きくキャッシュをとる場合、あるいは特定部分のみ繰り返し再生す  るようなケースではキャッシュが有効に機能します。 -->
+
 ## Related materials
+
 * [MDView](http://www.chem.nagoya-u.ac.jp/bar/mdview/index.html) Molecular Dynamics Viewer.
+
+
 
 

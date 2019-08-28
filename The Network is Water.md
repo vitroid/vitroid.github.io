@@ -1,4 +1,5 @@
 ---
+title: The Network is Water
 ---
 # [The Network is Water](/The Network is Water)
 
@@ -28,10 +29,10 @@ Sun Microsystemsの商標 "The Network is the Computer."をもじった言葉。
 
 ## Linked from
 
-* [The Network is Water](The Network is Water.md)
-* [ネットワーク性液体の幾何学と動力学と統計力学](ネットワーク性液体の幾何学と動力学と統計力学.md)
-* [水素結合の定義](水素結合の定義.md)
-* [研究テーマ](研究テーマ.md)
+* [The Network is Water](/The Network is Water)
+* [ネットワーク性液体の幾何学と動力学と統計力学](/ネットワーク性液体の幾何学と動力学と統計力学)
+* [水素結合の定義](/水素結合の定義)
+* [研究テーマ](/研究テーマ)
 
 
 ----

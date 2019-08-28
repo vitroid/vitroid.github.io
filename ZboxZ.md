@@ -1,6 +1,13 @@
 ---
+title: ZboxZ
 ---
 →[palmboxer](/palmboxer)
+
+## Linked from
+
+* [API](/API)
+* [NC-Boxer](/NC-Boxer)
+* [NCSync](/NCSync)
 
 
 ----

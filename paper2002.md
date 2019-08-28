@@ -1,8 +1,7 @@
 ---
+title: paper2002
 ---
-# paper2002
-
 ## Linked from
 
-* [MSO2002](MSO2002.md)
-* [papers](papers.md)
+* [MSO2002](/MSO2002)
+* [papers](/papers)

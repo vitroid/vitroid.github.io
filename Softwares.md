@@ -1,4 +1,5 @@
 ---
+title: Softwares
 ---
 # [Softwares](/Softwares)
 
@@ -8,8 +9,8 @@
 
 ## Linked from
 
-* [FrontPage](FrontPage.md)
-* [Softwares](Softwares.md)
+* [FrontPage](/FrontPage)
+* [Softwares](/Softwares)
 
 
 ----

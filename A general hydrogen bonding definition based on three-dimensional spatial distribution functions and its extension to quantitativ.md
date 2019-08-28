@@ -1,10 +1,11 @@
 ---
+title: A general hydrogen bonding definition based on three-dimensional spatial distribution functions and its extension to quantitativ
 ---
 # [A general hydrogen bonding definition based on three-dimensional spatial distribution functions and its extension to quantitativ](/A general hydrogen bonding definition based on three-dimensional spatial distribution functions and its extension to quantitativ)
 
 
 
-[[A general hydrogen bonding definition based on three-dimensional spatial distribution functions and its extension to quantitativ](/A general hydrogen bonding definition based on three-dimensional spatial distribution functions and its extension to quantitativ)e structural analysis of solutions and general intermolecular bonds - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S016773221835760X)
+[A general hydrogen bonding definition based on three-dimensional spatial distribution functions and its extension to quantitative structural analysis of solutions and general intermolecular bonds - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S016773221835760X)
 
 読めないので未確認。
 
@@ -16,7 +17,7 @@
 
 ## Linked from
 
-* [A general hydrogen bonding definition based on three-dimensional spatial distribution functions and its extension to quantitativ](A general hydrogen bonding definition based on three-dimensional spatial distribution functions and its extension to quantitativ.md)
+* [A general hydrogen bonding definition based on three-dimensional spatial distribution functions and its extension to quantitativ](/A general hydrogen bonding definition based on three-dimensional spatial distribution functions and its extension to quantitativ)
 
 
 ----

@@ -1,0 +1,11 @@
+--- original/backup.c	2003-06-05 08:45:14.000000000 +0000
++++ backup.c	2004-05-16 03:25:50.000000000 +0000
+@@ -175,6 +175,8 @@
+ 	BackupDatabaseToVFS(volRefNum, 'DATA', 'todo');
+ 	BackupDatabaseToVFS(volRefNum, 'DATA', 'date');
+ 	BackupDatabaseToVFS(volRefNum, 'DATA', 'addr');
++	BackupDatabaseToVFS(volRefNum, 'Data', 'asUR');
++	BackupDatabaseToVFS(volRefNum, 'List', 'Plkr');
+ 
+ 	//
+ 	// セーブ中ウィンドウ消去

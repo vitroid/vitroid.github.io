@@ -1,6 +1,13 @@
 ---
+title: Yoshimopedia
 ---
 [yoshimov](/yoshimov)
+
+## Linked from
+
+* [NewsClipSync Conduit](/NewsClipSync Conduit)
+* [StarterPack](/StarterPack)
+* [yoshimov](/yoshimov)
 
 
 ----

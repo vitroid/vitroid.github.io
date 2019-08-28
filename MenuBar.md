@@ -1,6 +1,8 @@
 ---
+title: MenuBar
 ---
 [test](/test)
+
 
 
 ----

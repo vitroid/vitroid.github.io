@@ -1,11 +1,14 @@
 # https://stackoverflow.com/questions/7460218/get-image-size-without-downloading-it-in-python
 
 import urllib.request
-from PIL import ImageFile
+from PIL import ImageFile, Image
 from logging import getLogger, basicConfig, INFO, DEBUG
+import os
 
-def getsizes(uri):
-    # get file size *and* image size (None if not known)
+def getsizes(uri, loc):
+    """
+    get file size *and* image size (None if not known)
+    """
     logger = getLogger()
     # logger.info(uri)
     try:
@@ -20,9 +23,17 @@ def getsizes(uri):
                 break
             p.feed(data)
             if p.image:
-                return size, p.image.size
+                return size, p.image.size, uri
         file.close()
     except:
+        return None
+        # ローカルファイルの場合、リサイズが面倒(本末転倒だが)
+        # might be a local file.
+        logger.info("Local file? {0}".format(uri))
+        path = loc + uri
+        if os.path.exists(path):
+            im = Image.open(path)
+            return os.path.getsize(path), im.size, path
         return None
     return(size, None)
 

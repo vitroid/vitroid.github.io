@@ -1,4 +1,5 @@
 ---
+title: LDA
 ---
 # [LDA](/LDA)
 
@@ -32,16 +33,16 @@
 
 ## Linked from
 
-* [3Dプリンタ用データ](3Dプリンタ用データ.md)
-* [LDA](LDA.md)
-* [Network Motif of Water](Network Motif of Water.md)
-* [_computation](_computation.md)
-* [vitrite](vitrite.md)
-* [まとめ](まとめ.md)
-* [アモルファス氷](アモルファス氷.md)
-* [ネットワーク主体論](ネットワーク主体論.md)
-* [ネットワーク物質のアモルファス構造解析](ネットワーク物質のアモルファス構造解析.md)
-* [低密度アモルファス氷](低密度アモルファス氷.md)
+* [3Dプリンタ用データ](/3Dプリンタ用データ)
+* [LDA](/LDA)
+* [Network Motif of Water](/Network Motif of Water)
+* [_computation](/_computation)
+* [vitrite](/vitrite)
+* [まとめ](/まとめ)
+* [アモルファス氷](/アモルファス氷)
+* [ネットワーク主体論](/ネットワーク主体論)
+* [ネットワーク物質のアモルファス構造解析](/ネットワーク物質のアモルファス構造解析)
+* [低密度アモルファス氷](/低密度アモルファス氷)
 
 
 ----

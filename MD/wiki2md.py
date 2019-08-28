@@ -14,9 +14,23 @@ def wiki2md(file):
     logger = getLogger()
     
     def proc_func(x):
-        elem = x.split()
+        elem = x.split(" ", 1)
+        logger.info(elem)
         if elem[0] in ("category", "alias", "redirect"):
             return "#" + " ".join(elem[1:])
+        elif elem[0] == "ref":
+            linklabel = [x.strip() for x in elem[1].split(",")]
+            linklabel.append("")
+            return "［{1}］({0})".format(*linklabel) #protected with double-sized char
+        elif elem[0] == "ref_image":
+            linklabel = [x.strip() for x in elem[1].split(",")]
+            linklabel.append("")
+            return "！［{1}］({0})".format(*linklabel)
+        elif elem[0] in ("thumbnail2",):
+            thumb,actual = [x.strip() for x in elem[1].split(",")]
+            return "！［！［XXX］({0})］({1})".format(thumb, actual)
+        #elif elem[0] == "include":
+        #    return "{{% include ../{0} %}}".format(elem[1]+".md")
         elif elem[0] == "publish":
             if len(elem) == 1:
                 return ""
@@ -32,7 +46,7 @@ def wiki2md(file):
             for i,footnote in enumerate(footnotes):
                 s += "[^{0}]: {1}\n".format(i+1, footnote)
             return s
-        elif elem[0] in ("comment", "timestamp", "accessdays", "access", "accomment", "asciicaptchacomment", "actives", "attach", "buglist", "bugstate", "bugtrack", "calendar", "category_list", "datetime", "files", "edit", "history", "lastedit", "outline", "pagelinkref", "palmbasket", "recall", "recentcalendar", "recentdays", "rss", "search", "todayslink", "todoadd", "todolist", "trackback", ):
+        elif elem[0] in ("comment", "timestamp", "accessdays", "access", "accomment", "asciicaptchacomment", "actives", "attach", "buglist", "bugstate", "bugtrack", "calendar", "category_list", "datetime", "files", "edit", "history", "lastedit", "outline", "pagelinkref", "palmbasket", "recall", "recentcalendar", "recentdays", "rss", "search", "todayslink", "todoadd", "todolist", "trackback", "thumbnail"):
             return ""
         elif elem[0] == "youtube":
             # interwikiname-like
@@ -43,7 +57,7 @@ def wiki2md(file):
         else:
             logger.error("Unknown func: {0}".format(x))
             return x
-        # ref, ref_image, thumbnail2, include thumbnail 
+        # include
 
         
     def proc_head(line, env):
@@ -84,12 +98,13 @@ def wiki2md(file):
                 s += terminate(env, "table")
                 if env == "tablehead":
                     env = "table"
-                else:
+                elif env != "table":
                     env = "tablehead"
                 c = line.count(",")
-                s += re.sub(r",", "|", line)
+                p = re.sub(r",", "|", line)
+                s += p.replace("\n", " |\n")
                 if env == "tablehead":
-                    s += "|-----" * c + "\n"
+                    s += "|-----" * c + "|\n"
             else:
                 s += terminate(env, "normal")
                 env = "normal"
@@ -98,7 +113,7 @@ def wiki2md(file):
                     h = 0
                     while line[h] == '!':
                         h += 1
-                    s += "#" * (4-h) + " " + line[h:]
+                    s += "\n" + "#" * (4-h) + " " + line[h:] + "\n"
                 elif line[0] == "*":
                     # ul
                     h = 0
@@ -116,7 +131,7 @@ def wiki2md(file):
                 elif len(line)>=2  and line[0:2] == '//':
                     s += "<!-- " + line[2:][:-1] + " -->\n"
                 else:
-                    s += line
+                    s += line + "\n"
                 # , ---- // 
         return s, env
 
@@ -145,17 +160,22 @@ def wiki2md(file):
         line = re.sub(r"__([^_]+)__", lambda x: "_{0}_".format(x.group(1)), line)
         line = re.sub(r"'''([^']+)'''", lambda x: "**{0}**".format(x.group(1)), line)
         line = re.sub(r"''([^']+)''", lambda x: "*{0}*".format(x.group(1)), line)
-        line = re.sub(r"\[([^\]|]+)(\|[^\]]+|)\][\]]*", lambda x: proc_link(x), line)
+        line = re.sub(r"\[([^\]\|]+)(\|[^\]]+|)\]\]*", lambda x: proc_link(x), line)
         return line
         
     env = "normal"
     body = ""
     for line in file:
+        #logger.info(line)
         line = re.sub(r'{{([^}]+)}}', lambda x: proc_func(x.group(1)), line)
+        #logger.info(line)
         # 行先頭文字の処理
         line, env = proc_head(line, env)
+        #logger.info(line)
         # 行中の処理
         line = proc_span(line, env)
+        line = line.replace("［","[").replace("］","]").replace("！","!")
+        #logger.info(line)
         body += line
     return body
 

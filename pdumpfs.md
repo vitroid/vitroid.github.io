@@ -1,11 +1,21 @@
 ---
+title: pdumpfs
 ---
 [software](/software)
+
 [reminder](/reminder)
 
-# [pdumpfs](/pdumpfs)
-* http://namazu.org/~satoru/[pdumpfs](/pdumpfs)/
 
+
+
+# [pdumpfs](/pdumpfs)
+
+* [http://namazu.org/~satoru/pdumpfs/](http://namazu.org/~satoru/pdumpfs/)
+
+
+## Linked from
+
+* [pdumpfs](/pdumpfs)
 
 
 ----

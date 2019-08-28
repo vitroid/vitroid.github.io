@@ -1,16 +1,27 @@
 ---
+title: yoshimov
 ---
 [person](/person)
 
+
+
+
 # Yoshimovさん
+
 * [NewsClipSync Conduit](/NewsClipSync Conduit)
 * [AddNewsClip Bookmarklet](/AddNewsClip Bookmarklet)
-* [[Yoshimopedia](/Yoshimopedia)](http://wiki.[yoshimov](/yoshimov).com/wiki.cgi)
+* [Yoshimopedia](http://wiki.yoshimov.com/wiki.cgi)
+
+
 
 
 ## Linked from
 
-* [Yoshimopedia](Yoshimopedia.md)
+* [AddNewsClip Bookmarklet](/AddNewsClip Bookmarklet)
+* [NewsClipSync Conduit](/NewsClipSync Conduit)
+* [StarterPack](/StarterPack)
+* [Yoshimopedia](/Yoshimopedia)
+* [yoshimov](/yoshimov)
 
 
 ----

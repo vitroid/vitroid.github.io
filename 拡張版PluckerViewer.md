@@ -1,39 +1,67 @@
 ---
+title: 拡張版PluckerViewer
 ---
 [palmware](/palmware)
 
+
+
+
 # 拡張版[Plucker](/Plucker) viewer
+
 This page gives information on the hacking of plucker software. 
+
+
 
 このページでは、私がplucker viewerに対して行った拡張のうち、本家で採用されていない独自機能を紹介します。
 
+
+
 現在は本家から入手できる最新版のplucker viewerも日本語(J-OS, CJKOSを含む)に対応していますので、そちらをご利用下さい。
+
 また、[Plucker](/Plucker)形式のファイルを生成するために必要なツールは本家より入手して下さい。
+
+
 ## [Plucker](/Plucker)Viewerとは
+
 [Plucker](/Plucker)は、画像や装飾書体を含むハイパーテキストをPalm上で表示するツールです。Palm上で動く viewerのほか、UnixなどでHTMLやtextファイルを変換するツールが含まれてい ます。
+
+
 ## コンパイル済みバイナリ
+
 上にいくほど新しくなります。どんどん機能が追加されているようですので、 最新のものをご利用下さい。不具合などの報告はできれば[NC-Fan2](/NC-Fan2)掲示板へおねがいします。
+
+
 ### 最新バージョン
+
 <dl>
-  <dt>ref 20040527ja.prc</dt><dd>2004/5/27版(plucker viewer1.8をベースに作成しました。tsPatch, annotation機能を新たに追加。vfsfont, antialiasなどのフォント関連の拡張機能は無効になっています。)
+  <dt>[](20040527ja.prc)</dt><dd>2004/5/27版(plucker viewer1.8をベースに作成しました。tsPatch, annotation機能を新たに追加。vfsfont, antialiasなどのフォント関連の拡張機能は無効になっています。)
 </dd>
   <dt>[PalmZLib](/PalmZLib)</dt><dd>圧縮形式の文書を閲覧する場合に必要です。
 </dd>
 </dl>
+
 ### ローレゾ用
+
 上のバイナリがWorkPad 30Jでは動かなかったので、ハイレゾ対応を除いたバイナリを作成しました。
+
 <dl>
-  <dt>ref 20040704ja.prc</dt><dd>2004/7/04版(plucker viewer1.8をベースに作成しました。tsPatch, annotation機能を新たに追加。vfsfont, antialiasなどのフォント関連、およびハイレゾ拡張機能は無効になっています。)
+  <dt>[](20040704ja.prc)</dt><dd>2004/7/04版(plucker viewer1.8をベースに作成しました。tsPatch, annotation機能を新たに追加。vfsfont, antialiasなどのフォント関連、およびハイレゾ拡張機能は無効になっています。)
 </dd>
 </dl>
+
 ### 以前のバージョン
+
 <dl>
-  <dt>ref 20040526ja.prc</dt><dd>2004/5/26版(新機能は追加していませんが、前回のコンパイルオプションに加えてtsPatchを可用にしました。)
+  <dt>[](20040526ja.prc)</dt><dd>2004/5/26版(新機能は追加していませんが、前回のコンパイルオプションに加えてtsPatchを可用にしました。)
 </dd>
 </dl>
-これより古いバージョンは[旧ページ](http://www.chem.nagoya-u.ac.jp/[matto](/matto)/90/30Palm/plucker/)をご覧ください。
+これより古いバージョンは[旧ページ](http://www.chem.nagoya-u.ac.jp/matto/90/30Palm/plucker/)をご覧ください。
+
+
 ## 本家での開発状況
+
 現在の本家の開発状況は以下の通りです。(平成15年11月19日(水)改訂)
+
 <dl>
   <dt>Desktop</dt><dd>[Plucker](/Plucker) Desktopのメッセージは日本語化されています。
 </dd>
@@ -43,8 +71,12 @@ This page gives information on the hacking of plucker software.
 </dd>
 </dl>
 
+
+
 ## [matto](/matto)私家版の特長
+
 以下では、正式にCVSにとりこまれていない(開発チームの同意を得ていない)拡張機能を提供します。平成15年11月19日(水)現在の独自拡張機能は以下の点のみです。
+
 * [MemoURL](/MemoURL)に対応する機能。外部リンクを、[MemoURL](/MemoURL)に登録し、次回のHotSync時にPCのブラウザでそのリンクを表示できるようになります。この機能はコンパイル時のオプションです。
 * (J-OS対応のためのパッチは開発版にとりこまれました。)
 * (UX-50対応のためのパッチは開発版にとりこまれました。)
@@ -57,10 +89,19 @@ This page gives information on the hacking of plucker software.
 * KIRA*さんによる、tsPatch対応修正。T|TなどのSony以外のOS5デバイスでも、tsPatchを援用することでtiny/smallフォントを使用できます。(平成16年1月18日(日))この機能はコンパイル時のオプションです。
 ほかに要望があれば[matto](/matto)にお知らせ下さい。
 
+
+
+
 ## 既知の問題点
+
 いろいろ。[NC-Fan2](/NC-Fan2)を御覧下さい。
 
+
+
+
 ## 関連プロジェクト
+
+
 
 <dl>
   <dt>[NewsClip](/NewsClip)</dt><dd> オンラインでwebページの巡回を行うサービス。[Plucker](/Plucker)形式に対応しています。
@@ -73,18 +114,34 @@ This page gives information on the hacking of plucker software.
 </dd>
 </dl>
 <!-- :るびきちさんのplucker関連情報のページ。:必見。 -->
+
 ## 翻訳者・開発者募集
+
 [Plucker](/Plucker)開発チームでは[Plucker](/Plucker)のツール群のメッセージやヘルプを翻訳してくれる方を募集しています。現在の[Plucker](/Plucker)ツールには、Linux Zaurusで動くviewerや、Windowsでウェブページを巡回するパーザーなど、多種多様なソフトウェアが含まれています。それらの多くは、メッセージを日本語化し、少しパッチをあてるだけで、日本人が簡単につかえるツールになります。現在開発チームには僕しか日本人がいないようですが、とてもそこまで手が回りません。「俺のりぬざうで[Plucker](/Plucker)を動かしてやるぜ」「画像入りのウェブページをとりこめる巡回ソフトが欲しい」という方、ぜひご連絡下さい。Windows/Linuxで開発できる人ももちろん歓迎です。
 
 
 
+
+
+
+
+
 ## License notice
+
 This is free software.
 
+
+
+
 ## 謝辞
+
 [Plucker](/Plucker)を開発したみなさん、[Plucker](/Plucker)を日本語化するために改良すべき個所を 教えてくれたMichael Nordstromさん、J-OSに関する詳しい情報をいただいた 山田さん他palm-tech-mlのみなさん、ありがとうございました。みなさんの適 切なアドバイスのおかげで、思っていたよりもずっと早く、とりあえず動くバー ジョンを公開できました。
 
+
+
+
 ## 履歴
+
 <dl>
   <dt>平成16年4月16日(金)</dt><dd>2004年1月以降のソースを使うと、HandEra 330でFatal Errorになるので、その点をQuick Hackした。
 </dd>
@@ -98,11 +155,27 @@ This is free software.
 </dd>
 </dl>
 
+
+
 ## コメント
-* http://www.timwentford.uklinux.net/ TWReader for Zaurus - [matto](/matto) (2004年05月31日 16時12分09秒)
-* http://vade-mecum.sourceforge.net/ Vade Mecum for PocketPC - [matto](/matto) (2004年06月02日 12時01分56秒)
+
+* [http://www.timwentford.uklinux.net/](http://www.timwentford.uklinux.net/) TWReader for Zaurus - [matto](/matto) (2004年05月31日 16時12分09秒)
+* [http://vade-mecum.sourceforge.net/](http://vade-mecum.sourceforge.net/) Vade Mecum for PocketPC - [matto](/matto) (2004年06月02日 12時01分56秒)
 
 
+
+
+## Linked from
+
+* [MemoURL DA](/MemoURL DA)
+* [MemoURL](/MemoURL)
+* [NCSync](/NCSync)
+* [NewsClip Recipe 1](/NewsClip Recipe 1)
+* [NewsClip Recipe 2](/NewsClip Recipe 2)
+* [PalmZLib](/PalmZLib)
+* [Plucker](/Plucker)
+* [RetrievR](/RetrievR)
+* [StarterPack](/StarterPack)
 
 
 ----

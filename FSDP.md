@@ -1,4 +1,5 @@
 ---
+title: FSDP
 ---
 # [FSDP](/FSDP)
 
@@ -16,11 +17,11 @@
 
 ## Linked from
 
-* [FSDP](FSDP.md)
-* [MBO2008](MBO2008.md)
-* [Network Motif of Water](Network Motif of Water.md)
-* [vitrite](vitrite.md)
-* [解決した問題](解決した問題.md)
+* [FSDP](/FSDP)
+* [MBO2008](/MBO2008)
+* [Network Motif of Water](/Network Motif of Water)
+* [vitrite](/vitrite)
+* [解決した問題](/解決した問題)
 
 
 ----

@@ -1,0 +1,7 @@
+all: sierpinski.aiff sierpinski
+%_v.o: %.c
+	$(CC) -c -DVERBOSE $< -o $@
+sierpinski.sw: sierpinski
+	./sierpinski > $@
+%.aiff: %.sw
+	sox -r 44100 $< $@

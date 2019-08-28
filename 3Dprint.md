@@ -1,7 +1,6 @@
 ---
+title: 3Dprint
 ---
-# 3Dprint
-
 ## Linked from
 
-* [kaleidocycle](kaleidocycle.md)
+* [kaleidocycle](/kaleidocycle)

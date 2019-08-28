@@ -1,8 +1,7 @@
 ---
+title: paper1996
 ---
-# paper1996
-
 ## Linked from
 
-* [M1996](M1996.md)
-* [papers](papers.md)
+* [M1996](/M1996)
+* [papers](/papers)

@@ -1,0 +1,7 @@
+all: cantor.aiff cantor
+%_v.o: %.c
+	$(CC) -c -DVERBOSE $< -o $@
+cantor.ub: cantor
+	./cantor 14 > $@
+%.aiff: %.ub
+	sox -r 44100 $< $@

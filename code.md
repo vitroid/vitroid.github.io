@@ -1,8 +1,7 @@
 ---
+title: code
 ---
-# code
-
 ## Linked from
 
-* [Ice Nanotube](Ice Nanotube.md)
-* [アンパンマンをさがせ](アンパンマンをさがせ.md)
+* [Ice Nanotube](/Ice Nanotube)
+* [アンパンマンをさがせ](/アンパンマンをさがせ)

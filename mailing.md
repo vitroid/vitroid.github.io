@@ -1,8 +1,7 @@
 ---
+title: mailing
 ---
-# mailing
-
 ## Linked from
 
-* [CPML](CPML.md)
-* [Citroenists' ML](Citroenists' ML.md)
+* [CPML](/CPML)
+* [Citroenists' ML](/Citroenists' ML)

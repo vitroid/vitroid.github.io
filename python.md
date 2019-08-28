@@ -1,10 +1,9 @@
 ---
+title: python
 ---
-# python
-
 ## Linked from
 
-* [GenIce](GenIce.md)
-* [Ice Nanotube](Ice Nanotube.md)
-* [TruncatablePrimes](TruncatablePrimes.md)
-* [アンパンマンをさがせ](アンパンマンをさがせ.md)
+* [GenIce](/GenIce)
+* [Ice Nanotube](/Ice Nanotube)
+* [TruncatablePrimes](/TruncatablePrimes)
+* [アンパンマンをさがせ](/アンパンマンをさがせ)

@@ -1,9 +1,10 @@
 ---
+title: Panojector
 ---
 # [Panojector](/Panojector)
 
 
-* [](https://github.com/[vitroid](/vitroid)/[Panojector](/Panojector)) -- [写真](/写真)の写像変換
+* [](https://github.com/vitroid/Panojector) -- [写真](/写真)の写像変換
 
 
 
@@ -14,12 +15,13 @@
 
 
 [software](/software)
+[artworks](/artworks)
 
 
 
 ## Linked from
 
-* [Panojector](Panojector.md)
+* [Panojector](/Panojector)
 
 
 ----

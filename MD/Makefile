@@ -3,7 +3,7 @@ parse:
 build:
 	cd ..; bundle exec jekyll build --verbose
 serve:
-	cd ..; bundle exec jekyll serve
+	cd ..; bundle exec jekyll serve --incremental
 prepare:
 	python unscrapbox.py *json
 push:
@@ -12,7 +12,8 @@ push:
 	git push
 
 prepare-wiki:
-	rsync -av --exclude 'CVS/*' chemist@www.chem.okayama-u.ac.jp:/home/theochem/wiki-data/data/matto/  wiki/
+#	rsync -av --exclude 'CVS/*' chemist@www.chem.okayama-u.ac.jp:/home/theochem/wiki-data/data/matto/  wiki/
+	rsync -av chemist@www.chem.okayama-u.ac.jp:/home/theochem/wiki-data/attach/matto _attach/
 
 
 

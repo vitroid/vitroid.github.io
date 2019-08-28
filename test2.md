@@ -1,11 +1,19 @@
 ---
+title: test2
 ---
 
+
 [test2](/test2)
-|thumbnail [test2](/test2)|thumbnail [Water noise](/Water noise)
-|-----|-----
+
+|| |
+|-----|-----|
 
 
+
+
+## Linked from
+
+* [test2](/test2)
 
 
 ----

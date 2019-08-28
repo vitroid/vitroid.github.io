@@ -1,7 +1,6 @@
 ---
+title: M5StickV
 ---
-# M5StickV
-
 ## Linked from
 
-* [M5StickVの初期設定](M5StickVの初期設定.md)
+* [M5StickVの初期設定](/M5StickVの初期設定)

@@ -1,7 +1,6 @@
 ---
+title: paper1993
 ---
-# paper1993
-
 ## Linked from
 
-* [papers](papers.md)
+* [papers](/papers)

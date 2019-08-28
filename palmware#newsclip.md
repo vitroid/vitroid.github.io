@@ -1,7 +1,6 @@
 ---
+title: palmware#newsclip
 ---
-# palmware#newsclip
-
 ## Linked from
 
-* [NCSync](NCSync.md)
+* [NCSync](/NCSync)

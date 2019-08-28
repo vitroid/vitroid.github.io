@@ -1,4 +1,5 @@
 ---
+title: YHNMT2014
 ---
 # [YHNMT2014](/YHNMT2014)
 
@@ -19,8 +20,8 @@ Molecular Simulation 41, 868-873 (2014).
 
 ## Linked from
 
-* [YHNMT2014](YHNMT2014.md)
-* [papers](papers.md)
+* [YHNMT2014](/YHNMT2014)
+* [papers](/papers)
 
 
 ----

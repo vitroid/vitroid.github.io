@@ -1,7 +1,6 @@
 ---
+title: unix#software
 ---
-# unix#software
-
 ## Linked from
 
-* [yaplot (en)](yaplot (en).md)
+* [yaplot (en)](/yaplot (en))

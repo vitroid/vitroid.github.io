@@ -1,4 +1,5 @@
 ---
+title: YMAOT2014
 ---
 # [YMAOT2014](/YMAOT2014)
 
@@ -8,7 +9,7 @@ Effect of Bubble Formation on the Dissociation of Methane Hydrate in Water: A Mo
 
 J. Phys. Chem. B 118, 1900–1906 (2014).
 
-http://doi.org/10.1021/jp412692d
+[http://doi.org/10.1021/jp412692d](http://doi.org/10.1021/jp412692d)
 
 
 * 泡ができることでメタンハイドレートの分解が加速する機構を解明した。海底のメタンハイドレートを採取するための基礎となる理論として注目されている。
@@ -24,9 +25,9 @@ http://doi.org/10.1021/jp412692d
 
 ## Linked from
 
-* [YMAOT2014](YMAOT2014.md)
-* [papers](papers.md)
-* [解決した問題](解決した問題.md)
+* [YMAOT2014](/YMAOT2014)
+* [papers](/papers)
+* [解決した問題](/解決した問題)
 
 
 ----

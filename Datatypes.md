@@ -1,13 +1,12 @@
 ---
+title: Datatypes
 ---
-# Datatypes
-
 ## Linked from
 
-* [@AR3A](@AR3A.md)
-* [@BOX3](@BOX3.md)
-* [@FRAG](@FRAG.md)
-* [@NGPH](@NGPH.md)
-* [@NX4A](@NX4A.md)
-* [@RNGS](@RNGS.md)
-* [@RSET](@RSET.md)
+* [@AR3A](/@AR3A)
+* [@BOX3](/@BOX3)
+* [@FRAG](/@FRAG)
+* [@NGPH](/@NGPH)
+* [@NX4A](/@NX4A)
+* [@RNGS](/@RNGS)
+* [@RSET](/@RSET)

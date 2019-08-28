@@ -1,4 +1,5 @@
 ---
+title: Google Home mini
 ---
 # [Google Home mini](/Google Home mini)
 
@@ -8,8 +9,8 @@ Google One (Google Drive)の有料メンバーになって一年ほど経った�
 
 ## Linked from
 
-* [ESP8266](ESP8266.md)
-* [Google Home mini](Google Home mini.md)
+* [ESP8266](/ESP8266)
+* [Google Home mini](/Google Home mini)
 
 
 ----

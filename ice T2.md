@@ -1,4 +1,5 @@
 ---
+title: ice T2
 ---
 # [ice T2](/ice T2)
 
@@ -26,10 +27,10 @@ Ice "T2"*is a new ice found at a very high pressure by computer simulations. Its
 
 ## Linked from
 
-* [3Dプリンタ用データ](3Dプリンタ用データ.md)
-* [YMT2018](YMT2018.md)
-* [ice T2](ice T2.md)
-* [研究テーマ](研究テーマ.md)
+* [3Dプリンタ用データ](/3Dプリンタ用データ)
+* [YMT2018](/YMT2018)
+* [ice T2](/ice T2)
+* [研究テーマ](/研究テーマ)
 
 
 ----

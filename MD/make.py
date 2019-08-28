@@ -13,6 +13,18 @@ basicConfig(level=INFO)
 import re
 from ktree import *        
 
+
+interwikinames = { "youtube": '<iframe width="560" height="315" src="https://www.youtube.com/embed/{0}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+                   "amazon" : '[![{1}](http://images-jp.amazon.com/images/P/{0}.09.LZZZZZZZ.jpg)](http://www.amazon.co.jp/exec/obidos/ASIN/{0})',
+                   "doi"    : '[{1}](https://doi.org/{0})',
+                   "DOI"    : '[{1}](https://doi.org/{0})',
+                   "github" : '[{1}](https://github.com/vitroid/{0})',
+                   "sb"     : '[{1}](https://scrapbox.io/vitroid/{0})',
+                   "scrapbox-vitroid": '[{1}](https://scrapbox.io/vitroid/{0})',
+}
+
+
+
 def aspect(images):
     #  width / height of a set of images
     if len(images) == 0:
@@ -26,6 +38,7 @@ def aspect(images):
 
 def visualindex():
     newest = sorted(glob.glob("*.md"), key=lambda x: -os.path.getmtime(x))
+    # logger.info(newest[:20])
     s = ""
 
     logger.info("Generating visual index.")
@@ -36,14 +49,17 @@ def visualindex():
             found = False
             while not found:
                 page = newest.pop(0)
+                title = page[:-3]
                 for line in open(page).readlines():
                     m = re.search(r"!\[[^\]]*\]\(([^\)]+)\)", line)
                     if m:
                         # obtain the size
+                        # 内部ファイルはサイズがわからない？それはおかしい。
                         url = m.group(1)
-                        sizes = getsizes(url)
+                        sizes = getsizes(url, loc="../"+title+"/")
                         if sizes is not None:
-                            images.append((url, sizes[1], page[:-3]))
+                            filesize, imagesize, path = sizes
+                            images.append((path, imagesize, title))
                             found = True
                             break
         width = 749
@@ -78,6 +94,8 @@ def md_parser(filename):
                 mode = "normal"
         if mode == "normal" and line[:4] == "    ":
             yield "quote", line
+        elif mode == "normal" and line[:2] == "{%":
+            yield "special", line
         else:
             yield mode, line
 
@@ -87,69 +105,132 @@ def kw_proc(word):
     return "[{0}](/{0})".format(word)
 #    return "[{0}]({0}.md)".format(word)
 
-def hashtag_proc(x):
-    # for jekyll
-    return "[{0}](/{0})".format(x) + " "
-#    return "[{0}]({0}.md)".format(x) + " "
 
 
-def formatPage(title, target, kwtree, processed=None, linked=None, autolink=False):
+
+def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
     """
     Format a page from a parsed page and a link list.
+
+    Parse and move the file in MD/ into appropriate places.
     """
+    tags = []
+
+    def hashtag_proc(x):
+        # for jekyll
+        tags.append(x)
+        return "[{0}](/{0})".format(x) + " "
+
+    
     logger = getLogger()
-    with open(target, "w") as file:
-        # yaml header (required for custom jekyll)
-        file.write("---\n---\n")
-        if processed is None:
-            file.write("# {0}\n\n".format(title))
-        else:
-            for mode, line in md_parser(processed):
-                # logger.info((mode,line))
-                if mode == "normal":
-                    # process autolinks
-                    if autolink:
-                        head = 0
-                        s = ""
-                        while len(line):
-                            if line[0] == "#":
-                                # might be a hashtag
-                                if line[1] not in "# ":
-                                    # it is a hashtag
-                                    m = re.search(r"\s", line[1:])
-                                    if m:
-                                        # logger.info((m.span(),line))
-                                        # logger.info(line[head+1:head+1+m.span()[0]])
-                                        s += "[{0}](/{0})".format(line[1:1+m.span()[0]])
-                                        line = line[m.span()[1]:]
-                                        continue
-                                s += line[0]
-                                line = line[1:]
-                                continue
-                            found = keyword_find(line, kwtree)
-                            if found:
-                                # logger.info(line[:head])
-                                # for jekyll
-                                s += "[{0}](/{0})".format(line[:found])
-                                #prefix = line[:head] + "[{0}]({0}.md)".format(line[head:head+found])
-                                line = line[found:]
+    body = ""
+    if processed is not None:
+        for mode, line in md_parser(processed):
+            # logger.info((mode,line))
+            if mode == "normal":
+                # process autolinks
+                if autolink:
+                    head = 0
+                    s = ""
+                    while len(line):
+                        if line[0] == "#":
+                            # might be a hashtag
+                            if line[1] not in "# ":
+                                # it is a hashtag
+                                m = re.search(r"\s", line[1:])
+                                if m:
+                                    # logger.info((m.span(),line))
+                                    # logger.info(line[head+1:head+1+m.span()[0]])
+                                    tag = line[1:1+m.span()[0]]
+                                    s += "[{0}](/{0})".format(tag)
+                                    tags.append(tag)
+                                    line = line[m.span()[1]:]
+                                    continue
+                            s += line[0]
+                            line = line[1:]
+                            continue
+                        # protect plain URL link and also convert as an MD link
+                        m = re.search(r"^(https?://[^\s\)]+)[\s\)]", line)
+                        if m:
+                            matched = m.group(1)
+                            name,ext = os.path.splitext(matched)
+                            if ext in (".jpg", ".JPG", ".png", ".PNG", ".gif", ".GIF"):
+                                s += "!"
+                                logger.info("    Automatic IMG link: {0}".format(matched))
                             else:
-                                s += line[0]
-                                line = line[1:]
-                        line = s
-                    else:
-                        # process hashtag
-                        line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1)), line)
-                file.write(line)
-        if linked is not None:
-            if os.path.exists(linked):
-                links = list(pickle.load(open(linked, "rb")))
-                # logger.info(links)
-                file.write("## Linked from\n\n")
-                for link in sorted(links):
-                    file.write("* [{0}](/{0})\n".format(link[:-3]))
-        if processed is not None:
-            file.write("\n\n----\n[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/{0}.md)\n".format(title))
+                                logger.info("    Automatic URL link: {0}".format(matched))
+                            s += "[{0}]({0})".format(matched)
+                            line = line[len(matched):]
+                            continue
+                        # bypass special syntaxes
+                        m = re.search(r"^\[([^\]]*)\]", line)
+                        if m:
+                            label = m.group(1)
+                            m2 = re.search(r"\(([^\)]*)\)", line[len(label)+2:])
+                            if m2:
+                                link = m2.group(1)
+                                line = line[len(label)+len(link)+4:]
+                                logger.info(link)
+                                methodloc = link.split(":", 1)
+                                methodloc.append("")
+                                method, loc = methodloc[:2]
+                                logger.info(methodloc)
+                                if method in interwikinames:
+                                    html = interwikinames[method].format(loc, label)
+                                    s += html
+                                    logger.info("    InterWikiName {0} {1} {2}".format(method, loc, html))
+                                else:
+                                    s += "[{0}]({1})".format(label, link)
+                                continue
+                            else:
+                                s += "[{0}]".format(label)
+                                line = line[len(label)+2:]
+                            continue
+                                
+                        # autolinker
+                        found = keyword_find(line, kwtree)
+                        if found:
+                            # logger.info(line[:head])
+                            # for jekyll
+                            s += "[{0}](/{0})".format(line[:found])
+                            #prefix = line[:head] + "[{0}]({0}.md)".format(line[head:head+found])
+                            line = line[found:]
+                        else:
+                            s += line[0]
+                            line = line[1:]
+                    line = s
+                else:
+                    # process hashtag
+                    line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1)), line)
+            body += line
+    footer = ""
+    if linked is not None:
+        if os.path.exists(linked):
+            links = list(pickle.load(open(linked, "rb")))
+            # logger.info(links)
+            footer += "\n\n## Linked from\n\n"
+            for link in sorted(links):
+                footer += "* [{0}](/{0})\n".format(link[:-3])
+            footer += "\n\n"
+    if processed is not None:
+        footer += "----\n\n[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/{0}.md)\n\n".format(title)
+
+    datestr = None
+    for tag in tags:
+        m = re.search(r"^([1-2]\d\d\d)-(\d+)-(\d+)$", tag)
+        if m:
+            datestr = "{0:04d}-{1:02d}-{2:02d}".format(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+
+    header = "---\n"
+    m = re.search(r"^[\d-]+$", title)
+    if m:
+        title = "#"+title
+    header += "title: {0}\n".format(title)
+    #if datestr:
+    #    header += "date: {0}\n".format(datestr) # no effect, rather harmful
+    header += "---\n"
+    return header + body + footer, tags
+    
         
 
 logger = getLogger()
@@ -172,7 +253,7 @@ logger = getLogger()
 # FSwiki conversion
 logger.info("Converting FSWiki pages.")
 for wikifile in glob.glob("wiki/*.wiki"):
-    title = urllib.request.unquote(os.path.basename(wikifile), 'euc-jp')[:-5].replace("+", " ").replace("/", "_")
+    title = urllib.request.unquote(os.path.basename(wikifile).replace("+", " "), 'euc-jp')[:-5].replace("/", "_")
     sbfile = title + ".sb"
     mdfile = title + ".md"
     # logger.info(wikifile)
@@ -212,18 +293,46 @@ for page in pages:
         go = True
     if go:
         logger.info("  {0}".format(page))
-        formatPage(page, target, kwtree, processed=processed, linked=linked, autolink=True)
+        formatted, tags = formatPage(page, kwtree, processed=processed, linked=linked, autolink=True)
+        open(target, "w").write(formatted)
+# Blog形式はやめる。自分にあってない。
+#        print(tags)
+#        # 日付と雑記のついているものはredirectする。
+#        if "雑記" in tags:
+#            for tag in tags:
+#                m = re.search(r"^([1-2]\d\d\d)-(\d+)-(\d+)$", tag)
+#                if m:
+#                    datestr = "{0:04d}-{1:02d}-{2:02d}".format(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+#                    count = 0
+#                    while True:
+#                        target = "../_posts/{0}-post{1}.md".format(datestr, count)
+#                        if not os.path.exists(target):
+#                            break
+#                        count += 1
+
+
 
 
 logger.info("Update virtual pages.")
+virtual = dict()
 for page in words:
     processed = page + ".md"
     linked    = "../ref/" + page + ".pickle"
     target    = "../" + page + ".md"
     if (not os.path.exists(target)) or ( (not os.path.exists(processed))
                                          and os.path.getmtime(target) < os.path.getmtime(linked)):
-        logger.info("  {0}".format(page))
-        formatPage(page, target, kwtree, linked=linked, autolink=True)
+        N = len(pickle.load(open(linked, "rb")))
+        logger.info("  {0}: ({1})".format(page, N))
+        formatted, tags = formatPage(page, kwtree, linked=linked, autolink=True)
+        open(target, "w").write(formatted)
+    if not os.path.exists(processed):
+        N = len(pickle.load(open(linked, "rb")))
+        # logger.info("  >>{1} {0}".format(page, N))
+        if N >= 5:
+            virtual[page] = N
+
+for x in sorted(virtual, key=lambda x:-virtual[x])[:20]:
+    logger.info("Candidates for the menu item: {0}".format(x))
 
 open("../_includes/visual.html", "w").write(visualindex())
 

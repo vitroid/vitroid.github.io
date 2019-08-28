@@ -1,7 +1,6 @@
 ---
+title: nanotube
 ---
-# nanotube
-
 ## Linked from
 
-* [Ice Nanotube](Ice Nanotube.md)
+* [Ice Nanotube](/Ice Nanotube)

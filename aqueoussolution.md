@@ -1,7 +1,6 @@
 ---
+title: aqueoussolution
 ---
-# aqueoussolution
-
 ## Linked from
 
-* [YMT2019a](YMT2019a.md)
+* [YMT2019a](/YMT2019a)

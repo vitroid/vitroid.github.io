@@ -1,8 +1,7 @@
 ---
+title: paper2009
 ---
-# paper2009
-
 ## Linked from
 
-* [M2009](M2009.md)
-* [papers](papers.md)
+* [M2009](/M2009)
+* [papers](/papers)

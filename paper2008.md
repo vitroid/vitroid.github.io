@@ -1,8 +1,7 @@
 ---
+title: paper2008
 ---
-# paper2008
-
 ## Linked from
 
-* [MBO2008](MBO2008.md)
-* [papers](papers.md)
+* [MBO2008](/MBO2008)
+* [papers](/papers)

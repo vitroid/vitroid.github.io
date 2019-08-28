@@ -1,4 +1,5 @@
 ---
+title: aeroice
 ---
 # [aeroice](/aeroice)
 
@@ -62,12 +63,12 @@
 
 ## Linked from
 
-* [FrontPage](FrontPage.md)
-* [MHYMT2017](MHYMT2017.md)
-* [MYMT2019](MYMT2019.md)
-* [aeroice](aeroice.md)
-* [エアロアイス](エアロアイス.md)
-* [解決した問題](解決した問題.md)
+* [FrontPage](/FrontPage)
+* [MHYMT2017](/MHYMT2017)
+* [MYMT2019](/MYMT2019)
+* [aeroice](/aeroice)
+* [エアロアイス](/エアロアイス)
+* [解決した問題](/解決した問題)
 
 
 ----

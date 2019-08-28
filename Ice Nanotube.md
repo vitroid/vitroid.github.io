@@ -1,4 +1,5 @@
 ---
+title: Ice Nanotube
 ---
 # [Ice Nanotube](/Ice Nanotube)
 
@@ -631,7 +632,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
 
 ## Linked from
 
-* [Ice Nanotube](Ice Nanotube.md)
+* [Ice Nanotube](/Ice Nanotube)
 
 
 ----

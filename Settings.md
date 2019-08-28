@@ -1,4 +1,5 @@
 ---
+title: Settings
 ---
 # [Settings](/Settings)
 
@@ -28,7 +29,7 @@
       margin: 0 1px;
     }
 
-[[で始まるタグをラベル風にする](/で始まるタグをラベル風にする) ]
+[#で始まるタグをラベル風にする ]
 
     a[type="hashTag"] {
    		display: inline-block;
@@ -57,7 +58,7 @@
 
 ## Linked from
 
-* [Settings](Settings.md)
+* [Settings](/Settings)
 
 
 ----

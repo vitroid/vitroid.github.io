@@ -1,4 +1,5 @@
 ---
+title: vitrite
 ---
 # [vitrite](/vitrite)
 
@@ -102,24 +103,24 @@ Vitriteは、Crystallite(結晶状のもの、結晶子)との対比で、vitreo
 
 ## Linked from
 
-* [CubeFlickr](CubeFlickr.md)
-* [Ice 0](Ice 0.md)
-* [InterWikiName](InterWikiName.md)
-* [LDA](LDA.md)
-* [MBO2007](MBO2007.md)
-* [MYT2015](MYT2015.md)
-* [Network Motif of Water](Network Motif of Water.md)
-* [Vitrite Database](Vitrite Database.md)
-* [chirality](chirality.md)
-* [simple notation](simple notation.md)
-* [vitrite](vitrite.md)
-* [ネットワーク主体論](ネットワーク主体論.md)
-* [ネットワーク物質のアモルファス構造解析](ネットワーク物質のアモルファス構造解析.md)
-* [フラグメント](フラグメント.md)
-* [水は4℃以下で膨張する](水は4℃以下で膨張する.md)
-* [液体の水の秩序](液体の水の秩序.md)
-* [研究テーマ](研究テーマ.md)
-* [非晶子](非晶子.md)
+* [CubeFlickr](/CubeFlickr)
+* [Ice 0](/Ice 0)
+* [InterWikiName](/InterWikiName)
+* [LDA](/LDA)
+* [MBO2007](/MBO2007)
+* [MYT2015](/MYT2015)
+* [Network Motif of Water](/Network Motif of Water)
+* [Vitrite Database](/Vitrite Database)
+* [chirality](/chirality)
+* [simple notation](/simple notation)
+* [vitrite](/vitrite)
+* [ネットワーク主体論](/ネットワーク主体論)
+* [ネットワーク物質のアモルファス構造解析](/ネットワーク物質のアモルファス構造解析)
+* [フラグメント](/フラグメント)
+* [水は4℃以下で膨張する](/水は4℃以下で膨張する)
+* [液体の水の秩序](/液体の水の秩序)
+* [研究テーマ](/研究テーマ)
+* [非晶子](/非晶子)
 
 
 ----

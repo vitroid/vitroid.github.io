@@ -1,6 +1,10 @@
 #unix
+
+
 ## debianパッケージの構築
+
 覚え書き。元ネタはhttp://park15.wakwak.com/~unixlife/linux/de-deb.html
+
 ```
 % mkdir ~/deb
 % cd ~/deb
@@ -26,7 +30,11 @@ uses a configure script, so you probably don't have to edit the Makefiles.
 ```
 
 
+
+
+
 ## Contents of control
+
 ```
 Source: yaplot
 Section: main
@@ -49,7 +57,9 @@ Description: Yet another plotter in 3-D.
      It is the least beautiful and not durable for presentation, but
      quick and smooth enough for daily use.
 ```
+
 ## Contents of copyright
+
 ```
 This package was debianized by Masakazu MATSUMOTO <matto@chem.nagoya-u.ac.jp> on
 Tue,  3 Aug 2004 14:28:32 +0900.
@@ -63,4 +73,5 @@ Copyright (C) 1989, 1991 Free Software Foundation, Inc.
 You are free to distribute this software under the terms of the GNU General Public License.
 On Debian systems, the complete text of the GNU General Public License can be found in the file `/usr/share/common-licenses/GPL'.
 ```
+
 

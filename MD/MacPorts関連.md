@@ -1,5 +1,7 @@
 #tips
+
 #mac
+
 <dl>
   <dt>variantsを調べる</dt><dd>http://d.hatena.ne.jp/hakobe932/20061208/1165646618
 </dd>
@@ -10,10 +12,14 @@
 a2ping is being used by the active teTeX port.  Please deactivate this port first, or use the -f flag to force the activation.
 ```
 と言われた。http://ohsawa-mac.blogspot.com/2006_06_01_archive.html を参考に、
+
 ```
 sudo port -d selfupdate
 sudo port deactivate tetex
 ```
 をして再挑戦。
+
+
+
 
 

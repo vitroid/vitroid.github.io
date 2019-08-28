@@ -1,4 +1,5 @@
 ---
+title: polyamorphism
 ---
 # [polyamorphism](/polyamorphism)
 
@@ -45,12 +46,12 @@ We therefore aim to reproduce the liquid-liquid phase transition of real materia
 
 ## Linked from
 
-* [YMT2014](YMT2014.md)
-* [YMT2019a](YMT2019a.md)
-* [polyamorphism](polyamorphism.md)
-* [アモルファス氷](アモルファス氷.md)
-* [ネットワーク物質のアモルファス構造解析](ネットワーク物質のアモルファス構造解析.md)
-* [研究テーマ](研究テーマ.md)
+* [YMT2014](/YMT2014)
+* [YMT2019a](/YMT2019a)
+* [polyamorphism](/polyamorphism)
+* [アモルファス氷](/アモルファス氷)
+* [ネットワーク物質のアモルファス構造解析](/ネットワーク物質のアモルファス構造解析)
+* [研究テーマ](/研究テーマ)
 
 
 ----

@@ -1,4 +1,5 @@
 ---
+title: YMAOT2014a
 ---
 # [YMAOT2014a](/YMAOT2014a)
 
@@ -8,7 +9,7 @@ Dissociation of Methane Hydrate in Aqueous NaCl Solutions.
 
 J. Phys. Chem. B 118, 11797–11804 (2014).
 
-http://doi.org/10.1021/jp507978u
+[http://doi.org/10.1021/jp507978u](http://doi.org/10.1021/jp507978u)
 
 
 * 塩水の中ではメタンハイドレートの分解のしかたが淡水の場合と大きく異なることを明らかにした。
@@ -23,9 +24,9 @@ http://doi.org/10.1021/jp507978u
 
 ## Linked from
 
-* [YMAOT2014a](YMAOT2014a.md)
-* [papers](papers.md)
-* [解決した問題](解決した問題.md)
+* [YMAOT2014a](/YMAOT2014a)
+* [papers](/papers)
+* [解決した問題](/解決した問題)
 
 
 ----

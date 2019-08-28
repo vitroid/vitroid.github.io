@@ -1,6 +1,7 @@
 ---
+title: JNSA
 ---
-* http://www.jnsa.org/
+* [http://www.jnsa.org/](http://www.jnsa.org/)
 
 
 ----

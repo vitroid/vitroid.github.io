@@ -1,7 +1,6 @@
 ---
+title: member
 ---
-# member
-
 ## Linked from
 
-* [vitroid](vitroid.md)
+* [vitroid](/vitroid)

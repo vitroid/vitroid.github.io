@@ -1,7 +1,6 @@
 ---
+title: software
 ---
-# software
-
 ## Linked from
 
 * [ASCII Captcha](/ASCII Captcha)

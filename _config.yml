@@ -26,9 +26,11 @@ navbar-links:
     - 研究テーマ: "研究テーマ"
     - water: "water"
     - research: "research"
-    - software: "software"
-    - visualization: "visualization"
     - 雑記: "雑記"
+    - software: "software"
+    - artworks: "artworks"
+    - risk: "risk"
+    - visualization: "visualization"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -77,7 +79,7 @@ social-network-links:
   github: vitroid
   twitter: vitroid
 #  reddit: yourname
-  linkedin: vitroid
+  linkedin: masakazu-matsumoto-269727108
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -216,6 +218,7 @@ prose:
     - /js
     - /MD
     - /MD/wiki
+    - /MD/_attach
     - /ref
   metadata:
     _posts:

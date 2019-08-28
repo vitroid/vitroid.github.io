@@ -1,18 +1,41 @@
 ---
+title: Add
 ---
 管理用ページです。
+
+
 # [NewsClip](/NewsClip)
+
+
+
+
 
 
 # 今日のリンク元
 
+
+
+
 # アクセス数
+
+
+
 
 # 一日ごとのアクセス数
 
 
 
 
+
+
+
+
+
+## Linked from
+
+* [CurriculumVitae](/CurriculumVitae)
+* [Menu](/Menu)
+* [科学グラフィックス](/科学グラフィックス)
 
 
 ----

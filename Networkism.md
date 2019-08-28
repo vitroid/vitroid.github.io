@@ -1,4 +1,5 @@
 ---
+title: Networkism
 ---
 # [Networkism](/Networkism)
 
@@ -8,13 +9,13 @@
 
 ## Linked from
 
-* [M2007](M2007.md)
-* [Networkism](Networkism.md)
-* [The Network is Water](The Network is Water.md)
-* [ネットワーク主体論](ネットワーク主体論.md)
-* [ネットワーク性液体の幾何学と動力学と統計力学](ネットワーク性液体の幾何学と動力学と統計力学.md)
-* [ネットワーク物質のアモルファス構造解析](ネットワーク物質のアモルファス構造解析.md)
-* [研究テーマ](研究テーマ.md)
+* [M2007](/M2007)
+* [Networkism](/Networkism)
+* [The Network is Water](/The Network is Water)
+* [ネットワーク主体論](/ネットワーク主体論)
+* [ネットワーク性液体の幾何学と動力学と統計力学](/ネットワーク性液体の幾何学と動力学と統計力学)
+* [ネットワーク物質のアモルファス構造解析](/ネットワーク物質のアモルファス構造解析)
+* [研究テーマ](/研究テーマ)
 
 
 ----
