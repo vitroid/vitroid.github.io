@@ -60,16 +60,20 @@ The [vitrite](/vitrite) [#34](/vitrite:34) is abundant in the supercooled liquid
 
 ### Reference
 
-1. Russo, J., Romano, F. & Tanaka, H. New metastable form of ice and its role in the homogeneous crystallization of water. Nat Mater (2014). [DOI:10.1038/NMAT3977](DOI:10.1038/NMAT3977)
-1. M. Matsumoto, A. Baba, and I. Ohmine,  J. Chem. Phys. 127, 134504 (2007). [DOI:10.1063/1.2772627](DOI:10.1063/1.2772627)
+1. Russo, J., Romano, F. & Tanaka, H. New metastable form of ice and its role in the homogeneous crystallization of water. Nat Mater (2014). [DOI:10.1038/NMAT3977](https://doi.org/10.1038/NMAT3977)
+1. M. Matsumoto, A. Baba, and I. Ohmine,  J. Chem. Phys. 127, 134504 (2007). [DOI:10.1063/1.2772627](https://doi.org/10.1063/1.2772627)
 [^1](^1): Tentative name; final phase name should be given when it is discovered experimentally.
 
 
 (2014-12-9)
+
+
 ## Linked from
 
 * [FrontPage](/FrontPage)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Ice 0.md)
+

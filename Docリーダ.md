@@ -16,6 +16,8 @@ Crs-MeDocやJ-Doc Readerは、[Docリーダ](/Docリーダ)としては非常に
 
 ということで、[MemoURL DA](/MemoURL DA)と組み合わせて、URLを再利用したい場合にはPooKをお勧めしておきます。
 
+
+
 ## Linked from
 
 * [Docリーダ](/Docリーダ)
@@ -28,4 +30,6 @@ Crs-MeDocやJ-Doc Readerは、[Docリーダ](/Docリーダ)としては非常に
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Docリーダ.md)
+

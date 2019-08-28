@@ -11,7 +11,7 @@ title: NewsClip_2004-7-4
 
 ## コンテンツがコモデティ化した世界で(２)：ソーシャルキャピタル
 
-CNETの渡辺聡のコラム([チャンネル08055を購読](newsclip:+08055))[情報化社会の航海図]コンテンツがコモデティ化した世界で(２)：ソーシャルキャピタル [http://blog.japan.cnet.com/watanabe/archives/001352.htmlに、コンテンツが大量供給された場合にどのように交通整理を行うかについて、いろんな方法が提案されています。NewsClipを発展させてゆく方向性を考える上で、なかなか参考になりました。](http://blog.japan.cnet.com/watanabe/archives/001352.htmlに、コンテンツが大量供給された場合にどのように交通整理を行うかについて、いろんな方法が提案されています。NewsClipを発展させてゆく方向性を考える上で、なかなか参考になりました。)
+CNETの渡辺聡のコラム([チャンネル08055を購読](newsclip:+08055))[情報化社会の航海図](２)ンツがコモデティ化した世界で(２)：ソーシャルキャピタル [http://blog.japan.cnet.com/watanabe/archives/001352.htmlに、コンテンツが大量供給された場合にどのように交通整理を行うかについて、いろんな方法が提案されています。NewsClipを発展させてゆく方向性を考える上で、なかなか参考になりました。](http://blog.japan.cnet.com/watanabe/archives/001352.htmlに、コンテンツが大量供給された場合にどのように交通整理を行うかについて、いろんな方法が提案されています。NewsClipを発展させてゆく方向性を考える上で、なかなか参考になりました。)
 
 
 
@@ -36,7 +36,7 @@ CNETの渡辺聡のコラム([チャンネル08055を購読](newsclip:+08055))[�
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2004-7-4.md)
+

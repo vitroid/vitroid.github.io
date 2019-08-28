@@ -38,7 +38,7 @@ proxy初期状態として「mbox.chem.nagoya-u.ac.jp」(24文字)が設定さ�
 <!--  -->
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/BugTrack-palmware_6.md)
+

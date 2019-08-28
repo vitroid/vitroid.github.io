@@ -6,7 +6,7 @@ title: NewsClip_2004-6-8
 * あとは、Palm以外の携帯端末からも使えるようにすることがこの先重要になるでしょうね。PocketPC/Zaurusのユーザの間では、なまじ端末が高機能なので、オフラインブラウザ類があまり普及していないように感じます。もし[NewsClip](/NewsClip)ユーザさんで、PocketPCやZaurusを併用していらっしゃいましたら、ご要望やご意見をいただければたいへんありがたいです。
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2004-6-8.md)
+

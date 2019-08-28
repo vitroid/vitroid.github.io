@@ -11,7 +11,7 @@ title: NewsClip_2006-9-6
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2006-9-6.md)
+

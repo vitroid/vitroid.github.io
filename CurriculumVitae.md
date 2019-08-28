@@ -131,7 +131,7 @@ include Papers
 </dt><dd></dd>
   <dt>Japanese</dt><dd> Native
 </dd>
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/CurriculumVitae.md)
+

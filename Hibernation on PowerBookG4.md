@@ -14,7 +14,7 @@ Secure virtual memoryに切り替えたせいで、hibernationが使えなくな
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Hibernation on PowerBookG4.md)
+

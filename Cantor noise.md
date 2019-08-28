@@ -22,10 +22,14 @@ title: Cantor noise
 * [http://poco.phys.tohoku.ac.jp/fractals/misc/misc.html](http://poco.phys.tohoku.ac.jp/fractals/misc/misc.html) カントール集合の図
 
 
+
+
 ## Linked from
 
 * [Pink noise](/Pink noise)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Cantor noise.md)
+

@@ -26,7 +26,7 @@ sudo port deactivate tetex
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/MacPorts関連.md)
+

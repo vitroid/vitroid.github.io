@@ -14,7 +14,7 @@ title: Wiki改良案
    * ページ印刷の際に通し番号に応じたバーコードを付加 [http://www.hippo2000.info/perl/gdbar.htm](http://www.hippo2000.info/perl/gdbar.htm)
    * クリック一発でバーコードプリント [http://dion.swamp.dk/printerdrivers.html](http://dion.swamp.dk/printerdrivers.html) カシオのプリンタEZ-USBのほうが小さくてよいが、Linux用ドライバ不明。多分ビットマップを垂れ流しているだけだろうから簡単に作れるか。
    * バーコードスキャナでベージを取り出す。Scanner入力をトリガーに、ブラウザを操作できればよいが。
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Wiki改良案.md)
+

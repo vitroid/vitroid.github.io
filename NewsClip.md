@@ -24,6 +24,8 @@ title: NewsClip
 
 
 
+
+
 ## Linked from
 
 * [API](/API)
@@ -75,4 +77,6 @@ title: NewsClip
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip.md)
+

@@ -1,6 +1,8 @@
 ---
 title: fractal
 ---
+
+
 ## Linked from
 
 * [Cantor noise](/Cantor noise)
@@ -10,3 +12,5 @@ title: fractal
 * [Weierstrass関数](/Weierstrass関数)
 * [fractal noise](/fractal noise)
 * [七五調フラクタル](/七五調フラクタル)
+
+

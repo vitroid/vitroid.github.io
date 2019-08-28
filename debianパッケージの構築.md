@@ -78,10 +78,14 @@ On Debian systems, the complete text of the GNU General Public License can be fo
 ```
 
 
+
+
 ## Linked from
 
 * [debianパッケージの構築](/debianパッケージの構築)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/debianパッケージの構築.md)
+

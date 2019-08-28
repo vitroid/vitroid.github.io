@@ -11,6 +11,8 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 
 [member](/member) [2018-10-22](/2018-10-22) 
 
+
+
 ## Linked from
 
 * [CurriculumVitae](/CurriculumVitae)
@@ -43,4 +45,6 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/vitroid.md)
+

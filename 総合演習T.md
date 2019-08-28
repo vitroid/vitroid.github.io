@@ -10,6 +10,8 @@ title: 総合演習T
 
 [講義](/講義)内容は鋭意準備中ですが、京都大学で2月に起こった京大入試問題漏洩事件をテーマにとりあげたいと思います。(当初の予定と内容が多少変わります)
 
+
+
 ## Linked from
 
 * [総合演習T](/総合演習T)
@@ -17,4 +19,6 @@ title: 総合演習T
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/総合演習T.md)
+

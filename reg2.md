@@ -67,6 +67,8 @@ title: reg2
 
 
 
+
+
 ## Linked from
 
 * [FreeStyleWikiを研究会ポータルに](/FreeStyleWikiを研究会ポータルに)
@@ -75,4 +77,6 @@ title: reg2
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/reg2.md)
+

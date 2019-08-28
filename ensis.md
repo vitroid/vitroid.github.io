@@ -12,6 +12,8 @@ title: ensis
 * [Loki](/Loki)さん
 
 
+
+
 ## Linked from
 
 * [InterWikiName](/InterWikiName)
@@ -21,4 +23,6 @@ title: ensis
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/ensis.md)
+

@@ -12,6 +12,8 @@ title: NC-Fan2
 
 
 
+
+
 ## Linked from
 
 * [Loki](/Loki)
@@ -23,4 +25,6 @@ title: NC-Fan2
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NC-Fan2.md)
+

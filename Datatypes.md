@@ -1,6 +1,8 @@
 ---
 title: Datatypes
 ---
+
+
 ## Linked from
 
 * [@AR3A](/@AR3A)
@@ -10,3 +12,5 @@ title: Datatypes
 * [@NX4A](/@NX4A)
 * [@RNGS](/@RNGS)
 * [@RSET](/@RSET)
+
+

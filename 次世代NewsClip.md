@@ -51,10 +51,14 @@ title: 次世代NewsClip
 * 世界時間、多言語対応。 - [matto](/matto) 
 * [RetrievR](/RetrievR)のように、On-demandだが非同期で巡回するというやりかたもある。 - [matto](/matto) 
 * [https://sourceforge.jp/projects/newsclip/](https://sourceforge.jp/projects/newsclip/) で開発する。 - [matto](/matto) 
+
+
 ## Linked from
 
 * [次世代NewsClip](/次世代NewsClip)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/次世代NewsClip.md)
+

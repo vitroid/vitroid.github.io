@@ -1,6 +1,8 @@
 ---
 title: water
 ---
+
+
 ## Linked from
 
 * [GenIce](/GenIce)
@@ -57,7 +59,6 @@ title: water
 * [ice dtc](/ice dtc)
 * [ice i (eye)](/ice i (eye))
 * [metatron](/metatron)
-* [navigation](/navigation)
 * [polyamorphism](/polyamorphism)
 * [twist water](/twist water)
 * [vitrite](/vitrite)
@@ -98,3 +99,5 @@ title: water
 * [融けにくい氷](/融けにくい氷)
 * [解決した問題](/解決した問題)
 * [非晶子](/非晶子)
+
+

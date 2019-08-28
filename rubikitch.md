@@ -9,6 +9,8 @@ title: rubikitch
 
 
 
+
+
 ## Linked from
 
 * [rubikitch](/rubikitch)
@@ -16,4 +18,6 @@ title: rubikitch
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/rubikitch.md)
+

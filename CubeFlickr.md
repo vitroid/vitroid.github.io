@@ -30,10 +30,14 @@ Enjoy!
 
 
 
+
+
 ## Linked from
 
 * [CubeFlickr](/CubeFlickr)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/CubeFlickr.md)
+

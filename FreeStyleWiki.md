@@ -10,6 +10,8 @@ FreeStyle WikiはPerlによるWikiクローンです。
 * [http://fswiki.poi.jp/wiki.cgi](http://fswiki.poi.jp/wiki.cgi) 本家サイト。
 
 
+
+
 ## Linked from
 
 * [ASCII Captcha](/ASCII Captcha)
@@ -19,4 +21,6 @@ FreeStyle WikiはPerlによるWikiクローンです。
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/FreeStyleWiki.md)
+

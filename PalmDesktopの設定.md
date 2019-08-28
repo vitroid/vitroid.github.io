@@ -36,7 +36,7 @@ handera330を、Macと同期させる方法。
 <!--  -->
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/PalmDesktopの設定.md)
+

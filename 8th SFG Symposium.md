@@ -9,6 +9,8 @@ title: 8th SFG Symposium
 
 
 
+
+
 ## Linked from
 
 * [8th SFG Symposium](/8th SFG Symposium)
@@ -16,4 +18,6 @@ title: 8th SFG Symposium
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/8th SFG Symposium.md)
+

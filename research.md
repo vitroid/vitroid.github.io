@@ -1,6 +1,8 @@
 ---
 title: research
 ---
+
+
 ## Linked from
 
 * [CPML](/CPML)
@@ -54,7 +56,6 @@ title: research
 * [ice T2](/ice T2)
 * [ice dtc](/ice dtc)
 * [ice i (eye)](/ice i (eye))
-* [navigation](/navigation)
 * [papers](/papers)
 * [yaplot (en)](/yaplot (en))
 * [なぜハイドレートの構造には多様性がないのか](/なぜハイドレートの構造には多様性がないのか)
@@ -82,3 +83,5 @@ title: research
 * [解決した問題](/解決した問題)
 * [計算機シミュレーション](/計算機シミュレーション)
 * [講演・講義](/講演・講義)
+
+

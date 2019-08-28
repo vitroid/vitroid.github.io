@@ -28,6 +28,8 @@ Specifies a list of cyclic path in the graph. Graph connectivity should be speci
 * [Ring Statistics Algorithm](/Ring Statistics Algorithm)
 
 
+
+
 ## Linked from
 
 * [@RNGS](/@RNGS)
@@ -35,4 +37,6 @@ Specifies a list of cyclic path in the graph. Graph connectivity should be speci
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/@RNGS.md)
+

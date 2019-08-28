@@ -20,6 +20,8 @@ A file format to specify the configration of rigid bodies, like TIP4P water mole
 
 
 
+
+
 ## Linked from
 
 * [@NX4A](/@NX4A)
@@ -27,4 +29,6 @@ A file format to specify the configration of rigid bodies, like TIP4P water mole
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/@NX4A.md)
+

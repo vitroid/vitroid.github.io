@@ -19,6 +19,8 @@ Windows機とHotSyncする際に自動的に[NewsClip](/NewsClip)から記事を
 </dd>
   <dt>[NewsClipSync Conduit](NewsClipSync Conduit)</dt><dd>[NewsClipSync-0.36.zip](http://wiki.yoshimov.com/wiki.cgi?action=ATTACH&page=NewsclipSync+Conduit&file=NewsclipSync%2D036%2Eexe) ([Yoshimopedia](http://wiki.yoshimov.com/wiki.cgi)より)
 </dd>
+
+
 ## Linked from
 
 * [NewsClip Recipe 1](/NewsClip Recipe 1)
@@ -29,4 +31,6 @@ Windows機とHotSyncする際に自動的に[NewsClip](/NewsClip)から記事を
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClipSync Conduit.md)
+

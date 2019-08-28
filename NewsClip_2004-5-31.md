@@ -19,7 +19,7 @@ tar+gz形式でもダウンロードできるようになりました。Linux Za
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2004-5-31.md)
+

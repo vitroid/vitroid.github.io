@@ -23,6 +23,8 @@ J. Phys. Chem. B 118, 1900–1906 (2014).
 
 
 
+
+
 ## Linked from
 
 * [YMAOT2014](/YMAOT2014)
@@ -31,4 +33,6 @@ J. Phys. Chem. B 118, 1900–1906 (2014).
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/YMAOT2014.md)
+

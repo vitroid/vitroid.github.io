@@ -12,10 +12,14 @@ title: BitTorrent
 
 
 
+
+
 ## Linked from
 
 * [次世代NewsClip](/次世代NewsClip)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/BitTorrent.md)
+

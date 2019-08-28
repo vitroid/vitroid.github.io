@@ -12,7 +12,7 @@ SSLを使いたくない場合
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/uw-imap-ssl.md)
+

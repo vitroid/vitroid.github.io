@@ -24,6 +24,8 @@ title: InterWikiName
 * [scrapbox](https://scrapbox.io/)
 * [scrapbox-vitroid](https://scrapbox.io/vitroid/) utf8
 * [sb](https://scrapbox.io/vitroid/) utf8
+
+
 ## Linked from
 
 * [FreeStyleWikiを研究会ポータルに](/FreeStyleWikiを研究会ポータルに)
@@ -35,4 +37,6 @@ title: InterWikiName
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/InterWikiName.md)
+

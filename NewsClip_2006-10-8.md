@@ -19,7 +19,7 @@ title: NewsClip_2006-10-8
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2006-10-8.md)
+

@@ -22,7 +22,7 @@ title: NewsClip_2005-1-19
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2005-1-19.md)
+

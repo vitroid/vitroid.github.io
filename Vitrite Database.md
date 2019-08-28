@@ -208,6 +208,8 @@ sub table1{
 </dl>
 
 
+
+
 ## Linked from
 
 * [FrontPage](/FrontPage)
@@ -217,4 +219,6 @@ sub table1{
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Vitrite Database.md)
+

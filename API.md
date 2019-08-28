@@ -305,6 +305,8 @@ outputの値Gで、出力したいフィールドを指定します。
 </dd>
 </dl>
 <!--  -->
+
+
 ## Linked from
 
 * [API](/API)
@@ -316,4 +318,6 @@ outputの値Gで、出力したいフィールドを指定します。
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/API.md)
+

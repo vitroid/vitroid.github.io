@@ -27,7 +27,7 @@ cookieが使えない古い携帯電話では[NewsClip](/NewsClip)にアクセ�
 
 使い勝手などご意見ご要望は[NC-Fan2](/NC-Fan2)にお寄せください。
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2004-9-4.md)
+

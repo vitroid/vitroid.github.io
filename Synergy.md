@@ -18,10 +18,14 @@ title: Synergy
 <!--  -->
 
 
+
+
 ## Linked from
 
 * [Synergy](/Synergy)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Synergy.md)
+

@@ -9,7 +9,7 @@ Hidden page for ToDo.
 *  5 〒通し番号付与CGI
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/_research.md)
+

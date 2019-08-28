@@ -5,7 +5,7 @@ title: Relevance of Hydrogen Bond Definition
 
 [water](/water)
 
-This page serves supplemental information on my paper, "[Relevance of Hydrogen Bond Definition](/Relevance of Hydrogen Bond Definition) in Liquid Water", *M. Matsumoto, J. Chem. Phys. 126, 054503 (2007). [DOI:10.1063/1.2431168](DOI:10.1063/1.2431168), in which I discussed why water is regarded as a network material while other (simple) materials are not, and proposed a consecutive way of tuning the thresholds.
+This page serves supplemental information on my paper, "[Relevance of Hydrogen Bond Definition](/Relevance of Hydrogen Bond Definition) in Liquid Water", *M. Matsumoto, J. Chem. Phys. 126, 054503 (2007). [DOI:10.1063/1.2431168](https://doi.org/10.1063/1.2431168), in which I discussed why water is regarded as a network material while other (simple) materials are not, and proposed a consecutive way of tuning the thresholds.
 
 
 
@@ -28,10 +28,14 @@ Their definition is simple. Ambiguity is eliminated because there is no control 
 <!--  -->
 
 
+
+
 ## Linked from
 
 * [Relevance of Hydrogen Bond Definition](/Relevance of Hydrogen Bond Definition)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Relevance of Hydrogen Bond Definition.md)
+

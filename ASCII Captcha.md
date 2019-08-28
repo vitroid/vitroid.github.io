@@ -29,10 +29,14 @@ The perl module to parse BDF font file, Font::BDF::Reader, is required. The modu
 
 
 
+
+
 ## Linked from
 
 * [ASCII Captcha](/ASCII Captcha)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/ASCII Captcha.md)
+

@@ -7,7 +7,7 @@ title: wiki移転
 
 [ToDo](/ToDo)
 [雑記](/雑記)
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/wiki移転.md)
+

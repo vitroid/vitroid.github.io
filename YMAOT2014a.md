@@ -22,6 +22,8 @@ J. Phys. Chem. B 118, 11797–11804 (2014).
 
 
 
+
+
 ## Linked from
 
 * [YMAOT2014a](/YMAOT2014a)
@@ -30,4 +32,6 @@ J. Phys. Chem. B 118, 11797–11804 (2014).
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/YMAOT2014a.md)
+

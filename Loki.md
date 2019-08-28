@@ -24,6 +24,8 @@ title: Loki
 
 
 
+
+
 ## Linked from
 
 * [Loki](/Loki)
@@ -32,4 +34,6 @@ title: Loki
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Loki.md)
+

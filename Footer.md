@@ -8,6 +8,8 @@ title: Footer
 
 
 
+
+
 ## Linked from
 
 * [Help](/Help)
@@ -17,4 +19,6 @@ title: Footer
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Footer.md)
+

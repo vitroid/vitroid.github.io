@@ -30,7 +30,7 @@ Hard Resetはあまりしたくないので、最近は使うのをあきらめ�
 <!--  -->
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/BugTrack-palmware_5.md)
+

@@ -9,7 +9,7 @@ title: LaTeX関連
 * [http://cse.naro.affrc.go.jp/takezawa/tex/latex/061.html](http://cse.naro.affrc.go.jp/takezawa/tex/latex/061.html)
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/LaTeX関連.md)
+

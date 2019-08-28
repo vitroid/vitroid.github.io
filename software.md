@@ -1,6 +1,8 @@
 ---
 title: software
 ---
+
+
 ## Linked from
 
 * [ASCII Captcha](/ASCII Captcha)
@@ -23,7 +25,6 @@ title: software
 * [YaPlot](/YaPlot)
 * [datetimeプラグイン](/datetimeプラグイン)
 * [hugo](/hugo)
-* [navigation](/navigation)
 * [pdumpfs](/pdumpfs)
 * [reg2](/reg2)
 * [あしあとプラグイン](/あしあとプラグイン)
@@ -34,3 +35,5 @@ title: software
 * [次世代NewsClip](/次世代NewsClip)
 * [編集記録プラグイン](/編集記録プラグイン)
 * [縮小表示プラグイン](/縮小表示プラグイン)
+
+

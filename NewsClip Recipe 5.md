@@ -19,6 +19,8 @@ Palm以外のPDAで利用する方法
 1. Webアーカイブ形式を選び、zip形式で[まとめ](/まとめ)てダウンロード。毎日ダウンロードできない場合は、「とりおき」を設定しておく。
 1. PDAの転送ソフトや、メモリカードを利用してPDAにwebアーカイブをインストールして閲覧。
 <!-- !!さらにひと工夫 -->
+
+
 ## Linked from
 
 * [NewsClip](/NewsClip)
@@ -26,4 +28,6 @@ Palm以外のPDAで利用する方法
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip Recipe 5.md)
+

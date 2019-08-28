@@ -4,6 +4,8 @@ title: NodeBox
 [NodeBox](/NodeBox) is my favorite rapid prototyping tool.
 
 * [http://nodebox.net](http://nodebox.net)
+
+
 ## Linked from
 
 * [Ice Nanotube](/Ice Nanotube)
@@ -13,4 +15,6 @@ title: NodeBox
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NodeBox.md)
+

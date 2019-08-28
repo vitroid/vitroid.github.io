@@ -21,6 +21,8 @@ Specifies the network topology.
 
 
 
+
+
 ## Linked from
 
 * [@NGPH](/@NGPH)
@@ -31,4 +33,6 @@ Specifies the network topology.
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/@NGPH.md)
+

@@ -10,10 +10,14 @@ Palmの電源を切る瞬間に4大アプリのバックアップをとるHack�
 * [PowerOffBackup私家版](/PowerOffBackup私家版)
 
 
+
+
 ## Linked from
 
 * [増井](/増井)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/PowerOffBackup.md)
+

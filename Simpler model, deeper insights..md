@@ -11,7 +11,7 @@ title: Simpler model, deeper insights.
 <!--  -->
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Simpler model, deeper insights..md)
+

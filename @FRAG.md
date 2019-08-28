@@ -42,6 +42,8 @@ Two subgraphs of 12 vertices in a large 512-vertex graph.
 
 
 
+
+
 ## Linked from
 
 * [@FRAG](/@FRAG)
@@ -50,4 +52,6 @@ Two subgraphs of 12 vertices in a large 512-vertex graph.
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/@FRAG.md)
+

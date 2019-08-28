@@ -1,6 +1,8 @@
 ---
 title: ice
 ---
+
+
 ## Linked from
 
 * [3Dプリンタ用データ](/3Dプリンタ用データ)
@@ -9,3 +11,5 @@ title: ice
 * [ice T2](/ice T2)
 * [ice dtc](/ice dtc)
 * [氷の多形](/氷の多形)
+
+

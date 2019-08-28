@@ -45,10 +45,14 @@ luminousspiceさんの検索のjavascriptをよく読んだ結果、Hugoが必�
 [hugo](/hugo)
 [雑記](/雑記)
 [インストール](/インストール)
+
+
 ## Linked from
 
 * [hugo](/hugo)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/hugo.md)
+

@@ -15,7 +15,7 @@ title: _computation
 
 *  20 NPH Annealingにより、[LDA](/LDA)構造をたくさんつくる。[LDA](/LDA)構造の共通モチーフを探る。
 *  5 pi-water
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/_computation.md)
+

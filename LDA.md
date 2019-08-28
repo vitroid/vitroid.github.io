@@ -31,6 +31,8 @@ title: LDA
 
 
 
+
+
 ## Linked from
 
 * [3Dプリンタ用データ](/3Dプリンタ用データ)
@@ -46,4 +48,6 @@ title: LDA
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/LDA.md)
+

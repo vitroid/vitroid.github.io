@@ -30,6 +30,8 @@ HotSyncを使わないで、Palmの通信機能を利用する。Doc形式を愛
 ## さらにひと工夫
 
 * まめにHotSyncするひとは[NewsClip Recipe 3](/NewsClip Recipe 3)へ。
+
+
 ## Linked from
 
 * [NewsClip Recipe 3](/NewsClip Recipe 3)
@@ -38,4 +40,6 @@ HotSyncを使わないで、Palmの通信機能を利用する。Doc形式を愛
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip Recipe 4.md)
+

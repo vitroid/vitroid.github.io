@@ -5,7 +5,7 @@ iSiloがもうかれこれ一年も前にversion 4になっていたなんて! �
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2004-8-30.md)
+

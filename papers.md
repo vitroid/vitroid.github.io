@@ -171,6 +171,8 @@ title: papers
 
 
 
+
+
 ## Linked from
 
 * [HMT2011](/HMT2011)
@@ -215,7 +217,6 @@ title: papers
 * [YMT2019](/YMT2019)
 * [YMT2019a](/YMT2019a)
 * [YYMT2019](/YYMT2019)
-* [navigation](/navigation)
 * [papers](/papers)
 * [略歴_CV](/略歴_CV)
 * [研究](/研究)
@@ -223,4 +224,6 @@ title: papers
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/papers.md)
+

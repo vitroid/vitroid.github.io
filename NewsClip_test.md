@@ -11,7 +11,7 @@ title: NewsClip_test
 
 
 <!--  -->
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_test.md)
+

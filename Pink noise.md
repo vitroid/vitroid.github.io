@@ -50,10 +50,14 @@ title: Pink noise
 
 
 
+
+
 ## Linked from
 
 * [Pink noise](/Pink noise)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Pink noise.md)
+

@@ -35,10 +35,14 @@ x(n+1, i) = x(n, i) xor x(n,i-1)
 * [](Makefile.sierpinski) Makefile.
 
 
+
+
 ## Linked from
 
 * [Pink noise](/Pink noise)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Sierpinski noise.md)
+

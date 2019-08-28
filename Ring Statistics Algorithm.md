@@ -10,6 +10,8 @@ title: Ring Statistics Algorithm
 
 All the contents are moved to the [GitHub](http://github.com/vitroid/CountRings).
 
+
+
 ## Linked from
 
 * [@RNGS](/@RNGS)
@@ -17,4 +19,6 @@ All the contents are moved to the [GitHub](http://github.com/vitroid/CountRings)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Ring Statistics Algorithm.md)
+

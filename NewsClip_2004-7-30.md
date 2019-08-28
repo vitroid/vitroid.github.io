@@ -5,7 +5,7 @@ title: NewsClip_2004-7-30
 * [NewsClip](/NewsClip)は8月1日で4周年を迎えます。皆さんのご愛顧に感謝します。
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2004-7-30.md)
+

@@ -5,7 +5,7 @@ title: Generate a Proton-disordered Ice
 
 [analysis](/analysis)
 
-December 2017: This document is now obsolete.  See [github:GenIce](github:GenIce) page.
+December 2017: This document is now obsolete.  See [github:GenIce](https://github.com/vitroid/GenIce) page.
 
 
 ## Three steps to get an proton-disordered ice configuration
@@ -80,7 +80,7 @@ The initial oxygen atom positions must not include defects. All the atomic coord
 ```
 % make
 % make test
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Generate a Proton-disordered Ice.md)
+

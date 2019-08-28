@@ -101,6 +101,8 @@ Vitriteは、Crystallite(結晶状のもの、結晶子)との対比で、vitreo
 
 
 
+
+
 ## Linked from
 
 * [CubeFlickr](/CubeFlickr)
@@ -124,4 +126,6 @@ Vitriteは、Crystallite(結晶状のもの、結晶子)との対比で、vitreo
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/vitrite.md)
+

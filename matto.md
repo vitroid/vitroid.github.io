@@ -8,6 +8,8 @@ title: matto
 
 
 
+
+
 ## Linked from
 
 * [20面体→四面体x2](/20面体→四面体x2)
@@ -57,4 +59,6 @@ title: matto
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/matto.md)
+

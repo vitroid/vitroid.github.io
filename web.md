@@ -1,6 +1,8 @@
 ---
 title: web
 ---
+
+
 ## Linked from
 
 * [CPML](/CPML)
@@ -12,3 +14,5 @@ title: web
 * [reg2](/reg2)
 * [使途不明時間](/使途不明時間)
 * [次世代NewsClip](/次世代NewsClip)
+
+

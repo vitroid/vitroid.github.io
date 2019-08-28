@@ -56,10 +56,14 @@ title: Settings
       max-width: none;
       }
 
+
+
 ## Linked from
 
 * [Settings](/Settings)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Settings.md)
+

@@ -15,10 +15,14 @@ Thingiverse [https://www.thingiverse.com/thing:3139501](https://www.thingiverse.
 
 
 
+
+
 ## Linked from
 
 * [kaleidocycle](/kaleidocycle)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/kaleidocycle.md)
+

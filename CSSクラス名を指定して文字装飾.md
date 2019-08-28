@@ -45,7 +45,7 @@ lib/Wiki以下のファイルにパッチをあてて下さい。
 <!--  -->
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/CSSクラス名を指定して文字装飾.md)
+

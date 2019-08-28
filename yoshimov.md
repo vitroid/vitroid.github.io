@@ -15,6 +15,8 @@ title: yoshimov
 
 
 
+
+
 ## Linked from
 
 * [AddNewsClip Bookmarklet](/AddNewsClip Bookmarklet)
@@ -25,4 +27,6 @@ title: yoshimov
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/yoshimov.md)
+

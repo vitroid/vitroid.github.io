@@ -28,6 +28,8 @@ HotSyncを使わないで、Palmの通信機能を利用する方法
 <!-- !!さらにひと工夫 -->
 
 
+
+
 ## Linked from
 
 * [NewsClip Recipe 1](/NewsClip Recipe 1)
@@ -36,4 +38,6 @@ HotSyncを使わないで、Palmの通信機能を利用する方法
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip Recipe 2.md)
+

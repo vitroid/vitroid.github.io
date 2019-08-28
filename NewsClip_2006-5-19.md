@@ -9,7 +9,7 @@ proxyサーバが過負荷になったため、別のサーバに移転したの
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2006-5-19.md)
+

@@ -31,6 +31,8 @@ title: Add
 
 
 
+
+
 ## Linked from
 
 * [CurriculumVitae](/CurriculumVitae)
@@ -39,4 +41,6 @@ title: Add
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Add.md)
+

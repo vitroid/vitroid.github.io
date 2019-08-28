@@ -33,6 +33,8 @@ title: NewsClip Recipe 1
 * zip+box形式で一括ダウンロードした場合は、[NC-Boxer](/NC-Boxer)を使ってPalm上で解凍できます。
 * HotSyncをあまりやらないひと、出先でアクセスしたいひと、無線LAN対応のPalmを使っているひとは[NewsClip Recipe 2](/NewsClip Recipe 2)へ。
 * [Docリーダ](/Docリーダ)で閲覧したいひとは[NewsClip Recipe 3](/NewsClip Recipe 3)へ。
+
+
 ## Linked from
 
 * [NewsClip Recipe 3](/NewsClip Recipe 3)
@@ -41,4 +43,6 @@ title: NewsClip Recipe 1
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip Recipe 1.md)
+

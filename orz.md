@@ -15,10 +15,14 @@ title: orz
 <!--  -->
 
 
+
+
 ## Linked from
 
 * [orz](/orz)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/orz.md)
+

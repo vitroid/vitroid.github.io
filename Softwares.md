@@ -7,6 +7,8 @@ title: Softwares
 
 
 
+
+
 ## Linked from
 
 * [FrontPage](/FrontPage)
@@ -14,4 +16,6 @@ title: Softwares
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Softwares.md)
+

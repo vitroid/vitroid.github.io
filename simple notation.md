@@ -20,6 +20,8 @@ You can use "-", ":", or "." for expressing an edge between the vertices, and ",
 
 
 
+
+
 ## Linked from
 
 * [Vitrite Database](/Vitrite Database)
@@ -27,4 +29,6 @@ You can use "-", ":", or "." for expressing an edge between the vertices, and ",
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/simple notation.md)
+

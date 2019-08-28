@@ -15,10 +15,14 @@ title: QuickTime
 * [mpeg4](mpeg4)はすこし重い。
 
 
+
+
 ## Linked from
 
 * [デジタル日時計](/デジタル日時計)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/QuickTime.md)
+

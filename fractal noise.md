@@ -17,10 +17,14 @@ title: fractal noise
 
 
 
+
+
 ## Linked from
 
 * [fractal noise](/fractal noise)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/fractal noise.md)
+

@@ -4,7 +4,7 @@ title: NewsClip_2004-7-14
 不覚にも、自分の管理しているワークステーションに侵入を許してしまいました。[NewsClip](/NewsClip)サーバは無事でしたが、バックエンドで巡回を分担しているサーバが止まってしまったため、しばらく巡回速度が大幅に落ちます。ご不便をおかけして申し訳ありません。今週中にはなんとか復旧させるつもりです。
 
 <!--  -->
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2004-7-14.md)
+

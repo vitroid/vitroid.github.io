@@ -156,10 +156,14 @@ Please leave some messages if you felt it useful.
 
 
 
+
+
 ## Linked from
 
 * [Generate a Proton-disordered Ice](/Generate a Proton-disordered Ice)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Prepare a Crystal from a Unit Cell.md)
+

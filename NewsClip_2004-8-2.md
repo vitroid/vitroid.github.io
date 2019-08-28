@@ -17,7 +17,7 @@ title: NewsClip_2004-8-2
 
 URLを含めると記事のサイズが大きくなってしまうので、Doc形式のコンパクトさを好むひとにはすこし冗長かもしれないと思い、リンクURLリストをページ末につけていません（少し前までは付けていました。）が、要望によってはリンクリストを復活させます。利用者の皆さんの意見をお聞かせください。
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2004-8-2.md)
+

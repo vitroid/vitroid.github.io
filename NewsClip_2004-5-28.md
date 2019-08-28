@@ -29,7 +29,7 @@ title: NewsClip_2004-5-28
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_2004-5-28.md)
+

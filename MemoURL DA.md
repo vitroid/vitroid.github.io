@@ -98,6 +98,8 @@ DDを利用するには、Drag&Dropをインストールしておく必要があ
 <dl>
   <dt>Version 0.2</dt><dd>StrNCopy周辺の改善、google DAを追加
 </dd>
+
+
 ## Linked from
 
 * [BugTrack-palmware_1](/BugTrack-palmware_1)
@@ -112,4 +114,6 @@ DDを利用するには、Drag&Dropをインストールしておく必要があ
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/MemoURL DA.md)
+

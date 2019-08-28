@@ -75,10 +75,14 @@ table:切り捨て可能な素数
 
 
 
+
+
 ## Linked from
 
 * [TruncatablePrimes](/TruncatablePrimes)
 
 
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/TruncatablePrimes.md)
+

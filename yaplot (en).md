@@ -250,7 +250,7 @@ Each line of the palette file specifies the Red, Green and Blue  intensity of th
 
 
 
-
-
 ----
+
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/yaplot (en).md)
+
