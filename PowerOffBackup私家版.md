@@ -22,11 +22,11 @@ title: PowerOffBackup私家版
 
 
 
-[](backup.prc)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/PowerOffBackup私家版/backup.prc)
 
-[](backupda.prc)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/PowerOffBackup私家版/backupda.prc)
 
-[](diff)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/PowerOffBackup私家版/diff)
 
 
 
@@ -40,6 +40,7 @@ title: PowerOffBackup私家版
 ## Linked from
 
 * [PowerOffBackup](/PowerOffBackup)
+* [PowerOffBackup私家版](/PowerOffBackup私家版)
 
 
 ----

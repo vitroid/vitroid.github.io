@@ -287,7 +287,7 @@ outputの値Gで、出力したいフィールドを指定します。
 
 
 
-[NewsClip](/NewsClip)の新着記事を表示するCGI[](new.cgi)
+[NewsClip](/NewsClip)の新着記事を表示するCGI[](http://theochem.chem.okayama-u.ac.jp/vitroid/API/new.cgi)
 
 
 

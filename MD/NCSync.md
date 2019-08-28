@@ -21,49 +21,49 @@ NCSyncは、Palm単体でNewsClipの記事をダウンロードするための�
 
 以下の4つのファイルをPalmデバイスにインストールして下さい。
 
-<!-- *[](ncsync.prc) NCSync本体(日本語版、バージョン0.7、約19kB) -->
+<!-- *[](storage:NCSync/ncsync.prc) NCSync本体(日本語版、バージョン0.7、約19kB) -->
 <dl>
-  <dt>[](ncsync0.10b26ja.prc)</dt><dd>NCSync本体(日本語版、バージョン0.10build26、約21kB 2004-06-25)
+  <dt>[](storage</dt><dd>NCSync/ncsync0.10b26ja.prc):NCSync本体(日本語版、バージョン0.10build26、約21kB 2004-06-25)
 </dd>
   <dt>PalmZLib</dt><dd>圧縮ライブラリ
 </dd>
-  <dt>[MemoURL](MemoUrl.prc)</dt><dd>MemoURLアプリ(英語版)。NCSync経由でNewsClipにチャンネル設定を還流させるのに内部で使用しています。
+  <dt>[MemoURL](storage</dt><dd>NCSync/MemoUrl.prc):MemoURLアプリ(英語版)。NCSync経由でNewsClipにチャンネル設定を還流させるのに内部で使用しています。
 </dd>
-  <dt>[MemoURL](MemoURL_Search_US.pdb)</dt><dd>MemoURL用検索プラグイン(英語版)
+  <dt>[MemoURL](storage</dt><dd>NCSync/MemoURL_Search_US.pdb):MemoURL用検索プラグイン(英語版)
 </dd>
 </dl>
 
 ### 以前のバージョン
 
-* [](ncsync0.10b26ja.prc) NCSync本体(日本語版、バージョン0.10build26、約21kB 2004-06-25)
-* [](ncsync0.10b26en.prc) NCSync binary(English, version 0.10build26, about 21kB 2004-06-25)
-* [](ncsync_ja0.10b24.prc) NCSync本体(日本語版、バージョン0.10build24、約21kB 2004-06-24)
-* [](ncsync_en0.10b24.prc) NCSync binary(English, version 0.10build24, about 21kB 2004-06-24)
-* [](ncsync_ja0.9b67.prc) NCSync本体(日本語版、バージョン0.9build67、約19kB 2004-06-24)
-* [](ncsync_en0.9b67.prc) NCSync binary(English, version 0.9build67, about 19kB 2004-06-24)
-* [](ncsync_ja0.9b57.prc) NCSync本体(日本語版、バージョン0.9build57、約19kB)
-* [](ncsync_en0.9b57.prc) NCSync binary(English, version 0.9build57、about 19kB)
+* [](storage:NCSync/ncsync0.10b26ja.prc) NCSync本体(日本語版、バージョン0.10build26、約21kB 2004-06-25)
+* [](storage:NCSync/ncsync0.10b26en.prc) NCSync binary(English, version 0.10build26, about 21kB 2004-06-25)
+* [](storage:NCSync/ncsync_ja0.10b24.prc) NCSync本体(日本語版、バージョン0.10build24、約21kB 2004-06-24)
+* [](storage:NCSync/ncsync_en0.10b24.prc) NCSync binary(English, version 0.10build24, about 21kB 2004-06-24)
+* [](storage:NCSync/ncsync_ja0.9b67.prc) NCSync本体(日本語版、バージョン0.9build67、約19kB 2004-06-24)
+* [](storage:NCSync/ncsync_en0.9b67.prc) NCSync binary(English, version 0.9build67, about 19kB 2004-06-24)
+* [](storage:NCSync/ncsync_ja0.9b57.prc) NCSync本体(日本語版、バージョン0.9build57、約19kB)
+* [](storage:NCSync/ncsync_en0.9b57.prc) NCSync binary(English, version 0.9build57、about 19kB)
 
 ## 使い方
 
 * Palmデバイス単体でインターネットに接続できる環境が必要です。
 * まず、NewsClipに通常のブラウザでアクセスし、IDを取得します。(IDは、画面左上のユーザ名の直右に表示してあります。)
-![](newsclip-id.png)
+![](storage:NCSync/newsclip-id.png)
 
 * NCSyncを立ちあげると、ID入力ウィンドウが出てきますので、ブラウザで表示された文字列(ハイフンでつながった3つの単語)を入れてOKを押して下さい。IDの設定は一回だけでOKです。
-![](id-entry.png)
+![](storage:NCSync/id-entry.png)
 
 * ダウンロードするファイルの形式を選択して下さい。MeDoc、Default、Subset1、Subset2の中から選択できます。NewsClipウェブ画面で指定した形式でダウンロードする場合はDefaultを、記事サブセットをダウンロードする場合はSubset1/2を選択して下さい。
-![](main.png)
+![](storage:NCSync/main.png)
 
-![](main-menu.png)
+![](storage:NCSync/main-menu.png)
 
 右上の点線わく内をタップして、IDを再入力することもできます。また、メモリの余地を指定しておけば、メモリに収まるように、自動的にダウンロードするアーカイブの大きさが調節されます。
 
 * 中央のクリップボタンを押すと、NewsClipに接続し、記事を取得します。
-![](download.png)
+![](storage:NCSync/download.png)
 
-![](expand.png)
+![](storage:NCSync/expand.png)
 
 ダウンロードの途中でキャンセルした場合も、もう一度クリップボタンを押してダウンロードを再開することができます。
 
@@ -79,9 +79,9 @@ NCSyncは、Palm単体でNewsClipの記事をダウンロードするための�
 
 ## ソース
 
-* [](ncsync-0.10b26.tar.gz)
-* [](ncsync-0.10b24.tar.gz)
-* [](ncsync-0.9b57.tar.gz)
+* [](storage:NCSync/ncsync-0.10b26.tar.gz)
+* [](storage:NCSync/ncsync-0.10b24.tar.gz)
+* [](storage:NCSync/ncsync-0.9b57.tar.gz)
 
 
 
@@ -139,31 +139,31 @@ NCSyncの開発にあたって、以下のソフトウェアを参考にしま�
 * その他、状況は早川さんと同様のようです。申し遅れましたが、大変便利な環境をありがとうございます。 - tks (2004年11月15日 01時08分18秒)
 
 
-[](main-menu.png)
+[](storage:NCSync/main-menu.png)
 
-[](expand.png)
+[](storage:NCSync/expand.png)
 
-[](download.png)
+[](storage:NCSync/download.png)
 
-[](id-entry.png)
+[](storage:NCSync/id-entry.png)
 
-[](ncsync_en0.9b67.prc)
+[](storage:NCSync/ncsync_en0.9b67.prc)
 
-[](ncsync_ja0.9b67.prc)
+[](storage:NCSync/ncsync_ja0.9b67.prc)
 
-[](newsclip-id.png)
+[](storage:NCSync/newsclip-id.png)
 
-[](ncsync_en0.10b24.prc)
+[](storage:NCSync/ncsync_en0.10b24.prc)
 
-[](ncsync_ja0.10b24.prc)
+[](storage:NCSync/ncsync_ja0.10b24.prc)
 
-[](ncsync-0.10b24.tar.gz)
+[](storage:NCSync/ncsync-0.10b24.tar.gz)
 
-[](ncsync0.10b26en.prc)
+[](storage:NCSync/ncsync0.10b26en.prc)
 
-[](ncsync0.10b26ja.prc)
+[](storage:NCSync/ncsync0.10b26ja.prc)
 
-[](ncsync-0.10b26.tar.gz)
+[](storage:NCSync/ncsync-0.10b26.tar.gz)
 
 
 

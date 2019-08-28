@@ -19,11 +19,11 @@
 
 
 
-[](backup.prc)
+[](storage:PowerOffBackup私家版/backup.prc)
 
-[](backupda.prc)
+[](storage:PowerOffBackup私家版/backupda.prc)
 
-[](diff)
+[](storage:PowerOffBackup私家版/diff)
 
 
 

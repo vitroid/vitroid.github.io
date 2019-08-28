@@ -18,13 +18,13 @@ title: Pink noise
 
 
 
-* [](white.aiff) α=0, While noise (aiff format) / ([](white.m4a) AAC 128kbps)
-* [](pink1.0.aiff) α=1.0, [Pink noise](/Pink noise) (aiff format) / ([](pink1.0.m4a) AAC 128kbps)
-* [](pink1.3.aiff) α=1.3, [Pink noise](/Pink noise) (aiff format)
-* [](pink1.6.aiff) α=1.6, [Pink noise](/Pink noise) (aiff format)
-* [](brown.aiff) α=2, Brown noise (aiff format) / ([](brown.m4a) AAC 128kbps)
-* [](sound.c) C source.
-* [](Makefile.sound) Makefile.
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Pink noise/white.aiff) α=0, While noise (aiff format) / ([](http://theochem.chem.okayama-u.ac.jp/vitroid/Pink noise/white.m4a) AAC 128kbps)
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Pink noise/pink1.0.aiff) α=1.0, [Pink noise](/Pink noise) (aiff format) / ([](http://theochem.chem.okayama-u.ac.jp/vitroid/Pink noise/pink1.0.m4a) AAC 128kbps)
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Pink noise/pink1.3.aiff) α=1.3, [Pink noise](/Pink noise) (aiff format)
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Pink noise/pink1.6.aiff) α=1.6, [Pink noise](/Pink noise) (aiff format)
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Pink noise/brown.aiff) α=2, Brown noise (aiff format) / ([](http://theochem.chem.okayama-u.ac.jp/vitroid/Pink noise/brown.m4a) AAC 128kbps)
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Pink noise/sound.c) C source.
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Pink noise/Makefile.sound) Makefile.
 
 
 純粋なピンクノイズを作る方法はいろいろあります。ここでは、1/f型のパワースペクトルの各[周波数](/周波数)にランダムな位相を与え、それを逆フーリエ変換して波形を得ています。

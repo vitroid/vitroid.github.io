@@ -9,10 +9,10 @@ title: Network Motif of Water
 
 Manuscript for Proceeding of The 5th International workshop on complex systems.([IWCS2007](/IWCS2007))
 
-* [](MatsumotoProc3.pdf) Proceeding
-* [](Matsumoto.pdf) Abstract
-* [](iwcs1.pdf) Poster
-![](2007-9-28 mmLFUJ.png)
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Network Motif of Water/MatsumotoProc3.pdf) Proceeding
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Network Motif of Water/Matsumoto.pdf) Abstract
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Network Motif of Water/iwcs1.pdf) Poster
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/Network Motif of Water/2007-9-28 mmLFUJ.png)
 
 
 # [Network Motif of Water](/Network Motif of Water)
@@ -55,7 +55,7 @@ Water is a network-forming substance. HBN of liquid water is fully percolated 3-
 
 There are more than ten different crystal ice phases, extraordinarily large variety for small molecule like water. Surprisingly, water molecules have four hydrogen bonds (HB) and Pauling’s ice rule is satisfied in all the ice phases even under super-high pressure. [10](10) Thus the ice phases are identified not by local coordination number but by the difference in the HBN topology. As for the network geometry, water molecule prefers tetrahedral local order (TLO). Constraints in both geometry and topology yield the cage-like structure that is common motif of HBN of water. For example, HBN of the hexagonal ice is built of cage-like 12-mer. (Fig. 1(a)) Cubic ice Ic is built of network motifs with 10 water molecules. (Fig. 1(b)) Clathrate hydrates are also built of polyhedral cages with 20-30 water molecules. (Fig. 1(c)) Such cage-like structures are also found in the liquid water, especially at supercooled state. [11](11) Cage-like structure contains a void, and that the increase of such structures is considered to be the origin of expansion when liquid water is cooled. [12](12)
 
-![![XXX](F1_tn.png)](F1_0.jpeg)
+![![XXX](F1_tn.png)](storage:[Network Motif of Water](/Network Motif of Water)/F1_0.jpeg)
 
 > FIGURE 1.  Cage-like structure of (a) hexagonal ice, (b) cubic ice, and (c) clathrate hydrate are illustrated. A ball and stick correspond to a water molecule and a hydrogen bond, respectively.
 
@@ -71,7 +71,7 @@ We introduce “[vitrite](/vitrite)s”, a family of network motifs satisfying t
 1. the graph obeys the Euler’s formula, F-E+V=2, where F, E, and V are number of rings, edges, and vertices, respectively.
 First condition certifies the closed surface. Second condition comes from the characteristics of the network with TLO. It is purely a topological definition but still guarantee the hollow geometry by the third condition. See Ref. 9 for more detail on the definition of the [vitrite](/vitrite)s. Major [vitrite](/vitrite)s in water at low temperature are illustrated in Fig. 2.
 
-![![XXX](F2_tn.png)](F2_0.jpeg)
+![![XXX](F2_tn.png)](storage:[Network Motif of Water](/Network Motif of Water)/F2_0.jpeg)
 
 > FIGURE 2.  Six typical [vitrite](/vitrite)s in liquid water are illustrated. A ball and a stick correspond to a water molecule and a hydrogen bond, respectively. All [vitrite](/vitrite)s found in HBN are available online at the [vitrite](/vitrite) database: [http://vitrite.chem.nagoya-u.ac.jp](http://vitrite.chem.nagoya-u.ac.jp). 
 
@@ -91,7 +91,7 @@ In supercooled liquid water, each node (water molecules) prefers to be in regula
 
 At higher temperature and under high pressure of 3,000 atm, number of the [vitrite](/vitrite)s decreases; they cover only a half of the HB network, and the other half consists of entangled topologies where [vitrite](/vitrite)-like compact NM is absent.[9](9)
 
-![![XXX](0990_tn.png)](0990_0.png)
+![![XXX](0990_tn.png)](storage:[Network Motif of Water](/Network Motif of Water)/0990_0.png)
 
 > FIGURE 3. (Color Online) All the [vitrite](/vitrite)s found in the hydrogen bond network in a snapshot at 200K is illustrated, where water molecules and hydrogen bonds are not drawn and the [vitrite](/vitrite)s are depicted by translucent hulls. Vitrites of the same color are identical topologically. A small gap is put between [vitrite](/vitrite)s in order to show the internal structure. The network is totally tessellated into [vitrite](/vitrite)s.
 
@@ -99,7 +99,7 @@ At higher temperature and under high pressure of 3,000 atm, number of the [vitri
 
 In supercooled liquid water, [vitrite](/vitrite)s consist of 5- to 7-membered rings predominate because their surface rings can reduce strains (angular distortion) when they are in the appropriate conformations (boat, chair, and so on). Such [vitrite](/vitrite)s aggregate by sharing the surface rings of the same conformation to form very stable network with TLO.[9](9) Inside the aggregate, a casual network rearrangement at a bond affects the topology of all the [vitrite](/vitrite)s sharing the bond and might result in increase of strain. Hence, network rearrangement would be as difficult as that inside crystal ice. Actually, most rearrangements take place at the surface of the aggregate but not in the aggregate. (Fig. 4) Thus the [vitrite](/vitrite) aggregation emerges heterogeneity of both HBN structure and rearrangement in supercooled water, i.e., “ice-like” domain is topologically identified by the aggregation of [vitrite](/vitrite)s. Note that hydrogen bonds in [vitrite](/vitrite) aggregates also have longer lifetime.[9](9)
 
-![![XXX](F4_tn.png)](F4_0.jpeg)
+![![XXX](F4_tn.png)](storage:[Network Motif of Water](/Network Motif of Water)/F4_0.jpeg)
 
 > FIGURE 4.  Positions of the surface rings of the [vitrite](/vitrite) aggregates, hydrogen bond rearrangements, and network “defects” during 10 ps, are drawn with translucent flakes, lines, and black dots, respectively. Temperature is 230K and pressure is 0 atm. Water molecules are omitted. All 10 snapshots during 10 ps are overlaid in the picture, so the dark area of flakes corresponds the high probability of finding a surface ring. Top-right region, where no flakes, lines, nor dots are drawn, indicates that the space is filled by the [vitrite](/vitrite) aggregates without “defects” and no HB rearrangements happen there. Note that the heterogeneity in this picture lasts far longer than 1 ns.
 
@@ -109,29 +109,29 @@ The concept of [vitrite](/vitrite)s is also useful to interpret the “First Sha
 
 The origin of the void-void correlation, i.e. of [FSDP](/FSDP), is well explained in terms of the spatial correlation among the [vitrite](/vitrite)s.  A [vitrite](/vitrite) has an “empty volume”, a cavity, in it. By assigning the virtual atoms at the centers of [vitrite](/vitrite)s and their weighting factors proportional to the [vitrite](/vitrite)’s “volumes” (i.e. effective number of molecules constructing the [vitrite](/vitrite). See Ref. 9.) on the corresponding virtual atoms, then we can calculate the inter-[vitrite](/vitrite) pair correlation function (that is, the pair correlation function of these volume-weighted virtual atoms) as
 
-![](0_tn.png)
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/Network Motif of Water/0_tn.png)
 
 (1)
 
 where w!!i!! is the “volume” of ith [vitrite](/vitrite) and
 
-![](1_tn.png)
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/Network Motif of Water/1_tn.png)
 
 . The inter-[vitrite](/vitrite) SF is defined by the Fourier transform of this inter-[vitrite](/vitrite) pair correlation function g!!ff!!(r), such as:
 
-![](2_tn.png)
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/Network Motif of Water/2_tn.png)
 
 (2)
 
 where x!!f!! is coverage by [vitrite](/vitrite)s, i.e.
 
-![](3_tn.png)
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/Network Motif of Water/3_tn.png)
 
 .
 
 The inter-[vitrite](/vitrite) SF thus obtained, shown in Figure 5, has a distinguished single peak at around 1.6&[197;-1.](/197;-1.) [18](18) [FSDP](/FSDP) of the inter-[vitrite](/vitrite) SF becomes very small for higher temperature.   [FSDP](/FSDP) of oxygen-oxygen SF of water yields the same behavior.   When the volume-weighted virtual atoms are placed at the center of the [vitrite](/vitrite)s, [FSDP](/FSDP), which is apparent in oxygen-oxygen SF, vanishes in the total (i.e. oxygen + virtual atoms) SF (Figure 5), [19](19) showing that this peak indeed arises from the distribution of [vitrite](/vitrite)s.   
 
-![![XXX](F5_tn.png)](F5_0.jpeg)
+![![XXX](F5_tn.png)](storage:[Network Motif of Water](/Network Motif of Water)/F5_0.jpeg)
 
 > FIGURE 5.  SFs from experiments and those obtained from the simulations. (a) X-ray SF of [LDA](/LDA) ice of D2O at 77K taken from Ref. 16. (b) SF between Oxygen atoms. (c) SF between virtual atoms. (d) SF of both Oxygen and virtual atoms. Solid, dashed, and dotted lines correspond to 230K, 260K, and 290K, respectively, and pressure is zero.  Instantaneous structures (instead of inherent structures used in other graphs) are used in order to compare with experimental data.
 

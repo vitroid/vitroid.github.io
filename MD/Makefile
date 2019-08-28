@@ -15,5 +15,8 @@ prepare-wiki:
 #	rsync -av --exclude 'CVS/*' chemist@www.chem.okayama-u.ac.jp:/home/theochem/wiki-data/data/matto/  wiki/
 	rsync -av chemist@www.chem.okayama-u.ac.jp:/home/theochem/wiki-data/attach/matto _attach/
 
+# transfer files converted from wiki attachments via attachconv.py
+xfer-attach:
+	rsync -av _conv/ theochem@www.chem.okayama-u.ac.jp:Sites/vitroid/
 
 

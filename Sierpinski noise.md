@@ -30,9 +30,9 @@ x(n+1, i) = x(n, i) xor x(n,i-1)
 
 
 
-* [](sierpinski.aiff) Sierpinski Noise.
-* [](sierpinski.c) C source.
-* [](Makefile.sierpinski) Makefile.
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Sierpinski noise/sierpinski.aiff) Sierpinski Noise.
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Sierpinski noise/sierpinski.c) C source.
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Sierpinski noise/Makefile.sierpinski) Makefile.
 
 
 
@@ -40,6 +40,7 @@ x(n+1, i) = x(n, i) xor x(n,i-1)
 ## Linked from
 
 * [Pink noise](/Pink noise)
+* [Sierpinski noise](/Sierpinski noise)
 
 
 ----

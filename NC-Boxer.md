@@ -8,15 +8,15 @@ title: NC-Boxer
 
 平成14年3月13日(水)
 
-* [](newsclip-boxer.prc) 実行ファイル
-* [](nc-boxer.tgz) ソース
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/NC-Boxer/newsclip-boxer.prc) 実行ファイル
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/NC-Boxer/nc-boxer.tgz) ソース
 [NC-Boxer](/NC-Boxer)は、[NewsClip](/NewsClip)の記事を、zip+boxアーカイブ形式でダウンロードしPalmにインストールしたものを、Palm上で展開するためのツールです。[ZboxZ](/ZboxZ)から、必要最小限の機能以外をそぎおとして作成しました。
 
 
 
-[](newsclip-boxer.prc)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/NC-Boxer/newsclip-boxer.prc)
 
-[](nc-boxer.tgz)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/NC-Boxer/nc-boxer.tgz)
 
 
 

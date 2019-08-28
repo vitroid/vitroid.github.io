@@ -20,13 +20,13 @@ Plucker viewerで記事を読んでいるときに切れていたリンクを、
 
 ## 他アプリからの利用
 
-拡張版PluckerViewer、RetrievR、NCSync、MemoURL DAなどのPalmwareは、MemoURLデータベースを利用していますので、MemoURLアプリ([](MemoUrl.prc), [](MemoURL_Search_US.pdb))をPalmにインストールする必要があります。
+拡張版PluckerViewer、RetrievR、NCSync、MemoURL DAなどのPalmwareは、MemoURLデータベースを利用していますので、MemoURLアプリ([](storage:MemoURL/MemoUrl.prc), [](storage:MemoURL/MemoURL_Search_US.pdb))をPalmにインストールする必要があります。
 
 ----
 
-[](MemoUrl.prc)
+[](storage:MemoURL/MemoUrl.prc)
 
-[](MemoURL_Search_US.pdb)
+[](storage:MemoURL/MemoURL_Search_US.pdb)
 
 
 

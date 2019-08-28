@@ -9,11 +9,11 @@ from logging import getLogger, basicConfig, INFO, DEBUG
 
 
 
-def wiki2md(file):
+def wiki2md(file, title):
     footnotes = []
     logger = getLogger()
     
-    def proc_func(x):
+    def proc_func(x, storage=""):
         elem = x.split(" ", 1)
         logger.info(elem)
         if elem[0] in ("category", "alias", "redirect"):
@@ -21,14 +21,14 @@ def wiki2md(file):
         elif elem[0] == "ref":
             linklabel = [x.strip() for x in elem[1].split(",")]
             linklabel.append("")
-            return "［{1}］({0})".format(*linklabel) #protected with double-sized char
+            return "［{2}］({0}{1})".format(storage, *linklabel) #protected with double-sized char
         elif elem[0] == "ref_image":
             linklabel = [x.strip() for x in elem[1].split(",")]
             linklabel.append("")
-            return "！［{1}］({0})".format(*linklabel)
+            return "！［{2}］({0}{1})".format(storage, *linklabel)
         elif elem[0] in ("thumbnail2",):
             thumb,actual = [x.strip() for x in elem[1].split(",")]
-            return "！［！［XXX］({0})］({1})".format(thumb, actual)
+            return "！［！［XXX］({0})］({2}{1})".format(thumb, actual, storage)
         #elif elem[0] == "include":
         #    return "{{% include ../{0} %}}".format(elem[1]+".md")
         elif elem[0] == "publish":
@@ -167,7 +167,7 @@ def wiki2md(file):
     body = ""
     for line in file:
         #logger.info(line)
-        line = re.sub(r'{{([^}]+)}}', lambda x: proc_func(x.group(1)), line)
+        line = re.sub(r'{{([^}]+)}}', lambda x: proc_func(x.group(1), storage="storage:{0}/".format(title)), line)
         #logger.info(line)
         # 行先頭文字の処理
         line, env = proc_head(line, env)
@@ -186,7 +186,7 @@ def main():
     assert wikifile[-5:] == ".wiki"
     title = urllib.request.unquote(os.path.basename(wikifile), 'euc-jp')[:-5]
     print(title)
-    print(wiki2md(open(wikifile, encoding='euc-jp')))
+    print(wiki2md(open(wikifile, encoding='euc-jp'), title=title))
 
 if __name__ == "__main__":
     main()

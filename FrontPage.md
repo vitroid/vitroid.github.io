@@ -22,7 +22,7 @@ Phone: 086-251-7846
 <!-- Fax: 052-789-3551 -->
 〒700-8530 岡山市北区津島中3-1-1
 
-[岡山大学理学部](/岡山大学理学部) B-133室(Google Earth用位置情報 [](B133.kmz))([Google Maps](https://maps.google.com/?ll=34.68824,133.92051&z=20)) 
+[岡山大学理学部](/岡山大学理学部) B-133室(Google Earth用位置情報 [](http://theochem.chem.okayama-u.ac.jp/vitroid/FrontPage/B133.kmz))([Google Maps](https://maps.google.com/?ll=34.68824,133.92051&z=20)) 
 
 <!-- [研究](/研究)室をミサイル攻撃する際にご活用下さいw -->
 <!-- ![http://www.nature.com/nature/journal/v498/n7454/images/cover_nature.jpg](http://www.nature.com/nature/journal/v498/n7454/images/cover_nature.jpg) -->
@@ -175,6 +175,7 @@ Phone: 086-251-7846
 
 ## Linked from
 
+* [FrontPage](/FrontPage)
 * [Help](/Help)
 * [Help_FSWiki](/Help_FSWiki)
 * [Help_Hiki](/Help_Hiki)

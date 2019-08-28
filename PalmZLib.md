@@ -14,9 +14,9 @@ title: PalmZLib
 
 
 
-[](SysZLib.prc)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/PalmZLib/SysZLib.prc)
 
-[](ArmSysZLib.prc)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/PalmZLib/ArmSysZLib.prc)
 
 
 

@@ -8,9 +8,9 @@
 
 
 
-* [](cantor.wav) Sound file (WAVE format).
-* [](cantor.c) C source.
-* [](Makefile.cantor) Makefile.
+* [](storage:Cantor noise/cantor.wav) Sound file (WAVE format).
+* [](storage:Cantor noise/cantor.c) C source.
+* [](storage:Cantor noise/Makefile.cantor) Makefile.
 
 
 

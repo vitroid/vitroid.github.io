@@ -2,9 +2,9 @@
 
 |もとのHTML文書|plucker文書|エンコーディング |
 |-----|-----|-----|
-|[](euc.html)|[](euc.pdb)| EUC |
-|[](sjis.html)|[](sjis.pdb)| SJIS |
-|[](utf8.html)|[](utf8.pdb)| UTF-8 |
+|[](storage:NewsClip_test/euc.html)|[](storage:NewsClip_test/euc.pdb)| EUC |
+|[](storage:NewsClip_test/sjis.html)|[](storage:NewsClip_test/sjis.pdb)| SJIS |
+|[](storage:NewsClip_test/utf8.html)|[](storage:NewsClip_test/utf8.pdb)| UTF-8 |
 
 
 <!--  -->

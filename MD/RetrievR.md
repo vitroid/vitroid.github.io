@@ -3,7 +3,7 @@
 
 # RetrievR(仮称)
 
-![](main.png)
+![](storage:RetrievR/main.png)
 
 レトリバーと読みます。鋭意開発中。RetrievRは、非同期でwebを取得するpalmwareです。
 
@@ -26,13 +26,13 @@ RetrievRは、MemoURLデータベースに記録されているURLを直接ダ�
 次の4つのファイルをPalmにインストールしてください。
 
 <dl>
-  <dt>[](20040825en.prc)</dt><dd>RetrievR本体(v0.1b72, 2004-08-25. Emulatorでは動作しますが、実機では非常に不安定です。)
+  <dt>[](storage</dt><dd>RetrievR/20040825en.prc):RetrievR本体(v0.1b72, 2004-08-25. Emulatorでは動作しますが、実機では非常に不安定です。)
 </dd>
   <dt>PalmZLib</dt><dd>圧縮ライブラリ
 </dd>
-  <dt>[MemoURL](MemoUrl.prc)</dt><dd>MemoURLアプリ(英語版)。NCSync経由でNewsClipにチャンネル設定を還流させるのに内部で使用しています。
+  <dt>[MemoURL](storage</dt><dd>RetrievR/MemoUrl.prc):MemoURLアプリ(英語版)。NCSync経由でNewsClipにチャンネル設定を還流させるのに内部で使用しています。
 </dd>
-  <dt>[MemoURL](MemoURL_Search_US.pdb)</dt><dd>MemoURL用検索プラグイン(英語版)
+  <dt>[MemoURL](storage</dt><dd>RetrievR/MemoURL_Search_US.pdb):MemoURL用検索プラグイン(英語版)
 </dd>
 </dl>
 以下は好みで選んでください。
@@ -44,13 +44,13 @@ RetrievRは、MemoURLデータベースに記録されているURLを直接ダ�
 ## 使い方
 
 1. MemoURLに、URLを登録します。MemoURLアプリで直接指定するか、MemoURL DA/DDなどのヘルパーアプリを使うか、拡張版PluckerViewerなどのMemoURL対応アプリで登録してください。
-![](memourl.png)
+![](storage:RetrievR/memourl.png)
 
 1. RetrievRを起動し、猫が二匹描いてあるボタンを押すと、Proxyサーバとの通信が始まり、サーバにリクエストを送り、指定された時間待ってから、巡回済みのWebページをダウンロードします。（猫一匹のボタンを押した場合は、リクエストを送るだけでダウンロードは行いません。）
-![](main.png)
+![](storage:RetrievR/main.png)
 
 1. Plucker形式を指定した場合は、ダウンロードしたページを拡張版PluckerViewerで閲覧してください。
-![](plucker main.png)
+![](storage:RetrievR/plucker main.png)
 
 
 ## 他ソフトウェアとの比較

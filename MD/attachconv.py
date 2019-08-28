@@ -52,7 +52,7 @@ for article in D:
                 logger.warning(wikipath)
                 logger.warning("{0}".format(D[article].keys()))
             else:
-                folder = "../{0}".format(article)
+                folder = "_conv/{0}".format(article)
                 target = "{0}/{1}".format(folder, link)
                 logger.info(target)
                 if not os.path.exists(folder):

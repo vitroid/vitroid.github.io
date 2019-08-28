@@ -138,7 +138,7 @@ iceIhunit.pl | xx 5 3 3 > outfile.ar3a
 
 ## Program
 
-[](unitcell.tar.gz)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/Prepare a Crystal from a Unit Cell/unitcell.tar.gz)
 
 
 
@@ -161,6 +161,7 @@ Please leave some messages if you felt it useful.
 ## Linked from
 
 * [Generate a Proton-disordered Ice](/Generate a Proton-disordered Ice)
+* [Prepare a Crystal from a Unit Cell](/Prepare a Crystal from a Unit Cell)
 
 
 ----

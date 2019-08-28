@@ -7,13 +7,13 @@
 以下のファイルをPalmにインストールしてください。
 
 <dl>
-  <dt>NCSync</dt><dd>[NCSync](ncsync0.10b26ja.prc)
+  <dt>NCSync</dt><dd>[NCSync](storage:StarterPack/ncsync0.10b26ja.prc)
 </dd>
-  <dt>MemoURL</dt><dd>[](MemoUrl.prc)
+  <dt>MemoURL</dt><dd>[](storage:StarterPack/MemoUrl.prc)
 </dd>
-  <dt>PalmZLib</dt><dd>[PalmZLib](SysZLib.prc) (全機種)または[PalmZLib](ArmSysZLib.prc) (OS5以降)
+  <dt>PalmZLib</dt><dd>[PalmZLib](storage:StarterPack/SysZLib.prc) (全機種)または[PalmZLib](storage:StarterPack/ArmSysZLib.prc) (OS5以降)
 </dd>
-  <dt>拡張版PluckerViewer</dt><dd>[拡張版PluckerViewer](20040527ja.prc)または [拡張版PluckerViewer](20040704ja.prc)(ローレゾ機専用)
+  <dt>拡張版PluckerViewer</dt><dd>[拡張版PluckerViewer](storage:StarterPack/20040527ja.prc)または [拡張版PluckerViewer](storage:StarterPack/20040704ja.prc)(ローレゾ機専用)
 </dd>
   <dt>RetrievR</dt><dd>開発中
 </dd>
@@ -24,9 +24,9 @@
 以下のファイルをPalmにインストールしてください。
 
 <dl>
-  <dt>PalmZLib</dt><dd>[PalmZLib](SysZLib.prc) (全機種)または[PalmZLib](ArmSysZLib.prc) (OS5以降)
+  <dt>PalmZLib</dt><dd>[PalmZLib](storage:StarterPack/SysZLib.prc) (全機種)または[PalmZLib](storage:StarterPack/ArmSysZLib.prc) (OS5以降)
 </dd>
-  <dt>拡張版PluckerViewer</dt><dd>[拡張版PluckerViewer](20040527ja.prc)
+  <dt>拡張版PluckerViewer</dt><dd>[拡張版PluckerViewer](storage:StarterPack/20040527ja.prc)
 </dd>
 </dl>
 
@@ -35,7 +35,7 @@
 Windows機とHotSyncする際に自動的にNewsClipから記事をダウンロードするには、以下のパッケージをインストールしてください。
 
 <dl>
-  <dt>JSync</dt><dd>[](JSyncInstaller.exe)
+  <dt>JSync</dt><dd>[](storage:StarterPack/JSyncInstaller.exe)
 </dd>
   <dt>[NewsClipSync Conduit](NewsClipSync Conduit)</dt><dd>[NewsClipSync-0.36.zip](http://wiki.yoshimov.com/wiki.cgi?action=ATTACH&page=NewsclipSync+Conduit&file=NewsclipSync%2D036%2Eexe) ([Yoshimopedia](http://wiki.yoshimov.com/wiki.cgi)より)
 </dd>
@@ -116,9 +116,9 @@ Clie+Windows+Pluckerを想定する。どれだけ手数を減らすことがで
 
 
 
-[](MemoUrl.prc)
+[](storage:StarterPack/MemoUrl.prc)
 
-[](JSyncInstaller.exe)
+[](storage:StarterPack/JSyncInstaller.exe)
 
 
 

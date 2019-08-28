@@ -2,13 +2,13 @@
 
 Some Lego images for your desktop picture.
 
-[](duplo-red.pdf)
+[](storage:Lego tiles/duplo-red.pdf)
 
-![](duplo2x2-red30px-2.png)
+![](storage:Lego tiles/duplo2x2-red30px-2.png)
 
-![](red1x1c.png)
+![](storage:Lego tiles/red1x1c.png)
 
-[](lego1x1-red.pdf)
+[](storage:Lego tiles/lego1x1-red.pdf)
 
 
 

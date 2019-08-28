@@ -5,12 +5,19 @@ title: NewsClip_test
 
 |もとのHTML文書|plucker文書|エンコーディング |
 |-----|-----|-----|
-|[](euc.html)|[](euc.pdb)| EUC |
-|[](sjis.html)|[](sjis.pdb)| SJIS |
-|[](utf8.html)|[](utf8.pdb)| UTF-8 |
+|[](http://theochem.chem.okayama-u.ac.jp/vitroid/NewsClip_test/euc.html)|[](http://theochem.chem.okayama-u.ac.jp/vitroid/NewsClip_test/euc.pdb)| EUC |
+|[](http://theochem.chem.okayama-u.ac.jp/vitroid/NewsClip_test/sjis.html)|[](http://theochem.chem.okayama-u.ac.jp/vitroid/NewsClip_test/sjis.pdb)| SJIS |
+|[](http://theochem.chem.okayama-u.ac.jp/vitroid/NewsClip_test/utf8.html)|[](http://theochem.chem.okayama-u.ac.jp/vitroid/NewsClip_test/utf8.pdb)| UTF-8 |
 
 
 <!--  -->
+
+
+## Linked from
+
+* [NewsClip_test](/NewsClip_test)
+
+
 ----
 
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/NewsClip_test.md)

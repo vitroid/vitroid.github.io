@@ -11,9 +11,9 @@ title: Cantor noise
 
 
 
-* [](cantor.wav) Sound file (WAVE format).
-* [](cantor.c) C source.
-* [](Makefile.cantor) Makefile.
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Cantor noise/cantor.wav) Sound file (WAVE format).
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Cantor noise/cantor.c) C source.
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Cantor noise/Makefile.cantor) Makefile.
 
 
 
@@ -26,6 +26,7 @@ title: Cantor noise
 
 ## Linked from
 
+* [Cantor noise](/Cantor noise)
 * [Pink noise](/Pink noise)
 
 

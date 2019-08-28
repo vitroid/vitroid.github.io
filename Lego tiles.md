@@ -5,14 +5,21 @@ title: Lego tiles
 
 Some Lego images for your desktop picture.
 
-[](duplo-red.pdf)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/Lego tiles/duplo-red.pdf)
 
-![](duplo2x2-red30px-2.png)
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/Lego tiles/duplo2x2-red30px-2.png)
 
-![](red1x1c.png)
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/Lego tiles/red1x1c.png)
 
-[](lego1x1-red.pdf)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/Lego tiles/lego1x1-red.pdf)
 
+
+
+
+
+## Linked from
+
+* [Lego tiles](/Lego tiles)
 
 
 ----

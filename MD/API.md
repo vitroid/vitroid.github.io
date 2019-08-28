@@ -284,7 +284,7 @@ outputの値Gで、出力したいフィールドを指定します。
 
 
 
-NewsClipの新着記事を表示するCGI[](new.cgi)
+NewsClipの新着記事を表示するCGI[](storage:API/new.cgi)
 
 
 

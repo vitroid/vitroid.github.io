@@ -21,6 +21,7 @@ interwikinames = { "youtube": '<iframe width="560" height="315" src="https://www
                    "github" : '[{1}](https://github.com/vitroid/{0})',
                    "sb"     : '[{1}](https://scrapbox.io/vitroid/{0})',
                    "scrapbox-vitroid": '[{1}](https://scrapbox.io/vitroid/{0})',
+                   "storage": '[{1}](http://theochem.chem.okayama-u.ac.jp/vitroid/{0})',
 }
 
 
@@ -259,7 +260,7 @@ for wikifile in glob.glob("wiki/*.wiki"):
     # logger.info(wikifile)
     if not os.path.exists(sbfile):
         if not os.path.exists(mdfile) or os.path.getmtime(mdfile) < os.path.getmtime(wikifile):
-            md = w2m.wiki2md(open(wikifile, encoding="euc-jp"))
+            md = w2m.wiki2md(open(wikifile, encoding="euc-jp"), title=title)
             logger.info("  {0}".format(wikifile))
             open(mdfile, "w").write(md)
 

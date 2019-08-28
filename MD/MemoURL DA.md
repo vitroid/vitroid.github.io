@@ -12,10 +12,10 @@ MemoURLへの登録を支援するDA module/DD module
 
 ## ダウンロード
 
-* [](memourlda.prc) MemoURL DAバイナリ(2kbytes)
-* [](memourldd.prc) MemoURL DDバイナリ(2kbytes)
-* [](googleda.prc) Google DAバイナリ(6kbytes)
-* [](memourlda-0.8.tar.gz) ソース
+* [](storage:MemoURL DA/memourlda.prc) MemoURL DAバイナリ(2kbytes)
+* [](storage:MemoURL DA/memourldd.prc) MemoURL DDバイナリ(2kbytes)
+* [](storage:MemoURL DA/googleda.prc) Google DAバイナリ(6kbytes)
+* [](storage:MemoURL DA/memourlda-0.8.tar.gz) ソース
 
 ## 概要
 

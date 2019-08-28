@@ -15,10 +15,10 @@ title: MemoURL DA
 
 ## ダウンロード
 
-* [](memourlda.prc) [MemoURL DA](/MemoURL DA)バイナリ(2kbytes)
-* [](memourldd.prc) MemoURL DDバイナリ(2kbytes)
-* [](googleda.prc) Google DAバイナリ(6kbytes)
-* [](memourlda-0.8.tar.gz) ソース
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/memourlda.prc) [MemoURL DA](/MemoURL DA)バイナリ(2kbytes)
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/memourldd.prc) MemoURL DDバイナリ(2kbytes)
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/googleda.prc) Google DAバイナリ(6kbytes)
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/memourlda-0.8.tar.gz) ソース
 
 ## 概要
 

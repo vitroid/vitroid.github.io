@@ -8,13 +8,13 @@
 
 ## ダウンロード
 
-* [](mmlda.prc) MML DA本体
-* [](regmmlda.prc) regMML DA本体
-* [](mmldd.prc) MML Drag&Dropモジュール本体
-* [](mmlpackdd.prc) MMLpack Drag&Dropモジュール本体
-* [](mmlda-0.9.tar.gz) ソース
-* [](galax.txt) MMLのサンプル、[](KansasCityStandard.txt) もう一つ。
-* [](galax.mid) それをMIDIファイルに変換したもの(PCだとピアノ音で再生されるのでかなり変です)
+* [](storage:MML DA/mmlda.prc) MML DA本体
+* [](storage:MML DA/regmmlda.prc) regMML DA本体
+* [](storage:MML DA/mmldd.prc) MML Drag&Dropモジュール本体
+* [](storage:MML DA/mmlpackdd.prc) MMLpack Drag&Dropモジュール本体
+* [](storage:MML DA/mmlda-0.9.tar.gz) ソース
+* [](storage:MML DA/galax.txt) MMLのサンプル、[](storage:MML DA/KansasCityStandard.txt) もう一つ。
+* [](storage:MML DA/galax.mid) それをMIDIファイルに変換したもの(PCだとピアノ音で再生されるのでかなり変です)
 
 ## 概説
 

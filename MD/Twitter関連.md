@@ -5,14 +5,14 @@
 
 Tweet arrived mails in the POP3 mailbox. Tweeted mails wil be removed. Modify the source if you do not want the mails deleted.
 
-[](PopAndTweet.py)
+[](storage:Twitter関連/PopAndTweet.py)
 
 
 ## iCalendar to tweet
 
 Feed iCalendar and tweet today's events.
 
-[](icalandtweet.py)
+[](storage:Twitter関連/icalandtweet.py)
 
 
 ## Required packages

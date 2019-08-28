@@ -8,14 +8,14 @@ title: Twitter関連
 
 Tweet arrived mails in the POP3 mailbox. Tweeted mails wil be removed. Modify the source if you do not want the mails deleted.
 
-[](PopAndTweet.py)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/Twitter関連/PopAndTweet.py)
 
 
 ## iCalendar to tweet
 
 Feed iCalendar and tweet today's events.
 
-[](icalandtweet.py)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/Twitter関連/icalandtweet.py)
 
 
 ## Required packages
@@ -44,6 +44,13 @@ GPL
 * 2009-11-20 Treatment of allday events was improved.
 * 2009-11-25 modified to decode  base64-encoded body in PopAndTweet.py . [松本](/松本) - [matto](/matto) 
 <!--  -->
+
+
+
+
+## Linked from
+
+* [Twitter関連](/Twitter関連)
 
 
 ----

@@ -34,7 +34,7 @@ This page gives information on the hacking of plucker software.
 ### 最新バージョン
 
 <dl>
-  <dt>[](20040527ja.prc)</dt><dd>2004/5/27版(plucker viewer1.8をベースに作成しました。tsPatch, annotation機能を新たに追加。vfsfont, antialiasなどのフォント関連の拡張機能は無効になっています。)
+  <dt>[](storage</dt><dd>拡張版PluckerViewer/20040527ja.prc):2004/5/27版(plucker viewer1.8をベースに作成しました。tsPatch, annotation機能を新たに追加。vfsfont, antialiasなどのフォント関連の拡張機能は無効になっています。)
 </dd>
   <dt>[PalmZLib](/PalmZLib)</dt><dd>圧縮形式の文書を閲覧する場合に必要です。
 </dd>
@@ -45,14 +45,14 @@ This page gives information on the hacking of plucker software.
 上のバイナリがWorkPad 30Jでは動かなかったので、ハイレゾ対応を除いたバイナリを作成しました。
 
 <dl>
-  <dt>[](20040704ja.prc)</dt><dd>2004/7/04版(plucker viewer1.8をベースに作成しました。tsPatch, annotation機能を新たに追加。vfsfont, antialiasなどのフォント関連、およびハイレゾ拡張機能は無効になっています。)
+  <dt>[](storage</dt><dd>拡張版PluckerViewer/20040704ja.prc):2004/7/04版(plucker viewer1.8をベースに作成しました。tsPatch, annotation機能を新たに追加。vfsfont, antialiasなどのフォント関連、およびハイレゾ拡張機能は無効になっています。)
 </dd>
 </dl>
 
 ### 以前のバージョン
 
 <dl>
-  <dt>[](20040526ja.prc)</dt><dd>2004/5/26版(新機能は追加していませんが、前回のコンパイルオプションに加えてtsPatchを可用にしました。)
+  <dt>[](storage</dt><dd>拡張版PluckerViewer/20040526ja.prc):2004/5/26版(新機能は追加していませんが、前回のコンパイルオプションに加えてtsPatchを可用にしました。)
 </dd>
 </dl>
 これより古いバージョンは[旧ページ](http://www.chem.nagoya-u.ac.jp/matto/90/30Palm/plucker/)をご覧ください。
@@ -178,6 +178,7 @@ This is free software.
 * [Plucker](/Plucker)
 * [RetrievR](/RetrievR)
 * [StarterPack](/StarterPack)
+* [拡張版PluckerViewer](/拡張版PluckerViewer)
 
 
 ----

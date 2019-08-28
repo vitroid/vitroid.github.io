@@ -10,15 +10,15 @@ title: yaplot (en)
 
 -->Japanese page
 
-![yaplot](perc.gif)
+![yaplot](http://theochem.chem.okayama-u.ac.jp/vitroid/yaplot (en)/perc.gif)
 
 Sample image of yaplot. 
 
 (Visualization of 3-dimensional bond percolation.)
 
-* [yaplot](yaplot3.3.20040803.tar.gz) Source codes(2004-08-03)
-* [yaplot](yaplot-3.3-1.i386.rpm) Binary package for Vine Linux(2004-08-03)
-* [yaplot](yaplot_3.3-1_i386.deb) Binary package for Debian Linux(2004-08-03)
+* [yaplot](http://theochem.chem.okayama-u.ac.jp/vitroid/yaplot (en)/yaplot3.3.20040803.tar.gz) Source codes(2004-08-03)
+* [yaplot](http://theochem.chem.okayama-u.ac.jp/vitroid/yaplot (en)/yaplot-3.3-1.i386.rpm) Binary package for Vine Linux(2004-08-03)
+* [yaplot](http://theochem.chem.okayama-u.ac.jp/vitroid/yaplot (en)/yaplot_3.3-1_i386.deb) Binary package for Debian Linux(2004-08-03)
 
 ## What is yaplot?
 

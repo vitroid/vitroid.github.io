@@ -13,9 +13,9 @@ title: Weierstrass関数
 
 
 
-* [](weierstrass12.wav) ワイエルシュトラス関数：倍速再生しても同じ音に聞こえる音色(余弦波の倍音の無限和)
-* [](weierstrass14.wav) enhanced Weierstrass function: 倍速再生すると1音低く聞こえる音色
-* [](weierstrass10.wav) enhanced Weierstrass function: 倍速再生すると1音高く聞こえる音色
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Weierstrass関数/weierstrass12.wav) ワイエルシュトラス関数：倍速再生しても同じ音に聞こえる音色(余弦波の倍音の無限和)
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Weierstrass関数/weierstrass14.wav) enhanced Weierstrass function: 倍速再生すると1音低く聞こえる音色
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/Weierstrass関数/weierstrass10.wav) enhanced Weierstrass function: 倍速再生すると1音高く聞こえる音色
 
 
 
@@ -24,6 +24,7 @@ title: Weierstrass関数
 
 ## Linked from
 
+* [Weierstrass関数](/Weierstrass関数)
 * [fractal noise](/fractal noise)
 
 

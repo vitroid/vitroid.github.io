@@ -11,9 +11,9 @@
 
 
 
-[](SysZLib.prc)
+[](storage:PalmZLib/SysZLib.prc)
 
-[](ArmSysZLib.prc)
+[](storage:PalmZLib/ArmSysZLib.prc)
 
 
 

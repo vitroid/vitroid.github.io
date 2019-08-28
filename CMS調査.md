@@ -89,7 +89,7 @@ title: CMS調査
 ## その他の情報源
 
 * [http://www.cmshikaku.com](http://www.cmshikaku.com)
-* [](cmsmatrix.pdf) 主要なCMSの機能比較表。
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/CMS調査/cmsmatrix.pdf) 主要なCMSの機能比較表。
 * [http://www.turbine.co.jp/index.html](http://www.turbine.co.jp/index.html) 名古屋でMovable Typeを実装する会社。 - [matto](/matto) (2007年11月29日 11時25分20秒)
 * [http://www.site-master.jp/contact/index.html](http://www.site-master.jp/contact/index.html) 名古屋の会社。いろんなCMSを扱える。 - [matto](/matto) (2007年11月29日 11時28分17秒)
 * [http://xlab.jp/](http://xlab.jp/) xoopsを扱う名古屋の会社。 - [matto](/matto) (2007年11月29日 11時30分07秒)
@@ -97,6 +97,13 @@ title: CMS調査
 * 全学WebサーバではPostgreSQLが動いていませんでした。申し訳ありません。どこかに間借りすることになるなら、MySQLかPostgreSQLを条件で探してもらってますので、確定するまでお待ち下さい。 - たかた (2007年11月29日 18時47分22秒)
 
 
+
+
+
+
+## Linked from
+
+* [CMS調査](/CMS調査)
 
 
 ----

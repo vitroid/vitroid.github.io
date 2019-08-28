@@ -23,13 +23,13 @@ Palm上で入力したURLをHotSync時に巡回してPCのブラウザで表示�
 
 ## 他アプリからの利用
 
-[拡張版PluckerViewer](/拡張版PluckerViewer)、[RetrievR](/RetrievR)、[NCSync](/NCSync)、[MemoURL DA](/MemoURL DA)などのPalmwareは、[MemoURL](/MemoURL)データベースを利用していますので、[MemoURL](/MemoURL)アプリ([](MemoUrl.prc), [](MemoURL_Search_US.pdb))をPalmにインストールする必要があります。
+[拡張版PluckerViewer](/拡張版PluckerViewer)、[RetrievR](/RetrievR)、[NCSync](/NCSync)、[MemoURL DA](/MemoURL DA)などのPalmwareは、[MemoURL](/MemoURL)データベースを利用していますので、[MemoURL](/MemoURL)アプリ([](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL/MemoUrl.prc), [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL/MemoURL_Search_US.pdb))をPalmにインストールする必要があります。
 
 ----
 
-[](MemoUrl.prc)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL/MemoUrl.prc)
 
-[](MemoURL_Search_US.pdb)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL/MemoURL_Search_US.pdb)
 
 
 

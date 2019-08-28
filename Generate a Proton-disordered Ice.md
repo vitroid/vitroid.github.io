@@ -72,7 +72,7 @@ The initial oxygen atom positions must not include defects. All the atomic coord
 
 ## Program
 
-[](icesynthesize.tar.gz)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/Generate a Proton-disordered Ice/icesynthesize.tar.gz)
 
 
 ## Example
@@ -80,6 +80,13 @@ The initial oxygen atom positions must not include defects. All the atomic coord
 ```
 % make
 % make test
+
+
+## Linked from
+
+* [Generate a Proton-disordered Ice](/Generate a Proton-disordered Ice)
+
+
 ----
 
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Generate a Proton-disordered Ice.md)

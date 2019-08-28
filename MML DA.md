@@ -11,13 +11,13 @@ title: MML DA
 
 ## ダウンロード
 
-* [](mmlda.prc) [MML DA](/MML DA)本体
-* [](regmmlda.prc) reg[MML DA](/MML DA)本体
-* [](mmldd.prc) MML Drag&Dropモジュール本体
-* [](mmlpackdd.prc) MMLpack Drag&Dropモジュール本体
-* [](mmlda-0.9.tar.gz) ソース
-* [](galax.txt) MMLのサンプル、[](KansasCityStandard.txt) もう一つ。
-* [](galax.mid) それをMIDIファイルに変換したもの(PCだとピアノ音で再生されるのでかなり変です)
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MML DA/mmlda.prc) [MML DA](/MML DA)本体
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MML DA/regmmlda.prc) reg[MML DA](/MML DA)本体
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MML DA/mmldd.prc) MML Drag&Dropモジュール本体
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MML DA/mmlpackdd.prc) MMLpack Drag&Dropモジュール本体
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MML DA/mmlda-0.9.tar.gz) ソース
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MML DA/galax.txt) MMLのサンプル、[](http://theochem.chem.okayama-u.ac.jp/vitroid/MML DA/KansasCityStandard.txt) もう一つ。
+* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MML DA/galax.mid) それをMIDIファイルに変換したもの(PCだとピアノ音で再生されるのでかなり変です)
 
 ## 概説
 

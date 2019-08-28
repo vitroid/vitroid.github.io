@@ -15,13 +15,13 @@
 
 
 
-* [](white.aiff) α=0, While noise (aiff format) / ([](white.m4a) AAC 128kbps)
-* [](pink1.0.aiff) α=1.0, Pink noise (aiff format) / ([](pink1.0.m4a) AAC 128kbps)
-* [](pink1.3.aiff) α=1.3, Pink noise (aiff format)
-* [](pink1.6.aiff) α=1.6, Pink noise (aiff format)
-* [](brown.aiff) α=2, Brown noise (aiff format) / ([](brown.m4a) AAC 128kbps)
-* [](sound.c) C source.
-* [](Makefile.sound) Makefile.
+* [](storage:Pink noise/white.aiff) α=0, While noise (aiff format) / ([](storage:Pink noise/white.m4a) AAC 128kbps)
+* [](storage:Pink noise/pink1.0.aiff) α=1.0, Pink noise (aiff format) / ([](storage:Pink noise/pink1.0.m4a) AAC 128kbps)
+* [](storage:Pink noise/pink1.3.aiff) α=1.3, Pink noise (aiff format)
+* [](storage:Pink noise/pink1.6.aiff) α=1.6, Pink noise (aiff format)
+* [](storage:Pink noise/brown.aiff) α=2, Brown noise (aiff format) / ([](storage:Pink noise/brown.m4a) AAC 128kbps)
+* [](storage:Pink noise/sound.c) C source.
+* [](storage:Pink noise/Makefile.sound) Makefile.
 
 
 純粋なピンクノイズを作る方法はいろいろあります。ここでは、1/f型のパワースペクトルの各周波数にランダムな位相を与え、それを逆フーリエ変換して波形を得ています。

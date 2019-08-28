@@ -86,7 +86,7 @@ http://www.cmsmatrix.org/で、以下の条件を与えて大雑把に絞りこ�
 ## その他の情報源
 
 * http://www.cmshikaku.com
-* [](cmsmatrix.pdf) 主要なCMSの機能比較表。
+* [](storage:CMS調査/cmsmatrix.pdf) 主要なCMSの機能比較表。
 * http://www.turbine.co.jp/index.html 名古屋でMovable Typeを実装する会社。 - matto (2007年11月29日 11時25分20秒)
 * http://www.site-master.jp/contact/index.html 名古屋の会社。いろんなCMSを扱える。 - matto (2007年11月29日 11時28分17秒)
 * http://xlab.jp/ xoopsを扱う名古屋の会社。 - matto (2007年11月29日 11時30分07秒)

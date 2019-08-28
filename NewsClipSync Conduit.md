@@ -15,7 +15,7 @@ title: NewsClipSync Conduit
 Windows機とHotSyncする際に自動的に[NewsClip](/NewsClip)から記事をダウンロードするには、以下のパッケージをインストールしてください。
 
 <dl>
-  <dt>JSync</dt><dd>[StarterPack](JSyncInstaller.exe)
+  <dt>JSync</dt><dd>[StarterPack](http://theochem.chem.okayama-u.ac.jp/vitroid/NewsClipSync Conduit/JSyncInstaller.exe)
 </dd>
   <dt>[NewsClipSync Conduit](NewsClipSync Conduit)</dt><dd>[NewsClipSync-0.36.zip](http://wiki.yoshimov.com/wiki.cgi?action=ATTACH&page=NewsclipSync+Conduit&file=NewsclipSync%2D036%2Eexe) ([Yoshimopedia](http://wiki.yoshimov.com/wiki.cgi)より)
 </dd>

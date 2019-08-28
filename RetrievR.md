@@ -6,7 +6,7 @@ title: RetrievR
 
 # [RetrievR](/RetrievR)(仮称)
 
-![](main.png)
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/RetrievR/main.png)
 
 レトリバーと読みます。鋭意開発中。[RetrievR](/RetrievR)は、非同期でwebを取得するpalmwareです。
 
@@ -29,13 +29,13 @@ Palm上の[RetrievR](/RetrievR)からURLを複数[まとめ](/まとめ)てリ�
 次の4つのファイルをPalmにインストールしてください。
 
 <dl>
-  <dt>[](20040825en.prc)</dt><dd>[RetrievR](/RetrievR)本体(v0.1b72, 2004-08-25. Emulatorでは動作しますが、実機では非常に不安定です。)
+  <dt>[](storage</dt><dd>RetrievR/20040825en.prc):[RetrievR](/RetrievR)本体(v0.1b72, 2004-08-25. Emulatorでは動作しますが、実機では非常に不安定です。)
 </dd>
   <dt>[PalmZLib](/PalmZLib)</dt><dd>圧縮ライブラリ
 </dd>
-  <dt>[MemoURL](MemoUrl.prc)</dt><dd>[MemoURL](/MemoURL)アプリ([英語](/英語)版)。[NCSync](/NCSync)経由で[NewsClip](/NewsClip)にチャンネル設定を還流させるのに内部で使用しています。
+  <dt>[MemoURL](storage</dt><dd>RetrievR/MemoUrl.prc):[MemoURL](/MemoURL)アプリ([英語](/英語)版)。[NCSync](/NCSync)経由で[NewsClip](/NewsClip)にチャンネル設定を還流させるのに内部で使用しています。
 </dd>
-  <dt>[MemoURL](MemoURL_Search_US.pdb)</dt><dd>[MemoURL](/MemoURL)用検索プラグイン([英語](/英語)版)
+  <dt>[MemoURL](storage</dt><dd>RetrievR/MemoURL_Search_US.pdb):[MemoURL](/MemoURL)用検索プラグイン([英語](/英語)版)
 </dd>
 </dl>
 以下は好みで選んでください。
@@ -47,13 +47,13 @@ Palm上の[RetrievR](/RetrievR)からURLを複数[まとめ](/まとめ)てリ�
 ## 使い方
 
 1. [MemoURL](/MemoURL)に、URLを登録します。[MemoURL](/MemoURL)アプリで直接指定するか、[MemoURL DA](/MemoURL DA)/DDなどのヘルパーアプリを使うか、[拡張版PluckerViewer](/拡張版PluckerViewer)などの[MemoURL](/MemoURL)対応アプリで登録してください。
-![](memourl.png)
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/RetrievR/memourl.png)
 
 1. [RetrievR](/RetrievR)を起動し、猫が二匹描いてあるボタンを押すと、Proxyサーバとの通信が始まり、サーバにリクエストを送り、指定された時間待ってから、巡回済みのWebページをダウンロードします。（猫一匹のボタンを押した場合は、リクエストを送るだけでダウンロードは行いません。）
-![](main.png)
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/RetrievR/main.png)
 
 1. [Plucker](/Plucker)形式を指定した場合は、ダウンロードしたページを[拡張版PluckerViewer](/拡張版PluckerViewer)で閲覧してください。
-![](plucker main.png)
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/RetrievR/plucker main.png)
 
 
 ## 他ソフトウェアとの比較

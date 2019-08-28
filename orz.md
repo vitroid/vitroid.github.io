@@ -8,7 +8,7 @@ title: orz
 
 [orz](/orz)な非常口のシンボルを作ってみました。
 
-![](orz.png)
+![](http://theochem.chem.okayama-u.ac.jp/vitroid/orz/orz.png)
 
 * 扉があったら入りたい。 - 名無しさん 
 * 扉の向こうで何があったんでしょうか。 - 名無しさん 

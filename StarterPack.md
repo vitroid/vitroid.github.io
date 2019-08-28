@@ -10,13 +10,13 @@ title: StarterPack
 以下のファイルをPalmにインストールしてください。
 
 <dl>
-  <dt>[NCSync](/NCSync)</dt><dd>[NCSync](ncsync0.10b26ja.prc)
+  <dt>[NCSync](/NCSync)</dt><dd>[NCSync](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/ncsync0.10b26ja.prc)
 </dd>
-  <dt>[MemoURL](/MemoURL)</dt><dd>[](MemoUrl.prc)
+  <dt>[MemoURL](/MemoURL)</dt><dd>[](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/MemoUrl.prc)
 </dd>
-  <dt>[PalmZLib](/PalmZLib)</dt><dd>[PalmZLib](SysZLib.prc) (全機種)または[PalmZLib](ArmSysZLib.prc) (OS5以降)
+  <dt>[PalmZLib](/PalmZLib)</dt><dd>[PalmZLib](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/SysZLib.prc) (全機種)または[PalmZLib](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/ArmSysZLib.prc) (OS5以降)
 </dd>
-  <dt>[拡張版PluckerViewer](/拡張版PluckerViewer)</dt><dd>[拡張版PluckerViewer](20040527ja.prc)または [拡張版PluckerViewer](20040704ja.prc)(ローレゾ機専用)
+  <dt>[拡張版PluckerViewer](/拡張版PluckerViewer)</dt><dd>[拡張版PluckerViewer](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/20040527ja.prc)または [拡張版PluckerViewer](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/20040704ja.prc)(ローレゾ機専用)
 </dd>
   <dt>[RetrievR](/RetrievR)</dt><dd>開発中
 </dd>
@@ -27,9 +27,9 @@ title: StarterPack
 以下のファイルをPalmにインストールしてください。
 
 <dl>
-  <dt>[PalmZLib](/PalmZLib)</dt><dd>[PalmZLib](SysZLib.prc) (全機種)または[PalmZLib](ArmSysZLib.prc) (OS5以降)
+  <dt>[PalmZLib](/PalmZLib)</dt><dd>[PalmZLib](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/SysZLib.prc) (全機種)または[PalmZLib](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/ArmSysZLib.prc) (OS5以降)
 </dd>
-  <dt>[拡張版PluckerViewer](/拡張版PluckerViewer)</dt><dd>[拡張版PluckerViewer](20040527ja.prc)
+  <dt>[拡張版PluckerViewer](/拡張版PluckerViewer)</dt><dd>[拡張版PluckerViewer](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/20040527ja.prc)
 </dd>
 </dl>
 
@@ -38,7 +38,7 @@ title: StarterPack
 Windows機とHotSyncする際に自動的に[NewsClip](/NewsClip)から記事をダウンロードするには、以下のパッケージをインストールしてください。
 
 <dl>
-  <dt>JSync</dt><dd>[](JSyncInstaller.exe)
+  <dt>JSync</dt><dd>[](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/JSyncInstaller.exe)
 </dd>
   <dt>[NewsClipSync Conduit](NewsClipSync Conduit)</dt><dd>[NewsClipSync-0.36.zip](http://wiki.yoshimov.com/wiki.cgi?action=ATTACH&page=NewsclipSync+Conduit&file=NewsclipSync%2D036%2Eexe) ([Yoshimopedia](http://wiki.yoshimov.com/wiki.cgi)より)
 </dd>
@@ -119,9 +119,9 @@ Clie+Windows+[Plucker](/Plucker)を想定する。どれだけ手数を減らす
 
 
 
-[](MemoUrl.prc)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/MemoUrl.prc)
 
-[](JSyncInstaller.exe)
+[](http://theochem.chem.okayama-u.ac.jp/vitroid/StarterPack/JSyncInstaller.exe)
 
 
 
@@ -134,6 +134,7 @@ Clie+Windows+[Plucker](/Plucker)を想定する。どれだけ手数を減らす
 ## Linked from
 
 * [NewsClipSync Conduit](/NewsClipSync Conduit)
+* [StarterPack](/StarterPack)
 
 
 ----
