@@ -9,9 +9,9 @@ title: Settings
 
 /progfay-pub/[Settings](/Settings)を参考に。
 
-[color theme]
+[color theme](color theme)
 
-[https://gyazo.com/2d7af113e5d77a76ff03396a12c37979]
+[https://gyazo.com/2d7af113e5d77a76ff03396a12c37979](https://gyazo.com/2d7af113e5d77a76ff03396a12c37979)
 
     :root {
    		--bg-color:  [FFFFFF;](/FFFFFF;)
@@ -20,7 +20,7 @@ title: Settings
    		--default:   [999999;](/999999;)
     }
 
-[マーカー]
+[マーカー](マーカー)
 
     /* 二重括弧による強調を蛍光マーカーっぽくする */
     .line strong:not([class]) { 
@@ -29,7 +29,7 @@ title: Settings
       margin: 0 1px;
     }
 
-[#で始まるタグをラベル風にする ]
+[#で始まるタグをラベル風にする ](#で始まるタグをラベル風にする )
 
     a[type="hashTag"] {
    		display: inline-block;
@@ -51,7 +51,7 @@ title: Settings
       visibility: visible;
       position: relative;
     }
-   [[トップページのタイルの数を増やす]] [/forum-jp/Webブラウザ横幅いっぱい表示させてほしい]
+   [[トップページのタイルの数を増やす]([トップページのタイルの数を増やす)] [/forum-jp/Webブラウザ横幅いっぱい表示させてほしい](/forum-jp/Webブラウザ横幅いっぱい表示させてほしい)
     .container {
       max-width: none;
       }

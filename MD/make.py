@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import sys
 import glob
 import os
 import scrapbox2md as s2m
@@ -13,6 +14,7 @@ basicConfig(level=INFO)
 import re
 from ktree import *        
 
+ForceUpdate=len(sys.argv) > 1 and sys.argv[1] == "-f"
 
 interwikinames = { "youtube": '<iframe width="560" height="315" src="https://www.youtube.com/embed/{0}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
                    "amazon" : '[![{1}](http://images-jp.amazon.com/images/P/{0}.09.LZZZZZZZ.jpg)](http://www.amazon.co.jp/exec/obidos/ASIN/{0})',
@@ -48,7 +50,7 @@ def visualindex():
         images = [] # URL, size, and MD page title
         while aspect(images) < 3:
             found = False
-            while not found:
+            while not found and len(newest) > 0:
                 page = newest.pop(0)
                 title = page[:-3]
                 for line in open("../"+page).readlines():
@@ -178,11 +180,11 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
                             else:
                                 line = line[len(label)+2:]
                                 link = label
-                            logger.info(link)
+                            # logger.info(link)
                             methodloc = link.split(":", 1)
                             methodloc.append("")
                             method, loc = methodloc[:2]
-                            logger.info(methodloc)
+                            # logger.info(methodloc)
                             if method in interwikinames:
                                 html = interwikinames[method].format(loc, label)
                                 s += html
@@ -267,73 +269,64 @@ for wikifile in glob.glob("wiki/*.wiki"):
             logger.info("  {0}".format(wikifile))
             open(mdfile, "w").write(md)
 
-        
-logger.info("Update link references.")
-for file in glob.glob("*.md"):
-    target = "../" + file
-    if not os.path.exists(target) or os.path.getmtime(target) < os.path.getmtime(file):
-        # if the original md is editted
-        # md_parser adds line attributes
-        md = [x for x in md_parser(file)]
-        logger.info("  {0}".format(file))
-        pk.process_keywords(file, md, autolink=True)
 
+rep = 1
+if ForceUpdate:
+    rep = 2
 
-pages = [file[:-3]      for file in glob.glob("*.md")]
-words = [file[:-7][7:]  for file in glob.glob("../ref/*.pickle")]
-kwtree = keyword_tree(pages)
+for R in range(rep):
+    logger.info("Update link references.")
+    for file in glob.glob("*.md"):
+        target = "../" + file
+        if ForceUpdate or not os.path.exists(target) or os.path.getmtime(target) < os.path.getmtime(file):
+            # if the original md is editted
+            # md_parser adds line attributes
+            md = [x for x in md_parser(file)]
+            logger.info("  {0}".format(file))
+            pk.process_keywords(file, md, autolink=True)
+            
+    pages = [file[:-3]      for file in glob.glob("*.md")]
+    words = [file[:-7][7:]  for file in glob.glob("../ref/*.pickle")]
+    kwtree = keyword_tree(pages)
 
-logger.info("Parse and update Markdown pages.")
-for page in pages:
-    processed = page + ".md"
-    linked    = "../ref/" + page + ".pickle"
-    target    = "../" + page + ".md"
-    go = False
-    if not os.path.exists(target):
-        go = True
-    elif os.path.getmtime(target) < os.path.getmtime(processed):
-        go = True
-    elif os.path.exists(linked) and os.path.getmtime(target) < os.path.getmtime(linked):
-        go = True
-    if go:
-        logger.info("  {0}".format(page))
-        formatted, tags = formatPage(page, kwtree, processed=processed, linked=linked, autolink=True)
-        open(target, "w").write(formatted)
-# Blog形式はやめる。自分にあってない。
-#        print(tags)
-#        # 日付と雑記のついているものはredirectする。
-#        if "雑記" in tags:
-#            for tag in tags:
-#                m = re.search(r"^([1-2]\d\d\d)-(\d+)-(\d+)$", tag)
-#                if m:
-#                    datestr = "{0:04d}-{1:02d}-{2:02d}".format(int(m.group(1)), int(m.group(2)), int(m.group(3)))
-#                    count = 0
-#                    while True:
-#                        target = "../_posts/{0}-post{1}.md".format(datestr, count)
-#                        if not os.path.exists(target):
-#                            break
-#                        count += 1
+    
+    logger.info("Parse and update Markdown pages.")
+    for page in pages:
+        processed = page + ".md"
+        linked    = "../ref/" + page + ".pickle"
+        target    = "../" + page + ".md"
+        go = ForceUpdate
+        if not os.path.exists(target):
+            go = True
+        elif os.path.getmtime(target) < os.path.getmtime(processed):
+            go = True
+        elif os.path.exists(linked) and os.path.getmtime(target) < os.path.getmtime(linked):
+            go = True
+        if go:
+            logger.info("  {0}".format(page))
+            formatted, tags = formatPage(page, kwtree, processed=processed, linked=linked, autolink=True)
+            open(target, "w").write(formatted)
 
 
 
 
-logger.info("Update virtual pages.")
-virtual = dict()
-for page in words:
-    processed = page + ".md"
-    linked    = "../ref/" + page + ".pickle"
-    target    = "../" + page + ".md"
-    if (not os.path.exists(target)) or ( (not os.path.exists(processed))
-                                         and os.path.getmtime(target) < os.path.getmtime(linked)):
-        N = len(pickle.load(open(linked, "rb")))
-        logger.info("  {0}: ({1})".format(page, N))
-        formatted, tags = formatPage(page, kwtree, linked=linked, autolink=True)
-        open(target, "w").write(formatted)
-    if not os.path.exists(processed):
-        N = len(pickle.load(open(linked, "rb")))
-        # logger.info("  >>{1} {0}".format(page, N))
-        if N >= 5:
-            virtual[page] = N
+    logger.info("Update virtual pages.")
+    virtual = dict()
+    for page in words:
+        processed = page + ".md"
+        linked    = "../ref/" + page + ".pickle"
+        target    = "../" + page + ".md"
+        if (ForceUpdate and not os.path.exists(processed)) or ( (not os.path.exists(target)) or ( (not os.path.exists(processed))
+                                             and os.path.getmtime(target) < os.path.getmtime(linked)) ):
+            N = len(pickle.load(open(linked, "rb")))
+            logger.info("  {0}: ({1})".format(page, N))
+            formatted, tags = formatPage(page, kwtree, linked=linked, autolink=True)
+            open(target, "w").write(formatted)
+        if not os.path.exists(processed):
+            N = len(pickle.load(open(linked, "rb")))
+            # logger.info("  >>{1} {0}".format(page, N))
+            if N >= 5:
+                virtual[page] = N
 
 for x in sorted(virtual, key=lambda x:-virtual[x])[:20]:
     logger.info("Candidates for the menu item: {0}".format(x))

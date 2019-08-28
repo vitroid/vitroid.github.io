@@ -426,7 +426,7 @@ svgwriteを使ってpythonでsvgを出力するように変更。
     print(svg.tostring())
     
     
-   [NodeBox]用の古いコード。numpyとSVGで書きなおしたいね。
+   [NodeBox](NodeBox)用の古いコード。numpyとSVGで書きなおしたいね。
     def hextube(r,n,m):
         l = r*sin(pi/n)/sqrt(3.0)*2
         print l
