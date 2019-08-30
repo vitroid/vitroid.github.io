@@ -829,3 +829,55 @@ pre {
 .sharebuttons .linkedin svg {
   fill: #0077B5;
 }
+
+
+/* It is very difficult to style the google search window */
+
+#search-box
+{
+    width:250px;
+    overflow: hidden;
+    border: 0px;
+}
+
+.gsc-search-box .gsc-input
+{
+    border-right-width: 0px;
+}
+
+#gsc-i-id1
+{
+    color:#000;
+}
+
+button.gsc-search-button
+{
+    padding: 8px !important;
+    margin: 0px;
+    background-color: #404040 !important;
+}
+
+td.gsc-search-button
+{
+    padding: 0px !important;
+    margin: 0px;
+}
+
+.gsc-input-box{
+    height: 100%;
+}
+
+.gsc-control-cse
+{
+    padding: 0px !important;
+    margin:  0px !important;
+}
+
+td.gsc-input
+{
+    padding: 0px !important;
+    margin:  0px !important;
+    border:  0px !important;
+}
+
+

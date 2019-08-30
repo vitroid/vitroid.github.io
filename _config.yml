@@ -35,11 +35,12 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/img/photo.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # title-img: /path/to/image
+title-img: "https://live.staticflickr.com/7917/46611114124_54653d669c_k_d.jpg"
 
 # --- Background colour/image options --- #
 
