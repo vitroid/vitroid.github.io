@@ -4,6 +4,7 @@
 * チェイン時計
 * counterclock
 * パネル画 Coil (of coil)^5
+![](https://live.staticflickr.com/7917/46611114124_54653d669c_k_d.jpg)
 * IoTあれこれ
 * 3Dプリンタ用データ
 * ウェブページ刷新

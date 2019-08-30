@@ -5,7 +5,7 @@ parse:
 force:
 	python make.py -f
 serve:
-	cd ..; bundle exec jekyll serve --incremental
+	cd ..; bundle exec jekyll serve --incremental --watch
 prepare:
 	python unscrapbox.py *json
 push:
