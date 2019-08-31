@@ -64,7 +64,7 @@ def process_keywords(filename, lines, autolink=False):
         if len(tuple(sf.sfind(word, '/[]!"(),;'))):
             logger.info("  ELIM {0}".format(word))
             continue
-        referfrom = "../ref/{0}.pickle".format(word)
+        referfrom = "../_ref/{0}.pickle".format(word)
         if os.path.exists(referfrom):
             logger.info("  Update linklist {0}".format(word))
             with open(referfrom, mode='rb') as f:

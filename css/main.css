@@ -880,4 +880,9 @@ td.gsc-input
     border:  0px !important;
 }
 
-
+div.vi
+{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}

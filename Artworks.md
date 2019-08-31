@@ -1,10 +1,17 @@
 ---
-title: artworks
+title: Artworks
 ---
+# [Artworks](/Artworks)
+
+Follow the links.
+
+
+
 
 
 ## Linked from
 
+* [Artworks](/Artworks)
 * [Panojector](/Panojector)
 * [Product2004](/Product2004)
 * [Product2005](/Product2005)
@@ -25,4 +32,8 @@ title: artworks
 * [水道](/水道)
 * [見える化シンポジウム2019](/見える化シンポジウム2019)
 
+
+----
+
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Artworks.md)
 

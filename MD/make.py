@@ -6,7 +6,9 @@ import os
 import scrapbox2md as s2m
 import process_keywords as pk
 import pickle
-from imagesize import getsizes
+# from imagesize import getsizes
+import urllib.request
+from PIL import Image
 
 from logging import getLogger, basicConfig, INFO, DEBUG
 basicConfig(level=INFO)
@@ -28,13 +30,14 @@ interwikinames = { "youtube": '<iframe width="560" height="315" src="https://www
 
 
 
+
 def aspect(images):
     #  width / height of a set of images
     if len(images) == 0:
         return 1
     rw = 0
-    for image in images:
-        w, h = image[1]
+    for image, title in images:
+        w, h = image.size
         rw += w / h
     return rw
 
@@ -46,6 +49,11 @@ def visualindex():
 
     logger.info("Generating visual index.")
     row = 0
+    tnnum = 0
+    try:
+        os.makedirs("../tn")
+    except:
+        pass
     while row < 10:
         images = [] # URL, size, and MD page title
         while aspect(images) < 3:
@@ -56,33 +64,32 @@ def visualindex():
                 for line in open("../"+page).readlines():
                     m = re.search(r"!\[[^\]]*\]\(([^\)]+)\)", line)
                     if m:
-                        # obtain the size
-                        # 内部ファイルはサイズがわからない？それはおかしい。
                         url = m.group(1)
-                        sizes = getsizes(url, loc="../"+title+"/")
-                        # logger.info((title, url))
-                        if sizes is not None:
-                            filesize, imagesize, path = sizes
-                            images.append((path, imagesize, title))
+                        logger.info(url)
+                        try:
+                            method, loc = url.split(":")
+                            url = method+":"+urllib.parse.quote(loc)
+                            image = Image.open(urllib.request.urlopen(url, timeout=2))
+                        except:
+                            continue
+                        if image is not None:
+                            images.append((image, title))
                             found = True
                             break
         width = 749
         height = width / aspect(images)
         # in raw HTML
-        for image in images:
-            url, (w, h), title = image
+        s += "<div class='vi'>\n"
+        for image, title in images:
+            w, h = image.size
             w *= height / h
-            # s += "<a href='/{0}'><img src='{1}' width='{2}' height='{3}' /></a>".format(title, url, w, height)
-            # using image resize proxy
-            s += "<a href='/{0}'><img src='http://images.weserv.nl/?url={1}&w={2}&h={3}&output=jpg&q=65' /></a>".format(title, url, int(w), int(height))
+            #save w, height
+            tn = image.resize((int(w),int(height)))
             logger.info("  {0}".format(title))
-        s += "<br />"
-        # in jekyll
-        #for image in images:
-        #    url, (w, h), title = image
-        #    w *= height / h
-        #    s += "[![]({0})](/{1}){{:width='{2}px' height='{3}px'}}\n".format(url, title, int(w), int(height))
-        #s += "\n"
+            tn.save("../tn/{0}.png".format(tnnum))
+            s += "  <a href='/{0}'><img src='/tn/{1}.png' /></a>\n".format(title, tnnum)
+            tnnum += 1
+        s += "</div>\n\n"
         row += 1
 
     return s
@@ -286,14 +293,14 @@ for R in range(rep):
             pk.process_keywords(file, md, autolink=True)
             
     pages = [file[:-3]      for file in glob.glob("*.md")]
-    words = [file[:-7][7:]  for file in glob.glob("../ref/*.pickle")]
+    words = [file[:-7][8:]  for file in glob.glob("../_ref/*.pickle")]
     kwtree = keyword_tree(pages)
 
     
     logger.info("Parse and update Markdown pages.")
     for page in pages:
         processed = page + ".md"
-        linked    = "../ref/" + page + ".pickle"
+        linked    = "../_ref/" + page + ".pickle"
         target    = "../" + page + ".md"
         go = ForceUpdate
         if not os.path.exists(target):
@@ -314,7 +321,7 @@ for R in range(rep):
     virtual = dict()
     for page in words:
         processed = page + ".md"
-        linked    = "../ref/" + page + ".pickle"
+        linked    = "../_ref/" + page + ".pickle"
         target    = "../" + page + ".md"
         if (ForceUpdate and not os.path.exists(processed)) or ( (not os.path.exists(target)) or ( (not os.path.exists(processed))
                                              and os.path.getmtime(target) < os.path.getmtime(linked)) ):
