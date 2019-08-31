@@ -33,6 +33,23 @@
           <li><a href="{{ link[1] | relative_url }}">{{ link[0] }}</a></li>
         {%- endif -%}
       {%- endfor -%}
+	  
+      {%- for link in site.navbar-links2 -%}
+        {%- if link[1].first %}
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
+            <div class="navlinks-children">
+              {%- for childlink in link[1] -%}
+              {%- for linkparts in childlink %}
+              <a href="https://translate.google.co.jp/translate?sl=ja&tl={{ linkpart[1] }}&u={{ page.url | absolute_url | cgi_escape }}">{{ linkparts[0] }}</a>
+              {%- endfor -%}
+              {%- endfor %}
+            </div>
+          </li>
+        {% else %}
+          <li><a href="{{ link[1] | relative_url }}">{{ link[0] }}</a></li>
+        {%- endif -%}
+	  {%- endfor -%}
 	  <div id="search-box">
 	    <script>
 	      (function() {
@@ -47,8 +64,8 @@
 	      window.onload = function()
 	      { 
 	      var searchBox =  document.getElementById("gsc-i-id1");
-	      searchBox.placeholder="Search webslake";
-	      searchBox.title="Search webslake"; 
+	      searchBox.placeholder="Search";
+	      searchBox.title="Search"; 
 	      }
 	    </script>
 	    <gcse:search></gcse:search>

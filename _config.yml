@@ -32,6 +32,16 @@ navbar-links:
     - artworks: "artworks"
     - risk: "risk"
     - visualization: "visualization"
+navbar-links2:
+  Translate:
+    - English: "en"
+    - 中文（简体）: "zh-CN"
+    - 中文（繁體）: "zh-TW"
+    - 한글: "ko"
+    - Français: "fr"
+    - Española: "es"
+    - Portugues: "pt"
+    - Český: "cs"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -40,7 +50,6 @@ avatar: "/img/photo.jpg"
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # title-img: /path/to/image
-title-img: "https://live.staticflickr.com/7917/46611114124_54653d669c_k_d.jpg"
 
 # --- Background colour/image options --- #
 
@@ -60,6 +69,7 @@ footer-link-col: "#404040"
 # instead of colour
 
 # navbar-img: "/img/bgimage.png"
+# navbar-img: "https://live.staticflickr.com/7917/46611114124_54653d669c_k_d.jpg"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 
