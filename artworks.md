@@ -1,12 +1,6 @@
 ---
-title: Artworks
+title: artworks
 ---
-# [Artworks](/Artworks)
-
-Follow the links.
-
-
-
 
 
 ## Linked from
@@ -24,6 +18,7 @@ Follow the links.
 * [Product2016](/Product2016)
 * [Product2018](/Product2018)
 * [Product2019](/Product2019)
+* [THF](/THF)
 * [TrainScanner](/TrainScanner)
 * [写真](/写真)
 * [分子の世界へダイブ!](/分子の世界へダイブ!)
@@ -32,8 +27,4 @@ Follow the links.
 * [水道](/水道)
 * [見える化シンポジウム2019](/見える化シンポジウム2019)
 
-
-----
-
-[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Artworks.md)
 
