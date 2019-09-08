@@ -6,6 +6,7 @@ title: ice
 ## Linked from
 
 * [3Dプリンタ用データ](/3Dプリンタ用データ)
+* [TYM2019](/TYM2019)
 * [ice R](/ice R)
 * [ice T](/ice T)
 * [ice T2](/ice T2)

@@ -16,6 +16,8 @@ basicConfig(level=INFO)
 import re
 from ktree import *        
 
+from tagcloud import tagcloud
+
 ForceUpdate=len(sys.argv) > 1 and sys.argv[1] == "-f"
 
 interwikinames = { "youtube": '<iframe width="560" height="315" src="https://www.youtube.com/embed/{0}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
@@ -315,8 +317,6 @@ for R in range(rep):
             open(target, "w").write(formatted)
 
 
-
-
     logger.info("Update virtual pages.")
     virtual = dict()
     for page in words:
@@ -340,5 +340,7 @@ for x in sorted(virtual, key=lambda x:-virtual[x])[:20]:
 
 open("../_includes/visual.html", "w").write(visualindex())
 
+s = tagcloud(words)
+open("../_includes/tagcloud.html", "w").write(s)
 
 
