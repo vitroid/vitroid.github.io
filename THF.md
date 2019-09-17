@@ -19,6 +19,11 @@ title: THF
 
 ハイドレートの成長前線のあたりで、[THF](/THF)分子が間違った場所にたくさんトラップされているのが見えます。
 
+
+次の図では、プログレスバーとスケールバーを付記しました。
+
+* [http://www.chem.okayama-u.ac.jp/~theochem/vitroid/Pana/THFbar.mp4](http://www.chem.okayama-u.ac.jp/~theochem/vitroid/Pana/THFbar.mp4)
+
 [artworks](/artworks)
 [research](/research)
 [water](/water)
@@ -26,6 +31,7 @@ title: THF
 
 ## Linked from
 
+* [EO](/EO)
 * [THF](/THF)
 
 

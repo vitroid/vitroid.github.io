@@ -16,6 +16,11 @@
 
 ハイドレートの成長前線のあたりで、THF分子が間違った場所にたくさんトラップされているのが見えます。
 
+
+次の図では、プログレスバーとスケールバーを付記しました。
+
+* http://www.chem.okayama-u.ac.jp/~theochem/vitroid/Pana/THFbar.mp4
+
 #artworks
 #research
 #water

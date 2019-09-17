@@ -14,6 +14,18 @@
 
 THFとことなり、ハイドレートの成長前線のあたりで、間違った場所にトラップされる分子はありません。
 
+次の図では、プログレスバーとスケールバーを付記しました。
+
+* http://www.chem.okayama-u.ac.jp/~theochem/vitroid/Pana/EObar.mp4
+
+### THFハイドレートとの比較
+
+同じ温度でのTHFハイドレートとEOハイドレートの成長速度を比較しました。どちらも理想濃度ですが、THFが大ケージにしか入れないのに対し、EOは小ケージにもとりこまれるため、かなり濃度が違います。また、シミュレーション開始時の結晶の大きさが違いますが、EOが追いあげていくのがわかります。
+
+* http://www.chem.okayama-u.ac.jp/~theochem/vitroid/Pana/allc.mp4
+
+
 #artworks
 #research
 #water
+#2019-09-17 

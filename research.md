@@ -6,6 +6,7 @@ title: research
 ## Linked from
 
 * [CPML](/CPML)
+* [EO](/EO)
 * [GenIce](/GenIce)
 * [HMT2011](/HMT2011)
 * [HMT2014](/HMT2014)

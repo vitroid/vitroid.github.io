@@ -17,9 +17,21 @@ title: EO
 
 [THF](/THF)とことなり、ハイドレートの成長前線のあたりで、間違った場所にトラップされる分子はありません。
 
+次の図では、プログレスバーとスケールバーを付記しました。
+
+* [http://www.chem.okayama-u.ac.jp/~theochem/vitroid/Pana/EObar.mp4](http://www.chem.okayama-u.ac.jp/~theochem/vitroid/Pana/EObar.mp4)
+
+### [THF](/THF)ハイドレートとの比較
+
+同じ温度での[THF](/THF)ハイドレートと[EO](/EO)ハイドレートの成長速度を比較しました。どちらも理想濃度ですが、[THF](/THF)が大ケージにしか入れないのに対し、[EO](/EO)は小ケージにもとりこまれるため、かなり濃度が違います。また、シミュレーション開始時の結晶の大きさが違いますが、[EO](/EO)が追いあげていくのがわかります。
+
+* [http://www.chem.okayama-u.ac.jp/~theochem/vitroid/Pana/allc.mp4](http://www.chem.okayama-u.ac.jp/~theochem/vitroid/Pana/allc.mp4)
+
+
 [artworks](/artworks)
 [research](/research)
 [water](/water)
+[2019-09-17](/2019-09-17) 
 
 
 ## Linked from

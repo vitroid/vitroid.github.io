@@ -25,6 +25,7 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 ## Linked from
 
 * [CurriculumVitae](/CurriculumVitae)
+* [EO](/EO)
 * [Exhaustive Search for Polyhedral Fragments](/Exhaustive Search for Polyhedral Fragments)
 * [FrontPage](/FrontPage)
 * [GenIce](/GenIce)
