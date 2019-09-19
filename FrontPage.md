@@ -176,10 +176,6 @@ Phone: 086-251-7846
 ## Linked from
 
 * [FrontPage](/FrontPage)
-* [Help](/Help)
-* [Help_FSWiki](/Help_FSWiki)
-* [Help_Hiki](/Help_Hiki)
-* [Help_YukiWiki](/Help_YukiWiki)
 * [Menu](/Menu)
 * [ロゴマーク](/ロゴマーク)
 * [松本](/松本)

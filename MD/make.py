@@ -287,7 +287,7 @@ for R in range(rep):
     logger.info("Update link references.")
     for file in glob.glob("*.md"):
         target = "../" + file
-        if ForceUpdate or not os.path.exists(target) or os.path.getmtime(target) < os.path.getmtime(file):
+        if True: # ALWAYS ForceUpdate or not os.path.exists(target) or os.path.getmtime(target) < os.path.getmtime(file):
             # if the original md is editted
             # md_parser adds line attributes
             md = [x for x in md_parser(file)]

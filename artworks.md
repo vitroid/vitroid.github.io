@@ -5,7 +5,6 @@ title: artworks
 
 ## Linked from
 
-* [Artworks](/Artworks)
 * [EO](/EO)
 * [Panojector](/Panojector)
 * [Product2004](/Product2004)

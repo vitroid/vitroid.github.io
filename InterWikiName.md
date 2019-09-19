@@ -29,10 +29,6 @@ title: InterWikiName
 ## Linked from
 
 * [FreeStyleWikiを研究会ポータルに](/FreeStyleWikiを研究会ポータルに)
-* [Help](/Help)
-* [Help_FSWiki](/Help_FSWiki)
-* [Help_Hiki](/Help_Hiki)
-* [Help_YukiWiki](/Help_YukiWiki)
 * [test](/test)
 
 

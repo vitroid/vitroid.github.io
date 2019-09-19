@@ -32,6 +32,7 @@ title: 略歴_CV
 * [分子シミュレーション研究会](http://mol-sim.jp)
 * [高圧力学会](http://www.highpressure.jp)
 * [分子科学会](http://molsci.jp)
+* [理論化学会](http://rkk-web.jp) 2019-07〜
 * (日本化学会のメンバーではありません。ごめんなさい。)
 
 ## 言語
