@@ -310,6 +310,7 @@ outputの値Gで、出力したいフィールドを指定します。
 ## Linked from
 
 * [API](/API)
+* [M5Stack Gray](/M5Stack Gray)
 * [MML DA](/MML DA)
 * [使途不明時間](/使途不明時間)
 * [計算機言語](/計算機言語)

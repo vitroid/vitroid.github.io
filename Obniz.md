@@ -13,6 +13,7 @@ title: Obniz
 ## Linked from
 
 * [ESP32](/ESP32)
+* [M5Stack Gray](/M5Stack Gray)
 * [Obniz](/Obniz)
 
 
