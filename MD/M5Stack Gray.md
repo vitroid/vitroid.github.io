@@ -133,9 +133,6 @@ while True:
 
 もうちょっとがんばって、Attitude indicator (航空機の姿勢表示器)を作ってみた。
 
-https://i.gyazo.com/ebe2644861c13c60d4da30eac27432b7.jpg
-
-
 ```python
 from m5stack import *
 from m5ui import *
@@ -215,6 +212,25 @@ while True:
     number(abs(i*10), cx-by*(scale+2)//6+px, cy-bx*(scale+2)//6-py, by//12, bx//12, 0x008000)
   wait_ms(1)
 ```
+
+## Arduino
+
+MicroPythonで幸せになれるかと思ったが、やはり遅い。特に、グラフィックスライブラリの遅さをごまかしきれない(バッファーに描けないので)。
+
+以下のサイトの説明に従いfirmwareとlibraryをインストール。
+
+* https://docs.m5stack.com/#/ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS
+
+...
+
+画面がちらちらするのは、Spriteを使ってダブルバッファーに作画すればいいことがわかった。
+
+いろいろ苦労した結果、一応姿勢表示器らしいものが作れた。
+
+![](https://i.gyazo.com/9686054845975ac83b1459cb4494ee55.jpg)
+
+コードは[こちら](https://github.com/vitroid/M5Stack/tree/master/Gray/AttitudeIndicatorArd)。
+
 
 #M5Stack
 #2019夏の自由研究
