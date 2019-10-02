@@ -87,7 +87,7 @@ def visualindex():
             w *= height / h
             #save w, height
             tn = image.resize((int(w),int(height)))
-            logger.info("  {0}".format(title))
+            logger.info("  {1} {0}".format(title, tnnum))
             tn.save("../tn/{0}.png".format(tnnum))
             s += "  <a href='/{0}'><img src='/tn/{1}.png' /></a>\n".format(title, tnnum)
             tnnum += 1
