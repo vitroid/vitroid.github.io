@@ -41,7 +41,7 @@
             <div class="navlinks-children">
               {%- for childlink in link[1] -%}
               {%- for linkparts in childlink %}
-              <a href="https://translate.google.co.jp/translate?sl=ja&tl={{ linkpart[1] }}&u={{ page.url | absolute_url | cgi_escape }}">{{ linkparts[0] }}</a>
+              <a href="https://translate.google.co.jp/translate?sl=ja&tl={{ linkparts[1] }}&u={{ page.url | absolute_url | cgi_escape }}">{{ linkparts[0] }}</a>
               {%- endfor -%}
               {%- endfor %}
             </div>
