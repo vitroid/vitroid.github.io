@@ -5,6 +5,8 @@
 
 * vitroid@gmail.com
 * [略歴/CV](/略歴_CV)
+* 講演
+* 講義
 * [twitter:vitroid](http://twitter.com/vitroid)
 * [github:vitroid](https://github.com/vitroid) (ソースコードなど)
 * [flickr:vitroids](http://flickr.com/photos/vitroids) (写真関連)
