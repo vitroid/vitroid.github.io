@@ -124,7 +124,7 @@ url-pretty: "vitroid.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-128946333-4"
 
 # Google Tag Manager ID
 #gtm: ""

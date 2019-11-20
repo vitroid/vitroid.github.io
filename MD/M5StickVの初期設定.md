@@ -3,6 +3,67 @@
 M5StickVはM5Stackの小型版(M5Stick)の、さらにAIエンジン搭載のもの、らしい。情報がなく、いろいろ苦労する。
 
 
+## 2019-11-19更新
+
+ひさびさに情報収集。10/22版のFirmwareがでているようなので、書きこんでみる。
+
+Firmwareは[こちら](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start).
+
+書き込みには[kflash](https://github.com/kendryte/kflash.py)を使う。
+
+    kflash -p /dev/cu.usbserial-000033 -b 1500000 M5StickV_Firmware_1022_beta.kfpkg 
+
+今回は、CPUの種類も自動で検知したようだ。ビットレートは1500000にしないと遅くて待たされる。
+
+```
+(base) vitroid-black-9:GoogleDrive matto$ sudo cu -l /dev/cu.usbserial-000033 -s 115200
+Connected.
+
+[MAIXPY]Pll0:freq:832000000
+[MAIXPY]Pll1:freq:398666666
+[MAIXPY]Pll2:freq:45066666
+[MAIXPY]cpu:freq:416000000
+[MAIXPY]kpu:freq:398666666
+[MAIXPY]Flash:0xc8:0x17
+open second core...
+gc heap=0x80215060-0x80295060
+[MaixPy] init end
+
+ __  __              _____  __   __  _____   __     __
+|  \/  |     /\     |_   _| \ \ / / |  __ \  \ \   / /
+| \  / |    /  \      | |    \ V /  | |__) |  \ \_/ /
+| |\/| |   / /\ \     | |     > <   |  ___/    \   /
+| |  | |  / ____ \   _| |_   / . \  | |         | |
+|_|  |_| /_/    \_\ |_____| /_/ \_\ |_|         |_|
+
+M5StickV by M5Stack : https://m5stack.com/
+M5StickV Wiki       : https://docs.m5stack.com
+Co-op by Sipeed     : https://www.sipeed.com
+
+[MAIXPY]: result = 0
+[MAIXPY]: numchannels = 1
+[MAIXPY]: samplerate = 44100
+[MAIXPY]: byterate = 88200
+[MAIXPY]: blockalign = 2
+[MAIXPY]: bitspersample = 16
+[MAIXPY]: datasize = 158760
+init i2c2
+[MAIXPY]: find ov7740
+MicroPython v0.4.0-52-g3b8c18b84-dirty on 2019-10-21; M5Stick-V with Kendryte K210
+Type "help()" for more information.
+>>> 
+>>> 
+```
+
+MicroPythonが0.4.0になっているね。
+
+さて、何しようか。MaixPyはいまだにPythonに対応していないみたいなので、uPyLoaderで書くしかない。
+
+https://qiita.com/mayfair/items/d1a4ad360670c61ba0fa を参考に。相変らず、接続には瞬発力を要する。
+
+SDからの起動にはまだ成功していない。
+
+### 以下は古い内容になってしまいました。
 
 ## Firmwareの書き込み
 
@@ -93,7 +154,7 @@ SDメモリは秋葉原でわざわざ買ってきたものがみごとに[ハ�
 
 デジカメに使っていたmicroSDなら認識することが判明。フォーマットし、brownieのコードを入れてから再起動するのだが、SDを差しても抜いても起動しない。
 
-Serial コンソールから直接Pythonを書いてboot.pyの中身を確認したところ、本体フラッシュのboot.pyが壊れているらしく、にっちもさっちもいかなくなった。調べたところ新しいlFirmwareが0830に出ていたのでこれを入手し書き換えて一新。
+Serial コンソールから直接Pythonを書いてboot.pyの中身を確認したところ、本体フラッシュのboot.pyが壊れているらしく、にっちもさっちもいかなくなった。調べたところ新しいFirmwareが0830に出ていたのでこれを入手し書き換えて一新。
 
 Firmwareの書き換えは怖いほど時間がかかる。
 
