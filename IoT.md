@@ -12,5 +12,6 @@ title: IoT
 * [M5StickVの初期設定](/M5StickVの初期設定)
 * [Obniz](/Obniz)
 * [Product2019](/Product2019)
+* [Product2020](/Product2020)
 
 
