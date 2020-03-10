@@ -1,7 +1,7 @@
 ---
 title: Product2020
 ---
-# [Product2019](/Product2019)
+# [Product2020](/Product2020)
 
 ## Projects
 
@@ -9,7 +9,16 @@ title: Product2020
 
 ## Exhibition
 
+
+
 [artworks](/artworks) [IoT](/IoT)
+
+
+## Linked from
+
+* [Product2020](/Product2020)
+
+
 ----
 
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/Product2020.md)
