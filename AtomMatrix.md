@@ -1,12 +1,10 @@
 ---
-title: M5Stack
+title: AtomMatrix
 ---
 
 
 ## Linked from
 
-* [M5Stack Gray](/M5Stack Gray)
 * [M5StackAtomMatrix](/M5StackAtomMatrix)
-* [M5Stick](/M5Stick)
 
 

@@ -261,6 +261,7 @@ MicroPythonで幸せになれるかと思ったが、やはり遅い。特に、
 ## Linked from
 
 * [M5Stack Gray](/M5Stack Gray)
+* [M5StackAtomMatrix](/M5StackAtomMatrix)
 * [M5Stick](/M5Stick)
 
 
