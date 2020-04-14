@@ -7,6 +7,7 @@ title: IoT
 
 * [ESP32](/ESP32)
 * [ESP8266](/ESP8266)
+* [M5AtomMatrix](/M5AtomMatrix)
 * [M5Stack Gray](/M5Stack Gray)
 * [M5StackAtomMatrix](/M5StackAtomMatrix)
 * [M5Stick](/M5Stick)

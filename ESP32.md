@@ -11,6 +11,7 @@ title: ESP32
 ## Linked from
 
 * [ESP32](/ESP32)
+* [M5AtomMatrix](/M5AtomMatrix)
 * [Obniz](/Obniz)
 
 

@@ -1,11 +1,10 @@
 ---
-title: AtomMatrix
+title: M5Atom
 ---
 
 
 ## Linked from
 
 * [M5AtomMatrix](/M5AtomMatrix)
-* [M5StackAtomMatrix](/M5StackAtomMatrix)
 
 
