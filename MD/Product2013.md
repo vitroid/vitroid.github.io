@@ -2,7 +2,9 @@
 
 
 * Pill Bug Model Prototype
-* TartanDesigner ( A web application to design your own Tartans )
+* [TartanDesigner](https://github.com/vitroid/TartanDesigner/) ( A web application to design your own Tartans )
+   [![Screenshot](https://i.gyazo.com/bba5e74e2276877d6e281b4ce277109c.png)](https://vitroid.github.io/TartanDesigner/)
+
 
 ## Exhibition
 
