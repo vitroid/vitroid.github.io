@@ -9,6 +9,8 @@ title: JavaScriptでモンテカルロ
 [software](/software)
 [2020-07-03](/2020-07-03)
 [JavaScript](/JavaScript)
+[講義](/講義)
+[学生実験](/学生実験)
 ----
 
 [Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/JavaScriptでモンテカルロ.md)
