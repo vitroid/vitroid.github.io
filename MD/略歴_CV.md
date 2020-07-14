@@ -6,7 +6,7 @@
 
 [Google Scholar](https://scholar.google.com/citations?user=NBbReDMAAAAJ)
 
-## 学歴 
+## 学歴
 
 
 1990年京都大学工学部卒(工業化学科)
@@ -42,7 +42,9 @@
 * Lisp, Java, JavaScript, 名古屋弁、機械語, awk, Forth, Mathematica, TeX, etc.(手引きを見ながら)
 * 岡山弁、フランス語、ドイツ語、Rubyあたりはほとんど通じません。
 
+## 受賞
 
+* 岡山大学理学部教育貢献賞 (2019-3)
 
 
 * 研究
@@ -53,10 +55,3 @@
 
 
 * もう少し個人的な情報
-
-
-
-
-
-
-
