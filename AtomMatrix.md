@@ -6,6 +6,5 @@ title: AtomMatrix
 ## Linked from
 
 * [M5AtomMatrix](/M5AtomMatrix)
-* [M5StackAtomMatrix](/M5StackAtomMatrix)
 
 
