@@ -19,6 +19,7 @@ title: QuickTime
 
 ## Linked from
 
+* [Macの操作画面収録](/Macの操作画面収録)
 * [デジタル日時計](/デジタル日時計)
 
 
