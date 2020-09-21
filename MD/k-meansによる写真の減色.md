@@ -2,6 +2,8 @@
 # 写真の減色
 k-meansを使って代表的な色を割り出す。
 
+source https://github.com/vitroid/PythonTutorials/blob/master/Pending/k_means%E3%81%AB%E3%82%88%E3%82%8B%E5%86%99%E7%9C%9F%E3%81%AE%E6%B8%9B%E8%89%B2.ipynb
+
 ```python
 # Pythonデータサイエンスハンドブック 5.11.1
 from sklearn.cluster import KMeans
@@ -65,3 +67,5 @@ display(PIL.Image.fromarray(panel))
 ```
 
 ![sample](https://i.gyazo.com/d1f155a8e993859ff90a2324d6d6d8f7.png)
+
+#python #2020-09-21 #opencv #sklearn #jupyter
