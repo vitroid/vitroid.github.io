@@ -14,13 +14,13 @@ from logging import getLogger, basicConfig, INFO, DEBUG
 basicConfig(level=INFO)
 
 import re
-from ktree import *        
+from ktree import *
 
 from tagcloud import tagcloud
 
 ForceUpdate=len(sys.argv) > 1 and sys.argv[1] == "-f"
 
-interwikinames = { "youtube": '<iframe width="560" height="315" src="https://www.youtube.com/embed/{0}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+interwikinames = { "youtube": '{{% include youtubePlayer.html id="{0}" %}}',
                    "amazon" : '[![{1}](http://images-jp.amazon.com/images/P/{0}.09.LZZZZZZZ.jpg)](http://www.amazon.co.jp/exec/obidos/ASIN/{0})',
                    "doi"    : '[{1}](https://doi.org/{0})',
                    "DOI"    : '[{1}](https://doi.org/{0})',
@@ -97,7 +97,7 @@ def visualindex():
     return s
 
 
-    
+
 def md_parser(filename):
     mode = "normal"
     for line in open(filename).readlines():
@@ -135,7 +135,7 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
         tags.append(x)
         return "[{0}](/{0})".format(x) + " "
 
-    
+
     logger = getLogger()
     body = ""
     if processed is not None:
@@ -201,7 +201,7 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
                             else:
                                 s += "[{0}]({1})".format(label, link)
                             continue
-                                
+
                         # autolinker
                         found = keyword_find(line, kwtree)
                         if found:
@@ -245,8 +245,8 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
     #    header += "date: {0}\n".format(datestr) # no effect, rather harmful
     header += "---\n"
     return header + body + footer, tags
-    
-        
+
+
 
 logger = getLogger()
 
@@ -293,12 +293,12 @@ for R in range(rep):
             md = [x for x in md_parser(file)]
             logger.info("  {0}".format(file))
             pk.process_keywords(file, md, autolink=True)
-            
+
     pages = [file[:-3]      for file in glob.glob("*.md")]
     words = [file[:-7][8:]  for file in glob.glob("../_ref/*.pickle")]
     kwtree = keyword_tree(pages)
 
-    
+
     logger.info("Parse and update Markdown pages.")
     for page in pages:
         processed = page + ".md"
@@ -342,5 +342,3 @@ open("../_includes/visual.html", "w").write(visualindex())
 
 s = tagcloud(words)
 open("../_includes/tagcloud.html", "w").write(s)
-
-
