@@ -12,6 +12,7 @@ title: clathratehydrate
 * [TYM2018](/TYM2018)
 * [TYM2019](/TYM2019)
 * [TYM2020](/TYM2020)
+* [TYM2020B](/TYM2020B)
 * [YMAOT2014](/YMAOT2014)
 * [YMAOT2014a](/YMAOT2014a)
 * [YMT2015](/YMT2015)
@@ -19,6 +20,7 @@ title: clathratehydrate
 * [YMT2016](/YMT2016)
 * [YMT2016b](/YMT2016b)
 * [YMT2018a](/YMT2018a)
+* [YMT2020B](/YMT2020B)
 * [ガスハイドレートの相図](/ガスハイドレートの相図)
 
 
