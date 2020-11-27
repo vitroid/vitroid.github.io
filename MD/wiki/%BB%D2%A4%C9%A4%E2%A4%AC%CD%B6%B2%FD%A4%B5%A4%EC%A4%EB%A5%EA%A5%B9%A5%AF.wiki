@@ -1,9 +1,0 @@
-{{category risk}}
-!!子どもが誘拐されるリスク
-子どもが誘拐されると新聞記事になる。しかし、15歳未満の誘拐略取事件の頻度は年間100件程度で、15歳未満の人口(1800万人)と比較すると、リスクマグニチュードは2.7程度。一方、子どもの交通事故死者は130人程度。誘拐にあう確率、インフルエンザで死ぬ確率と同じぐらい。誘拐されても死ぬとは限らないので、危険性で言えば交通事故のほうがはるかに危険である。
-!参考資料
-*http://www.npa.go.jp/safetylife/seianki13/betten.pdf 誘拐事件の頻度
-*http://www.stat.go.jp/data/jinsui/topics/topics03.htm 子ども人口
-*http://www.npa.go.jp/toukei/koutuu48/H20.30.pdf 交通事故死者
-
-{{timestamp 1149605101}}

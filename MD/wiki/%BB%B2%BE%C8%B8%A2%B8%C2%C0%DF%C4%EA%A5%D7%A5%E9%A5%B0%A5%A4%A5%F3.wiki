@@ -1,7 +1,0 @@
-{{category fswiki}}
-{{category software}}
-{{publish}}
-
-fswikiのページの参照権限を設定するプラグイン。
-*[[plugin:147]]
-{{timestamp 1181930683}}

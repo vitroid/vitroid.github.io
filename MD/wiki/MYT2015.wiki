@@ -1,1 +1,0 @@
-*Matsumoto, M., Yagasaki, T. & Tanaka, H. Chiral Ordering in Supercooled Liquid Water and Amorphous Ice. Phys. Rev. Lett. 115, 197801 (2015). [[doi:10.1103/PhysRevLett.115.197801]] 過冷却水の中に生じる「構造化した水」の正体が氷とは全く別の構造を持つことを解明した。

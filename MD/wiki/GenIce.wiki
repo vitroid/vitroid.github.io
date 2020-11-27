@@ -1,8 +1,0 @@
-{{category software}}
-{{category water}}
-!!!GenIce
-GenIceは氷の構造を作り、解析する十徳ナイフです。Pythonで作成されており、pipコマンドで簡単にインストールできます。以下のサイトで開発しています。
-* [[github:GenIce]]
-!!Reference
-MYT2018
-{{include MYT2018}}

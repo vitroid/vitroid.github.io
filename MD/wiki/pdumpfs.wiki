@@ -1,6 +1,0 @@
-{{category software}}
-{{category reminder}}
-{{publish}}
-!!!pdumpfs
-*http://namazu.org/~satoru/pdumpfs/
-{{timestamp 1181930834}}

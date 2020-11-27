@@ -1,8 +1,0 @@
-{{category gallery}}
-!!Picture
-http://farm3.static.flickr.com/2563/5710191316_6e739c3f98_d.jpg
-!!Vector image
-{{ref tube.pdf}}
-!!Generator
-A python program for NodeBox.
-{{ref_code tube.py}}

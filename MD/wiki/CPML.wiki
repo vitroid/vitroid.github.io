@@ -1,7 +1,0 @@
-{{category web service}}{{category mailing list}}{{category research}}
-{{category reminder}}
-!!!CPML
-化学・物理メーリングリスト主催。==1995年==1994年4月発足。
-//*http://cpml.chem.nagoya-u.ac.jp
-*http://theochem.chem.okayama-u.ac.jp/wiki/wiki.cgi/cpml
-{{timestamp 1127784811}}

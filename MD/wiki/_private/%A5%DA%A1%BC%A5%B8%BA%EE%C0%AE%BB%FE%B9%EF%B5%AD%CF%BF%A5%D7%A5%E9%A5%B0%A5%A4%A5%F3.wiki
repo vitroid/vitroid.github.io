@@ -1,5 +1,0 @@
-{{category software}}
-{{category fswiki}}
-{{publish user}}
-ページ編集時に、ページ作成時刻を自動的に記録します。
-{{timestamp 1098716119}}

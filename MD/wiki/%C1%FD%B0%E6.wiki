@@ -1,9 +1,0 @@
-{{category person}}
-{{publish}}
-!!増井さん
-*http://pitecan.com
-*[Pitecan Wiki/掲示板|http://pitecan.com/wiki/programs/list.cgi]
-*ストトン表記
-*PowerOffBackup
-
-{{timestamp 1098756401}}

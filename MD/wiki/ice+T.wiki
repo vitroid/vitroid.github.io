@@ -1,6 +1,0 @@
-{{category water}}
-{{category research}}
-Ice "T"{{fn Tentative name; final phase name should be given when it is discovered experimentally.}} is a partial plastic ice discovered when liquid water is coexistent with ice VII at a very high pressure by computer simulations, and it is a stable phase for TIP4P/2005 water model.[HYMT2017, YMT2018]
-
-氷Tは液体の水と氷VIIが共存するシミュレーションにおいて生じた、新たな部分的プラスチック氷で、TIP4P/2005水モデルでは安定相の一つと考えられます。
-{{footnote_list}}

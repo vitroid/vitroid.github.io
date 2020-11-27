@@ -31,7 +31,6 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 * [GenIce](/GenIce)
 * [InterWikiName](/InterWikiName)
 * [JavaScriptでモンテカルロ](/JavaScriptでモンテカルロ)
-* [JavaScriptでモンテカルロ](/JavaScriptでモンテカルロ)
 * [M5Stack Gray](/M5Stack Gray)
 * [MYT2017](/MYT2017)
 * [MYT2019](/MYT2019)

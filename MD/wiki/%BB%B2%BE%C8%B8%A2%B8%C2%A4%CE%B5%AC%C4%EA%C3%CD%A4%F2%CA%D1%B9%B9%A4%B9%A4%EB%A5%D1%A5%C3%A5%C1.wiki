@@ -1,9 +1,0 @@
-{{category fswiki}}
-{{publish}}
-{{category software}}
-
-fswikiのページの参照権限の規定値を変更するパッチ。
-*[[plugin:146]]
-*標準プラグインに取り入れてもらえました！ - matto {{datetime 1131452985,bbstime}}
-
-{{timestamp 1131452950}}

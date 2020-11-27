@@ -1,1 +1,0 @@
-*M. Matsumoto, Relevance of hydrogen bond definitions in liquid water,  J. Chem. Phys. 126, 054503 (2007); [[doi:10.1063/1.2431168]] 各人各様で定義されていた水素結合を、Bayes理論に基いて統一的に理解し、最良の定義を見付ける手法を提案した。

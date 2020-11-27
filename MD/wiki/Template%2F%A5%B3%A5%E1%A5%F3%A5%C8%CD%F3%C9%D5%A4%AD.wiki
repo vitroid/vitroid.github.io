@@ -1,3 +1,0 @@
-{{asciicaptchacomment}}
-
-{{timestamp 1182251230}}

@@ -1,1 +1,0 @@
-*Yagasaki, T., Matsumoto, M. & Tanaka, H. Effects of thermodynamic inhibitors on the dissociation of methane hydrate: a molecular dynamics study. Phys. Chem. Chem. Phys. 17, 32347&#8211;32357 (2015).  [[doi:10.1039/c5cp03008k]] 熱力学的阻害剤がハイドレートの分解にどのように作用するのかを解明した。

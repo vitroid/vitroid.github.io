@@ -12,7 +12,6 @@ title: software
 * [GenIce](/GenIce)
 * [Generate a Proton-disordered Ice](/Generate a Proton-disordered Ice)
 * [JavaScriptでモンテカルロ](/JavaScriptでモンテカルロ)
-* [JavaScriptでモンテカルロ](/JavaScriptでモンテカルロ)
 * [LWD](/LWD)
 * [Panojector](/Panojector)
 * [Prepare a Crystal from a Unit Cell](/Prepare a Crystal from a Unit Cell)

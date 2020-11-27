@@ -1,7 +1,0 @@
-Tanaka, H., Yagasaki, T. & Matsumoto, M.
-On the phase behaviors of hydrocarbon and noble gas clathrate hydrates: Dissociation pressures, phase diagram, occupancies, and equilibrium with aqueous solution. 
-J. Chem. Phys. 149, 074502 (2018). 
-[[DOI:10.1063/1.5044568]]
-統計力学理論に基き、任意の温度圧力においてガスハイドレートの組成比がとりうる値の範囲を、シミュレーションを行わないで正確に推定する方法を述べました。
-We have described a method to accurately estimate the range of possible composition ratios at arbitrary temperature pressure, without simulation, based on statistical mechanics theory.
-(AIP Featured article, [Scilight|doi:10.1063/1.5051832]) 

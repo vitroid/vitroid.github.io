@@ -1,6 +1,0 @@
-{{category palmware}}
-
-Manage archive on Palm devices.
-
-http://palmboxer.sourceforge.net/
-{{timestamp 1127787165}}

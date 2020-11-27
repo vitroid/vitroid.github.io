@@ -1,8 +1,0 @@
-{{category game}}
-一辺2の正四面体の展開図を、一辺1と√3の正四面体の展開図に分割する。
-{{ref_image tetra1+sqrt3.png}}
-//{{comment}}
-{{ref tetra1+sqrt3.pdf}}
-{{ref tetra1+sqrt3.png}}
-{{attach}}
-{{timestamp 1191435693}}
