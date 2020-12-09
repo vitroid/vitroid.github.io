@@ -7,6 +7,16 @@ title: papers
 
 (少しずつ追加しています)
 
+[paper2020](/paper2020)
+
+* [YMT2020B](/YMT2020B)
+* [TYM2020B](/TYM2020B) 
+* [TYM2020](/TYM2020)
+* [YMT2020](/YMT2020)
+* [MYH2020](/MYH2020)
+
+
+
 [paper2019](/paper2019)
 
 
@@ -56,7 +66,7 @@ title: papers
 * [YMT2015](/YMT2015)
 * [YMT2015a](/YMT2015a)
 * [YMT2015b](/YMT2015b)
-* [YMT2015c](/YMT2015c)
+* [YMT2015](/YMT2015)c
 
 
 
@@ -193,6 +203,7 @@ title: papers
 * [MSO2002](/MSO2002)
 * [MT2011](/MT2011)
 * [MT2012](/MT2012)
+* [MYH2020](/MYH2020)
 * [MYMT2019](/MYMT2019)
 * [MYT2015](/MYT2015)
 * [MYT2017](/MYT2017)
