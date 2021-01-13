@@ -264,19 +264,20 @@ for file in glob.glob("*.sb"):
 import urllib.request
 import wiki2md as w2m
 
-logger = getLogger()
-# FSwiki conversion
-logger.info("Converting FSWiki pages.")
-for wikifile in glob.glob("wiki/*.wiki"):
-    title = urllib.request.unquote(os.path.basename(wikifile).replace("+", " "), 'euc-jp')[:-5].replace("/", "_")
-    sbfile = title + ".sb"
-    mdfile = title + ".md"
-    # logger.info(wikifile)
-    if not os.path.exists(sbfile):
-        if not os.path.exists(mdfile) or os.path.getmtime(mdfile) < os.path.getmtime(wikifile):
-            md = w2m.wiki2md(open(wikifile, encoding="euc-jp"), title=title)
-            logger.info("  {0}".format(wikifile))
-            open(mdfile, "w").write(md)
+# Disabled 2021-01-07
+# logger = getLogger()
+# # FSwiki conversion
+# logger.info("Converting FSWiki pages.")
+# for wikifile in glob.glob("wiki/*.wiki"):
+#     title = urllib.request.unquote(os.path.basename(wikifile).replace("+", " "), 'euc-jp')[:-5].replace("/", "_")
+#     sbfile = title + ".sb"
+#     mdfile = title + ".md"
+#     # logger.info(wikifile)
+#     if not os.path.exists(sbfile):
+#         if not os.path.exists(mdfile) or os.path.getmtime(mdfile) < os.path.getmtime(wikifile):
+#             md = w2m.wiki2md(open(wikifile, encoding="euc-jp"), title=title)
+#             logger.info("  {0}".format(wikifile))
+#             open(mdfile, "w").write(md)
 
 
 rep = 1

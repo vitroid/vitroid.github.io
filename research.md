@@ -66,6 +66,7 @@ title: research
 * [ice dtc](/ice dtc)
 * [ice i (eye)](/ice i (eye))
 * [papers](/papers)
+* [polyamorphism](/polyamorphism)
 * [yaplot (en)](/yaplot (en))
 * [なぜハイドレートの構造には多様性がないのか](/なぜハイドレートの構造には多様性がないのか)
 * [エアロアイス](/エアロアイス)

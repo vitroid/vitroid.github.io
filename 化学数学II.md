@@ -10,6 +10,7 @@ include [化学数学II 2014](/化学数学II 2014)
 
 * [FrontPage](/FrontPage)
 * [KagakuSuugaku](/KagakuSuugaku)
+* [講義](/講義)
 * [通期講義](/通期講義)
 
 

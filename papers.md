@@ -9,8 +9,9 @@ title: papers
 
 [paper2020](/paper2020)
 
+* [TYM2020C](/TYM2020C)
 * [YMT2020B](/YMT2020B)
-* [TYM2020B](/TYM2020B) 
+* [TYM2020B](/TYM2020B)
 * [TYM2020](/TYM2020)
 * [YMT2020](/YMT2020)
 * [MYH2020](/MYH2020)
@@ -47,7 +48,7 @@ title: papers
 * [HYMT2017](/HYMT2017)
 * [TYM2017](/TYM2017)
 * [MYT2017](/MYT2017)
-* 
+*
 
 [paper2016](/paper2016)
 
@@ -66,7 +67,7 @@ title: papers
 * [YMT2015](/YMT2015)
 * [YMT2015a](/YMT2015a)
 * [YMT2015b](/YMT2015b)
-* [YMT2015](/YMT2015)c
+* [YMT2015c](/YMT2015c)
 
 
 
@@ -178,9 +179,6 @@ title: papers
 
 
 [research](/research) [papers](/papers)
-
-
-
 
 
 ## Linked from

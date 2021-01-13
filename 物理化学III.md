@@ -10,6 +10,7 @@ include 2016[物理化学III](/物理化学III)
 
 * [ButsuriKagaku3](/ButsuriKagaku3)
 * [物理化学III](/物理化学III)
+* [講義](/講義)
 * [通期講義](/通期講義)
 
 
