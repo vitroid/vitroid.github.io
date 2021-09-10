@@ -14,7 +14,7 @@ title: CPML
 * [ウェブインターフェース](https://docs.google.com/forms/d/e/1FAIpQLSd2F2tL8LMlaEYoYZ10ehpBthJ45e5sblT8YMWwL7azeCoZ5g/viewform)からの投稿をお薦めします。
   * イベント開催期間や締切を[CPMLカレンダー](https://calendar.google.com/calendar/embed?src=o0crucuhclcj9mk4vm93ci19es%40group.calendar.google.com&ctz=Asia%2FTokyo)に自動的に掲載します。
   * メーリングリストには流さず、カレンダーのみに掲示することもできます。
-* 従来通り、[メールで投稿]((mailto:cpml@okayama-u.ac.jp)することもできます。
+* 従来通り、[メールで投稿](mailto:cpml@okayama-u.ac.jp)することもできます。
 
 ## 参加方法
 
