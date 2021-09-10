@@ -1,5 +1,3 @@
-# CPML
-
 ![CPML Logo](img/CPMLicon.png)
 
 化学・物理メーリングリストです。
