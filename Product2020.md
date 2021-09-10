@@ -9,7 +9,8 @@ title: Product2020
 
 ## Exhibition
 
-
+コロナ禍の中、あまり何も完成しないままに終わった一年でした。
+(何もしていなかったわけではないのです。)
 
 [artworks](/artworks) [IoT](/IoT)
 

@@ -12,12 +12,9 @@ title: Product2013
 ## Exhibition
 
 
-2013-3-5, TUT-CMSI計算物質科学"見える化"シンポジウム、立体映像展示，東京(秋葉原UDXシアター)
+* 2013-3-5, [TUT-CMSI計算物質科学"見える化"シンポジウム](http://www.cms-initiative.jp/ja/events/20130305-scienceviz1)、立体映像展示，東京(秋葉原UDXシアター)
 
 [artworks](/artworks)
-
-
-
 
 
 ## Linked from
