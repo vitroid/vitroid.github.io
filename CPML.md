@@ -24,6 +24,12 @@ title: CPML
 
 [cpml-leave@okayama-u.ac.jp](mailto:cpml-leave@okayama-u.ac.jp) にメールを送信してください。(題名・本文は不要です)
 
+## [ウェブインターフェース](https://docs.google.com/forms/d/e/1FAIpQLSd2F2tL8LMlaEYoYZ10ehpBthJ45e5sblT8YMWwL7azeCoZ5g/viewform)のしくみ
+
+* Google Formsで入力された内容は、[FormApprovals](https://formapprovals.com/)を使って、管理者が検収します。投稿内容に問題がなければ、これを受け入れます。
+* 投稿内容はGoogle Spreadsheetに記録されます。(Google Formsの仕様)
+* [Google Apps Script](https://script.google.com/)の`updateEvents`を利用して5分ごとに新しい投稿をチェックし、投稿があればメーリングリストに転送し、日程をGoogle Calendarに書き込みます。
+
 
 ## Linked from
 
