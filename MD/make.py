@@ -57,8 +57,10 @@ def visualindex():
     except:
         pass
     while row < 10:
+        logger.info("New row >>>>")
         images = [] # URL, size, and MD page title
         while aspect(images) < 3:
+            # assert aspect(images) != 1
             found = False
             while not found and len(newest) > 0:
                 page = newest.pop(0)
@@ -73,6 +75,7 @@ def visualindex():
                             url = method+":"+urllib.parse.quote(loc)
                             image = Image.open(urllib.request.urlopen(url, timeout=2))
                         except:
+                            logger.warning("No image retrieved.")
                             continue
                         if image is not None:
                             images.append((image, title))
