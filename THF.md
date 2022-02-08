@@ -31,6 +31,7 @@ title: THF
 
 ## Linked from
 
+* [Bilayer ice](/Bilayer ice)
 * [EO](/EO)
 * [THF](/THF)
 * [YMT2016b](/YMT2016b)

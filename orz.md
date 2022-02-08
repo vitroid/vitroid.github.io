@@ -19,6 +19,7 @@ title: orz
 
 ## Linked from
 
+* [Bilayer ice](/Bilayer ice)
 * [orz](/orz)
 
 

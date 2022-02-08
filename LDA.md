@@ -36,6 +36,7 @@ title: LDA
 ## Linked from
 
 * [3Dプリンタ用データ](/3Dプリンタ用データ)
+* [Bilayer ice](/Bilayer ice)
 * [LDA](/LDA)
 * [Network Motif of Water](/Network Motif of Water)
 * [_computation](/_computation)

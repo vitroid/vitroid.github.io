@@ -35,6 +35,7 @@ title: Add
 
 ## Linked from
 
+* [Bilayer ice](/Bilayer ice)
 * [CurriculumVitae](/CurriculumVitae)
 * [Menu](/Menu)
 * [科学グラフィックス](/科学グラフィックス)
