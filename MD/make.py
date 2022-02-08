@@ -9,6 +9,8 @@ import pickle
 # from imagesize import getsizes
 import urllib.request
 from PIL import Image
+import base64
+import io
 
 from logging import getLogger, basicConfig, INFO, DEBUG
 basicConfig(level=INFO)
@@ -69,11 +71,23 @@ def visualindex():
                     m = re.search(r"!\[[^\]]*\]\(([^\)]+)\)", line)
                     if m:
                         url = m.group(1)
-                        logger.info(url)
+                        if len(url) < 100:
+                            logger.info(url)
+                        else:
+                            logger.info(url[:50]+" ... "+url[-50:])
                         try:
                             method, loc = url.split(":")
                             url = method+":"+urllib.parse.quote(loc)
-                            image = Image.open(urllib.request.urlopen(url, timeout=2))
+                            if method == "data":
+                                logger.info("Embedded image")
+                                # loc should start with image/png;base64,
+                                header, body = loc.split(",")
+                                datatype, encoding = header.split(";")
+                                logger.info(f"datatype {datatype} encoding {encoding}")
+                                assert encoding == "base64"
+                                image = Image.open(io.BytesIO(base64.decodebytes(body.encode('utf-8'))))
+                            else:
+                                image = Image.open(urllib.request.urlopen(url, timeout=2))
                         except:
                             logger.warning("No image retrieved.")
                             continue
