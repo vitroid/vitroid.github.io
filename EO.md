@@ -36,6 +36,7 @@ title: EO
 
 ## Linked from
 
+* [Bilayer ice](/Bilayer ice)
 * [EO](/EO)
 * [コメントスパムの真実](/コメントスパムの真実)
 * [写真](/写真)
