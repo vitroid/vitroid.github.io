@@ -198,7 +198,7 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
                         # Bracketed
                         if m:
                             label = m.group(1)
-                            m2 = re.search(r"\(([^\)]*)\)", line[len(label)+2:])
+                            m2 = re.search(r"^\(([^\)]*)\)", line[len(label)+2:])
                             # Followed by parens
                             if m2:
                                 link = m2.group(1)

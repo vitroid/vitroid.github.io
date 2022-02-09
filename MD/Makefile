@@ -20,6 +20,3 @@ prepare-wiki:
 # transfer files converted from wiki attachments via attachconv.py
 xfer-attach:
 	rsync -av _conv/ theochem@www.chem.okayama-u.ac.jp:Sites/vitroid/
-
-
-# 間違ったtagを消したい場合は、/と/_refの両方を消す。

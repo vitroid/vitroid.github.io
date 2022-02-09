@@ -8,6 +8,8 @@ title: tmp
 ## Linked from
 
 * [Bilayer ice](/Bilayer ice)
+* [ice III](/ice III)
+* [氷III](/氷III)
 
 
 ----

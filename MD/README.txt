@@ -4,9 +4,10 @@ wikiやscrapboxファイルはできるだけさわらない。
 make
 
 そしてローカルでチェックする場合は
-make build
-make server
+make serve
 
 deployする場合は
-GitKrakenでcommit
+make push
 
+
+間違ったtagを消したい場合は、/と/_refの両方を消す。
