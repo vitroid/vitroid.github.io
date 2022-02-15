@@ -9,7 +9,6 @@ title: reminder
 * [2005年物理学会春の年会](/2005年物理学会春の年会)
 * [AddNewsClip Bookmarklet](/AddNewsClip Bookmarklet)
 * [BitTorrent](/BitTorrent)
-* [CPML](/CPML)
 * [Citroenists' ML](/Citroenists' ML)
 * [Hibernation on PowerBookG4](/Hibernation on PowerBookG4)
 * [ISUILS](/ISUILS)

@@ -24,8 +24,6 @@ lwd.el is originally developed by osiire, but the official webpage is closed. I 
 
 * [Bilayer ice](/Bilayer ice)
 * [LWD](/LWD)
-* [ice III](/ice III)
-* [氷III](/氷III)
 
 
 ----

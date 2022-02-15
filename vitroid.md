@@ -39,7 +39,6 @@ vitr-というのはガラスを意味する接頭辞、-oidは「のような�
 * [Product2013](/Product2013)
 * [Product2015](/Product2015)
 * [Product2016](/Product2016)
-* [ProductOf2009](/ProductOf2009)
 * [QR code](/QR code)
 * [Ring Perception Algorithm](/Ring Perception Algorithm)
 * [Ring Statistics Algorithm](/Ring Statistics Algorithm)

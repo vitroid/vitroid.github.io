@@ -5,8 +5,6 @@ title: web
 
 ## Linked from
 
-* [CPML](/CPML)
-* [CPML用掲示板の検討](/CPML用掲示板の検討)
 * [Citroenists' ML](/Citroenists' ML)
 * [CubeFlickr](/CubeFlickr)
 * [Vitrite Database](/Vitrite Database)

@@ -5,7 +5,6 @@ title: research
 
 ## Linked from
 
-* [CPML](/CPML)
 * [EO](/EO)
 * [GenIce](/GenIce)
 * [HMT2011](/HMT2011)
@@ -64,14 +63,10 @@ title: research
 * [YMT2020B](/YMT2020B)
 * [YYMT2019](/YYMT2019)
 * [aeroice](/aeroice)
-* [ice III](/ice III)
 * [ice R](/ice R)
-* [ice T](/ice T)
 * [ice T2](/ice T2)
-* [ice dtc](/ice dtc)
 * [ice i (eye)](/ice i (eye))
 * [papers](/papers)
-* [polyamorphism](/polyamorphism)
 * [yaplot (en)](/yaplot (en))
 * [なぜハイドレートの構造には多様性がないのか](/なぜハイドレートの構造には多様性がないのか)
 * [エアロアイス](/エアロアイス)
@@ -92,6 +87,7 @@ title: research
 * [水素結合の特徴](/水素結合の特徴)
 * [氷III](/氷III)
 * [氷T](/氷T)
+* [氷dtc](/氷dtc)
 * [氷の中のプロトン移動](/氷の中のプロトン移動)
 * [氷はどうやって解けはじめるか](/氷はどうやって解けはじめるか)
 * [熱い氷を作るには](/熱い氷を作るには)

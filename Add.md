@@ -38,6 +38,7 @@ title: Add
 * [Bilayer ice](/Bilayer ice)
 * [CurriculumVitae](/CurriculumVitae)
 * [Menu](/Menu)
+* [氷dtc](/氷dtc)
 * [科学グラフィックス](/科学グラフィックス)
 
 

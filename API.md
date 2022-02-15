@@ -310,11 +310,11 @@ outputの値Gで、出力したいフィールドを指定します。
 ## Linked from
 
 * [API](/API)
-* [Bilayer ice](/Bilayer ice)
 * [M5Stack Gray](/M5Stack Gray)
 * [MML DA](/MML DA)
 * [使途不明時間](/使途不明時間)
 * [氷III](/氷III)
+* [氷dtc](/氷dtc)
 * [計算機言語](/計算機言語)
 * [雑記_2007-6-26](/雑記_2007-6-26)
 * [雑記_2010-7-20](/雑記_2010-7-20)

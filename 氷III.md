@@ -31,7 +31,6 @@ genice2 ice3 -r 2 2 1 -f svg[shadow:rotatex=2:rotatey=2] > 3.svg
 
 * [TYM2020](/TYM2020)
 * [aeroice](/aeroice)
-* [ice III](/ice III)
 * [水は変わった物質](/水は変わった物質)
 * [氷III](/氷III)
 

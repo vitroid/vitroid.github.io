@@ -35,7 +35,6 @@ title: CPML
 ## Linked from
 
 * [CPML](/CPML)
-* [CPML用掲示板の検討](/CPML用掲示板の検討)
 * [FrontPage](/FrontPage)
 * [Menu](/Menu)
 * [ロゴマーク](/ロゴマーク)

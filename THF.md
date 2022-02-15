@@ -35,8 +35,7 @@ title: THF
 * [EO](/EO)
 * [THF](/THF)
 * [YMT2016b](/YMT2016b)
-* [ice III](/ice III)
-* [氷III](/氷III)
+* [氷dtc](/氷dtc)
 * [熱い氷を作るには](/熱い氷を作るには)
 
 
