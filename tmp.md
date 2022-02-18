@@ -7,6 +7,7 @@ title: tmp
 
 ## Linked from
 
+* [氷II](/氷II)
 * [氷III](/氷III)
 * [氷dtc](/氷dtc)
 
