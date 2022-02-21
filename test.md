@@ -19,6 +19,7 @@ Categoryへのリンクのテスト
 
 ## Linked from
 
+* [GenIce](/GenIce)
 * [MYT2021A](/MYT2021A)
 * [MenuBar](/MenuBar)
 * [polyamorphism](/polyamorphism)

@@ -5,9 +5,9 @@
 A Swiss army knife to generate hydrogen-disordered ice structures.
 
 
+![ttt](/test.png)
 
-
-* https://github.com/vitroid/GenIce で開発中。
+* [github.com](github:GenIce) で開発中。
 * 水素無秩序性を考慮した氷の構造を生成するツールです。
 * 包接水和物(ハイドレート)の結晶も作れます。
 * いろんなフォーマットで出力できます。

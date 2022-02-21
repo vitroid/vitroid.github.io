@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# includeは {% include filename %}でできる。
+# ただし、入れられるファイルは/_includesに置く必要があるので、mdのなかにmdを入れるには便利でない。
+
 import sys
 import glob
 import os
@@ -24,6 +27,7 @@ ForceUpdate=len(sys.argv) > 1 and sys.argv[1] == "-f"
 
 interwikinames = { "youtube": '{{% include youtubePlayer.html id="{0}" %}}',
                    "amazon" : '[![{1}](http://images-jp.amazon.com/images/P/{0}.09.LZZZZZZZ.jpg)](http://www.amazon.co.jp/exec/obidos/ASIN/{0})',
+                   "img"    : '[{1}](/img/{0})',
                    "doi"    : '[{1}](https://doi.org/{0})',
                    "DOI"    : '[{1}](https://doi.org/{0})',
                    "github" : '[{1}](https://github.com/vitroid/{0})',
@@ -76,18 +80,24 @@ def visualindex():
                         else:
                             logger.info(url[:50]+" ... "+url[-50:])
                         try:
-                            method, loc = url.split(":")
-                            url = method+":"+urllib.parse.quote(loc)
-                            if method == "data":
-                                logger.info("Embedded image")
-                                # loc should start with image/png;base64,
-                                header, body = loc.split(",")
-                                datatype, encoding = header.split(";")
-                                logger.info(f"datatype {datatype} encoding {encoding}")
-                                assert encoding == "base64"
-                                image = Image.open(io.BytesIO(base64.decodebytes(body.encode('utf-8'))))
+                            if ":" not in url:
+                                # local path
+                                logger.info(f"UUUU {url}")
+                                image = Image.open("../"+url)
                             else:
-                                image = Image.open(urllib.request.urlopen(url, timeout=2))
+                                # split url
+                                method, loc = url.split(":")
+                                url = method+":"+urllib.parse.quote(loc)
+                                if method == "data":
+                                    logger.info("Embedded image")
+                                    # loc should start with image/png;base64,
+                                    header, body = loc.split(",")
+                                    datatype, encoding = header.split(";")
+                                    logger.info(f"datatype {datatype} encoding {encoding}")
+                                    assert encoding == "base64"
+                                    image = Image.open(io.BytesIO(base64.decodebytes(body.encode('utf-8'))))
+                                else:
+                                    image = Image.open(urllib.request.urlopen(url, timeout=2))
                         except:
                             logger.warning("No image retrieved.")
                             continue
