@@ -1,6 +1,9 @@
 ---
 title: CubeFlickr
 ---
+
+This is a very old content. The service is not continued.
+
 [web](/web) service
 
 [CubeFlickr](/CubeFlickr) is a repository of CubeWorld 3D panorama photos for iphone/ipod touch. Newest 100 panoramas in equirectangular pool of Flickr are availabile at the following URL. CubeWorld is now available in App Store for free, without jailbreaking.
@@ -24,12 +27,6 @@ For the PangeaVR freaks, another repository is also available:
 Enjoy!
 
 <!--  -->
-
-
-
-
-
-
 
 
 ## Linked from
