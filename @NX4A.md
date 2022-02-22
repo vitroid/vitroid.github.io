@@ -25,7 +25,6 @@ A file format to specify the configration of rigid bodies, like TIP4P water mole
 ## Linked from
 
 * [@NX4A](/@NX4A)
-* [Generate a Proton-disordered Ice](/Generate a Proton-disordered Ice)
 
 
 ----

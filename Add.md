@@ -35,11 +35,8 @@ title: Add
 
 ## Linked from
 
-* [Bilayer ice](/Bilayer ice)
 * [CurriculumVitae](/CurriculumVitae)
 * [Menu](/Menu)
-* [氷II](/氷II)
-* [氷dtc](/氷dtc)
 * [科学グラフィックス](/科学グラフィックス)
 
 

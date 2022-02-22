@@ -23,7 +23,6 @@ Specifies the orthorhombic simulation cell size.
 ## Linked from
 
 * [@BOX3](/@BOX3)
-* [Generate a Proton-disordered Ice](/Generate a Proton-disordered Ice)
 * [Prepare a Crystal from a Unit Cell](/Prepare a Crystal from a Unit Cell)
 
 

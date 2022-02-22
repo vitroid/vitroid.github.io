@@ -36,15 +36,11 @@ title: EO
 
 ## Linked from
 
-* [Bilayer ice](/Bilayer ice)
 * [CPML](/CPML)
 * [EO](/EO)
 * [コメントスパムの真実](/コメントスパムの真実)
 * [写真](/写真)
 * [取材協力、画像提供など](/取材協力、画像提供など)
-* [氷II](/氷II)
-* [氷III](/氷III)
-* [氷dtc](/氷dtc)
 
 
 ----

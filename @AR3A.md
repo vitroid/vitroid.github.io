@@ -23,7 +23,6 @@ title: @AR3A
 ## Linked from
 
 * [@AR3A](/@AR3A)
-* [Generate a Proton-disordered Ice](/Generate a Proton-disordered Ice)
 
 
 ----

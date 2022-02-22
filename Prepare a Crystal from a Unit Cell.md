@@ -64,7 +64,7 @@ unitcell 1 1 1 1 1 1 | sort -n | less
 
 ## 氷の単位格子の生成
 
-iceIcunit.plとiceIhunit.plは、氷IcとIhの単位格子を生成します。
+iceIcunit.plとiceIhunit.plは、[氷I](/氷I)cとIhの単位格子を生成します。
 
 ```
 perl iceIcunit.pl
@@ -82,7 +82,7 @@ perl iceIcunit.pl
 perl iceIcunit.pl 3.7363
 2.68766137290804 O-O length
 ```
-密度に3.7363を指定すると、氷Icの場合、分子の位置がちょうど整数になります。searchで使用する格子を生成する場合に便利です。
+密度に3.7363を指定すると、[氷I](/氷I)cの場合、分子の位置がちょうど整数になります。searchで使用する格子を生成する場合に便利です。
 
 
 ## unitrepeat
@@ -160,7 +160,6 @@ Please leave some messages if you felt it useful.
 
 ## Linked from
 
-* [Generate a Proton-disordered Ice](/Generate a Proton-disordered Ice)
 * [Prepare a Crystal from a Unit Cell](/Prepare a Crystal from a Unit Cell)
 
 

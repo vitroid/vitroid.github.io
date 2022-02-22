@@ -28,7 +28,6 @@ Specifies the network topology.
 * [@NGPH](/@NGPH)
 * [@RNGS](/@RNGS)
 * [@RSET](/@RSET)
-* [Generate a Proton-disordered Ice](/Generate a Proton-disordered Ice)
 * [Ice 0](/Ice 0)
 
 

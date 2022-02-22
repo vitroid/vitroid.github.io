@@ -22,7 +22,6 @@ lwd.el is originally developed by osiire, but the official webpage is closed. I 
 
 ## Linked from
 
-* [Bilayer ice](/Bilayer ice)
 * [LWD](/LWD)
 
 

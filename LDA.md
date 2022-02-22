@@ -36,7 +36,6 @@ title: LDA
 ## Linked from
 
 * [3Dプリンタ用データ](/3Dプリンタ用データ)
-* [Bilayer ice](/Bilayer ice)
 * [LDA](/LDA)
 * [Network Motif of Water](/Network Motif of Water)
 * [_computation](/_computation)
@@ -46,9 +45,6 @@ title: LDA
 * [ネットワーク主体論](/ネットワーク主体論)
 * [ネットワーク物質のアモルファス構造解析](/ネットワーク物質のアモルファス構造解析)
 * [低密度アモルファス氷](/低密度アモルファス氷)
-* [氷II](/氷II)
-* [氷III](/氷III)
-* [氷dtc](/氷dtc)
 
 
 ----
