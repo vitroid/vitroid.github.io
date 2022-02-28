@@ -1,5 +1,3 @@
-# Product2022
-
 ## Projects
 
 * [Wordle guesser](https://vitroid.github.io/wordle/)

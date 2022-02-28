@@ -1,8 +1,6 @@
 ---
 title: Product2022
 ---
-# [Product2022](/Product2022)
-
 ## Projects
 
 * [Wordle guesser](https://vitroid.github.io/wordle/)
