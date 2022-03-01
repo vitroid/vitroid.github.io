@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# -*- coding: utf-8 -*-
 # includeは {% include filename %}でできる。
 # ただし、入れられるファイルは/_includesに置く必要があるので、mdのなかにmdを入れるには便利でない。
 
