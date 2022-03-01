@@ -12,7 +12,7 @@
 genice2 ice3 -r 2 2 1 -f svg[shadow:rotatex=2:rotatey=2] > 3.svg
 ```
 
-![ice3](img:ice3.png)
+![ice3](/img/ice3.png)
 
 ## References
 

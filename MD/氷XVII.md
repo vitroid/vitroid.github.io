@@ -12,7 +12,7 @@
 genice2 17 -r 2 1 6 -f svg[shadow:rotatex=3:rotatey=3] > ice17.svg
 ```
 
-![ice 17](img:ice17.png)
+![ice 17](/img/ice17.png)
 
 ## References
 

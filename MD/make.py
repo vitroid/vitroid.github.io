@@ -27,7 +27,6 @@ ForceUpdate=len(sys.argv) > 1 and sys.argv[1] == "-f"
 
 interwikinames = { "youtube": '{{% include youtubePlayer.html id="{0}" %}}',
                    "amazon" : '[![{1}](http://images-jp.amazon.com/images/P/{0}.09.LZZZZZZZ.jpg)](http://www.amazon.co.jp/exec/obidos/ASIN/{0})',
-                   "img"    : '[{1}](/img/{0})',
                    "doi"    : '[{1}](https://doi.org/{0})',
                    "DOI"    : '[{1}](https://doi.org/{0})',
                    "github" : '[{1}](https://github.com/vitroid/{0})',

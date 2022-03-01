@@ -21,7 +21,7 @@
 genice2 dtc -r 2 2 10 -f svg[shadow:rotatey=5:rotatex=5] > dtc.svg
 ```
 
-![ice dtc](img:icedtc.png)
+![ice dtc](/img/icedtc.png)
 
 ## References
 

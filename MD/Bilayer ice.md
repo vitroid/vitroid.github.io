@@ -8,7 +8,7 @@
 genice2 bilayer[size=15,18:sw=0.2] -f svg[shadow:rotatex=15:rotatey=10] > bilayer.svg
 ```
 
-![bilayer ice](img:bilayerice.png)
+![bilayer ice](/img/bilayerice.png)
 
 
 ## References
