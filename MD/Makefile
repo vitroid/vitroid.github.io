@@ -1,13 +1,13 @@
 build: parse
 	cd ..; bundle exec jekyll build --verbose --incremental
 parse:
-	python make.py
+	python3 make.py
 force:
-	python make.py -f
+	python3 make.py -f
 serve:
 	cd ..; bundle exec jekyll serve --incremental --watch & open http://localhost:4000
 prepare:
-	python unscrapbox.py *json
+	python3 unscrapbox.py *json
 push:
 	git add -A
 	git commit -m.
