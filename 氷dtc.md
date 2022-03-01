@@ -36,6 +36,7 @@ genice2 dtc -r 2 2 10 -f svg[shadow:rotatey=5:rotatex=5] > dtc.svg
 
 ## Linked from
 
+* [MYT2021](/MYT2021)
 * [氷dtc](/氷dtc)
 * [熱い氷を作るには](/熱い氷を作るには)
 
