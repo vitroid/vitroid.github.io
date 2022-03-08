@@ -8,6 +8,7 @@ serve:
 	cd ..; bundle exec jekyll serve --incremental --watch & open http://localhost:4000
 prepare:
 	python3 unscrapbox.py *json
+deploy: push
 push:
 	git add -A
 	git commit -m.
