@@ -8,6 +8,7 @@ title: ice
 * [3Dプリンタ用データ](/3Dプリンタ用データ)
 * [Bilayer ice](/Bilayer ice)
 * [Ice Nanotube](/Ice Nanotube)
+* [LDA](/LDA)
 * [MYH2020](/MYH2020)
 * [MYT2021](/MYT2021)
 * [TYM2019](/TYM2019)
