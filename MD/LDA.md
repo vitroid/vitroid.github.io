@@ -24,7 +24,9 @@ The most important structural feature of low-density amorphous ice is that all w
 
 低密度アモルファス氷の構造上の最大の特徴は、すべての水分子がほぼ4配位になっている点です。水を過冷却すると、4配位の水分子がどんどん凝集するという状況証拠は多数報告されてきましたが、(Tanaka 1998)4配位を好む性質自体が、自己凝集をもたらすことを、きちんと説明する理論はありませんでした。私は、ガラス状氷の構成部品(vitrite)という概念を導入することで、この自己凝集性を説明できると考えています。(MBO2007)
 
-`genice2 CRN1 -f svg[shadow] > CRN1.svg`
+```
+genice2 CRN1 -f svg[shadow] > CRN1.svg
+```
 
 ![low density amorphous ice](/img/CRN1.png)
 
