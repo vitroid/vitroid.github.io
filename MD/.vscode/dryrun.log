@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/matto/Unison/github/vitroid.github.io/MD'
+python3 make.py
+cd ..; bundle exec jekyll build --verbose --incremental
+make: Leaving directory `/Users/matto/Unison/github/vitroid.github.io/MD'
+ 

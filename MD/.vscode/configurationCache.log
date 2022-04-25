@@ -1,0 +1,1 @@
+{"buildTargets":["build","deploy","force","parse","prepare","prepare-wiki","push","serve","xfer-attach"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
