@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Wed May  4 09:35:02 2022
+# Make data base, printed on Thu Jun 30 20:52:07 2022
 
 # Variables
 
@@ -20,8 +20,6 @@ make: *** No rule to make target `all'.  Stop.
 RUBY_VERSION = 2.7.4
 # automatic
 ?F = $(notdir $?)
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -29,47 +27,39 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/matto/Unison/github/vitroid.github.io/MD
+CURDIR := /Users/matto/Unison/github/vitroid.github.io
 # makefile
 SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
-# makefile (from `Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
-# environment
-VSCODE_VERBOSE_LOGGING = true
+# makefile
+MAKEFILE_LIST := 
 # environment
 __CFBundleIdentifier = com.microsoft.VSCodeInsiders
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/g2/t_qwkbf48xj4860059bm17mh0000gs/T/vscode-ipc-dadd6ba6-c369-4985-a599-a2904157b8fd.sock
-# environment
 VSCODE_CWD = /
 # environment
-PATH = /Users/matto/miniforge3/condabin:/opt/homebrew/opt/qt@5/bin:/opt/homebrew/opt/openssl@1.1/bin:/Users/matto/.gem/ruby/2.7.4/bin:/Users/matto/.rubies/ruby-2.7.4/lib/ruby/gems/2.7.0/bin:/Users/matto/.rubies/ruby-2.7.4/bin:/opt/homebrew/bin:/Users/matto/.gem/ruby/2.6.0/bin:/usr/local/opt/ruby/bin:/Users/matto/.cabal/bin/:/Users/matto/bin:/usr/local/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin
+PATH = /Users/matto/opt/anaconda3/condabin:/opt/homebrew/opt/qt@5/bin:/opt/homebrew/opt/openssl@1.1/bin:/Users/matto/.gem/ruby/2.7.4/bin:/Users/matto/.rubies/ruby-2.7.4/lib/ruby/gems/2.7.0/bin:/Users/matto/.rubies/ruby-2.7.4/bin:/opt/homebrew/bin:/Users/matto/.gem/ruby/2.6.0/bin:/usr/local/opt/ruby/bin:/Users/matto/.cabal/bin/:/Users/matto/bin:/usr/local/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin
 # environment
 LSCOLORS = ExFxCxDxBxEGEDABAGACAD
 # environment
 RUBYOPT = 
 # environment
-VSCODE_LOG_STACK = true
-# environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.eKbMmURWC8/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.jekKAy2ypY/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = /private/tmp/com.apple.launchd.9qUcz4xXqA/org.xquartz:0
+DISPLAY = /private/tmp/com.apple.launchd.trGHr00VwQ/org.xquartz:0
 # environment
-CONDA_EXE = /Users/matto/miniforge3/bin/conda
+CONDA_EXE = /Users/matto/opt/anaconda3/bin/conda
 # environment
-VSCODE_PIPE_LOGGING = true
-# environment
-PWD = /Users/matto/Unison/github/vitroid.github.io/MD
+PWD = /Users/matto/Unison/github/vitroid.github.io
 # environment
 GEM_HOME = /Users/matto/.gem/ruby/2.7.4
 # environment
@@ -83,7 +73,7 @@ HOME = /Users/matto
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/matto/Library/Application Support/Code - Insiders/CachedData/410fe0fc7890ef563830bb86cbcd763995bfc65f
+VSCODE_CODE_CACHE_PATH = /Users/matto/Library/Application Support/Code - Insiders/CachedData/0e3304bca9e862eddc7e437e2bab8a4a4a4f33c9
 # environment
 LOGNAME = matto
 # environment
@@ -109,7 +99,7 @@ MAKE_VERSION := 3.81
 # environment
 USER = matto
 # makefile
-.DEFAULT_GOAL := build
+.DEFAULT_GOAL := 
 # environment
 RUBY_ENGINE = ruby
 # automatic
@@ -127,7 +117,9 @@ CVS_RSH = ssh
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/matto/Library/Application Support/Code - Insiders/1.67.0-insider-main.sock
+VSCODE_IPC_HOOK = /Users/matto/Library/Application Support/Code - Insiders/1.69.0-insider-main.sock
+# environment
+MallocNanoZone = 0
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -135,7 +127,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.114154609.114154615
+XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.134402766.134402772
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -151,7 +143,7 @@ MAKEFILES :=
 # environment
 LC_ALL = C
 # environment
-CONDA_PYTHON_EXE = /Users/matto/miniforge3/bin/python
+CONDA_PYTHON_EXE = /Users/matto/opt/anaconda3/bin/python
 # automatic
 ^F = $(notdir $^)
 # default
@@ -167,11 +159,11 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 95064
+VSCODE_PID = 72617
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=78/1024=8%, Rehash=0, Collisions=2/102=2%
+# Load=74/1024=7%, Rehash=0, Collisions=2/95=2%
 
 # Pattern-specific Variable Values
 
@@ -179,9 +171,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 16777233, inode 1007199): 559 files, no impossibilities.
+# . (device 16777232, inode 999824): 955 files, no impossibilities.
 
-# 559 files, no impossibilities in 1 directories.
+# 955 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -198,71 +190,31 @@ all:
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
- 
-parse:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 4):
-	python3 make.py
-	
-
 # Not a target:
 .SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-push:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 13):
-	git add -A
-	git commit -m.
-	git push
-	
-
 # Not a target:
 Makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
-#  Last modified 2022-03-08 12:03:56
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-xfer-attach:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 23):
-	rsync -av _conv/ theochem@www.chem.okayama-u.ac.jp:Sites/vitroid/
-	
-
-build: parse
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 2):
-	cd ..; bundle exec jekyll build --verbose --incremental
-	
-
-prepare:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 10):
-	python3 unscrapbox.py *json
-	
-
-force:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 6):
-	python3 make.py -f
-	
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 .DEFAULT:
@@ -270,40 +222,29 @@ force:
 #  Modification time never checked.
 #  File has not been updated.
 
-deploy: push
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-serve:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 8):
-	cd ..; bundle exec jekyll serve --incremental --watch & open http://localhost:4000
-	
-
-prepare-wiki:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `Makefile', line 19):
-	rsync -av chemist@www.chem.okayama-u.ac.jp:/home/theochem/wiki-data/attach/matto _attach/
-	
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # files hash-table stats:
-# Load=13/1024=1%, Rehash=0, Collisions=0/27=0%
+# Load=6/1024=1%, Rehash=0, Collisions=0/17=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
 
 # No general (`VPATH' variable) search path.
 
-# # of strings in strcache: 1
-# # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Wed May  4 09:35:02 2022
+# Finished Make data base on Thu Jun 30 20:52:07 2022
 
  

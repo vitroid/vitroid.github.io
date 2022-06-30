@@ -7,6 +7,10 @@ title: papers
 
 (少しずつ追加しています)
 
+[paper2022](/paper2022)
+
+* [MT2022](/MT2022)
+
 [paper2021](/paper2021)
 
 * [TYM2021](/TYM2021)
@@ -206,6 +210,7 @@ title: papers
 * [MSO2002](/MSO2002)
 * [MT2011](/MT2011)
 * [MT2012](/MT2012)
+* [MT2022](/MT2022)
 * [MYH2020](/MYH2020)
 * [MYMT2019](/MYMT2019)
 * [MYT2015](/MYT2015)
