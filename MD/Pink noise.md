@@ -1,10 +1,4 @@
-#fractal noise
-
-
-
 ピンクノイズPink noiseは1/fノイズとも呼ばれます。一般には、パワースペクトルの関数形が周波数fに対して1/f^^α^^になるようなノイズを広義のPink noiseと総称します。
-
-
 
 * α=0の場合、周波数に関係なくパワースペクトルが一定値となります。これをWhite noiseと呼びます。チューニングのあわないラジオの音に似ています。Whiteの由来は、白色光(すべての可視光波長を含む)から来るようです。耳障りな音です。
 * 0<α<2の場合を狭義のPink noiseと呼びます。ジェット機のエンジン音や滝の音に似ています。ピンクノイズの振幅波形はフラクタルな形状になっています。白色雑音に比べて、長波長成分(可視光でいえば赤色成分)が多いことから、このように呼ぶようです。さらに狭義には、α=1の場合のみを指す場合もあるようです。この場合、周波数が倍になると波のエネルギーが半分(振幅が0.7倍)になります。
@@ -15,20 +9,22 @@
 
 
 
-* [](storage:Pink noise/white.aiff) α=0, While noise (aiff format) / ([](storage:Pink noise/white.m4a) AAC 128kbps)
-* [](storage:Pink noise/pink1.0.aiff) α=1.0, Pink noise (aiff format) / ([](storage:Pink noise/pink1.0.m4a) AAC 128kbps)
-* [](storage:Pink noise/pink1.3.aiff) α=1.3, Pink noise (aiff format)
-* [](storage:Pink noise/pink1.6.aiff) α=1.6, Pink noise (aiff format)
-* [](storage:Pink noise/brown.aiff) α=2, Brown noise (aiff format) / ([](storage:Pink noise/brown.m4a) AAC 128kbps)
-* [](storage:Pink noise/sound.c) C source.
-* [](storage:Pink noise/Makefile.sound) Makefile.
+* [α=0, While noise (aiff format)](storage:Pink noise/white.aiff)
+* [α=1.0, Pink noise (aiff format)](storage:Pink noise/pink1.0.aiff)
+* [α=1.3, Pink noise (aiff format)](storage:Pink noise/pink1.3.aiff) 
+* [α=1.6, Pink noise (aiff format)](storage:Pink noise/pink1.6.aiff) 
+* [α=2, Brown noise (aiff format)](storage:Pink noise/brown.aiff)
+* [C source](storage:Pink noise/sound.c)
+* [Makefile](storage:Pink noise/Makefile.sound)
 
 
 純粋なピンクノイズを作る方法はいろいろあります。ここでは、1/f型のパワースペクトルの各周波数にランダムな位相を与え、それを逆フーリエ変換して波形を得ています。
 
 
 
-純粋なホワイトノイズを実際に耳にすることはあまりないと思います。乱流が生みだす自然の雑音源がおしなべて1/f型であるということもありますが、空気中を音が伝搬する際に高周波数のほうが速く減衰してしまうため、音源がホワイトでも耳に届くまでにマイルドになっているのかもしれません*http://www.yamaha.co.jp/acoust/technologies/scale-model/basic2.html
+純粋なホワイトノイズを実際に耳にすることはあまりないと思います。乱流が生みだす自然の雑音源がおしなべて1/f型であるということもありますが、空気中を音が伝搬する際に高周波数のほうが速く減衰してしまうため、音源がホワイトでも耳に届くまでにマイルドになっているのかもしれません
+
+* http://www.yamaha.co.jp/acoust/technologies/scale-model/basic2.html
 
 
 ### 関連ネタ
