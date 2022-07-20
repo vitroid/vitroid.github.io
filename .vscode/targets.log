@@ -6,11 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
-make: *** No rule to make target `all'.  Stop.
 
-
-# Make data base, printed on Thu Jun 30 20:52:07 2022
+# Make data base, printed on Wed Jul 13 19:20:09 2022
 
 # Variables
 
@@ -51,11 +48,11 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.jekKAy2ypY/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.yvo3JjHcrb/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = /private/tmp/com.apple.launchd.trGHr00VwQ/org.xquartz:0
+DISPLAY = /private/tmp/com.apple.launchd.2jtgJQlymQ/org.xquartz:0
 # environment
 CONDA_EXE = /Users/matto/opt/anaconda3/bin/conda
 # environment
@@ -73,7 +70,7 @@ HOME = /Users/matto
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/matto/Library/Application Support/Code - Insiders/CachedData/0e3304bca9e862eddc7e437e2bab8a4a4a4f33c9
+VSCODE_CODE_CACHE_PATH = /Users/matto/Library/Application Support/Code - Insiders/CachedData/9925e5d4d3d355758cd09d26868f0c12a0006828
 # environment
 LOGNAME = matto
 # environment
@@ -117,7 +114,7 @@ CVS_RSH = ssh
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/matto/Library/Application Support/Code - Insiders/1.69.0-insider-main.sock
+VSCODE_IPC_HOOK = /Users/matto/Library/Application Support/Code - Insiders/1.70.0-insider-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -127,7 +124,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.134402766.134402772
+XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.135749018.135749024
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -159,7 +156,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 72617
+VSCODE_PID = 31910
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -171,9 +168,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 16777232, inode 999824): 955 files, no impossibilities.
+# . (device 16777232, inode 999824): 957 files, no impossibilities.
 
-# 955 files, no impossibilities in 1 directories.
+# 957 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -245,6 +242,8 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Jun 30 20:52:07 2022
+# Finished Make data base on Wed Jul 13 19:20:09 2022
 
  
+make: *** No rule to make target `all'.  Stop.
+
