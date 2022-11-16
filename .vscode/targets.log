@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Wed Jul 13 19:20:09 2022
+# Make data base, printed on Fri Sep 16 16:26:48 2022
 
 # Variables
 
@@ -38,7 +38,7 @@ __CFBundleIdentifier = com.microsoft.VSCodeInsiders
 # environment
 VSCODE_CWD = /
 # environment
-PATH = /Users/matto/opt/anaconda3/condabin:/opt/homebrew/opt/qt@5/bin:/opt/homebrew/opt/openssl@1.1/bin:/Users/matto/.gem/ruby/2.7.4/bin:/Users/matto/.rubies/ruby-2.7.4/lib/ruby/gems/2.7.0/bin:/Users/matto/.rubies/ruby-2.7.4/bin:/opt/homebrew/bin:/Users/matto/.gem/ruby/2.6.0/bin:/usr/local/opt/ruby/bin:/Users/matto/.cabal/bin/:/Users/matto/bin:/usr/local/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin
+PATH = /Users/matto/opt/anaconda3/condabin:/opt/homebrew/opt/qt@5/bin:/opt/homebrew/opt/openssl@1.1/bin:/Users/matto/.deta/bin:/Users/matto/.gem/ruby/2.7.4/bin:/Users/matto/.rubies/ruby-2.7.4/lib/ruby/gems/2.7.0/bin:/Users/matto/.rubies/ruby-2.7.4/bin:/opt/homebrew/bin:/Users/matto/.gem/ruby/2.6.0/bin:/usr/local/opt/ruby/bin:/Users/matto/.cabal/bin/:/Users/matto/bin:/usr/local/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
 # environment
 LSCOLORS = ExFxCxDxBxEGEDABAGACAD
 # environment
@@ -48,11 +48,11 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.yvo3JjHcrb/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.ueMICdMVKH/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = /private/tmp/com.apple.launchd.2jtgJQlymQ/org.xquartz:0
+DISPLAY = /private/tmp/com.apple.launchd.g810eENc7u/org.xquartz:0
 # environment
 CONDA_EXE = /Users/matto/opt/anaconda3/bin/conda
 # environment
@@ -70,7 +70,7 @@ HOME = /Users/matto
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/matto/Library/Application Support/Code - Insiders/CachedData/9925e5d4d3d355758cd09d26868f0c12a0006828
+VSCODE_CODE_CACHE_PATH = /Users/matto/Library/Application Support/Code - Insiders/CachedData/cfc01197555cb14a0d2d3463b331ce41de5733be
 # environment
 LOGNAME = matto
 # environment
@@ -114,7 +114,7 @@ CVS_RSH = ssh
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/matto/Library/Application Support/Code - Insiders/1.70.0-insider-main.sock
+VSCODE_IPC_HOOK = /Users/matto/Library/Application Support/Code - Insiders/1.72.0-insider-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -124,7 +124,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.135749018.135749024
+XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.166636601.166636607
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -156,7 +156,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 31910
+VSCODE_PID = 61561
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -168,7 +168,7 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 16777232, inode 999824): 957 files, no impossibilities.
+# . (device 16777231, inode 999824): 957 files, no impossibilities.
 
 # 957 files, no impossibilities in 1 directories.
 
@@ -242,7 +242,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Wed Jul 13 19:20:09 2022
+# Finished Make data base on Fri Sep 16 16:26:48 2022
 
  
 make: *** No rule to make target `all'.  Stop.
