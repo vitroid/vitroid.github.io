@@ -12,21 +12,22 @@ title: TruncatablePrimes
 [https://community.wolfram.com/groups/-/m/t/1569707/?wal_campaign={"campaign"%3A"insider4415_wave1"%2C"keyword"%3A"JPInsider2019-1"%2C"userEmail"%3A"1370"}](https://community.wolfram.com/groups/-/m/t/1569707/?wal_campaign={"campaign"%3A"insider4415_wave1"%2C"keyword"%3A"JPInsider2019-1"%2C"userEmail"%3A"1370"})
 
 
+```python
+from sympy.ntheory.primetest import isprime
+queue = []
 
-    from sympy.ntheory.primetest import isprime
-    queue = []
-    
-    def CutOffPrime(n, digits):
-        for i in range(1,10):
-            x = i*10**digits + n
-            if isprime(x):
-                queue.append([x, digits+1])
-    
-    CutOffPrime(0,0)
-    while len(queue) >0:
-        x, d = queue.pop(0)
-        print(x,d)
-        CutOffPrime(x,d)
+def CutOffPrime(n, digits):
+    for i in range(1,10):
+        x = i*10**digits + n
+        if isprime(x):
+            queue.append([x, digits+1])
+
+CutOffPrime(0,0)
+while len(queue) >0:
+    x, d = queue.pop(0)
+    print(x,d)
+    CutOffPrime(x,d)
+```
 
 0を許さない場合、鉛筆に刻んである数が上限のようだ。
 
@@ -38,28 +39,28 @@ title: TruncatablePrimes
 
 10進数以上の数はA,B,C,D,E,F,G,...をそれぞれ11、12、13、に読みかえる。
 
-table:切り捨て可能な素数
 
 
-* base	in decimal number	in n-ary number
-3	23	212
-4	4091	333323
-5	7817	222232
-6	4836525320399	14141511414451435
-7	817337	6642623
-8	14005650767869	313636165537775
-9	977306389	2462868287
-10	357686312646216567629137	357686312646216567629137
-11	2276005673	A68822827
-12		471A34A164259BA16B324AB8A32B7817
-13	812751503	CC4C8C65
-14	559569749583683009212625338471	C6143392CCBB3D11AC22CC5543
-15	34068645705927662447286191	6C6C2CE2CEEEA4826E642B
-16	1088303707153521644968345559987	DBC7FBA24FE6AEC462ABF63B3
-17	13563641583101	6C66CC4CC83
-18		AF93E41A586HE75A7HHAAB7HE12FG79992GA7741B3D
-19	546207129080421139	CIEG86GCEA2C6H
-20		FC777G3CG1FIDI9I31IE5FFB379C7A3F6EFID
+|base|in decimal number|in n-ary number|
+|-|-|-|
+|3 | 23 | 212|
+|4 | 4091 | 333323|
+|5 | 7817 | 222232|
+|6 | 4836525320399 | 14141511414451435|
+|7 | 817337 | 6642623|
+|8 | 14005650767869 | 313636165537775|
+|9 | 977306389 | 2462868287|
+|10 | 357686312646216567629137 | 357686312646216567629137|
+|11 | 2276005673 | A68822827|
+|12 |  | 471A34A164259BA16B324AB8A32B7817|
+|13 | 812751503 | CC4C8C65|
+|14 | 559569749583683009212625338471 | C6143392CCBB3D11AC22CC5543|
+|15 | 34068645705927662447286191 | 6C6C2CE2CEEEA4826E642B|
+|16 | 1088303707153521644968345559987 | DBC7FBA24FE6AEC462ABF63B3|
+|17 | 13563641583101 | 6C66CC4CC83|
+|18 |  | AF93E41A586HE75A7HHAAB7HE12FG79992GA7741B3D|
+|19 | 546207129080421139 | CIEG86GCEA2C6H|
+|20 |  | FC777G3CG1FIDI9I31IE5FFB379C7A3F6EFID|
 
 4進数と5進数は面白い数字がでてくるね。
 
@@ -71,10 +72,7 @@ table:切り捨て可能な素数
 
 [python](/python) [software](/software) [雑記](/雑記)
 
-[2019-01-25](/2019-01-25) 
-
-
-
+[2019-01-25](/2019-01-25)
 
 
 ## Linked from
