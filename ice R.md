@@ -28,6 +28,7 @@ Ice "R"* is a partial plastic ice discovered when liquid water is compressed to 
 
 ## Linked from
 
+* [3Dプリンタ用データ](/3Dプリンタ用データ)
 * [3Dプリンタ用データ](/3Dプリンタ用データ)
 * [MHM2014](/MHM2014)
 * [ice R](/ice R)

@@ -5,6 +5,7 @@ title: ice
 
 ## Linked from
 
+* [3Dプリンタ用データ](/3Dプリンタ用データ)
 * [3Dプリンタ用データ](/3Dプリンタ用データ)
 * [Bilayer ice](/Bilayer ice)
 * [Ice Nanotube](/Ice Nanotube)

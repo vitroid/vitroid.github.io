@@ -21,6 +21,7 @@ A Swiss army knife to generate hydrogen-disordered ice structures.
 
 ## Linked from
 
+* [3Dプリンタ用データ](/3Dプリンタ用データ)
 * [3Dプリンタ用データ](/3Dプリンタ用データ)
 * [Bilayer ice](/Bilayer ice)
 * [GenIce](/GenIce)

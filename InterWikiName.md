@@ -28,6 +28,7 @@ title: InterWikiName
 
 ## Linked from
 
+* [FreeStyleWikiを研究会ポータルに](/FreeStyleWikiを研究会ポータルに)
 * [FreeStyleWikiを研究会ポータルに](/FreeStyleWikiを研究会ポータルに)
 * [test](/test)
 

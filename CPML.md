@@ -37,6 +37,7 @@ title: CPML
 * [CPML](/CPML)
 * [FrontPage](/FrontPage)
 * [Menu](/Menu)
+* [ロゴマーク](/ロゴマーク)
 * [ロゴマーク](/ロゴマーク)
 
 

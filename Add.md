@@ -37,6 +37,7 @@ title: Add
 
 * [CurriculumVitae](/CurriculumVitae)
 * [Menu](/Menu)
+* [科学グラフィックス](/科学グラフィックス)
 * [科学グラフィックス](/科学グラフィックス)
 
 

@@ -16,6 +16,7 @@ FreeStyle WikiはPerlによるWikiクローンです。
 
 * [ASCII Captcha](/ASCII Captcha)
 * [GitHub pagesへの移転](/GitHub pagesへの移転)
+* [datetimeプラグイン](/datetimeプラグイン)
 * [datetimeプラグイン](/datetimeプラグイン)
 * [fswiki](/fswiki)
 

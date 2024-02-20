@@ -103,6 +103,7 @@ DDを利用するには、Drag&Dropをインストールしておく必要があ
 ## Linked from
 
 * [BugTrack-palmware_1](/BugTrack-palmware_1)
+* [Docリーダ](/Docリーダ)
 * [Docリーダ](/Docリーダ)
 * [MemoURL DA](/MemoURL DA)
 * [MemoURL](/MemoURL)

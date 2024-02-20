@@ -71,6 +71,7 @@ title: reg2
 
 ## Linked from
 
+* [FreeStyleWikiを研究会ポータルに](/FreeStyleWikiを研究会ポータルに)
 * [FreeStyleWikiを研究会ポータルに](/FreeStyleWikiを研究会ポータルに)
 * [FrontPage](/FrontPage)
 * [reg2](/reg2)

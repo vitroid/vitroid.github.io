@@ -53,6 +53,7 @@ genice2 CRN1 -f svg[shadow] > CRN1.svg
 
 ## Linked from
 
+* [3Dプリンタ用データ](/3Dプリンタ用データ)
 * [3Dプリンタ用データ](/3Dプリンタ用データ)
 * [LDA](/LDA)
 * [Network Motif of Water](/Network Motif of Water)
