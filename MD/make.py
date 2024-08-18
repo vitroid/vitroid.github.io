@@ -9,6 +9,7 @@ import os
 import scrapbox2md as s2m
 import process_keywords as pk
 import pickle
+
 # from imagesize import getsizes
 import urllib.request
 from PIL import Image
@@ -16,6 +17,7 @@ import base64
 import io
 
 from logging import getLogger, basicConfig, INFO, DEBUG
+
 basicConfig(level=INFO)
 
 import re
@@ -23,19 +25,19 @@ from ktree import *
 
 from tagcloud import tagcloud
 
-ForceUpdate=len(sys.argv) > 1 and sys.argv[1] == "-f"
+ForceUpdate = len(sys.argv) > 1 and sys.argv[1] == "-f"
 
-interwikinames = { "youtube": '{{% include youtubePlayer.html id="{0}" %}}',
-                   "amazon" : '[![{1}](http://images-jp.amazon.com/images/P/{0}.09.LZZZZZZZ.jpg)](http://www.amazon.co.jp/exec/obidos/ASIN/{0})',
-                   "doi"    : '[{1}](https://doi.org/{0})',
-                   "DOI"    : '[{1}](https://doi.org/{0})',
-                   "github" : '[{1}](https://github.com/vitroid/{0})',
-                   "sb"     : '[{1}](https://scrapbox.io/vitroid/{0})',
-                   "scrapbox-vitroid": '[{1}](https://scrapbox.io/vitroid/{0})',
-                   "storage": '[{1}](http://theochem.chem.okayama-u.ac.jp/vitroid/{0})',
+interwikinames = {
+    "youtube": '{{% include youtubePlayer.html id="{0}" %}}',
+    "amzn": "[{1}](http://amzn.asia/d/{0})",
+    "amazon": "[![{1}](http://images-jp.amazon.com/images/P/{0}.09.LZZZZZZZ.jpg)](http://www.amazon.co.jp/exec/obidos/ASIN/{0})",
+    "doi": "[{1}](https://doi.org/{0})",
+    "DOI": "[{1}](https://doi.org/{0})",
+    "github": "[{1}](https://github.com/vitroid/{0})",
+    "sb": "[{1}](https://scrapbox.io/vitroid/{0})",
+    "scrapbox-vitroid": "[{1}](https://scrapbox.io/vitroid/{0})",
+    "storage": "[{1}](http://theochem.chem.okayama-u.ac.jp/vitroid/{0})",
 }
-
-
 
 
 def aspect(images):
@@ -63,40 +65,48 @@ def visualindex():
         pass
     while row < 10:
         logger.info("New row >>>>")
-        images = [] # URL, size, and MD page title
+        images = []  # URL, size, and MD page title
         while aspect(images) < 3:
             # assert aspect(images) != 1
             found = False
             while not found and len(newest) > 0:
                 page = newest.pop(0)
                 title = page[:-3]
-                for line in open("../"+page).readlines():
+                for line in open("../" + page).readlines():
                     m = re.search(r"!\[[^\]]*\]\(([^\)]+)\)", line)
                     if m:
                         url = m.group(1)
                         if len(url) < 100:
                             logger.info(url)
                         else:
-                            logger.info(url[:50]+" ... "+url[-50:])
+                            logger.info(url[:50] + " ... " + url[-50:])
                         try:
                             if ":" not in url:
                                 # local path
                                 logger.info(f"UUUU {url}")
-                                image = Image.open("../"+url)
+                                image = Image.open("../" + url)
                             else:
                                 # split url
                                 method, loc = url.split(":")
-                                url = method+":"+urllib.parse.quote(loc)
+                                url = method + ":" + urllib.parse.quote(loc)
                                 if method == "data":
                                     logger.info("Embedded image")
                                     # loc should start with image/png;base64,
                                     header, body = loc.split(",")
                                     datatype, encoding = header.split(";")
-                                    logger.info(f"datatype {datatype} encoding {encoding}")
+                                    logger.info(
+                                        f"datatype {datatype} encoding {encoding}"
+                                    )
                                     assert encoding == "base64"
-                                    image = Image.open(io.BytesIO(base64.decodebytes(body.encode('utf-8'))))
+                                    image = Image.open(
+                                        io.BytesIO(
+                                            base64.decodebytes(body.encode("utf-8"))
+                                        )
+                                    )
                                 else:
-                                    image = Image.open(urllib.request.urlopen(url, timeout=2))
+                                    image = Image.open(
+                                        urllib.request.urlopen(url, timeout=2)
+                                    )
                         except:
                             logger.warning("No image retrieved.")
                             continue
@@ -111,8 +121,8 @@ def visualindex():
         for image, title in images:
             w, h = image.size
             w *= height / h
-            #save w, height
-            tn = image.resize((int(w),int(height)))
+            # save w, height
+            tn = image.resize((int(w), int(height)))
             logger.info("  {1} {0}".format(title, tnnum))
             tn.save("../tn/{0}.png".format(tnnum))
             s += "  <a href='/{0}'><img src='/tn/{1}.png' /></a>\n".format(title, tnnum)
@@ -123,11 +133,10 @@ def visualindex():
     return s
 
 
-
 def md_parser(filename):
     mode = "normal"
     for line in open(filename).readlines():
-        if line[:3] == '```':
+        if line[:3] == "```":
             if mode == "normal":
                 mode = line[3:]
             else:
@@ -143,9 +152,9 @@ def md_parser(filename):
 def kw_proc(word):
     # for jekyll
     return "[{0}](/{0})".format(word)
+
+
 #    return "[{0}]({0}.md)".format(word)
-
-
 
 
 def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
@@ -160,7 +169,6 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
         # for jekyll
         tags.append(x)
         return "[{0}](/{0})".format(x) + " "
-
 
     logger = getLogger()
     body = ""
@@ -181,10 +189,10 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
                                 if m:
                                     # logger.info((m.span(),line))
                                     # logger.info(line[head+1:head+1+m.span()[0]])
-                                    tag = line[1:1+m.span()[0]]
+                                    tag = line[1 : 1 + m.span()[0]]
                                     s += "[{0}](/{0})".format(tag)
                                     tags.append(tag)
-                                    line = line[m.span()[1]:]
+                                    line = line[m.span()[1] :]
                                     continue
                             s += line[0]
                             line = line[1:]
@@ -193,27 +201,31 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
                         m = re.search(r"^(https?://[^\s\)]+)[\s\)]", line)
                         if m:
                             matched = m.group(1)
-                            name,ext = os.path.splitext(matched)
+                            name, ext = os.path.splitext(matched)
                             if ext in (".jpg", ".JPG", ".png", ".PNG", ".gif", ".GIF"):
                                 s += "!"
-                                logger.info("    Automatic IMG link: {0}".format(matched))
+                                logger.info(
+                                    "    Automatic IMG link: {0}".format(matched)
+                                )
                             else:
-                                logger.info("    Automatic URL link: {0}".format(matched))
+                                logger.info(
+                                    "    Automatic URL link: {0}".format(matched)
+                                )
                             s += "[{0}]({0})".format(matched)
-                            line = line[len(matched):]
+                            line = line[len(matched) :]
                             continue
                         # bypass special syntaxes
                         m = re.search(r"^\[([^\]]*)\]", line)
                         # Bracketed
                         if m:
                             label = m.group(1)
-                            m2 = re.search(r"^\(([^\)]*)\)", line[len(label)+2:])
+                            m2 = re.search(r"^\(([^\)]*)\)", line[len(label) + 2 :])
                             # Followed by parens
                             if m2:
                                 link = m2.group(1)
-                                line = line[len(label)+len(link)+4:]
+                                line = line[len(label) + len(link) + 4 :]
                             else:
-                                line = line[len(label)+2:]
+                                line = line[len(label) + 2 :]
                                 link = label
                             # logger.info(link)
                             methodloc = link.split(":", 1)
@@ -223,7 +235,11 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
                             if method in interwikinames:
                                 html = interwikinames[method].format(loc, label)
                                 s += html
-                                logger.info("    InterWikiName {0} {1} {2}".format(method, loc, html))
+                                logger.info(
+                                    "    InterWikiName {0} {1} {2}".format(
+                                        method, loc, html
+                                    )
+                                )
                             else:
                                 s += "[{0}]({1})".format(label, link)
                             continue
@@ -234,7 +250,7 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
                             # logger.info(line[:head])
                             # for jekyll
                             s += "[{0}](/{0})".format(line[:found])
-                            #prefix = line[:head] + "[{0}]({0}.md)".format(line[head:head+found])
+                            # prefix = line[:head] + "[{0}]({0}.md)".format(line[head:head+found])
                             line = line[found:]
                         else:
                             s += line[0]
@@ -242,7 +258,9 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
                     line = s
                 else:
                     # process hashtag
-                    line = re.sub(r"#([^#\s]+)\s", lambda x:hashtag_proc(x.group(1)), line)
+                    line = re.sub(
+                        r"#([^#\s]+)\s", lambda x: hashtag_proc(x.group(1)), line
+                    )
             body += line
     footer = ""
     if linked is not None:
@@ -254,24 +272,27 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
                 footer += "* [{0}](/{0})\n".format(link[:-3])
             footer += "\n\n"
     if processed is not None:
-        footer += "----\n\n[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/{0}.md)\n\n".format(title)
+        footer += "----\n\n[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/{0}.md)\n\n".format(
+            title
+        )
 
     datestr = None
     for tag in tags:
         m = re.search(r"^([1-2]\d\d\d)-(\d+)-(\d+)$", tag)
         if m:
-            datestr = "{0:04d}-{1:02d}-{2:02d}".format(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+            datestr = "{0:04d}-{1:02d}-{2:02d}".format(
+                int(m.group(1)), int(m.group(2)), int(m.group(3))
+            )
 
     header = "---\n"
     m = re.search(r"^[\d-]+$", title)
     if m:
-        title = "#"+title
+        title = "#" + title
     header += "title: {0}\n".format(title)
-    #if datestr:
+    # if datestr:
     #    header += "date: {0}\n".format(datestr) # no effect, rather harmful
     header += "---\n"
     return header + body + footer, tags
-
 
 
 logger = getLogger()
@@ -314,44 +335,53 @@ for R in range(rep):
     logger.info("Update link references.")
     for file in glob.glob("*.md"):
         target = "../" + file
-        if True: # ALWAYS ForceUpdate or not os.path.exists(target) or os.path.getmtime(target) < os.path.getmtime(file):
+        if (
+            True
+        ):  # ALWAYS ForceUpdate or not os.path.exists(target) or os.path.getmtime(target) < os.path.getmtime(file):
             # if the original md is editted
             # md_parser adds line attributes
             md = [x for x in md_parser(file)]
             logger.info("  {0}".format(file))
             pk.process_keywords(file, md, autolink=True)
 
-    pages = [file[:-3]      for file in glob.glob("*.md")]
-    words = [file[:-7][8:]  for file in glob.glob("../_ref/*.pickle")]
+    pages = [file[:-3] for file in glob.glob("*.md")]
+    words = [file[:-7][8:] for file in glob.glob("../_ref/*.pickle")]
     kwtree = keyword_tree(pages)
-
 
     logger.info("Parse and update Markdown pages.")
     for page in pages:
         processed = page + ".md"
-        linked    = "../_ref/" + page + ".pickle"
-        target    = "../" + page + ".md"
+        linked = "../_ref/" + page + ".pickle"
+        target = "../" + page + ".md"
         go = ForceUpdate
         if not os.path.exists(target):
             go = True
         elif os.path.getmtime(target) < os.path.getmtime(processed):
             go = True
-        elif os.path.exists(linked) and os.path.getmtime(target) < os.path.getmtime(linked):
+        elif os.path.exists(linked) and os.path.getmtime(target) < os.path.getmtime(
+            linked
+        ):
             go = True
         if go:
             logger.info("  {0}".format(page))
-            formatted, tags = formatPage(page, kwtree, processed=processed, linked=linked, autolink=True)
+            formatted, tags = formatPage(
+                page, kwtree, processed=processed, linked=linked, autolink=True
+            )
             open(target, "w").write(formatted)
-
 
     logger.info("Update virtual pages.")
     virtual = dict()
     for page in words:
         processed = page + ".md"
-        linked    = "../_ref/" + page + ".pickle"
-        target    = "../" + page + ".md"
-        if (ForceUpdate and not os.path.exists(processed)) or ( (not os.path.exists(target)) or ( (not os.path.exists(processed))
-                                             and os.path.getmtime(target) < os.path.getmtime(linked)) ):
+        linked = "../_ref/" + page + ".pickle"
+        target = "../" + page + ".md"
+        if (ForceUpdate and not os.path.exists(processed)) or (
+            (not os.path.exists(target))
+            or (
+                (not os.path.exists(processed))
+                and os.path.getmtime(target) < os.path.getmtime(linked)
+            )
+        ):
             N = len(pickle.load(open(linked, "rb")))
             logger.info("  {0}: ({1})".format(page, N))
             formatted, tags = formatPage(page, kwtree, linked=linked, autolink=True)
@@ -362,7 +392,7 @@ for R in range(rep):
             if N >= 5:
                 virtual[page] = N
 
-for x in sorted(virtual, key=lambda x:-virtual[x])[:20]:
+for x in sorted(virtual, key=lambda x: -virtual[x])[:20]:
     logger.info("Candidates for the menu item: {0}".format(x))
 
 open("../_includes/visual.html", "w").write(visualindex())

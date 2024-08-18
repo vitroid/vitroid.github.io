@@ -260,6 +260,7 @@ MicroPythonで幸せになれるかと思ったが、やはり遅い。特に、
 
 ## Linked from
 
+* [2024夏の自由研究](/2024夏の自由研究)
 * [M5AtomMatrix](/M5AtomMatrix)
 * [M5Stack Gray](/M5Stack Gray)
 * [M5Stick](/M5Stick)

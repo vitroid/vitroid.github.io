@@ -41,6 +41,7 @@ Grayの[M5Stick](https://banggood.app.link/Ag4K3TfUJ1)が発売されたよう�
 
 ## Linked from
 
+* [2024夏の自由研究](/2024夏の自由研究)
 * [M5AtomMatrix](/M5AtomMatrix)
 * [M5Stick](/M5Stick)
 * [M5StickVの初期設定](/M5StickVの初期設定)

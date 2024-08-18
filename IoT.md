@@ -5,6 +5,7 @@ title: IoT
 
 ## Linked from
 
+* [ESP-01Sでスマートコンセント](/ESP-01Sでスマートコンセント)
 * [ESP32](/ESP32)
 * [ESP8266](/ESP8266)
 * [M5AtomMatrix](/M5AtomMatrix)
