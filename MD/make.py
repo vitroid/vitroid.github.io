@@ -269,7 +269,7 @@ def formatPage(title, kwtree, processed=None, linked=None, autolink=False):
             # logger.info(links)
             footer += "\n\n## Linked from\n\n"
             for link in sorted(links):
-                footer += "* [{0}](/{0})\n".format(link[:-3])
+                footer += "- [{0}](/{0})\n".format(link[:-3])
             footer += "\n\n"
     if processed is not None:
         footer += "----\n\n[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/{0}.md)\n\n".format(
