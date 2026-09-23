@@ -11,12 +11,12 @@ permalink: /CPML
 
 2007年頃より、物理学会領域12の連絡用にも利用されています。
 
-* どなたでも参加できます。
-* メンバーは情報を投稿することもできます。
-* [ウェブインターフェース](https://docs.google.com/forms/d/e/1FAIpQLSd2F2tL8LMlaEYoYZ10ehpBthJ45e5sblT8YMWwL7azeCoZ5g/viewform)からの投稿をお薦めします。
-  * イベント開催期間や締切を[CPMLカレンダー](https://calendar.google.com/calendar/embed?src=o0crucuhclcj9mk4vm93ci19es%40group.calendar.google.com&ctz=Asia%2FTokyo)に自動的に掲載します。
-  * メーリングリストには流さず、カレンダーのみに掲示することもできます。
-* 従来通り、[メールで投稿](mailto:cpml@okayama-u.ac.jp)することもできます。
+- どなたでも参加できます。
+- メンバーは情報を投稿することもできます。
+- [ウェブインターフェース](https://docs.google.com/forms/d/e/1FAIpQLSd2F2tL8LMlaEYoYZ10ehpBthJ45e5sblT8YMWwL7azeCoZ5g/viewform)からの投稿をお薦めします。
+  - イベント開催期間や締切を[CPMLカレンダー](https://calendar.google.com/calendar/embed?src=o0crucuhclcj9mk4vm93ci19es%40group.calendar.google.com&ctz=Asia%2FTokyo)に自動的に掲載します。
+  - メーリングリストには流さず、カレンダーのみに掲示することもできます。
+- 従来通り、[メールで投稿](mailto:cpml@okayama-u.ac.jp)することもできます。
 
 ## 参加方法
 
@@ -28,9 +28,9 @@ permalink: /CPML
 
 ## [ウェブインターフェース](https://docs.google.com/forms/d/e/1FAIpQLSd2F2tL8LMlaEYoYZ10ehpBthJ45e5sblT8YMWwL7azeCoZ5g/viewform)のしくみ
 
-* Google Formsで入力された内容は、[FormApprovals](https://formapprovals.com/)を使って、管理者が検収します。投稿内容に問題がなければ、これを受け入れます。
-* 投稿内容はGoogle Spreadsheetに記録されます。(Google Formsの仕様)
-* [Google Apps Script](https://script.google.com/)の`updateEvents`を利用して5分ごとに新しい投稿をチェックし、投稿があればメーリングリストに転送し、日程をGoogle Calendarに書き込みます。
+- Google Formsで入力された内容は、[FormApprovals](https://formapprovals.com/)を使って、管理者が検収します。投稿内容に問題がなければ、これを受け入れます。
+- 投稿内容はGoogle Spreadsheetに記録されます。(Google Formsの仕様)
+- [Google Apps Script](https://script.google.com/)の`updateEvents`を利用して5分ごとに新しい投稿をチェックし、投稿があればメーリングリストに転送し、日程をGoogle Calendarに書き込みます。
 
 
 ## Linked from

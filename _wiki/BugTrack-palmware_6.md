@@ -5,11 +5,11 @@ permalink: /BugTrack-palmware_6
 
 # proxy情報が正しく更新されない
 
-* 投稿者： tw1nspapa
-* カテゴリ： [NCSync](/NCSync)
-* 優先度： 重要
-* 状態： 提案
-* 日時： 2005年08月17日 18時38分44秒
+- 投稿者： tw1nspapa
+- カテゴリ： [NCSync](/NCSync)
+- 優先度： 重要
+- 状態： 提案
+- 日時： 2005年08月17日 18時38分44秒
 
 
 

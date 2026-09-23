@@ -7,7 +7,7 @@ permalink: /MemoURL
 
 [palmware](/palmware)
 
-* [http://amsoft.minidns.net/palm/memourl.html](http://amsoft.minidns.net/palm/memourl.html)
+- [http://amsoft.minidns.net/palm/memourl.html](http://amsoft.minidns.net/palm/memourl.html)
 
 
 Palm上で入力したURLをHotSync時に巡回してPCのブラウザで表示してくれるソフト。めっちゃ便利。[NCSync](/NCSync)では、newsclip専用URLタグを保存するために[MemoURL](/MemoURL)データベースを借用しています。

@@ -5,7 +5,7 @@
 
 ## ensis
 
-* http://www.ensis.jp/cgi-bin/tdiary/
-* Lokiさん
+- http://www.ensis.jp/cgi-bin/tdiary/
+- Lokiさん
 
 

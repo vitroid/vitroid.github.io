@@ -62,9 +62,9 @@ And it has one cubic graph in itself, described in [@RSET](/@RSET) format:
 
 ## See also
 
-* [@NGPH](/@NGPH)
-* [@RNGS](/@RNGS)
-* [@FRAG](/@FRAG)
+- [@NGPH](/@NGPH)
+- [@RNGS](/@RNGS)
+- [@FRAG](/@FRAG)
 
 
 

@@ -8,10 +8,10 @@
 
 ## 使うツール
 
-* NewsClip
-* 拡張版PluckerViewer
-* Palm Desktop
-* MemoURLアプリ、MemoURLコンジット
+- NewsClip
+- 拡張版PluckerViewer
+- Palm Desktop
+- MemoURLアプリ、MemoURLコンジット
 
 ## 手順
 
@@ -24,9 +24,9 @@
 
 ## さらにひと工夫
 
-* NewsClipSync Conduitを使えば、Palmの空きメモリ量に収まるようにダウンロードファイルサイズを調節しつつ、NewsClipからファイルをダウンロードし、Palmにインストールするまでの一連の手順が自動化できます。
-* ロングブーツNCを使えば、NewsClipからダウンロードしてきたファイルをPalmインストーラに渡す作業が自動化できます。
-* AddNewsClip Bookmarkletを使えば、ブラウザから簡単にNewsClipチャンネルを作成できます。
-* zip+box形式で一括ダウンロードした場合は、NC-Boxerを使ってPalm上で解凍できます。
-* HotSyncをあまりやらないひと、出先でアクセスしたいひと、無線LAN対応のPalmを使っているひとはNewsClip Recipe 2へ。
-* Docリーダで閲覧したいひとはNewsClip Recipe 3へ。
+- NewsClipSync Conduitを使えば、Palmの空きメモリ量に収まるようにダウンロードファイルサイズを調節しつつ、NewsClipからファイルをダウンロードし、Palmにインストールするまでの一連の手順が自動化できます。
+- ロングブーツNCを使えば、NewsClipからダウンロードしてきたファイルをPalmインストーラに渡す作業が自動化できます。
+- AddNewsClip Bookmarkletを使えば、ブラウザから簡単にNewsClipチャンネルを作成できます。
+- zip+box形式で一括ダウンロードした場合は、NC-Boxerを使ってPalm上で解凍できます。
+- HotSyncをあまりやらないひと、出先でアクセスしたいひと、無線LAN対応のPalmを使っているひとはNewsClip Recipe 2へ。
+- Docリーダで閲覧したいひとはNewsClip Recipe 3へ。

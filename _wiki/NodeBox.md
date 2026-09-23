@@ -4,7 +4,7 @@ permalink: /NodeBox
 ---
 [NodeBox](/NodeBox) is my favorite rapid prototyping tool.
 
-* [http://nodebox.net](http://nodebox.net)
+- [http://nodebox.net](http://nodebox.net)
 
 
 ## Linked from

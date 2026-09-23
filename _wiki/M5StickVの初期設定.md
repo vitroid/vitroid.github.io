@@ -76,17 +76,17 @@ SDからの起動にはまだ成功していない。
 
 
 
-* pip install kflushでCUIツールをインストール
-* [M5Stack Quick Start](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)からfirmwareを入手。
-* 電源を落とし、一旦コネクタを抜いたあと、正面のAボタンを押しながらコネクタを差し込んでboot.pyの自動起動を回避。
-* 以下のcommandで書き込んだ。
+- pip install kflushでCUIツールをインストール
+- [M5Stack Quick Start](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)からfirmwareを入手。
+- 電源を落とし、一旦コネクタを抜いたあと、正面のAボタンを押しながらコネクタを差し込んでboot.pyの自動起動を回避。
+- 以下のcommandで書き込んだ。
         kflash -B M5StickV  -p /dev/cu.usbserial-B55A3DF445 -b 115200 ~/Downloads/m5stickV_Firmware_0630Fixed.kfpkg 
        -Bには機種名を入れるのだが、M5StickVがどれに該当するのかわからず、適当に書いたら自動認識(goE/kd233)してくれた。
 
-* Serial TerminalからのHello worldの実行は問題なかったが、MaiXPy IDEからのコードの書きこみはまだうまくいかない。もしかして、IDEで書いたあと、一旦セーブして、あらためて転送しないといけない?
-* uPyLoaderの意義もよくわからない。MaiXPy IDEのtransferは機能しないのだが、uPyLoaderを一旦実行して、__upload.pyが生成したら問題は解決する、のか? 
-* とりあえず書いてある通りにやってみる。uPyLoaderをダウンロードし、実行。[M5Stick](/M5Stick)Vにはじめから書きこまれているファイルをMacに落として中身を見てようやく理解。boot.pyが起動時に実行されているようだ。つまり、これを書きかえてやれば、何でもできる、と。
-* 処理の様子を見る限り、MicroPythonでもそれなりの速度が出ている。また、kpuを利用したければ、MicroPythonを使わざるをえないのだろう。とりあえずIDEは当分使わない予定。
+- Serial TerminalからのHello worldの実行は問題なかったが、MaiXPy IDEからのコードの書きこみはまだうまくいかない。もしかして、IDEで書いたあと、一旦セーブして、あらためて転送しないといけない?
+- uPyLoaderの意義もよくわからない。MaiXPy IDEのtransferは機能しないのだが、uPyLoaderを一旦実行して、__upload.pyが生成したら問題は解決する、のか? 
+- とりあえず書いてある通りにやってみる。uPyLoaderをダウンロードし、実行。[M5Stick](/M5Stick)Vにはじめから書きこまれているファイルをMacに落として中身を見てようやく理解。boot.pyが起動時に実行されているようだ。つまり、これを書きかえてやれば、何でもできる、と。
+- 処理の様子を見る限り、MicroPythonでもそれなりの速度が出ている。また、kpuを利用したければ、MicroPythonを使わざるをえないのだろう。とりあえずIDEは当分使わない予定。
 
 
 
@@ -169,13 +169,13 @@ Firmwareの書き換えは怖いほど時間がかかる。
 
 ## ToDos
 
-* 当面の目標はBrownieを動かし、ボタンを押した瞬間以外スリープするようにしたい。
-* 仮に、KPUを使わずにただのビデオカメラとして使うとどれぐらいのfpsを出せるのか。→7fpsぐらい? 大差ない。
-* シャッターボタンを組みこんで、とりあえず普通のstill cameraにできるか。→できるけど、保存方法がまだ不明。
-* gyroは入っているという説がある。([https://tech.144lab.com/entry/2019/07/24/M5StickV_IMU](https://tech.144lab.com/entry/2019/07/24/M5StickV_IMU) )これを見ていると、まだFirmWare自体開発中っぽい。
-* 電池を内蔵しているのでWirelessでは使えるものの、Wifiが搭載されていない。この点はPi Zero (Zero Wではなく)に近い。Groveコネクタを使って、外部と連携させないとただのカメラになってしまう。
-* KPUの学習をさせる方法を知りたい。
-* 適切な用途。
+- 当面の目標はBrownieを動かし、ボタンを押した瞬間以外スリープするようにしたい。
+- 仮に、KPUを使わずにただのビデオカメラとして使うとどれぐらいのfpsを出せるのか。→7fpsぐらい? 大差ない。
+- シャッターボタンを組みこんで、とりあえず普通のstill cameraにできるか。→できるけど、保存方法がまだ不明。
+- gyroは入っているという説がある。([https://tech.144lab.com/entry/2019/07/24/M5StickV_IMU](https://tech.144lab.com/entry/2019/07/24/M5StickV_IMU) )これを見ていると、まだFirmWare自体開発中っぽい。
+- 電池を内蔵しているのでWirelessでは使えるものの、Wifiが搭載されていない。この点はPi Zero (Zero Wではなく)に近い。Groveコネクタを使って、外部と連携させないとただのカメラになってしまう。
+- KPUの学習をさせる方法を知りたい。
+- 適切な用途。
 
 
 

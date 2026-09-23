@@ -12,10 +12,10 @@ MemoURLへの登録を支援するDA module/DD module
 
 ## ダウンロード
 
-* [](storage:MemoURL DA/memourlda.prc) MemoURL DAバイナリ(2kbytes)
-* [](storage:MemoURL DA/memourldd.prc) MemoURL DDバイナリ(2kbytes)
-* [](storage:MemoURL DA/googleda.prc) Google DAバイナリ(6kbytes)
-* [](storage:MemoURL DA/memourlda-0.8.tar.gz) ソース
+- [](storage:MemoURL DA/memourlda.prc) MemoURL DAバイナリ(2kbytes)
+- [](storage:MemoURL DA/memourldd.prc) MemoURL DDバイナリ(2kbytes)
+- [](storage:MemoURL DA/googleda.prc) Google DAバイナリ(6kbytes)
+- [](storage:MemoURL DA/memourlda-0.8.tar.gz) ソース
 
 ## 概要
 
@@ -88,10 +88,10 @@ MemoURLというすばらしいアイディアを具体化し、なおかつソ�
   <dt>Version 0.3</dt><dd>細かい使い勝手の改善をおこなった。
 </dd>
 </dl>
-* MemoURL DD & MemoURL DA: URLにhttp://が含まれていない場合は追加する。
-* Google DA: 引用した文字列をselectするように変更
-* Google DA: clipboardから引用したあと、clipboardを消去するようにした。
-* clipboardから切り出す手続きを共通化
+- MemoURL DD & MemoURL DA: URLにhttp://が含まれていない場合は追加する。
+- Google DA: 引用した文字列をselectするように変更
+- Google DA: clipboardから引用したあと、clipboardを消去するようにした。
+- clipboardから切り出す手続きを共通化
 <dl>
   <dt>Version 0.2</dt><dd>StrNCopy周辺の改善、google DAを追加
 </dd>

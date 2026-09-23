@@ -58,8 +58,8 @@ And it has one cubic graph in itself, described in @RSET format:
 
 ## See also
 
-* @NGPH
-* @RNGS
-* @FRAG
+- @NGPH
+- @RNGS
+- @FRAG
 
 

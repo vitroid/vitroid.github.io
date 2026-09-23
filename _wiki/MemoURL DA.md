@@ -16,10 +16,10 @@ permalink: /MemoURL DA
 
 ## ダウンロード
 
-* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/memourlda.prc) [MemoURL DA](/MemoURL DA)バイナリ(2kbytes)
-* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/memourldd.prc) [MemoURL](/MemoURL) DDバイナリ(2kbytes)
-* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/googleda.prc) Google DAバイナリ(6kbytes)
-* [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/memourlda-0.8.tar.gz) ソース
+- [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/memourlda.prc) [MemoURL DA](/MemoURL DA)バイナリ(2kbytes)
+- [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/memourldd.prc) [MemoURL](/MemoURL) DDバイナリ(2kbytes)
+- [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/googleda.prc) Google DAバイナリ(6kbytes)
+- [](http://theochem.chem.okayama-u.ac.jp/vitroid/MemoURL DA/memourlda-0.8.tar.gz) ソース
 
 ## 概要
 
@@ -92,10 +92,10 @@ DDを利用するには、Drag&Dropをインストールしておく必要があ
   <dt>Version 0.3</dt><dd>細かい使い勝手の改善をおこなった。
 </dd>
 </dl>
-* [MemoURL](/MemoURL) DD & [MemoURL DA](/MemoURL DA): URLに[http://が含まれていない場合は追加する。](http://が含まれていない場合は追加する。)
-* Google DA: 引用した文字列をselectするように変更
-* Google DA: clipboardから引用したあと、clipboardを消去するようにした。
-* clipboardから切り出す手続きを共通化
+- [MemoURL](/MemoURL) DD & [MemoURL DA](/MemoURL DA): URLに[http://が含まれていない場合は追加する。](http://が含まれていない場合は追加する。)
+- Google DA: 引用した文字列をselectするように変更
+- Google DA: clipboardから引用したあと、clipboardを消去するようにした。
+- clipboardから切り出す手続きを共通化
 <dl>
   <dt>Version 0.2</dt><dd>StrNCopy周辺の改善、google DAを追加
 </dd>

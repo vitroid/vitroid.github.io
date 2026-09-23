@@ -19,9 +19,9 @@ NewsClipからのお知らせページのURLが変わりました
 
 ### リンク文字列の検索パターンが設定されていない場合
 
-* 第一階層（トップページ）http://hoge.com/topics/
-* 第二階層（トップページから直接リンクされているページ）http://hoge.com/topics/1.html
-* 第三階層 http://hoge.com/picture/index.html
+- 第一階層（トップページ）http://hoge.com/topics/
+- 第二階層（トップページから直接リンクされているページ）http://hoge.com/topics/1.html
+- 第三階層 http://hoge.com/picture/index.html
 のような構造になっている場合は、第二階層は無条件で巡回しますが、第三階層はURL文字列が大きく異なるので巡回しません。（ここで、「大きく異なる」とは、具体的には、一方のURL文字列を他方のURL文字列に書き換えるのに、3文字以上文字を削除する必要があることを意味します。上の例では、"to"と"s"と"1"を削除する必要があります）
 
 

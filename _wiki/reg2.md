@@ -42,17 +42,17 @@ permalink: /reg2
 
 ### 稼働中
 
-* ISCCS [2006](/2006)[参加登録](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/isccs06entry), [ポスター受付](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/isccs06poster)
-* [無機化学若手研究会2006](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/ib06)
-* [ACCC 2007](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/accc07)
+- ISCCS [2006](/2006)[参加登録](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/isccs06entry), [ポスター受付](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/isccs06poster)
+- [無機化学若手研究会2006](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/ib06)
+- [ACCC 2007](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/accc07)
 
 ### 終了
 
-* [「博士の生き方」セミナー登録受付](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/life)
-* [第56回錯体化学討論会講演受付](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/jscc56apply)・[予稿受付](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/jscc56abst)・[参加登録](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/jscc56entry)
-* [The 54th Fujihara Seminar OSCC50 Office](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/oscc50)
-* [郵便物の発送依頼票](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/post)
-* [特定領域研究「配位空間の化学」第1回若手講演会](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/ccs01)
+- [「博士の生き方」セミナー登録受付](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/life)
+- [第56回錯体化学討論会講演受付](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/jscc56apply)・[予稿受付](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/jscc56abst)・[参加登録](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/jscc56entry)
+- [The 54th Fujihara Seminar OSCC50 Office](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/oscc50)
+- [郵便物の発送依頼票](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/post)
+- [特定領域研究「配位空間の化学」第1回若手講演会](http://www2.chem.nagoya-u.ac.jp/~common/reg2.cgi/ccs01)
 
 ## 新規利用
 

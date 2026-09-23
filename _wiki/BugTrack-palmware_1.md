@@ -5,11 +5,11 @@ permalink: /BugTrack-palmware_1
 
 # URLの自動抽出
 
-* 投稿者： [matto](/matto)
-* カテゴリ：  [MemoURL DA](/MemoURL DA)
-* 優先度： 普通
-* 状態： 提案
-* 日時： 2004年07月26日 19時05分16秒
+- 投稿者： [matto](/matto)
+- カテゴリ：  [MemoURL DA](/MemoURL DA)
+- 優先度： 普通
+- 状態： 提案
+- 日時： 2004年07月26日 19時05分16秒
 
 
 

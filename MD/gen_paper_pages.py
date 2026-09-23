@@ -265,7 +265,7 @@ def update_papers_md(state: dict[str, Any], papers_path: str = PAPERS_MD) -> Non
         header = f"#paper{year}"
         # Build bullet list (newest first within year = reverse assignment order is fine;
         # keep YAML order)
-        bullets = "\n".join(f"* {i}" for i in ids)
+        bullets = "\n".join(f"- {i}" for i in ids)
 
         pattern = re.compile(
             rf"(?ms)^({re.escape(header)}\s*\n)(.*?)(?=^#paper\d|^#research\b|\Z)"
@@ -274,7 +274,7 @@ def update_papers_md(state: dict[str, Any], papers_path: str = PAPERS_MD) -> Non
         if m:
             # Merge: keep existing bullets not in ids, prepend missing from ids
             old_block = m.group(2)
-            existing = re.findall(r"(?m)^\*\s+(\S+)", old_block)
+            existing = re.findall(r"(?m)^[\*\-]\s+(\S+)", old_block)
             merged: list[str] = []
             seen: set[str] = set()
             for i in ids:
@@ -285,7 +285,7 @@ def update_papers_md(state: dict[str, Any], papers_path: str = PAPERS_MD) -> Non
                 if i not in seen:
                     merged.append(i)
                     seen.add(i)
-            new_block = "\n".join(f"* {i}" for i in merged) + "\n\n"
+            new_block = "\n".join(f"- {i}" for i in merged) + "\n\n"
             content = content[: m.start(2)] + new_block + content[m.end(2) :]
         else:
             # Insert after "#著作..." block / before first #paper that is older, or after intro

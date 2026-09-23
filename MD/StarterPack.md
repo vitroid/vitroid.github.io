@@ -64,15 +64,15 @@ Plucker viewerで記事を読んでいるときに切れていたリンクを、
 
 Clie+Windows+Pluckerを想定する。どれだけ手数を減らすことができるか。
 
-* Palmにインストールするプログラムはまとめておく。
-* Windowsのソフトはインストーラがある方が良い。
-* 登録ページのhtmlファイルを含んでおき、それを開いてメールアドレスを入れればユーザ登録できるようにする。
-* NewsClip Server
-   * ユーザ登録直後から、人気10チャンネルが購読できるようにする。(サーバ側の追加機能)
-   * Plucker 8bppをデフォルトで指定。
-* Plucker Viewer
-   * Clieにあわせてあらかじめカスタマイズしておく。
-   * NCSyncとの連携をスムーズにするために、MemoURL DBをPlucker Viewer側から作成できるようにする。
+- Palmにインストールするプログラムはまとめておく。
+- Windowsのソフトはインストーラがある方が良い。
+- 登録ページのhtmlファイルを含んでおき、それを開いてメールアドレスを入れればユーザ登録できるようにする。
+- NewsClip Server
+   - ユーザ登録直後から、人気10チャンネルが購読できるようにする。(サーバ側の追加機能)
+   - Plucker 8bppをデフォルトで指定。
+- Plucker Viewer
+   - Clieにあわせてあらかじめカスタマイズしておく。
+   - NCSyncとの連携をスムーズにするために、MemoURL DBをPlucker Viewer側から作成できるようにする。
 
 
 
@@ -81,18 +81,18 @@ Clie+Windows+Pluckerを想定する。どれだけ手数を減らすことがで
 
 ### Palm
 
-* plucker viewer..画面深さなどの初期値をあらかじめデバイスにあわせてカスタマイズした物を準備
-* zlib
+- plucker viewer..画面深さなどの初期値をあらかじめデバイスにあわせてカスタマイズした物を準備
+- zlib
 
 ### Zaurus
 
-* [Opie Reader](http://www.timwentford.uklinux.net/)?..日本語化が必要 http://www.sibelle.info/gadgets/zopier.htm
-* 適当なDocリーダ
+- [Opie Reader](http://www.timwentford.uklinux.net/)?..日本語化が必要 http://www.sibelle.info/gadgets/zopier.htm
+- 適当なDocリーダ
 
 ### PocketPC
 
-* [Vade Mecam](http://sourceforge.net/projects/vade-mecum)?..日本語化が必要
-* 適当なDocリーダ
+- [Vade Mecam](http://sourceforge.net/projects/vade-mecum)?..日本語化が必要
+- 適当なDocリーダ
 ----
 
 
@@ -101,11 +101,11 @@ Clie+Windows+Pluckerを想定する。どれだけ手数を減らすことがで
 
 ### Palm単体でNewsClipを利用する
 
-* NCSync
+- NCSync
 
 ## 母艦はWindows
 
-* NewsClipSync Conduit
+- NewsClipSync Conduit
 ----
 
 

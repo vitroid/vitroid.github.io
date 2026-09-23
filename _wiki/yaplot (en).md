@@ -17,9 +17,9 @@ Sample image of yaplot.
 
 (Visualization of 3-dimensional bond percolation.)
 
-* [yaplot](http://theochem.chem.okayama-u.ac.jp/vitroid/yaplot (en)/yaplot3.3.20040803.tar.gz) Source codes(2004-08-03)
-* [yaplot](http://theochem.chem.okayama-u.ac.jp/vitroid/yaplot (en)/yaplot-3.3-1.i386.rpm) Binary package for Vine Linux(2004-08-03)
-* [yaplot](http://theochem.chem.okayama-u.ac.jp/vitroid/yaplot (en)/yaplot_3.3-1_i386.deb) Binary package for Debian Linux(2004-08-03)
+- [yaplot](http://theochem.chem.okayama-u.ac.jp/vitroid/yaplot (en)/yaplot3.3.20040803.tar.gz) Source codes(2004-08-03)
+- [yaplot](http://theochem.chem.okayama-u.ac.jp/vitroid/yaplot (en)/yaplot-3.3-1.i386.rpm) Binary package for Vine Linux(2004-08-03)
+- [yaplot](http://theochem.chem.okayama-u.ac.jp/vitroid/yaplot (en)/yaplot_3.3-1_i386.deb) Binary package for Debian Linux(2004-08-03)
 
 ## What is yaplot?
 
@@ -28,8 +28,8 @@ Sample image of yaplot.
 
 ### Features
 
-* Simple animation, simple control.
-* Simple data format.
+- Simple animation, simple control.
+- Simple data format.
 Yaplot is an easy 3D modeller and animator  for visualizing the results of computer simulation.
 
 You can browse the motion of the 3 dimentional wire frame model  with text labels and  some marks on the cheap PC based X terminals.
@@ -246,7 +246,7 @@ Each line of the palette file specifies the Red, Green and Blue  intensity of th
 
 ## Related materials
 
-* [MDView](http://www.chem.nagoya-u.ac.jp/bar/mdview/index.html) Molecular Dynamics Viewer.
+- [MDView](http://www.chem.nagoya-u.ac.jp/bar/mdview/index.html) Molecular Dynamics Viewer.
 
 
 

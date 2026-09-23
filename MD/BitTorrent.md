@@ -4,7 +4,7 @@
 
 
 
-* http://lowlife.jp/yasusii/stories/16.html 仕様書
+- http://lowlife.jp/yasusii/stories/16.html 仕様書
 
 
 

@@ -16,11 +16,11 @@ permalink: /NewsClip
 
 ## [NewsClip](/NewsClip)の使い方いろいろ
 
-* [NewsClip Recipe 1](/NewsClip Recipe 1)
-* [NewsClip Recipe 2](/NewsClip Recipe 2)
-* [NewsClip Recipe 3](/NewsClip Recipe 3)
-* [NewsClip Recipe 4](/NewsClip Recipe 4)
-* [NewsClip Recipe 5](/NewsClip Recipe 5)
+- [NewsClip Recipe 1](/NewsClip Recipe 1)
+- [NewsClip Recipe 2](/NewsClip Recipe 2)
+- [NewsClip Recipe 3](/NewsClip Recipe 3)
+- [NewsClip Recipe 4](/NewsClip Recipe 4)
+- [NewsClip Recipe 5](/NewsClip Recipe 5)
 
 
 

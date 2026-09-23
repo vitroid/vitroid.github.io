@@ -5,8 +5,8 @@ permalink: /TrainScanner
 # [TrainScanner](/TrainScanner)
 
 
-* [](https://github.com/vitroid/TrainScanner) -- ビデオから列車の長ーい[写真](/写真)を生成する
-* この取り組みをはじめてから、2019年で10周年を迎えました。
+- [](https://github.com/vitroid/TrainScanner) -- ビデオから列車の長ーい[写真](/写真)を生成する
+- この取り組みをはじめてから、2019年で10周年を迎えました。
 
 
 

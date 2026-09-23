@@ -5,7 +5,7 @@ permalink: /rubikitch
 
 # るびきちさん
 
-* [http://www.rubyist.net/~rubikitch/index.cgi](http://www.rubyist.net/~rubikitch/index.cgi)
+- [http://www.rubyist.net/~rubikitch/index.cgi](http://www.rubyist.net/~rubikitch/index.cgi)
 
 
 

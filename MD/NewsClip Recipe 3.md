@@ -8,11 +8,11 @@ Docリーダ愛好者のために
 
 ## 使うツール
 
-* NewsClip
-* Docリーダ(J-Doc Reader, Crs-MeDocなど。部分的にクリップボードにコピーする機能のあるものが望ましい。)
-* Palm Desktop
-* MemoURL DAまたはMemoURL DD
-* MemoURLアプリ、MemoURLコンジット
+- NewsClip
+- Docリーダ(J-Doc Reader, Crs-MeDocなど。部分的にクリップボードにコピーする機能のあるものが望ましい。)
+- Palm Desktop
+- MemoURL DAまたはMemoURL DD
+- MemoURLアプリ、MemoURLコンジット
 
 ## 手順
 
@@ -25,8 +25,8 @@ Docリーダ愛好者のために
 
 ## さらにひと工夫
 
-* NewsClipSync Conduitを使えば、Palmの空きメモリ量に収まるようにダウンロードファイルサイズを調節しつつ、NewsClipからファイルをダウンロードし、Palmにインストールするまでの一連の手順が自動化できます。
-* ロングブーツNCを使えば、NewsClipからダウンロードしてきたファイルをPalmインストーラに渡す作業が自動化できます。
-* zip+box形式で一括ダウンロードした場合は、NC-Boxerを使ってPalm上で解凍できます。
-* HotSyncをあまりやらないひと、出先でアクセスしたいひと、無線LAN対応のPalmを使っているひとはNewsClip Recipe 4へ。
-* 画像入りで閲覧したいひとはNewsClip Recipe 1へ。
+- NewsClipSync Conduitを使えば、Palmの空きメモリ量に収まるようにダウンロードファイルサイズを調節しつつ、NewsClipからファイルをダウンロードし、Palmにインストールするまでの一連の手順が自動化できます。
+- ロングブーツNCを使えば、NewsClipからダウンロードしてきたファイルをPalmインストーラに渡す作業が自動化できます。
+- zip+box形式で一括ダウンロードした場合は、NC-Boxerを使ってPalm上で解凍できます。
+- HotSyncをあまりやらないひと、出先でアクセスしたいひと、無線LAN対応のPalmを使っているひとはNewsClip Recipe 4へ。
+- 画像入りで閲覧したいひとはNewsClip Recipe 1へ。

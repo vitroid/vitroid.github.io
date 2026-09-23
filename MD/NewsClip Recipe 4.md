@@ -8,12 +8,12 @@ HotSyncを使わないで、Palmの通信機能を利用する。Doc形式を愛
 
 ## 使うツール
 
-* NewsClip
-* Docリーダ(J-Doc Reader, Crs-MeDocなど。部分的にクリップボードにコピーする機能のあるものが望ましい。)
-* NCSync
-* MemoURL DAまたはMemoURL DD
-* MemoURLアプリ
-* RetrievR
+- NewsClip
+- Docリーダ(J-Doc Reader, Crs-MeDocなど。部分的にクリップボードにコピーする機能のあるものが望ましい。)
+- NCSync
+- MemoURL DAまたはMemoURL DD
+- MemoURLアプリ
+- RetrievR
 
 ## 手順
 
@@ -26,4 +26,4 @@ HotSyncを使わないで、Palmの通信機能を利用する。Doc形式を愛
 
 ## さらにひと工夫
 
-* まめにHotSyncするひとはNewsClip Recipe 3へ。
+- まめにHotSyncするひとはNewsClip Recipe 3へ。

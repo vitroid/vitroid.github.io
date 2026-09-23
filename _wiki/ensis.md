@@ -9,8 +9,8 @@ permalink: /ensis
 
 ## [ensis](/ensis)
 
-* [http://www.ensis.jp/cgi-bin/tdiary/](http://www.ensis.jp/cgi-bin/tdiary/)
-* [Loki](/Loki)さん
+- [http://www.ensis.jp/cgi-bin/tdiary/](http://www.ensis.jp/cgi-bin/tdiary/)
+- [Loki](/Loki)さん
 
 
 

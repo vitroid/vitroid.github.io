@@ -13,7 +13,7 @@ permalink: /metatron
 
 「数と水」というカテゴリ名がすてき。ただし、内容は僕の趣味ではない。
 
-* [http://homepage1.nifty.com/metatron/](http://homepage1.nifty.com/metatron/)
+- [http://homepage1.nifty.com/metatron/](http://homepage1.nifty.com/metatron/)
 
 
 ----

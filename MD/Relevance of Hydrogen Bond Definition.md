@@ -18,8 +18,8 @@ In this section, error magnitude is evaluated for new hydrogen bond definitions 
   <dt>Reference</dt><dd>A.D.Hammerich and V.Buch, J. Chem. Phys. 128,111101 (2008).
 </dd>
 </dl>
-* I(error)=0.255 at 236K with TIP4P/2005.
-* I(error)=0.597 at 276K with TIP4P/2005.
+- I(error)=0.255 at 236K with TIP4P/2005.
+- I(error)=0.597 at 276K with TIP4P/2005.
 Their definition is simple. Ambiguity is eliminated because there is no control parameter (threshold) for determining the bonds. Error magnitude is small, but is not minimal compared with the simple criterion by intermolecular OH distance.
 
 <!--  -->

@@ -5,7 +5,7 @@ permalink: /Panojector
 # [Panojector](/Panojector)
 
 
-* [](https://github.com/vitroid/Panojector) -- [写真](/写真)の写像変換
+- [](https://github.com/vitroid/Panojector) -- [写真](/写真)の写像変換
 
 
 

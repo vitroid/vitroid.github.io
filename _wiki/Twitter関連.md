@@ -21,9 +21,9 @@ Feed iCalendar and tweet today's events.
 
 ## Required packages
 
-* ~~twitter [http://mike.verdone.ca/twitter/~~](http://mike.verdone.ca/twitter/~~)
-* simplejson [http://pypi.python.org/pypi/simplejson/](http://pypi.python.org/pypi/simplejson/)
-* icalendar (for icalandtweet.py only) [http://codespeak.net/icalendar](http://codespeak.net/icalendar)
+- ~~twitter [http://mike.verdone.ca/twitter/~~](http://mike.verdone.ca/twitter/~~)
+- simplejson [http://pypi.python.org/pypi/simplejson/](http://pypi.python.org/pypi/simplejson/)
+- icalendar (for icalandtweet.py only) [http://codespeak.net/icalendar](http://codespeak.net/icalendar)
 
 ## Usage
 
@@ -41,9 +41,9 @@ GPL
 
 ## ChangeLog
 
-* 2011-8-17 OAuth is implemented.
-* 2009-11-20 Treatment of allday events was improved.
-* 2009-11-25 modified to decode  base64-encoded body in PopAndTweet.py . [松本](/松本) - [matto](/matto) 
+- 2011-8-17 OAuth is implemented.
+- 2009-11-20 Treatment of allday events was improved.
+- 2009-11-25 modified to decode  base64-encoded body in PopAndTweet.py . [松本](/松本) - [matto](/matto) 
 <!--  -->
 
 

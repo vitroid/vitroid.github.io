@@ -44,31 +44,31 @@ Almost all the [vitrite](/vitrite) found in low density amorphous ice is recorde
 
 Here is a sample URL to get a graph and its topological/geometrical attributes in XML:
 
-* [Sample Query](http://vitrite.chem.okayama-u.ac.jp/cgi-bin/vitrite.cgi?id=39&form=xml&field=ringset,shape)
+- [Sample Query](http://vitrite.chem.okayama-u.ac.jp/cgi-bin/vitrite.cgi?id=39&form=xml&field=ringset,shape)
 ```
 vitrite.cgi?id=39&form=xml&field=ringset,shape
 ```
 The parameter 'id' specifies the graph ID in the database. You can specify multiple attributes for 'field' parameter in comma-separated format. Currently you can specify the following fields:
 
-* spectrum
-* solid
-* volume
-* ringset
-* crystalviewer
-* is[vitrite](/vitrite)
-* image
-* symmetry
-* ringcount
-* eulerindex
-* topovolume
-* shape
-* graph
-* rd
+- spectrum
+- solid
+- volume
+- ringset
+- crystalviewer
+- is[vitrite](/vitrite)
+- image
+- symmetry
+- ringcount
+- eulerindex
+- topovolume
+- shape
+- graph
+- rd
 Note that 'graph' is mandatory.
 
 You can also search by exact graph matching. Graph topology is specified in [simple notation](/simple notation). Here is an example query for [vitrite](/vitrite) [8.](/8.)
 
-* [Sample Query](http://vitrite.chem.okayama-u.ac.jp/cgi-bin/vitrite.cgi?simple=A-B-C-D-E-F-A,C-G-H-F&form=xml&field=ringset)
+- [Sample Query](http://vitrite.chem.okayama-u.ac.jp/cgi-bin/vitrite.cgi?simple=A-B-C-D-E-F-A,C-G-H-F&form=xml&field=ringset)
 ```
 vitrite.cgi?simple=A-B-C-D-E-F-A,C-G-H-F&form=xml&field=ringset
 ```
@@ -79,17 +79,17 @@ vitrite.cgi?simple=A-B-C-D-E-F-A,C-G-H-F&form=xml&field=ringset
 
 To get a set of graphs satisfying a couple of conditions at a time, a sample URL is following:
 
-* [Sample Query](http://vitrite.chem.okayama-u.ac.jp/cgi-bin/vitrite.cgi?form=xml&field=graph,isvitrite&key1=id&op1=in&val1=3,5,7-9&key2=isvitrite&op2=eq&val2=0)
+- [Sample Query](http://vitrite.chem.okayama-u.ac.jp/cgi-bin/vitrite.cgi?form=xml&field=graph,isvitrite&key1=id&op1=in&val1=3,5,7-9&key2=isvitrite&op2=eq&val2=0)
 ```
 vitrite.cgi?form=xml&field=graph,isvitrite&key1=id&op1=in&val1=3,5,7-9&key2=isvitrite&op2=eq&val2=0
 ```
 Number of query results can be limited by keywords 'sta'(starts) and 'rec'(records). If you need only the first 50 records out of 1000 query results, add 'sta=0&rec=50' to the URL. if you want the second 50 records, it becomes 'sta=50&rec=50'. If rec is unspecified, number of query results is limited to 1000 for fail-safe. See the following sample queries.
 
-* [Sample Query 1 (first 10 matches)](http://vitrite.chem.okayama-u.ac.jp/cgi-bin/vitrite.cgi?form=xml&field=isvitrite&key1=isvitrite&op1=eq&val1=0&sta=0&rec=10)
+- [Sample Query 1 (first 10 matches)](http://vitrite.chem.okayama-u.ac.jp/cgi-bin/vitrite.cgi?form=xml&field=isvitrite&key1=isvitrite&op1=eq&val1=0&sta=0&rec=10)
 ```
 vitrite.cgi?form=xml&field=isvitrite&key1=isvitrite&op1=eq&val1=0&sta=0&rec=10
 ```
-* [Sample Query 2 (second 9 matches)](http://vitrite.chem.okayama-u.ac.jp/cgi-bin/vitrite.cgi?form=xml&field=isvitrite&key1=isvitrite&op1=eq&val1=0&sta=10&rec=9)
+- [Sample Query 2 (second 9 matches)](http://vitrite.chem.okayama-u.ac.jp/cgi-bin/vitrite.cgi?form=xml&field=isvitrite&key1=isvitrite&op1=eq&val1=0&sta=10&rec=9)
 ```
 vitrite.cgi?form=xml&field=isvitrite&key1=isvitrite&op1=eq&val1=0&sta=10&rec=9
 ```
@@ -141,12 +141,12 @@ You can write some convenient tools by yourself to access the [vitrite](/vitrite
 
 ### A sample code to convert the result XML into a simple table
 
-* preparation
+- preparation
 ```
 # perl -MCPAN -e 'install XML::Parser::EasyTree'
 # perl -MCPAN -e 'install Data::Dumper'
 ```
-* source code in perl
+- source code in perl
 ```
 #!/usr/bin/env perl
 use strict;

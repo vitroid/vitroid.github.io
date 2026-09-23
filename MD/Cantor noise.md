@@ -8,14 +8,14 @@
 
 
 
-* [](storage:Cantor noise/cantor.wav) Sound file (WAVE format).
-* [](storage:Cantor noise/cantor.c) C source.
-* [](storage:Cantor noise/Makefile.cantor) Makefile.
+- [](storage:Cantor noise/cantor.wav) Sound file (WAVE format).
+- [](storage:Cantor noise/cantor.c) C source.
+- [](storage:Cantor noise/Makefile.cantor) Makefile.
 
 
 
 ## リンク
 
-* http://poco.phys.tohoku.ac.jp/fractals/misc/misc.html カントール集合の図
+- http://poco.phys.tohoku.ac.jp/fractals/misc/misc.html カントール集合の図
 
 

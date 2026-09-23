@@ -23,10 +23,10 @@ Specifies a list of cyclic path in the graph. Graph connectivity should be speci
 
 ## See also
 
-* [@FRAG](/@FRAG)
-* [@RSET](/@RSET)
-* [@NGPH](/@NGPH)
-* [Ring Statistics Algorithm](/Ring Statistics Algorithm)
+- [@FRAG](/@FRAG)
+- [@RSET](/@RSET)
+- [@NGPH](/@NGPH)
+- [Ring Statistics Algorithm](/Ring Statistics Algorithm)
 
 
 

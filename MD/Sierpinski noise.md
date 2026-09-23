@@ -27,8 +27,8 @@ x(n+1, i) = x(n, i) xor x(n,i-1)
 
 
 
-* [](storage:Sierpinski noise/sierpinski.aiff) Sierpinski Noise.
-* [](storage:Sierpinski noise/sierpinski.c) C source.
-* [](storage:Sierpinski noise/Makefile.sierpinski) Makefile.
+- [](storage:Sierpinski noise/sierpinski.aiff) Sierpinski Noise.
+- [](storage:Sierpinski noise/sierpinski.c) C source.
+- [](storage:Sierpinski noise/Makefile.sierpinski) Makefile.
 
 

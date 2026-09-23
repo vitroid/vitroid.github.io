@@ -1,8 +1,8 @@
 # Product2014
 
 
-* First thing for the 3D printer I designed and submitted to the [Thingiverse](http://www.thingiverse.com/thing:346416)
-* [Modular Pill Bug](http://www.thingiverse.com/thing:446015)
+- First thing for the 3D printer I designed and submitted to the [Thingiverse](http://www.thingiverse.com/thing:346416)
+- [Modular Pill Bug](http://www.thingiverse.com/thing:446015)
 
 ## Exhibition
 

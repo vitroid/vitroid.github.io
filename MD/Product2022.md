@@ -1,6 +1,6 @@
 ## Projects
 
-* [Wordle guesser](https://vitroid.github.io/wordle/)
+- [Wordle guesser](https://vitroid.github.io/wordle/)
 
 ## Exhibition
 

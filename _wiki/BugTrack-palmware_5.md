@@ -5,11 +5,11 @@ permalink: /BugTrack-palmware_5
 
 # Freezeします
 
-* 投稿者： jirokunyork
-* カテゴリ： [NCSync](/NCSync)
-* 優先度： 緊急
-* 状態： 提案
-* 日時： 2004年11月28日 20時21分03秒
+- 投稿者： jirokunyork
+- カテゴリ： [NCSync](/NCSync)
+- 優先度： 緊急
+- 状態： 提案
+- 日時： 2004年11月28日 20時21分03秒
 
 
 

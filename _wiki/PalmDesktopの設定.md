@@ -23,17 +23,17 @@ handera330を、Macと同期させる方法。
 
 ## シリアルクレードルをMacで使う。
 
-* [http://www.ne.jp/asahi/masa/training/oitoku/mac_palm_sync/index.html](http://www.ne.jp/asahi/masa/training/oitoku/mac_palm_sync/index.html) これによれば、HanderaならMissingSyncなしでもMacと同期できる。
-* [http://www.palm.com/jp/support/downloads/mac_desktop40.html](http://www.palm.com/jp/support/downloads/mac_desktop40.html) PalmDesktop suitable for Handera330 - [matto](/matto) 
-* HanderaのUSB接続には、ありあわせのUSB-CVRS9を使用。USB-CVRS9の中身はProlific PL-2303らしい。 [http://www.prolific.com.tw/eng/downloads.asp?ID=31](http://www.prolific.com.tw/eng/downloads.asp?ID=31) ドライバーを入手 - [matto](/matto) 
-* [http://www.osxhax.com/archives/000006.html](http://www.osxhax.com/archives/000006.html) これが一番参考になった。Info.plistをかきかえ(dictを書きたすのではなく)たあと、kextloadでドライバーを読みこませる。 - [matto](/matto) 
+- [http://www.ne.jp/asahi/masa/training/oitoku/mac_palm_sync/index.html](http://www.ne.jp/asahi/masa/training/oitoku/mac_palm_sync/index.html) これによれば、HanderaならMissingSyncなしでもMacと同期できる。
+- [http://www.palm.com/jp/support/downloads/mac_desktop40.html](http://www.palm.com/jp/support/downloads/mac_desktop40.html) PalmDesktop suitable for Handera330 - [matto](/matto) 
+- HanderaのUSB接続には、ありあわせのUSB-CVRS9を使用。USB-CVRS9の中身はProlific PL-2303らしい。 [http://www.prolific.com.tw/eng/downloads.asp?ID=31](http://www.prolific.com.tw/eng/downloads.asp?ID=31) ドライバーを入手 - [matto](/matto) 
+- [http://www.osxhax.com/archives/000006.html](http://www.osxhax.com/archives/000006.html) これが一番参考になった。Info.plistをかきかえ(dictを書きたすのではなく)たあと、kextloadでドライバーを読みこませる。 - [matto](/matto) 
 
 ## その他
 
-* Handeraを接続するためのUSB-serial変換器があまりにてこずるので、Clie SL10を復活させようかと思ったが、こいつはコンデンサが抜けちゃってるらしい。電池を抜くと即座に忘れる。ひどい製品だな。 - [matto](/matto) 
-* iSyncでうまくいかない原因は、古いフォルダが残っているせいの場合が多い。 - [matto](/matto) 
-* 数年ぶりのHotSyncなので非常に時間がかかった。 - [matto](/matto) 
-* sudo kextload /System/Library/Extensions/ProlificUsbSerial.kext  - [matto](/matto) 
+- Handeraを接続するためのUSB-serial変換器があまりにてこずるので、Clie SL10を復活させようかと思ったが、こいつはコンデンサが抜けちゃってるらしい。電池を抜くと即座に忘れる。ひどい製品だな。 - [matto](/matto) 
+- iSyncでうまくいかない原因は、古いフォルダが残っているせいの場合が多い。 - [matto](/matto) 
+- 数年ぶりのHotSyncなので非常に時間がかかった。 - [matto](/matto) 
+- sudo kextload /System/Library/Extensions/ProlificUsbSerial.kext  - [matto](/matto) 
 <!--  -->
 
 

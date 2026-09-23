@@ -5,11 +5,11 @@ permalink: /BugTrack-palmware_3
 
 # 警告
 
-* 投稿者： gliff
-* カテゴリ： [NewsClip](/NewsClip)
-* 優先度： 緊急
-* 状態： 却下
-* 日時： 2004年08月27日 19時07分30秒
+- 投稿者： gliff
+- カテゴリ： [NewsClip](/NewsClip)
+- 優先度： 緊急
+- 状態： 却下
+- 日時： 2004年08月27日 19時07分30秒
 
 
 
@@ -20,8 +20,8 @@ permalink: /BugTrack-palmware_3
 
 ## コメント
 
-* 本人ですか？ - [matto](/matto) (2004年08月27日 19時52分14秒)
-* NewcClipサーバーがまた止まっているようです - jirokunyork (2004年11月28日 20時11分34秒)
+- 本人ですか？ - [matto](/matto) (2004年08月27日 19時52分14秒)
+- NewcClipサーバーがまた止まっているようです - jirokunyork (2004年11月28日 20時11分34秒)
 <!--  -->
 
 

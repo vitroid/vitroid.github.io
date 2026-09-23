@@ -3,7 +3,7 @@
 
 #palmware
 
-* http://amsoft.minidns.net/palm/memourl.html
+- http://amsoft.minidns.net/palm/memourl.html
 
 
 Palm上で入力したURLをHotSync時に巡回してPCのブラウザで表示してくれるソフト。めっちゃ便利。NCSyncでは、newsclip専用URLタグを保存するためにMemoURLデータベースを借用しています。

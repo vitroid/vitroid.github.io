@@ -8,7 +8,7 @@ permalink: /ISUILS
 
 International Symposium on Ultrafast Intense Laser Science
 
-* www.isuils.jp
+- www.isuils.jp
 
 
 

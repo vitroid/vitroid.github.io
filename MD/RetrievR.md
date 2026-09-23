@@ -37,9 +37,9 @@ RetrievRは、MemoURLデータベースに記録されているURLを直接ダ�
 </dl>
 以下は好みで選んでください。
 
-* 拡張版PluckerViewer
-* MeDocリーダ
-* MemoURL DA
+- 拡張版PluckerViewer
+- MeDocリーダ
+- MemoURL DA
 
 ## 使い方
 
@@ -60,12 +60,12 @@ RetrievRは、MemoURLデータベースに記録されているURLを直接ダ�
 
 最近のPalmにはNetFrontなどの本格的なブラウザが標準で入っている場合も多く、オフライン使用時にリンクがきれていても、オンラインになったときにまとめて巡回することはできるので、RetrievRを使う必要性を感じないかもしれません。RetrievRを使うメリットは、
 
-* MemoURLと連携している。MemoURL DAやGoogle DAなどでURLを書きためておけるので、メモ帳やアドレス帳、Docファイルなどあらゆるデータに出現するURLを巡回できます。
-* 巡回結果はMeDocやPlucker形式で取得できるので、普段利用するDocリーダで読むことができる。
-* サーバ側で巡回するので、Palmの通信速度や処理速度に依存しない。旧機種のPalmでも利用可能。
-* Palm用クライアントは20kバイトと非常にコンパクト。
-* サーバからPalmへの転送時には圧縮が行われ、通信量、電池消費量が極小化される。
-* 巡回リクエストとダウンロードを別セッションで行えるので、通信が不安定な場合には巡回リクエストだけ送って、ダウンロードを後日行うこともできる。
+- MemoURLと連携している。MemoURL DAやGoogle DAなどでURLを書きためておけるので、メモ帳やアドレス帳、Docファイルなどあらゆるデータに出現するURLを巡回できます。
+- 巡回結果はMeDocやPlucker形式で取得できるので、普段利用するDocリーダで読むことができる。
+- サーバ側で巡回するので、Palmの通信速度や処理速度に依存しない。旧機種のPalmでも利用可能。
+- Palm用クライアントは20kバイトと非常にコンパクト。
+- サーバからPalmへの転送時には圧縮が行われ、通信量、電池消費量が極小化される。
+- 巡回リクエストとダウンロードを別セッションで行えるので、通信が不安定な場合には巡回リクエストだけ送って、ダウンロードを後日行うこともできる。
 RetrievRの大きな欠点は、対話的なページ(webフォーム)や、PDFなどの
 
 異種ファイルを扱えないことです。
@@ -96,7 +96,7 @@ http://newsclip.chem.nagoya-u.ac.jp/cgi-bin/ret.cgi
 
 ## Link
 
-* MemoURL
-* 拡張版PluckerViewer
-* NewsClip
-* NCSync
+- MemoURL
+- 拡張版PluckerViewer
+- NewsClip
+- NCSync

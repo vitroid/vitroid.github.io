@@ -68,15 +68,15 @@ Windows機とHotSyncする際に自動的に[NewsClip](/NewsClip)から記事を
 
 Clie+Windows+[Plucker](/Plucker)を想定する。どれだけ手数を減らすことができるか。
 
-* Palmにインストールするプログラムは[まとめ](/まとめ)ておく。
-* Windowsのソフトはインストーラがある方が良い。
-* 登録ページのhtmlファイルを含んでおき、それを開いてメールアドレスを入れればユーザ登録できるようにする。
-* [NewsClip](/NewsClip) Server
-   * ユーザ登録直後から、人気10チャンネルが購読できるようにする。(サーバ側の追加機能)
-   * [Plucker](/Plucker) 8bppをデフォルトで指定。
-* [Plucker](/Plucker) Viewer
-   * Clieにあわせてあらかじめカスタマイズしておく。
-   * [NCSync](/NCSync)との連携をスムーズにするために、[MemoURL](/MemoURL) DBを[Plucker](/Plucker) Viewer側から作成できるようにする。
+- Palmにインストールするプログラムは[まとめ](/まとめ)ておく。
+- Windowsのソフトはインストーラがある方が良い。
+- 登録ページのhtmlファイルを含んでおき、それを開いてメールアドレスを入れればユーザ登録できるようにする。
+- [NewsClip](/NewsClip) Server
+   - ユーザ登録直後から、人気10チャンネルが購読できるようにする。(サーバ側の追加機能)
+   - [Plucker](/Plucker) 8bppをデフォルトで指定。
+- [Plucker](/Plucker) Viewer
+   - Clieにあわせてあらかじめカスタマイズしておく。
+   - [NCSync](/NCSync)との連携をスムーズにするために、[MemoURL](/MemoURL) DBを[Plucker](/Plucker) Viewer側から作成できるようにする。
 
 
 
@@ -85,18 +85,18 @@ Clie+Windows+[Plucker](/Plucker)を想定する。どれだけ手数を減らす
 
 ### Palm
 
-* plucker viewer..画面深さなどの初期値をあらかじめデバイスにあわせてカスタマイズした物を準備
-* zlib
+- plucker viewer..画面深さなどの初期値をあらかじめデバイスにあわせてカスタマイズした物を準備
+- zlib
 
 ### Zaurus
 
-* [Opie Reader](http://www.timwentford.uklinux.net/)?..日本語化が必要 [http://www.sibelle.info/gadgets/zopier.htm](http://www.sibelle.info/gadgets/zopier.htm)
-* 適当な[Docリーダ](/Docリーダ)
+- [Opie Reader](http://www.timwentford.uklinux.net/)?..日本語化が必要 [http://www.sibelle.info/gadgets/zopier.htm](http://www.sibelle.info/gadgets/zopier.htm)
+- 適当な[Docリーダ](/Docリーダ)
 
 ### PocketPC
 
-* [Vade Mecam](http://sourceforge.net/projects/vade-mecum)?..日本語化が必要
-* 適当な[Docリーダ](/Docリーダ)
+- [Vade Mecam](http://sourceforge.net/projects/vade-mecum)?..日本語化が必要
+- 適当な[Docリーダ](/Docリーダ)
 ----
 
 
@@ -105,11 +105,11 @@ Clie+Windows+[Plucker](/Plucker)を想定する。どれだけ手数を減らす
 
 ### Palm単体で[NewsClip](/NewsClip)を利用する
 
-* [NCSync](/NCSync)
+- [NCSync](/NCSync)
 
 ## 母艦はWindows
 
-* [NewsClipSync Conduit](/NewsClipSync Conduit)
+- [NewsClipSync Conduit](/NewsClipSync Conduit)
 ----
 
 

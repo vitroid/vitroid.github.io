@@ -111,7 +111,7 @@ include Papers
 
 ## Book Chapter
 
-* Masakazu Matsumoto, Chapter 4.3.1.2 "Amorphous Structure Analysis for Network-forming Materials",  "Topology Designing", NTS corp. (Japan), 2009; ISBN 978-4-86043-162-4.
+- Masakazu Matsumoto, Chapter 4.3.1.2 "Amorphous Structure Analysis for Network-forming Materials",  "Topology Designing", NTS corp. (Japan), 2009; ISBN 978-4-86043-162-4.
 
 ## Professional Societies
 

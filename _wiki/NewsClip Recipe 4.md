@@ -12,12 +12,12 @@ HotSyncを使わないで、Palmの通信機能を利用する。Doc形式を愛
 
 ## 使うツール
 
-* [NewsClip](/NewsClip)
-* [Docリーダ](/Docリーダ)(J-Doc Reader, Crs-MeDocなど。部分的にクリップボードにコピーする機能のあるものが望ましい。)
-* [NCSync](/NCSync)
-* [MemoURL DA](/MemoURL DA)または[MemoURL](/MemoURL) DD
-* [MemoURL](/MemoURL)アプリ
-* [RetrievR](/RetrievR)
+- [NewsClip](/NewsClip)
+- [Docリーダ](/Docリーダ)(J-Doc Reader, Crs-MeDocなど。部分的にクリップボードにコピーする機能のあるものが望ましい。)
+- [NCSync](/NCSync)
+- [MemoURL DA](/MemoURL DA)または[MemoURL](/MemoURL) DD
+- [MemoURL](/MemoURL)アプリ
+- [RetrievR](/RetrievR)
 
 ## 手順
 
@@ -30,7 +30,7 @@ HotSyncを使わないで、Palmの通信機能を利用する。Doc形式を愛
 
 ## さらにひと工夫
 
-* まめにHotSyncするひとは[NewsClip Recipe 3](/NewsClip Recipe 3)へ。
+- まめにHotSyncするひとは[NewsClip Recipe 3](/NewsClip Recipe 3)へ。
 
 
 ## Linked from

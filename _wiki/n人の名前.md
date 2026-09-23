@@ -49,7 +49,7 @@ Bashfun, Grumpy, Happy, Sleepy Dopey, Sneezy, and Doc
 
 勘兵衛、五郎兵衛、七郎次、平八、久蔵、勝四郎、菊千代
 
-* [Wikipedia:七人の侍](Wikipedia:七人の侍)
+- [Wikipedia:七人の侍](Wikipedia:七人の侍)
 
 ## 3匹の子豚の名前
 
@@ -76,8 +76,8 @@ Gang of four: Jiang Qing (Mao's fourth wife), Zhang Chunqiao, Yao Wenyuan, and W
 
 Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius, and Pisces ([http://horoscope.findyourfate.com/](http://horoscope.findyourfate.com/))
 
-* 覚え書き [http://www.geocities.co.jp/Berkeley-Labo/6317/keijiban001.html](http://www.geocities.co.jp/Berkeley-Labo/6317/keijiban001.html) - [matto](/matto) 
-* 覚え書きtop bottom up down charm strange - 名無しさん 
+- 覚え書き [http://www.geocities.co.jp/Berkeley-Labo/6317/keijiban001.html](http://www.geocities.co.jp/Berkeley-Labo/6317/keijiban001.html) - [matto](/matto) 
+- 覚え書きtop bottom up down charm strange - 名無しさん 
 <!--  -->
 
 

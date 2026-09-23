@@ -42,7 +42,7 @@ lib/Wiki以下のファイルにパッチをあてて下さい。
 
 ## コメント
 
-* [plugin:355](plugin:355)に投稿しました。 - [matto](/matto) 
+- [plugin:355](plugin:355)に投稿しました。 - [matto](/matto) 
 <!--  -->
 
 

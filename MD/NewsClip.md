@@ -12,11 +12,11 @@ NewsClipは、ウェブページを携帯端末でオフラインで読むため
 
 ## NewsClipの使い方いろいろ
 
-* NewsClip Recipe 1
-* NewsClip Recipe 2
-* NewsClip Recipe 3
-* NewsClip Recipe 4
-* NewsClip Recipe 5
+- NewsClip Recipe 1
+- NewsClip Recipe 2
+- NewsClip Recipe 3
+- NewsClip Recipe 4
+- NewsClip Recipe 5
 
 
 

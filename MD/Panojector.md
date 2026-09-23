@@ -1,7 +1,7 @@
 # Panojector
 
 
-* [](https://github.com/vitroid/Panojector) -- 写真の写像変換
+- [](https://github.com/vitroid/Panojector) -- 写真の写像変換
 
 
 

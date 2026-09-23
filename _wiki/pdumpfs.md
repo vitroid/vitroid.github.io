@@ -11,7 +11,7 @@ permalink: /pdumpfs
 
 # [pdumpfs](/pdumpfs)
 
-* [http://namazu.org/~satoru/pdumpfs/](http://namazu.org/~satoru/pdumpfs/)
+- [http://namazu.org/~satoru/pdumpfs/](http://namazu.org/~satoru/pdumpfs/)
 
 
 

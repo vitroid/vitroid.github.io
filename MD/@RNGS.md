@@ -19,9 +19,9 @@ Specifies a list of cyclic path in the graph. Graph connectivity should be speci
 
 ## See also
 
-* @FRAG
-* @RSET
-* @NGPH
-* [Ring Statistics Algorithm](/Ring Statistics Algorithm)
+- @FRAG
+- @RSET
+- @NGPH
+- [Ring Statistics Algorithm](/Ring Statistics Algorithm)
 
 

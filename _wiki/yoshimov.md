@@ -9,9 +9,9 @@ permalink: /yoshimov
 
 # Yoshimovさん
 
-* [NewsClipSync Conduit](/NewsClipSync Conduit)
-* [AddNewsClip Bookmarklet](/AddNewsClip Bookmarklet)
-* [Yoshimopedia](http://wiki.yoshimov.com/wiki.cgi)
+- [NewsClipSync Conduit](/NewsClipSync Conduit)
+- [AddNewsClip Bookmarklet](/AddNewsClip Bookmarklet)
+- [Yoshimopedia](http://wiki.yoshimov.com/wiki.cgi)
 
 
 

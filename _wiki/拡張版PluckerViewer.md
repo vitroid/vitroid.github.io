@@ -78,16 +78,16 @@ This page gives information on the hacking of plucker software.
 
 以下では、正式にCVSにとりこまれていない(開発チームの同意を得ていない)拡張機能を提供します。平成15年11月19日(水)現在の独自拡張機能は以下の点のみです。
 
-* [MemoURL](/MemoURL)に対応する機能。外部リンクを、[MemoURL](/MemoURL)に登録し、次回のHotSync時にPCのブラウザでそのリンクを表示できるようになります。この機能はコンパイル時のオプションです。
-* (J-OS対応のためのパッチは開発版にとりこまれました。)
-* (UX-50対応のためのパッチは開発版にとりこまれました。)
-* Quick Export機能。外部リンクをタップすると、即時に[Memo](/Memo)または[MemoURL](/MemoURL)にexportされます。外部リンクは太いアンダーラインで通常のリンクと区別されます。この機能はコンパイル時のオプションです。一般設定の「書き出し」で設定することができます。
-* Frequent Marking機能。検索やジャンプした時に、ジャンプ元の位置を自動的にhistoryに記録し、もといた場所に1ストロークで戻れるようにします。この機能はコンパイル時のオプションです。
-* KIRA*さんによる、SonyのOS5デバイスでtiny/smallフォントの文字化けに対する修正。(平成15年12月04日(木))この機能はコンパイル時のオプションです。
-* ([rubikitch](/rubikitch)さんによる、手動でヒストリースタックに現在位置を記録する修正は開発版に取り入れられました。)
-* ([rubikitch](/rubikitch)さんによる、文書閲覧時にソフトウェアキーボードを抑止する修正は平成15年12月31日(水)に開発版に取り入れられました。)
-* (タップして選択した単語を、クリップボードにコピーする機能は平成16年1月9日(金)に開発版に取り入れられました。ただし、日本語の文書の場合、一行まるごとコピーされてしまいます。)
-* KIRA*さんによる、tsPatch対応修正。T|TなどのSony以外のOS5デバイスでも、tsPatchを援用することでtiny/smallフォントを使用できます。(平成16年1月18日(日))この機能はコンパイル時のオプションです。
+- [MemoURL](/MemoURL)に対応する機能。外部リンクを、[MemoURL](/MemoURL)に登録し、次回のHotSync時にPCのブラウザでそのリンクを表示できるようになります。この機能はコンパイル時のオプションです。
+- (J-OS対応のためのパッチは開発版にとりこまれました。)
+- (UX-50対応のためのパッチは開発版にとりこまれました。)
+- Quick Export機能。外部リンクをタップすると、即時に[Memo](/Memo)または[MemoURL](/MemoURL)にexportされます。外部リンクは太いアンダーラインで通常のリンクと区別されます。この機能はコンパイル時のオプションです。一般設定の「書き出し」で設定することができます。
+- Frequent Marking機能。検索やジャンプした時に、ジャンプ元の位置を自動的にhistoryに記録し、もといた場所に1ストロークで戻れるようにします。この機能はコンパイル時のオプションです。
+- KIRA*さんによる、SonyのOS5デバイスでtiny/smallフォントの文字化けに対する修正。(平成15年12月04日(木))この機能はコンパイル時のオプションです。
+- ([rubikitch](/rubikitch)さんによる、手動でヒストリースタックに現在位置を記録する修正は開発版に取り入れられました。)
+- ([rubikitch](/rubikitch)さんによる、文書閲覧時にソフトウェアキーボードを抑止する修正は平成15年12月31日(水)に開発版に取り入れられました。)
+- (タップして選択した単語を、クリップボードにコピーする機能は平成16年1月9日(金)に開発版に取り入れられました。ただし、日本語の文書の場合、一行まるごとコピーされてしまいます。)
+- KIRA*さんによる、tsPatch対応修正。T|TなどのSony以外のOS5デバイスでも、tsPatchを援用することでtiny/smallフォントを使用できます。(平成16年1月18日(日))この機能はコンパイル時のオプションです。
 ほかに要望があれば[matto](/matto)にお知らせ下さい。
 
 
@@ -160,8 +160,8 @@ This is free software.
 
 ## コメント
 
-* [http://www.timwentford.uklinux.net/](http://www.timwentford.uklinux.net/) TWReader for Zaurus - [matto](/matto) (2004年05月31日 16時12分09秒)
-* [http://vade-mecum.sourceforge.net/](http://vade-mecum.sourceforge.net/) Vade Mecum for PocketPC - [matto](/matto) (2004年06月02日 12時01分56秒)
+- [http://www.timwentford.uklinux.net/](http://www.timwentford.uklinux.net/) TWReader for Zaurus - [matto](/matto) (2004年05月31日 16時12分09秒)
+- [http://vade-mecum.sourceforge.net/](http://vade-mecum.sourceforge.net/) Vade Mecum for PocketPC - [matto](/matto) (2004年06月02日 12時01分56秒)
 
 
 

@@ -5,7 +5,7 @@
 
 yoshimovさんの、WIndows用Conduit。HotSync時にNewsClipの記事を取得してPalmに流し込みます。
 
-* [NewsClipSync Conduitのページ](http://wiki.yoshimov.com/wiki.cgi?page=NewsclipSync+Conduit)
+- [NewsClipSync Conduitのページ](http://wiki.yoshimov.com/wiki.cgi?page=NewsclipSync+Conduit)
 
 ## インストーラ
 

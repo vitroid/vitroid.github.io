@@ -8,7 +8,7 @@ Palm以外のPDAで利用する方法
 
 ## 使うツール
 
-* NewsClip
+- NewsClip
 
 ## 手順
 

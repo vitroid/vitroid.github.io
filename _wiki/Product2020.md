@@ -6,7 +6,7 @@ permalink: /Product2020
 
 ## Projects
 
-* 理論化学会 [ロゴマーク](/ロゴマーク)
+- 理論化学会 [ロゴマーク](/ロゴマーク)
 
 ## Exhibition
 

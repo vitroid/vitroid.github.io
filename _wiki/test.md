@@ -4,14 +4,14 @@ permalink: /test
 ---
 [InterWikiName](/InterWikiName)の[test](/test)
 
-* [thoth:test](thoth:test)
-* [localfile:deltatime.pl](localfile:deltatime.pl)
-* 00001
-* 00001[test](/test)
+- [thoth:test](thoth:test)
+- [localfile:deltatime.pl](localfile:deltatime.pl)
+- 00001
+- 00001[test](/test)
 Categoryへのリンクのテスト
 
-* [{water}]({water})こちらの記法はまだサポートしていない。
-* water
+- [{water}]({water})こちらの記法はまだサポートしていない。
+- water
 
 
 

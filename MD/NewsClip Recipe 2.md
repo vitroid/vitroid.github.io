@@ -8,11 +8,11 @@ HotSyncを使わないで、Palmの通信機能を利用する方法
 
 ## 使うツール
 
-* NewsClip
-* 拡張版PluckerViewer
-* NCSync
-* MemoURLアプリ
-* RetrievR
+- NewsClip
+- 拡張版PluckerViewer
+- NCSync
+- MemoURLアプリ
+- RetrievR
 
 ## 手順
 
