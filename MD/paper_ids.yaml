@@ -1,0 +1,123 @@
+year_from: 2022
+papers:
+- id: M2022
+  citekey: 2022-dy
+  paperpile_id: 40e37383-d6b1-07d8-b9ce-b13c301deff7
+  year: 2022
+  title: 氷生成ツール GenIce
+  existing: false
+- id: MT2022
+  citekey: Matsumoto2022-ij
+  doi: 10.1021/acs.energyfuels.2c01337
+  paperpile_id: d27cbb45-d35f-0641-a28f-4ebd3e3a8b8f
+  year: 2022
+  title: Structure Selectivity of Mixed Gas Hydrates and Group 14 Clathrates
+  existing: true
+- id: TMY2022
+  citekey: Tanaka2022-wt
+  doi: 10.1063/5.0123349
+  paperpile_id: 8af17729-1017-0ee0-b6a2-d838c6350d38
+  year: 2022
+  title: On the role of intermolecular vibrational motions for ice polymorphs. IV.
+    Anisotropy in the thermal expansivity and the nonaffine deformation for ice IX
+    and III
+  existing: false
+- id: TMY2023
+  citekey: Tanaka2023-mq
+  doi: 10.1063/5.0155143
+  paperpile_id: 687235b9-4e4c-0ea3-a4c7-e1bd5575c93d
+  year: 2023
+  title: 'On the phase behaviors of CH4-CO2 binary clathrate hydrates: Two-phase and
+    three-phase coexistences'
+  existing: false
+- id: TMY2023A
+  citekey: Tanaka2023-ac
+  doi: 10.1063/5.0179655
+  paperpile_id: d80b3adb-6364-0a03-ae60-58d6ed64fc8a
+  year: 2023
+  title: Efficiency and energy balance for substitution of CH4 in clathrate hydrates
+    with CO2 under multiple-phase coexisting conditions
+  existing: false
+- id: MNT2024
+  citekey: Song-Ben-2024-np
+  doi: 10.5940/jcrsj.66.39
+  paperpile_id: 77c6255b-eaef-031f-bf8a-3859e25fa134
+  year: 2024
+  title: 氷の高次構造と均衡原理
+  existing: false
+- id: TMY2024
+  citekey: Tanaka2024-xb
+  doi: 10.1063/5.0188679
+  paperpile_id: 3ff7e56e-40ae-01f1-bd28-5690de773a2d
+  year: 2024
+  title: 'Cage occupancies of CH4, CO2, and Xe hydrates: Mean field theory and grandcanonical
+    Monte Carlo simulations'
+  existing: false
+- id: MYT2024
+  citekey: Matsumoto2024-rd
+  doi: 10.1063/5.0198056
+  paperpile_id: 1eae35d1-56f7-0f8b-b79f-5e21a8027478
+  year: 2024
+  title: 'GenIce-core: Efficient algorithm for generation of hydrogen-disordered ice
+    structures'
+  existing: false
+- id: TMYTMK2024
+  citekey: Tanaka2024-is
+  doi: 10.1063/5.0223879
+  paperpile_id: c61bf22d-648b-0e30-a791-7c95ac3b9ef0
+  year: 2024
+  title: Stability mechanism of crystalline CO2 and Xe
+  existing: false
+- id: ZMZM2024
+  citekey: Zhang2024-fj
+  doi: 10.1021/acsnano.4c07226
+  paperpile_id: 4316f57a-0d66-0355-816a-41edbfe97b44
+  year: 2024
+  title: Multitwinned ice nanocrystals
+  existing: false
+- id: TMY2024A
+  citekey: Tanaka2024-py
+  doi: 10.1063/5.0244386
+  paperpile_id: 2b949941-c174-03d3-8e1b-b09e3b880286
+  year: 2024
+  title: 'On the phase behaviors of CH4-CO2 binary clathrate hydrates: Equilibrium
+    with aqueous phase'
+  existing: false
+- id: TMYTMK2025
+  citekey: Tanaka2025-oo
+  doi: 10.1063/5.0294608
+  paperpile_id: c0e3d3c6-2c35-0c86-95d8-a78c8431cc92
+  year: 2025
+  title: The solubilities of water in liquid CO2 coexisting with water or hydrate
+  existing: false
+- id: KM2026
+  citekey: Kitaoka2026-fc
+  doi: 10.2965/jswe.49.89
+  paperpile_id: 1094e1ca-9902-0d24-bc5f-d668238616d0
+  year: 2026
+  title: 'Long-term monitoring data analysis of riverine nitrogen load component separation:
+    Estimating the mitigation potential of atmospherically derived load reduction'
+  existing: false
+- id: YMT2026
+  citekey: Yagasaki2026-ru
+  paperpile_id: d827eee8-7ab5-0503-8901-27958be4b957
+  year: 2026
+  title: Statistical mechanical theory and computational study on thermodynamic stability
+    of clathrate hydrates
+  existing: false
+- id: KMT2026
+  citekey: He-Yuan-2026-ej
+  doi: 10.14943/lowtemsci.84.155
+  paperpile_id: d5b2a459-8735-094b-b4da-27b224bdc360
+  year: 2026
+  title: 混合ガスハイドレートの結晶構造選択則
+  existing: false
+- id: TMYTMK2026
+  citekey: Tanaka2026-vo
+  doi: 10.1039/d6cp01072e
+  paperpile_id: 41b22995-7f5b-0b5f-8e7b-afb942fd4f41
+  year: 2026
+  title: 'Phase behaviour of liquid CO2 with an impurity of water: influence of CO2
+    hydrate'
+  existing: false
+last_source: Paperpile - References - Sep 23.json

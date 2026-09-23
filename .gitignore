@@ -11,8 +11,9 @@ _site/
 MD/_attach
 MD/wiki
 MD/_conv
+MD/.venv-papers/
 
-
+.env
 .jekyll-metadata
 
 fndtn-supplementary-materials.md
