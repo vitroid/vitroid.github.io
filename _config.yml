@@ -232,6 +232,9 @@ exclude:
   - README.md
   - Vagrantfile
   - MD
+  - 論文追加.md
+  - Paperpile*.json
+  - requirements-papers.txt
 
 # prose.io config
 prose:

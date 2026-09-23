@@ -29,6 +29,7 @@ genice2 ice3 -r 2 2 1 -f svg[shadow:rotatex=2:rotatey=2] > 3.svg
 
 ## Linked from
 
+- [TMY2022](/TMY2022)
 - [TYM2020](/TYM2020)
 - [aeroice](/aeroice)
 - [水は変わった物質](/水は変わった物質)

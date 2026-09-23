@@ -8,9 +8,43 @@ permalink: /papers
 
 (少しずつ追加しています)
 
+追加手順は [論文追加](論文追加) を参照。
+
+
+
+[paper2026](/paper2026)
+
+* [KM2026](/KM2026)
+* [YMT2026](/YMT2026)
+* [KMT2026](/KMT2026)
+* [TMYTMK2026](/TMYTMK2026)
+
+
+[paper2025](/paper2025)
+
+* [TMYTMK2025](/TMYTMK2025)
+
+
+[paper2024](/paper2024)
+
+* [MNT2024](/MNT2024)
+* [TMY2024](/TMY2024)
+* [MYT2024](/MYT2024)
+* [TMYTMK2024](/TMYTMK2024)
+* [ZMZM2024](/ZMZM2024)
+* [TMY2024A](/TMY2024A)
+
+
+[paper2023](/paper2023)
+
+* [TMY2023](/TMY2023)
+* [TMY2023A](/TMY2023A)
+
 [paper2022](/paper2022)
 
+* [M2022](/M2022)
 * [MT2022](/MT2022)
+* [TMY2022](/TMY2022)
 
 [paper2021](/paper2021)
 
@@ -197,10 +231,13 @@ permalink: /papers
 - [HMT2014](/HMT2014)
 - [HYMT2017](/HYMT2017)
 - [HYMT2019](/HYMT2019)
+- [KM2026](/KM2026)
+- [KMT2026](/KMT2026)
 - [M1996](/M1996)
 - [M2007](/M2007)
 - [M2009](/M2009)
 - [M2010](/M2010)
+- [M2022](/M2022)
 - [MBO2007](/MBO2007)
 - [MBO2008](/MBO2008)
 - [MHM2014](/MHM2014)
@@ -208,6 +245,7 @@ permalink: /papers
 - [MHYMT2017](/MHYMT2017)
 - [MM2019](/MM2019)
 - [MMO2013](/MMO2013)
+- [MNT2024](/MNT2024)
 - [MSO2002](/MSO2002)
 - [MT2011](/MT2011)
 - [MT2012](/MT2012)
@@ -220,9 +258,18 @@ permalink: /papers
 - [MYT2021](/MYT2021)
 - [MYT2021A](/MYT2021A)
 - [MYT2021B](/MYT2021B)
+- [MYT2024](/MYT2024)
 - [NMT2013](/NMT2013)
 - [NMYT2016](/NMYT2016)
 - [TM2011](/TM2011)
+- [TMY2022](/TMY2022)
+- [TMY2023](/TMY2023)
+- [TMY2023A](/TMY2023A)
+- [TMY2024](/TMY2024)
+- [TMY2024A](/TMY2024A)
+- [TMYTMK2024](/TMYTMK2024)
+- [TMYTMK2025](/TMYTMK2025)
+- [TMYTMK2026](/TMYTMK2026)
 - [TYM2017](/TYM2017)
 - [TYM2018](/TYM2018)
 - [TYM2019](/TYM2019)
@@ -246,11 +293,14 @@ permalink: /papers
 - [YMT2019a](/YMT2019a)
 - [YMT2020](/YMT2020)
 - [YMT2020B](/YMT2020B)
+- [YMT2026](/YMT2026)
 - [YYMT2019](/YYMT2019)
+- [ZMZM2024](/ZMZM2024)
 - [papers](/papers)
 - [略歴_CV](/略歴_CV)
 - [研究](/研究)
 - [解決した問題](/解決した問題)
+- [論文追加](/論文追加)
 
 
 ----
