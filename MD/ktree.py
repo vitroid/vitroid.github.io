@@ -9,27 +9,27 @@ def tree_add(tree, word):
     if letter not in tree:
         tree[letter] = dict()
     tree_add(tree[letter], word[1:])
-    
+
+
 def keyword_tree(keywords):
     tree = dict()
     for word in keywords:
         tree_add(tree, word)
     return tree
 
+
 def keyword_find(word, ktree):
     """
     1文字目から照合し、何文字目まで一致したかを返す。
+    途中までしか伸びない長い語があっても、最後に完成した語の長さを返す（最長一致）。
     """
-    if len(word) == 0:
-        if "" in ktree:
-            return 0
-        return None
-    if word[0] in ktree:
-        result = keyword_find(word[1:], ktree[word[0]])
-        if result is None:
-            return None
-        else:
-            return result+1
-    elif "" in ktree:
-        return 0
-    return None
+    node = ktree
+    last = None
+    i = 0
+    n = len(word)
+    while i < n and word[i] in node:
+        node = node[word[i]]
+        i += 1
+        if "" in node:
+            last = i
+    return last

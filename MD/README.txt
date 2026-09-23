@@ -9,5 +9,6 @@ make serve
 deployする場合は
 make push
 
-
-間違ったtagを消したい場合は、/と/_refの両方を消す。
+ソースは MD/、生成ページは _wiki/。
+被リンクは毎 make で本文から作り直す。
+画像サムネイルのキャッシュは _cache/（git 管理外）。

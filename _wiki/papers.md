@@ -1,0 +1,259 @@
+---
+title: papers
+permalink: /papers
+---
+# [papers](/papers)
+
+[著作](/著作)
+
+(少しずつ追加しています)
+
+[paper2022](/paper2022)
+
+* [MT2022](/MT2022)
+
+[paper2021](/paper2021)
+
+* [TYM2021](/TYM2021)
+* [MYT2021B](/MYT2021B)
+* [MYT2021A](/MYT2021A)
+* [MYT2021](/MYT2021)
+
+[paper2020](/paper2020)
+
+* [TYM2020C](/TYM2020C)
+* [YMT2020B](/YMT2020B)
+* [TYM2020B](/TYM2020B)
+* [TYM2020](/TYM2020)
+* [YMT2020](/YMT2020)
+* [MYH2020](/MYH2020)
+
+[paper2019](/paper2019)
+
+
+* [TYM2019](/TYM2019)
+* [YYMT2019](/YYMT2019)
+* [MYT2019](/MYT2019)
+* [HYMT2019](/HYMT2019)
+* [MM2019](/MM2019)
+* [MYMT2019](/MYMT2019)
+* [YMT2019](/YMT2019)
+* [YMT2019a](/YMT2019a)
+
+
+
+[paper2018](/paper2018)
+
+
+* [YMT2018](/YMT2018)
+* [YMT2018a](/YMT2018a)
+* [TYM2018](/TYM2018)
+
+
+
+[paper2017](/paper2017)
+
+
+* [MHYMT2017](/MHYMT2017)
+* [HYMT2017](/HYMT2017)
+* [TYM2017](/TYM2017)
+* [MYT2017](/MYT2017)
+*
+
+[paper2016](/paper2016)
+
+
+* [NMYT2016](/NMYT2016)
+* [YMT2016](/YMT2016)
+* [YMT2016a](/YMT2016a)
+* [YMT2016b](/YMT2016b)
+
+
+
+[paper2015](/paper2015)
+
+
+* [MYT2015](/MYT2015)
+* [YMT2015](/YMT2015)
+* [YMT2015a](/YMT2015a)
+* [YMT2015b](/YMT2015b)
+* [YMT2015c](/YMT2015c)
+
+
+
+[paper2014](/paper2014)
+
+
+* [YMT2014](/YMT2014)
+* [MHM2014](/MHM2014)
+* [HMT2014](/HMT2014)
+* [MHT2014](/MHT2014)
+* [YMAOT2014](/YMAOT2014)
+* [YMAOT2014a](/YMAOT2014a)
+* [YHNMT2014](/YHNMT2014)
+
+
+
+[paper2013](/paper2013)
+
+
+* [MMO2013](/MMO2013)
+* [NMT2013](/NMT2013)
+
+
+
+[paper2012](/paper2012)
+
+
+* [MT2012](/MT2012)
+* H[MT2012](/MT2012)
+* HMKT2012
+* MT[MT2012](/MT2012)
+* Y[MT2012](/MT2012)
+
+
+
+[paper2011](/paper2011)
+
+
+* [MT2011](/MT2011)
+* [TM2011](/TM2011)
+* [HMT2011](/HMT2011)
+* JMM2011
+
+
+
+[paper2010](/paper2010)
+
+
+* [M2010](/M2010)
+
+
+
+[paper2009](/paper2009)
+
+
+* [M2009](/M2009)
+
+
+
+[paper2008](/paper2008)
+
+
+* [MBO2008](/MBO2008)
+
+
+
+[paper2007](/paper2007)
+
+
+* [M2007](/M2007)
+* [MBO2007](/MBO2007)
+
+
+
+[paper2002](/paper2002)
+
+
+* [MSO2002](/MSO2002)
+
+
+
+[paper1999](/paper1999)
+
+
+* SMO1999
+
+
+
+[paper1998](/paper1998)
+
+
+* BTSMO[1998](/1998)
+
+
+
+[paper1996](/paper1996)
+
+
+* MO1996
+* [M1996](/M1996)
+
+
+
+[paper1993](/paper1993)
+
+
+* MTN1993
+
+
+
+[research](/research) [papers](/papers)
+
+
+## Linked from
+
+- [HMT2011](/HMT2011)
+- [HMT2014](/HMT2014)
+- [HYMT2017](/HYMT2017)
+- [HYMT2019](/HYMT2019)
+- [M1996](/M1996)
+- [M2007](/M2007)
+- [M2009](/M2009)
+- [M2010](/M2010)
+- [MBO2007](/MBO2007)
+- [MBO2008](/MBO2008)
+- [MHM2014](/MHM2014)
+- [MHT2014](/MHT2014)
+- [MHYMT2017](/MHYMT2017)
+- [MM2019](/MM2019)
+- [MMO2013](/MMO2013)
+- [MSO2002](/MSO2002)
+- [MT2011](/MT2011)
+- [MT2012](/MT2012)
+- [MT2022](/MT2022)
+- [MYH2020](/MYH2020)
+- [MYMT2019](/MYMT2019)
+- [MYT2015](/MYT2015)
+- [MYT2017](/MYT2017)
+- [MYT2019](/MYT2019)
+- [MYT2021](/MYT2021)
+- [MYT2021A](/MYT2021A)
+- [MYT2021B](/MYT2021B)
+- [NMT2013](/NMT2013)
+- [NMYT2016](/NMYT2016)
+- [TM2011](/TM2011)
+- [TYM2017](/TYM2017)
+- [TYM2018](/TYM2018)
+- [TYM2019](/TYM2019)
+- [TYM2020](/TYM2020)
+- [TYM2020B](/TYM2020B)
+- [TYM2020C](/TYM2020C)
+- [TYM2021](/TYM2021)
+- [YHNMT2014](/YHNMT2014)
+- [YMAOT2014](/YMAOT2014)
+- [YMAOT2014a](/YMAOT2014a)
+- [YMT2014](/YMT2014)
+- [YMT2015](/YMT2015)
+- [YMT2015a](/YMT2015a)
+- [YMT2015b](/YMT2015b)
+- [YMT2016](/YMT2016)
+- [YMT2016a](/YMT2016a)
+- [YMT2016b](/YMT2016b)
+- [YMT2018](/YMT2018)
+- [YMT2018a](/YMT2018a)
+- [YMT2019](/YMT2019)
+- [YMT2019a](/YMT2019a)
+- [YMT2020](/YMT2020)
+- [YMT2020B](/YMT2020B)
+- [YYMT2019](/YYMT2019)
+- [papers](/papers)
+- [略歴_CV](/略歴_CV)
+- [研究](/研究)
+- [解決した問題](/解決した問題)
+
+
+----
+
+[Edit](https://github.com/vitroid/vitroid.github.io/edit/master/MD/papers.md)
+

@@ -1,0 +1,11 @@
+---
+title: opencv
+permalink: /opencv
+---
+
+
+## Linked from
+
+- [k-meansによる写真の減色](/k-meansによる写真の減色)
+
+

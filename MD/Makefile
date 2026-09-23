@@ -1,5 +1,5 @@
 build: parse
-	cd ..; bundle exec jekyll build --verbose --incremental
+	cd ..; bundle exec jekyll build --incremental
 parse:
 	python3 make.py
 force:

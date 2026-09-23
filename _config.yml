@@ -188,6 +188,12 @@ paginate: 5
 kramdown:
   input: GFM
 
+# Generated wiki pages (make.py writes here)
+collections:
+  wiki:
+    output: true
+    permalink: /:name
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
@@ -198,6 +204,13 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: ""
+      type: "wiki"
+    values:
+      layout: "page"
+      show-avatar: true
   -
     scope:
       path: "" # all files
