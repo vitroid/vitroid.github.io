@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Assign short paper IDs from a Paperpile JSON export (incremental)."""
+"""Assign short paper IDs from a Paperpile JSON export (incremental).
+
+Re-running with a newer export keeps existing ids and only appends new papers.
+Matching priority: doi → paperpile _id → citekey.
+
+  MD/.venv-papers/bin/python MD/assign_paper_ids.py --json "Paperpile - References - ….json"
+"""
 
 from __future__ import annotations
 

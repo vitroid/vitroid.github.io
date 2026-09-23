@@ -1,6 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Generate paper wiki pages from Paperpile JSON + paper_ids.yaml via Gemini."""
+"""Generate paper wiki pages from Paperpile JSON + paper_ids.yaml via Gemini.
+
+Usage:
+  python3 -m venv MD/.venv-papers
+  MD/.venv-papers/bin/pip install -r MD/requirements-papers.txt
+
+  # 1) assign / refresh short ids (incremental; safe to re-run)
+  MD/.venv-papers/bin/python MD/assign_paper_ids.py --json "Paperpile - References - ….json"
+
+  # 2) generate missing MD pages (skips existing unless --force)
+  MD/.venv-papers/bin/python MD/gen_paper_pages.py --json "Paperpile - References - ….json"
+
+Requires GEMINI_API_KEY in repo-root .env
+"""
 
 from __future__ import annotations
 
@@ -202,26 +215,23 @@ def call_gemini(client: genai.Client, model: str, prompt: str) -> str:
                 text = re.sub(r"^```(?:markdown|md)?\n?", "", text)
                 text = re.sub(r"\n?```$", "", text).strip()
             return text
-        except genai_errors.ServerError as e:
+        except (genai_errors.ServerError, genai_errors.ClientError) as e:
             last_err = e
-            wait = min(60, 2 ** attempt)
+            msg = str(e)
+            m = re.search(r"[Pp]lease retry in ([0-9.]+)s", msg)
+            if m:
+                wait = float(m.group(1)) + 1.0
+            elif "429" in msg or "RESOURCE_EXHAUSTED" in msg:
+                wait = min(90, 5 * (attempt + 1))
+            elif isinstance(e, genai_errors.ServerError):
+                wait = min(60, 2 ** attempt)
+            else:
+                raise
             sys.stderr.write(
-                f"transient API error ({e}); retry in {wait}s "
+                f"API busy ({type(e).__name__}); retry in {wait:.0f}s "
                 f"(attempt {attempt + 1}/8)\n"
             )
             time.sleep(wait)
-        except genai_errors.ClientError as e:
-            # 429 rate limit
-            msg = str(e)
-            if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
-                last_err = e
-                wait = min(90, 5 * (attempt + 1))
-                sys.stderr.write(
-                    f"rate limited; retry in {wait}s (attempt {attempt + 1}/8)\n"
-                )
-                time.sleep(wait)
-                continue
-            raise
     raise RuntimeError(f"Gemini failed after retries: {last_err}")
 
 def ensure_tags(body: str, year: int | None) -> str:
@@ -377,7 +387,9 @@ def main() -> None:
     client = genai.Client(api_key=api_key)
     related_all = related_ids(state, "")
     n_ok = 0
-    for entry in entries:
+    import time
+
+    for i, entry in enumerate(entries):
         sid = entry["id"]
         rec = find_record(records, entry)
         if rec is None:
@@ -394,7 +406,9 @@ def main() -> None:
             args.force,
         ):
             n_ok += 1
-
+            # Free-tier friendly pacing between successful calls
+            if i + 1 < len(entries):
+                time.sleep(2.0)
     if not args.skip_index:
         update_papers_md(state)
     print(f"done: generated {n_ok} page(s)")
