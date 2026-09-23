@@ -39,7 +39,6 @@ from assign_paper_ids import (  # noqa: E402
     find_latest_paperpile,
     load_json,
     load_yaml,
-    match_entry,
     normalize_doi,
     paper_year,
 )
@@ -49,7 +48,7 @@ PAPERS_MD = os.path.join(MD_DIR, "papers.md")
 
 
 def format_author_list(authors: list[dict[str, Any]]) -> str:
-    """Nature-ish: Last, I., Last, I. & Last, I."""
+    """Nature-ish for Latin; 「姓 名」 for Japanese."""
     if not authors:
         return ""
     parts = []
@@ -57,18 +56,25 @@ def format_author_list(authors: list[dict[str, Any]]) -> str:
         last = (a.get("last") or "").strip()
         initials = (a.get("initials") or "").strip()
         first = (a.get("first") or "").strip()
+        # Japanese: last/first contain non-ASCII
+        if last and ord(last[0]) > 127:
+            if first:
+                parts.append(f"{last} {first}")
+            else:
+                parts.append(last)
+            continue
         if not initials and first:
-            # Latin first name → initials; Japanese given name as-is
             if first and ord(first[0]) < 128:
-                initials = "".join(p[0].upper() for p in first.replace("-", " ").split() if p)
+                initials = "".join(
+                    p[0].upper() for p in first.replace("-", " ").split() if p
+                )
             else:
                 initials = first
         if initials and ord(initials[0]) < 128:
-            # M → M.
             init_fmt = ".".join(list(initials.replace(".", ""))) + "."
             parts.append(f"{last}, {init_fmt}")
         elif initials:
-            parts.append(f"{last}, {initials}")
+            parts.append(f"{last} {initials}")
         else:
             parts.append(last)
     if len(parts) == 1:
